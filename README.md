@@ -23,6 +23,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [Evasion](#evasion)
 	- [CSP](#evasion-csp)
 - [Trick](#trick)
+    - [XSS](trick-xss)
     - [SQL Injection](#trick-sql-injection)
 - [PoC](#poc)
     - [JavaScript](#poc-javascript)
@@ -51,6 +52,17 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html), written by 张天琪.
 
+<a name="resource-rails"></a>
+### Rails
+
+* [Rails 動態樣板路徑的風險](http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/), written by [Shaolin](http://devco.re/blog/author/shaolin/).
+* [Rails Security](http://php.ph/wydrops/drops/Rails%20Security%20(%E4%B8%8A).pdf), written by [@qazbnm456](https://github.com/qazbnm456).
+
+<a name="resource-angularjs"></a>
+### AngularJS
+
+* [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html), written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
+
 ## Evasion
 
 <a name="evasion-csp"></a>
@@ -59,6 +71,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/), written by [Detectify Labs](https://labs.detectify.com/).
 
 ## Trick
+
+<a name="trick-xss"></a>
+### XSS
+
+* [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 
 <a name="trick-sql-injection"></a>
 ### SQL Injection
