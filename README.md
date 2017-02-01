@@ -23,8 +23,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [Evasion](#evasion)
 	- [CSP](#evasion-csp)
 - [Trick](#trick)
-    - [XSS](trick-xss)
+    - [XSS](#trick-xss)
     - [SQL Injection](#trick-sql-injection)
+    - [SSRF](#trick-ssrf)
 - [PoC](#poc)
     - [JavaScript](#poc-javascript)
 - [Tool](#tool)
@@ -83,6 +84,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [屌智硬之mysql不用逗号注入](http://www.jinglingshu.org/?p=2220), written by [jinglingshu](http://www.jinglingshu.org/?p=2220).
 * [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html), written by [mikey](http://www.freebuf.com/author/mikey).
 
+<a name="trick-ssrf"></a>
+### SSRF
+
+* [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748), written by [aesteral](https://hackerone.com/aesteral).
+
 ## PoC
 
 <a name="poc-javascript"></a>
@@ -114,6 +120,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [sqlchop](https://github.com/chaitin/sqlchop/) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
 * [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
+
+<a name="tool-others"></a>
+### Others
+
+* [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - Dns Logger by [@iagox86](https://github.com/iagox86).
 
 ## Blog
 
