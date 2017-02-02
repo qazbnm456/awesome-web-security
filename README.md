@@ -22,6 +22,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [XML](#resource-xml)
 - [Evasion](#evasion)
 	- [CSP](#evasion-csp)
+    - [JSMVC](#evasion-jsmvc)
 - [Trick](#trick)
     - [XSS](#trick-xss)
     - [SQL Injection](#trick-sql-injection)
@@ -71,6 +72,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/), written by [Detectify Labs](https://labs.detectify.com/).
 
+<a name="evasion-jsmvc"></a>
+### JSMVC
+
+* [JavaScript MVC and Templating Frameworks](http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+
 ## Trick
 
 <a name="trick-xss"></a>
@@ -94,7 +100,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="poc-javascript"></a>
 ### JavaScript
 
-* [js-vuln-db](https://github.com/tunz/js-vuln-db) - A collection of JavaScript engine CVEs with PoCs by [@tunz][https://github.com/tunz].
+* [js-vuln-db](https://github.com/tunz/js-vuln-db) - A collection of JavaScript engine CVEs with PoCs by [@tunz](https://github.com/tunz).
 
 ## Tool
 
