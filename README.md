@@ -31,7 +31,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [JavaScript](#poc-javascript)
 - [Tool](#tool)
     - [Code Generating](#tool-code-generating)
+    - [Disassembler](#tool-disassembler)
     - [Fuzzing](#tool-fuzzing)
+    - [Penetrating](#tool-penetrating)
     - [Leaking](#tool-leaking)
     - [Detecting](#tool-detecting)
 - [Blog](#blog)
@@ -109,14 +111,26 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [VWGen](https://github.com/qazbnm456/VWGen) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
 
+<a name="tool-disassembler"></a>
+### Disassembler
+
+* [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
+* [radare2](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
+
 <a name="tool-fuzzing"></a>
 ### Fuzzing
 
 * [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
 * [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
+* [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
+
+<a name="tool-penetrating"></a>
+### Penetrating
+
+* [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 
 <a name="tool-leaking"></a>
-### leaking
+### Leaking
 
 * [HTTPLeaks](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
 * [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
@@ -134,7 +148,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Blog
 
+* [Orange](http://blog.orange.tw/) - This is Orange Speaking :)
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
+* [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 
 ## Miscellaneous
 
