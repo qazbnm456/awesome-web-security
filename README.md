@@ -44,7 +44,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="resource-xss"></a>
 ### XSS
 
-* [H5SC](https://github.com/cure53/H5SC)
+* [H5SC](https://github.com/cure53/H5SC) - HTML5 Security Cheatsheet - A collection of HTML5 related XSS attack vectors by [@cure53](https://github.com/cure53).
 * [XSS.png](https://github.com/jackmasa/XSS.png) - A XSS mind map by [@jackmasa](https://github.com/jackmasa).
 
 <a name="resource-sql-injection"></a>
