@@ -45,6 +45,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### XSS
 
 * [H5SC](https://github.com/cure53/H5SC)
+* [XSS.png](https://github.com/jackmasa/XSS.png) - A XSS mind map by [@jackmasa](https://github.com/jackmasa).
 
 <a name="resource-sql-injection"></a>
 ### SQL Injection
@@ -128,12 +129,14 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Penetrating
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
+* [mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
 
 <a name="tool-leaking"></a>
 ### Leaking
 
 * [HTTPLeaks](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
 * [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
+* [DVCS-Pillage](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
 
 <a name="tool-detecting"></a>
 ### Detecting
@@ -155,7 +158,10 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Miscellaneous
 
+* [awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty) - A comprehensive curated list of available Bug Bounty & Disclosure Programs and write-ups by [@djadmin](https://github.com/djadmin).
+* [bug-bounty-reference](https://github.com/ngalongc/bug-bounty-reference) - A list of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc).
 * [如何正確的取得使用者 IP ？](http://devco.re/blog/2014/06/19/client-ip-detection/), written by [Allen Own](http://devco.re/blog/author/allenown).
+* [1000php](https://github.com/Xyntax/1000php) - 1000个PHP代码审计案例(2016.7以前乌云公开漏洞) by [@Xyntax](https://github.com/Xyntax).
 
 ## License
 
