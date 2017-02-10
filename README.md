@@ -24,6 +24,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 	- [CSP](#evasion-csp)
     - [JSMVC](#evasion-jsmvc)
 - [Trick](#trick)
+    - [Remote Code Execution](#trick-rce)
     - [XSS](#trick-xss)
     - [SQL Injection](#trick-sql-injection)
     - [SSRF](#trick-ssrf)
@@ -81,6 +82,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [JavaScript MVC and Templating Frameworks](http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 
 ## Trick
+
+<a name="trick-rce"></a>
+### Remote Code Execution
+
+* [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/), written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
 
 <a name="trick-xss"></a>
 ### XSS
