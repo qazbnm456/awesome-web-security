@@ -99,6 +99,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [屌智硬之mysql不用逗号注入](http://www.jinglingshu.org/?p=2220), written by [jinglingshu](http://www.jinglingshu.org/?p=2220).
 * [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html), written by [mikey](http://www.freebuf.com/author/mikey).
 * [MySQL Error Based SQL  Injection Using  EXP](https://www.exploit-db.com/docs/37953.pdf), written by [@osandamalith](https://twitter.com/osandamalith).
+* [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html), written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/).
 
 <a name="trick-ssrf"></a>
 ### SSRF
