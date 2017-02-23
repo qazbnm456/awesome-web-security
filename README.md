@@ -28,6 +28,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [XSS](#trick-xss)
     - [SQL Injection](#trick-sql-injection)
     - [SSRF](#trick-ssrf)
+    - [Header Injection](#trick-header-injection)
 - [PoC](#poc)
     - [JavaScript](#poc-javascript)
 - [Tool](#tool)
@@ -105,6 +106,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### SSRF
 
 * [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748), written by [aesteral](https://hackerone.com/aesteral).
+
+<a name="trick-header-injection"></a>
+### Header Injection
+
+* [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html), written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
 ## PoC
 
