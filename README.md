@@ -39,6 +39,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Leaking](#tool-leaking)
     - [Detecting](#tool-detecting)
 - [Blog](#blog)
+- [Practice](#practice)
+    - [AWS](#practice-aws)
+    - [XSS](#practice-xss)
 - [Miscellaneous](#miscellaneous)
 
 ## Resource
@@ -163,6 +166,19 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Others
 
 * [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - Dns Logger by [@iagox86](https://github.com/iagox86).
+
+## Practice
+
+<a name="practice-aws"></a>
+### AWS
+
+* [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge, written by [@0xdabbad00](https://twitter.com/0xdabbad00).
+
+<a name="practice-xss"></a>
+### XSS
+
+* [alert(1) to win](https://alf.nu/alert1) - A series of XSS challenges, written by [@steike](https://twitter.com/steike).
+* [prompt(1) to win](http://prompt.ml/) - A complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels), written by [@cure53](https://github.com/cure53).
 
 ## Blog
 
