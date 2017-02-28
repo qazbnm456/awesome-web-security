@@ -39,10 +39,10 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Leaking](#tool-leaking)
     - [Detecting](#tool-detecting)
 - [Blog](#blog)
+- [Miscellaneous](#miscellaneous)
 - [Practice](#practice)
     - [AWS](#practice-aws)
     - [XSS](#practice-xss)
-- [Miscellaneous](#miscellaneous)
 
 ## Resource
 
@@ -167,19 +167,6 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - Dns Logger by [@iagox86](https://github.com/iagox86).
 
-## Practice
-
-<a name="practice-aws"></a>
-### AWS
-
-* [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge, written by [@0xdabbad00](https://twitter.com/0xdabbad00).
-
-<a name="practice-xss"></a>
-### XSS
-
-* [alert(1) to win](https://alf.nu/alert1) - A series of XSS challenges, written by [@steike](https://twitter.com/steike).
-* [prompt(1) to win](http://prompt.ml/) - A complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels), written by [@cure53](https://github.com/cure53).
-
 ## Blog
 
 * [Orange](http://blog.orange.tw/) - This is Orange Speaking :)
@@ -195,6 +182,19 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html), written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
 * [GITLEAKS](https://gitleaks.com/) - Search engine for exposed secrets on lots of places.
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
+
+## Practice
+
+<a name="practice-aws"></a>
+### AWS
+
+* [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge, written by [@0xdabbad00](https://twitter.com/0xdabbad00).
+
+<a name="practice-xss"></a>
+### XSS
+
+* [alert(1) to win](https://alf.nu/alert1) - A series of XSS challenges, written by [@steike](https://twitter.com/steike).
+* [prompt(1) to win](http://prompt.ml/) - A complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels), written by [@cure53](https://github.com/cure53).
 
 ## License
 
