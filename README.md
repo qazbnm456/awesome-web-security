@@ -20,6 +20,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [XSS](#resource-xss)
     - [SQL Injection](#resource-sql-injection)
     - [XML](#resource-xml)
+    - [CSRF](#resource-csrf)
+    - [Rails](#resource-rails)
+    - [AngularJS](#resource-angularjs)
 - [Evasion](#evasion)
 	- [CSP](#evasion-csp)
     - [JSMVC](#evasion-jsmvc)
@@ -61,6 +64,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### XML
 
 * [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html), written by 张天琪.
+
+<a name="resource-csrf"></a>
+### CSRF
+
+* [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/), written by [TechBridge](http://blog.techbridge.cc/).
 
 <a name="resource-rails"></a>
 ### Rails
