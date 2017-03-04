@@ -32,6 +32,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [SQL Injection](#trick-sql-injection)
     - [SSRF](#trick-ssrf)
     - [Header Injection](#trick-header-injection)
+- [Browser Exploitation](#browser-exploitation)
 - [PoC](#poc)
     - [JavaScript](#poc-javascript)
 - [Tool](#tool)
@@ -123,12 +124,17 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html), written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
+## Browser Exploitation
+
+* [First Step to Browser Exploitation](http://mashirogod.dothome.co.kr/index.php/2017/01/07/first-step-to-browser-exploitation/), written by [Brian Pak](http://mashirogod.dothome.co.kr/).
+
 ## PoC
 
 <a name="poc-javascript"></a>
 ### JavaScript
 
 * [js-vuln-db](https://github.com/tunz/js-vuln-db) - A collection of JavaScript engine CVEs with PoCs by [@tunz](https://github.com/tunz).
+* [awesome-cve-poc](https://github.com/qazbnm456/awesome-cve-poc) - A curated list of CVE PoCs by [@qazbnm456](https://github.com/qazbnm456).
 
 ## Tool
 
@@ -149,6 +155,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
 * [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
 * [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
+* [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
+* [JoomlaScan](https://github.com/drego85/JoomlaScan) - A free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 
 <a name="tool-penetrating"></a>
 ### Penetrating
