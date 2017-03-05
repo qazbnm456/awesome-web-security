@@ -25,6 +25,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [AngularJS](#resource-angularjs)
 - [Evasion](#evasion)
 	- [CSP](#evasion-csp)
+    - [WAF](#evasion-waf)
     - [JSMVC](#evasion-jsmvc)
 - [Trick](#trick)
     - [Remote Code Execution](#trick-rce)
@@ -32,6 +33,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [SQL Injection](#trick-sql-injection)
     - [SSRF](#trick-ssrf)
     - [Header Injection](#trick-header-injection)
+    - [Others](#trick-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoC](#poc)
     - [JavaScript](#poc-javascript)
@@ -89,6 +91,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/), written by [Detectify Labs](https://labs.detectify.com/).
 
+<a name="evasion-waf"></a>
+### WAF
+
+* [浅谈json参数解析对waf绕过的影响](https://xianzhi.aliyun.com/forum/read/553.html), written by [doggy](https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437).
+
 <a name="evasion-jsmvc"></a>
 ### JSMVC
 
@@ -100,6 +107,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Remote Code Execution
 
 * [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/), written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
+* [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html), written by [PHITHON](https://www.leavesongs.com/).
+* [PHP垃圾回收机制UAF漏洞分析](http://www.freebuf.com/vuls/122938.html), written by [ph1re](http://www.freebuf.com/author/ph1re).
 
 <a name="trick-xss"></a>
 ### XSS
@@ -124,9 +133,15 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html), written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
+<a name="trick-others"></a>
+### Others
+
+* [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html), written by [PHITHON](https://www.leavesongs.com/).
+
 ## Browser Exploitation
 
 * [First Step to Browser Exploitation](http://mashirogod.dothome.co.kr/index.php/2017/01/07/first-step-to-browser-exploitation/), written by [Brian Pak](http://mashirogod.dothome.co.kr/).
+* [JSON hijacking for the modern web](http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html), written by [portswigger](https://portswigger.net/).
 
 ## PoC
 
@@ -186,6 +201,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ## Blog
 
 * [Orange](http://blog.orange.tw/) - This is Orange Speaking :)
+* [leavesongs](https://www.leavesongs.com/) - 离别歌.
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 
@@ -199,6 +215,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [GITLEAKS](https://gitleaks.com/) - Search engine for exposed secrets on lots of places.
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
 * [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf), written by [0x_Jin](http://xssec.lofter.com/).
+* [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells), written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
+* [The Definitive Security Data Science and Machine Learning Guide
+The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/), written by JASON TROS.
 
 ## Practice
 
