@@ -156,42 +156,42 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="tool-code-generating"></a>
 ### Code Generating
 
-* [VWGen](https://github.com/qazbnm456/VWGen) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
+* [**VWGen** ![VWGen](https://img.shields.io/github/stars/qazbnm456/VWGen.svg?style=social&label=Star&maxAge=2592000)](https://github.com/qazbnm456/lulumi-browser) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
 
 <a name="tool-disassembler"></a>
 ### Disassembler
 
-* [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
-* [radare2](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
+* [**plasma** ![plasma](https://img.shields.io/github/stars/plasma-disassembler/plasma.svg?style=social&label=Star&maxAge=2592000)](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
+* [**radare2** ![radare2](https://img.shields.io/github/stars/radare/radare2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
 
 <a name="tool-fuzzing"></a>
 ### Fuzzing
 
-* [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
-* [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
-* [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
-* [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
-* [JoomlaScan](https://github.com/drego85/JoomlaScan) - A free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
+* [**wfuzz** ![wfuzz](https://img.shields.io/github/stars/xmendez/wfuzz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
+* [**charsetinspect** ![charsetinspect](https://img.shields.io/github/stars/hack-all-the-things/charsetinspect.svg?style=social&label=Star&maxAge=2592000)](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
+* [**IPObfuscator** ![IPObfuscator](https://img.shields.io/github/stars/OsandaMalith/IPObfuscator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
+* [**wpscan** ![wpscan](https://img.shields.io/github/stars/wpscanteam/wpscan.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
+* [**JoomlaScan** ![JoomlaScan](https://img.shields.io/github/stars/drego85/JoomlaScan.svg?style=social&label=Star&maxAge=2592000)](https://github.com/drego85/JoomlaScan) - A free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 
 <a name="tool-penetrating"></a>
 ### Penetrating
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
-* [mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+* [**mitmproxy** ![mitmproxy](https://img.shields.io/github/stars/mitmproxy/mitmproxy.svg?style=social&label=Star&maxAge=2592000)](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
 
 <a name="tool-leaking"></a>
 ### Leaking
 
-* [HTTPLeaks](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
-* [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
-* [DVCS-Pillage](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
+* [**HTTPLeaks** ![HTTPLeaks](https://img.shields.io/github/stars/cure53/HTTPLeaks.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
+* [**dvcs-ripper** ![dvcs-ripper](https://img.shields.io/github/stars/kost/dvcs-ripper.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
+* [**DVCS-Pillage** ![DVCS-Pillage](https://img.shields.io/github/stars/evilpacket/DVCS-Pillage.svg?style=social&label=Star&maxAge=2592000)](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
 
 <a name="tool-detecting"></a>
 ### Detecting
 
-* [sqlchop](https://github.com/chaitin/sqlchop/) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
-* [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
-* [malware-jail](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
+* [**sqlchop** ![sqlchop](https://img.shields.io/github/stars/chaitin/sqlchop.svg?style=social&label=Star&maxAge=2592000)](https://github.com/chaitin/sqlchop) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
+* [**retire.js** ![retire.js](https://img.shields.io/github/stars/RetireJS/retire.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
+* [**malware-jail** ![malware-jail](https://img.shields.io/github/stars/HynekPetrak/malware-jail.svg?style=social&label=Star&maxAge=2592000)](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
 
 <a name="tool-others"></a>
 ### Others
