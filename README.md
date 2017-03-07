@@ -16,6 +16,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Menu
 
+- [Collection](#collection)
 - [Resource](#resource)
     - [XSS](#resource-xss)
     - [SQL Injection](#resource-sql-injection)
@@ -45,10 +46,18 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Leaking](#tool-leaking)
     - [Detecting](#tool-detecting)
 - [Blog](#blog)
+- [Twitter User](#twitter-user)
 - [Miscellaneous](#miscellaneous)
 - [Practice](#practice)
     - [AWS](#practice-aws)
     - [XSS](#practice-xss)
+
+## Collection
+
+* [Drops (backup)](https://drops.secquan.org/)
+* [Paper from Seebug](http://paper.seebug.org/)
+* [Freebuf](http://www.freebuf.com/)
+* [安全脉搏](https://www.secpulse.com/)
 
 ## Resource
 
@@ -204,6 +213,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [leavesongs](https://www.leavesongs.com/) - 离别歌.
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
+
+## Twitter User
+
+* [@filedescriptor](https://twitter.com/filedescriptor)
+* [@cure53berlin](https://twitter.com/cure53berlin)
+* [@XssPayloads](https://twitter.com/XssPayloads)
 
 ## Miscellaneous
 
