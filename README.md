@@ -104,6 +104,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### WAF
 
 * [浅谈json参数解析对waf绕过的影响](https://xianzhi.aliyun.com/forum/read/553.html), written by [doggy](https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437).
+* [Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities](https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/), written by [@Brett Buerhaus](https://twitter.com/bbuerhaus).
 
 <a name="evasion-jsmvc"></a>
 ### JSMVC
@@ -213,6 +214,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [leavesongs](https://www.leavesongs.com/) - 离别歌.
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
+* [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 
 ## Twitter User
 
