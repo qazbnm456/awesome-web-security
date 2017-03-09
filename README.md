@@ -215,6 +215,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 * [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
+* [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 
 ## Twitter User
 
