@@ -125,6 +125,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### XSS
 
 * [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+* [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)
+](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas), written by [Marin Moulinier](https://medium.com/@marin_m).
 
 <a name="trick-sql-injection"></a>
 ### SQL Injection
