@@ -45,6 +45,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Penetrating](#tool-penetrating)
     - [Leaking](#tool-leaking)
     - [Detecting](#tool-detecting)
+    - [Preventing](#tool-preventing)
 - [Blog](#blog)
 - [Twitter User](#twitter-user)
 - [Miscellaneous](#miscellaneous)
@@ -205,6 +206,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [**sqlchop** ![sqlchop](https://img.shields.io/github/stars/chaitin/sqlchop.svg?style=social&label=Star&maxAge=2592000)](https://github.com/chaitin/sqlchop) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
 * [**retire.js** ![retire.js](https://img.shields.io/github/stars/RetireJS/retire.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
 * [**malware-jail** ![malware-jail](https://img.shields.io/github/stars/HynekPetrak/malware-jail.svg?style=social&label=Star&maxAge=2592000)](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
+
+<a name="tool-preventing"></a>
+### Preventing
+
+* [js-xss](https://github.com/leizongmin/js-xss) -Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin).
 
 <a name="tool-others"></a>
 ### Others
