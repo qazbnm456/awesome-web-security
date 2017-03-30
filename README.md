@@ -55,10 +55,10 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Collection
 
-* [Drops (backup)](https://drops.secquan.org/)
-* [Paper from Seebug](http://paper.seebug.org/)
-* [Freebuf](http://www.freebuf.com/)
-* [安全脉搏](https://www.secpulse.com/)
+* [Drops (backup)](https://drops.secquan.org/) - Drops was known as a famous knowledge base for hacking technology.
+* [Paper from Seebug](http://paper.seebug.org/) - A knowledge base for hacking technology built by [Seebug](http://seebug.org/).
+* [Freebuf](http://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
+* [安全脉搏](https://www.secpulse.com/) - A blog for Security things.
 
 ## Resource
 
@@ -71,7 +71,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="resource-sql-injection"></a>
 ### SQL Injection
 
-* [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html)
+* [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - A brief introduction to Hibernate Query Injection.
 
 <a name="resource-xml"></a>
 ### XML
@@ -171,42 +171,43 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="tool-code-generating"></a>
 ### Code Generating
 
-* [**VWGen** ![VWGen](https://img.shields.io/github/stars/qazbnm456/VWGen.svg?style=social&label=Star&maxAge=2592000)](https://github.com/qazbnm456/lulumi-browser) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
+* [VWGen](https://github.com/qazbnm456/lulumi-browser) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
 
 <a name="tool-disassembler"></a>
 ### Disassembler
 
-* [**plasma** ![plasma](https://img.shields.io/github/stars/plasma-disassembler/plasma.svg?style=social&label=Star&maxAge=2592000)](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
-* [**radare2** ![radare2](https://img.shields.io/github/stars/radare/radare2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
+* [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
+* [radare2](https://github.com/radare/radare2) - unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
+* [Iaitō](https://github.com/hteso/iaito) - A Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso).
 
 <a name="tool-fuzzing"></a>
 ### Fuzzing
 
-* [**wfuzz** ![wfuzz](https://img.shields.io/github/stars/xmendez/wfuzz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
-* [**charsetinspect** ![charsetinspect](https://img.shields.io/github/stars/hack-all-the-things/charsetinspect.svg?style=social&label=Star&maxAge=2592000)](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
-* [**IPObfuscator** ![IPObfuscator](https://img.shields.io/github/stars/OsandaMalith/IPObfuscator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
-* [**wpscan** ![wpscan](https://img.shields.io/github/stars/wpscanteam/wpscan.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
-* [**JoomlaScan** ![JoomlaScan](https://img.shields.io/github/stars/drego85/JoomlaScan.svg?style=social&label=Star&maxAge=2592000)](https://github.com/drego85/JoomlaScan) - A free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
+* [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
+* [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - A script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
+* [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - A simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
+* [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
+* [JoomlaScan](https://github.com/drego85/JoomlaScan) - A free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 
 <a name="tool-penetrating"></a>
 ### Penetrating
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
-* [**mitmproxy** ![mitmproxy](https://img.shields.io/github/stars/mitmproxy/mitmproxy.svg?style=social&label=Star&maxAge=2592000)](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+* [mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
 
 <a name="tool-leaking"></a>
 ### Leaking
 
-* [**HTTPLeaks** ![HTTPLeaks](https://img.shields.io/github/stars/cure53/HTTPLeaks.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
-* [**dvcs-ripper** ![dvcs-ripper](https://img.shields.io/github/stars/kost/dvcs-ripper.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
-* [**DVCS-Pillage** ![DVCS-Pillage](https://img.shields.io/github/stars/evilpacket/DVCS-Pillage.svg?style=social&label=Star&maxAge=2592000)](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
+* [HTTPLeaks](https://github.com/cure53/HTTPLeaks) - All possible ways, a website can leak HTTP requests by [@cure53](https://github.com/cure53).
+* [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
+* [DVCS-Pillage](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
 
 <a name="tool-detecting"></a>
 ### Detecting
 
-* [**sqlchop** ![sqlchop](https://img.shields.io/github/stars/chaitin/sqlchop.svg?style=social&label=Star&maxAge=2592000)](https://github.com/chaitin/sqlchop) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
-* [**retire.js** ![retire.js](https://img.shields.io/github/stars/RetireJS/retire.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
-* [**malware-jail** ![malware-jail](https://img.shields.io/github/stars/HynekPetrak/malware-jail.svg?style=social&label=Star&maxAge=2592000)](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
+* [sqlchop](https://github.com/chaitin/sqlchop) - [DEPRECATED] A novel SQL injection detection engine built on top of SQL tokenizing and syntax analysis by [chaitin](http://chaitin.com).
+* [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS).
+* [malware-jail](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
 
 <a name="tool-preventing"></a>
 ### Preventing
@@ -220,8 +221,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Blog
 
-* [Orange](http://blog.orange.tw/) - This is Orange Speaking :)
-* [leavesongs](https://www.leavesongs.com/) - 离别歌.
+* [Orange](http://blog.orange.tw/) - Taiwan's talented web penetrator.
+* [leavesongs](https://www.leavesongs.com/) - China's talented web penetrator.
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 * [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
@@ -229,9 +230,9 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Twitter User
 
-* [@filedescriptor](https://twitter.com/filedescriptor)
-* [@cure53berlin](https://twitter.com/cure53berlin)
-* [@XssPayloads](https://twitter.com/XssPayloads)
+* [@filedescriptor](https://twitter.com/filedescriptor) - An active penetrator often tweets and writes useful articles
+* [@cure53berlin](https://twitter.com/cure53berlin) - [Cure53](https://cure53.de/) is a German cybersecurity firm.
+* [@XssPayloads](https://twitter.com/XssPayloads) - The wonderland of JavaScript unexpected usages, and more.
 
 ## Miscellaneous
 
