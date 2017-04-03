@@ -121,6 +121,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html), written by [PHITHON](https://www.leavesongs.com/).
 * [PHP垃圾回收机制UAF漏洞分析](http://www.freebuf.com/vuls/122938.html), written by [ph1re](http://www.freebuf.com/author/ph1re).
 * [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce), written by [Ambionics Security](https://www.ambionics.io/).
+* [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/), written by [@capacitorset](https://github.com/capacitorset).
 
 <a name="trick-xss"></a>
 ### XSS
