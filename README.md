@@ -247,8 +247,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
 * [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf), written by [0x_Jin](http://xssec.lofter.com/).
 * [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells), written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
-* [The Definitive Security Data Science and Machine Learning Guide
-The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/), written by JASON TROS.
+* [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/), written by JASON TROS.
+* [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by[@x0rz](https://github.com/x0rz).
 
 ## Practice
 
