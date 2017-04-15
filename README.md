@@ -34,6 +34,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [SQL Injection](#trick-sql-injection)
     - [SSRF](#trick-ssrf)
     - [Header Injection](#trick-header-injection)
+    - [Url](#trick-url)
     - [Others](#trick-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoC](#poc)
@@ -148,6 +149,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html), written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
+<a name="trick-url"></a>
+### Url
+
+* [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf), written by [0x_Jin](http://xssec.lofter.com/).
+* [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/), written by [Xudong Zheng](https://www.xudongz.com/).
+
 <a name="trick-others"></a>
 ### Others
 
@@ -245,7 +252,6 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html), written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
 * [GITLEAKS](https://gitleaks.com/) - Search engine for exposed secrets on lots of places.
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
-* [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf), written by [0x_Jin](http://xssec.lofter.com/).
 * [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells), written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
 * [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/), written by JASON TROS.
 * [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by[@x0rz](https://github.com/x0rz).
