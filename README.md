@@ -26,6 +26,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [CSRF](#useful-resources-csrf)
     - [Rails](#useful-resources-rails)
     - [AngularJS](#useful-resources-angularjs)
+    - [SSL/TLS](#userful-resources-ssl-tls)
 - [Evasions](#evasions)
 	- [CSP](#evasions-csp)
     - [WAF](#evasions-waf)
@@ -97,6 +98,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### AngularJS
 
 * [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html), written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
+
+<a name="useful-resources-ssl-tls"></a>
+### SSL/TLS
+
+* [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/), written by [APTIVE](https://www.aptive.co.uk/).
 
 ## Evasions
 
