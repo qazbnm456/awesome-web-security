@@ -19,14 +19,14 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ## Contents
 
 - [Forums](#forums)
-- [Useful Resources](#useful-resources)
-    - [XSS](#useful-resources-xss)
-    - [SQL Injection](#useful-resources-sql-injection)
-    - [XML](#useful-resources-xml)
-    - [CSRF](#useful-resources-csrf)
-    - [Rails](#useful-resources-rails)
-    - [AngularJS](#useful-resources-angularjs)
-    - [SSL/TLS](#userful-resources-ssl-tls)
+- [Resources](#resources)
+    - [XSS](#resources-xss)
+    - [SQL Injection](#resources-sql-injection)
+    - [XML](#resources-xml)
+    - [CSRF](#resources-csrf)
+    - [Rails](#resources-rails)
+    - [AngularJS](#resources-angularjs)
+    - [SSL/TLS](#resources-ssl-tls)
 - [Evasions](#evasions)
 	- [CSP](#evasions-csp)
     - [WAF](#evasions-waf)
@@ -65,117 +65,117 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Freebuf](http://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
 * [安全脉搏](https://www.secpulse.com/) - Blog for Security things.
 
-## Useful Resources
+## Resources
 
-<a name="useful-resources-xss"></a>
+<a name="resources-xss"></a>
 ### XSS
 
 * [H5SC](https://github.com/cure53/H5SC) - HTML5 Security Cheatsheet - Collection of HTML5 related XSS attack vectors by [@cure53](https://github.com/cure53).
 * [XSS.png](https://github.com/jackmasa/XSS.png) - XSS mind map by [@jackmasa](https://github.com/jackmasa).
 
-<a name="useful-resources-sql-injection"></a>
+<a name="resources-sql-injection"></a>
 ### SQL Injection
 
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Brief introduction to Hibernate Query Injection.
 
-<a name="useful-resources-xml"></a>
+<a name="resources-xml"></a>
 ### XML
 
-* [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html), written by 张天琪.
+* [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
 
-<a name="useful-resources-csrf"></a>
+<a name="resources-csrf"></a>
 ### CSRF
 
-* [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/), written by [TechBridge](http://blog.techbridge.cc/).
+* [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
 
-<a name="useful-resources-rails"></a>
+<a name="resources-rails"></a>
 ### Rails
 
-* [Rails 動態樣板路徑的風險](http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/), written by [Shaolin](http://devco.re/blog/author/shaolin/).
-* [Rails Security](http://php.ph/wydrops/drops/Rails%20Security%20(%E4%B8%8A).pdf), written by [@qazbnm456](https://github.com/qazbnm456).
+* [Rails 動態樣板路徑的風險](http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/) - Written by [Shaolin](http://devco.re/blog/author/shaolin/).
+* [Rails Security](http://php.ph/wydrops/drops/Rails%20Security%20(%E4%B8%8A).pdf) - Written by [@qazbnm456](https://github.com/qazbnm456).
 
-<a name="useful-resources-angularjs"></a>
+<a name="resources-angularjs"></a>
 ### AngularJS
 
-* [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html), written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
+* [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
 
-<a name="useful-resources-ssl-tls"></a>
+<a name="resources-ssl-tls"></a>
 ### SSL/TLS
 
-* [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/), written by [APTIVE](https://www.aptive.co.uk/).
+* [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
 
 ## Evasions
 
 <a name="evasions-csp"></a>
 ### CSP
 
-* [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/), written by [Detectify Labs](https://labs.detectify.com/).
+* [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/) - Written by [Detectify Labs](https://labs.detectify.com/).
 
 <a name="evasions-waf"></a>
 ### WAF
 
-* [浅谈json参数解析对waf绕过的影响](https://xianzhi.aliyun.com/forum/read/553.html), written by [doggy](https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437).
-* [Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities](https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/), written by [@Brett Buerhaus](https://twitter.com/bbuerhaus).
+* [浅谈json参数解析对waf绕过的影响](https://xianzhi.aliyun.com/forum/read/553.html) - Written by [doggy](https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437).
+* [Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities](https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/) - Written by [@Brett Buerhaus](https://twitter.com/bbuerhaus).
 
 <a name="evasions-jsmvc"></a>
 ### JSMVC
 
-* [JavaScript MVC and Templating Frameworks](http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+* [JavaScript MVC and Templating Frameworks](http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 
 ## Tricks
 
 <a name="tricks-rce"></a>
 ### Remote Code Execution
 
-* [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/), written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
-* [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html), written by [PHITHON](https://www.leavesongs.com/).
-* [PHP垃圾回收机制UAF漏洞分析](http://www.freebuf.com/vuls/122938.html), written by [ph1re](http://www.freebuf.com/author/ph1re).
-* [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce), written by [Ambionics Security](https://www.ambionics.io/).
-* [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/), written by [@capacitorset](https://github.com/capacitorset).
-* [GitHub Enterprise Remote Code Execution](http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html), written by [@iblue](https://github.com/iblue).
+* [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/) - Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
+* [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html) - Written by [PHITHON](https://www.leavesongs.com/).
+* [PHP垃圾回收机制UAF漏洞分析](http://www.freebuf.com/vuls/122938.html) - Written by [ph1re](http://www.freebuf.com/author/ph1re).
+* [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce) - Written by [Ambionics Security](https://www.ambionics.io/).
+* [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/) - Written by [@capacitorset](https://github.com/capacitorset).
+* [GitHub Enterprise Remote Code Execution](http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html) - Written by [@iblue](https://github.com/iblue).
 
 <a name="tricks-xss"></a>
 ### XSS
 
-* [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en), written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+* [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 * [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)
-](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas), written by [Marin Moulinier](https://medium.com/@marin_m).
+](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas) - Written by [Marin Moulinier](https://medium.com/@marin_m).
 
 <a name="tricks-sql-injection"></a>
 ### SQL Injection
 
-* [屌智硬之mysql不用逗号注入](http://www.jinglingshu.org/?p=2220), written by [jinglingshu](http://www.jinglingshu.org/?p=2220).
-* [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html), written by [mikey](http://www.freebuf.com/author/mikey).
-* [MySQL Error Based SQL  Injection Using  EXP](https://www.exploit-db.com/docs/37953.pdf), written by [@osandamalith](https://twitter.com/osandamalith).
-* [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html), written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/).
+* [屌智硬之mysql不用逗号注入](http://www.jinglingshu.org/?p=2220) - Written by [jinglingshu](http://www.jinglingshu.org/?p=2220).
+* [见招拆招：绕过WAF继续SQL注入常用方法](http://www.freebuf.com/articles/web/36683.html) - Written by [mikey](http://www.freebuf.com/author/mikey).
+* [MySQL Error Based SQL  Injection Using  EXP](https://www.exploit-db.com/docs/37953.pdf) - Written by [@osandamalith](https://twitter.com/osandamalith).
+* [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html) - Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
 
-* [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748), written by [aesteral](https://hackerone.com/aesteral).
+* [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
 
 <a name="tricks-header-injection"></a>
 ### Header Injection
 
-* [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html), written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+* [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
 <a name="tricks-url"></a>
 ### URL
 
-* [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf), written by [0x_Jin](http://xssec.lofter.com/).
-* [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/), written by [Xudong Zheng](https://www.xudongz.com/).
-* [Unicode Domains are bad and you should feel bad for supporting them](https://www.vgrsec.com/post20170219.html), written by [VRGSEC](https://www.vgrsec.com/).
+* [URL Hacking - 前端猥琐流](http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf) - Written by [0x_Jin](http://xssec.lofter.com/).
+* [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/) - Written by [Xudong Zheng](https://www.xudongz.com/).
+* [Unicode Domains are bad and you should feel bad for supporting them](https://www.vgrsec.com/post20170219.html) - Written by [VRGSEC](https://www.vgrsec.com/).
 
 <a name="tricks-others"></a>
 ### Others
 
-* [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html), written by [PHITHON](https://www.leavesongs.com/).
+* [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [PHITHON](https://www.leavesongs.com/).
 
 ## Browser Exploitation
 
-* [First Step to Browser Exploitation](http://mashirogod.dothome.co.kr/index.php/2017/01/07/first-step-to-browser-exploitation/), written by [Brian Pak](http://mashirogod.dothome.co.kr/).
-* [JSON hijacking for the modern web](http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html), written by [portswigger](https://portswigger.net/).
-* [IE11 Information disclosure - local file detection](https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater), written by James Lee.
+* [First Step to Browser Exploitation](http://mashirogod.dothome.co.kr/index.php/2017/01/07/first-step-to-browser-exploitation/) - Written by [Brian Pak](http://mashirogod.dothome.co.kr/).
+* [JSON hijacking for the modern web](http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html) - Written by [portswigger](https://portswigger.net/).
+* [IE11 Information disclosure - local file detection](https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater) - Written by James Lee.
 
 ## PoCs
 
@@ -259,13 +259,13 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="practices-aws"></a>
 ### AWS
 
-* [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge, written by [@0xdabbad00](https://twitter.com/0xdabbad00).
+* [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00).
 
 <a name="practices-xss"></a>
 ### XSS
 
-* [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges, written by [@steike](https://twitter.com/steike).
-* [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels), written by [@cure53](https://github.com/cure53).
+* [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
+* [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
 
 ## Community
 
@@ -276,13 +276,13 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty) - Comprehensive curated list of available Bug Bounty & Disclosure Programs and write-ups by [@djadmin](https://github.com/djadmin).
 * [bug-bounty-reference](https://github.com/ngalongc/bug-bounty-reference) - List of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc).
-* [如何正確的取得使用者 IP ？](http://devco.re/blog/2014/06/19/client-ip-detection/), written by [Allen Own](http://devco.re/blog/author/allenown).
+* [如何正確的取得使用者 IP ？](http://devco.re/blog/2014/06/19/client-ip-detection/) - Written by [Allen Own](http://devco.re/blog/author/allenown).
 * [1000php](https://github.com/Xyntax/1000php) - 1000个PHP代码审计案例(2016.7以前乌云公开漏洞) by [@Xyntax](https://github.com/Xyntax).
-* [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html), written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
+* [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html) - Written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
 * [GITLEAKS](https://gitleaks.com/) - Search engine for exposed secrets on lots of places.
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
-* [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells), written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
-* [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/), written by JASON TROS.
+* [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells) - Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
+* [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.
 * [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by[@x0rz](https://github.com/x0rz).
 
 ## License
