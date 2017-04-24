@@ -31,6 +31,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 	- [CSP](#evasions-csp)
     - [WAF](#evasions-waf)
     - [JSMVC](#evasions-jsmvc)
+    - [Authentication](#evasions-authentication)
 - [Tricks](#tricks)
     - [Remote Code Execution](#tricks-rce)
     - [XSS](#tricks-xss)
@@ -121,6 +122,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### JSMVC
 
 * [JavaScript MVC and Templating Frameworks](http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+
+<a name="evasions-authentication"></a>
+### Authentication
+
+* [Trend Micro Threat Discovery Appliance - Session Generation Authentication Bypass (CVE-2016-8584)](http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html) - Written by [@malerisch](https://twitter.com/malerisch) and [@steventseeley](https://twitter.com/steventseeley).
 
 ## Tricks
 
