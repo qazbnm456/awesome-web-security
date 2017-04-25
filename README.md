@@ -259,6 +259,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [@filedescriptor](https://twitter.com/filedescriptor) - Active penetrator often tweets and writes useful articles
 * [@cure53berlin](https://twitter.com/cure53berlin) - [Cure53](https://cure53.de/) is a German cybersecurity firm.
 * [@XssPayloads](https://twitter.com/XssPayloads) - The wonderland of JavaScript unexpected usages, and more.
+* [@kinugawamasato](https://twitter.com/kinugawamasato) - Japanese web penetrator.
 
 ## Practices
 
