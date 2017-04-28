@@ -20,13 +20,15 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 - [Forums](#forums)
 - [Resources](#resources)
-    - [XSS](#resources-xss)
-    - [SQL Injection](#resources-sql-injection)
-    - [XML](#resources-xml)
-    - [CSRF](#resources-csrf)
-    - [Rails](#resources-rails)
-    - [AngularJS](#resources-angularjs)
-    - [SSL/TLS](#resources-ssl-tls)
+    - [Introductions](#introductions)
+        - [XSS](#introductions-xss)
+        - [SQL Injection](#introductions-sql-injection)
+        - [XML](#introductions-xml)
+        - [CSRF](#introductions-csrf)
+        - [Rails](#introductions-rails)
+        - [AngularJS](#introductions-angularjs)
+        - [SSL/TLS](#introductions-ssl-tls)
+    - [Books](#books)
 - [Evasions](#evasions)
 	- [CSP](#evasions-csp)
     - [WAF](#evasions-waf)
@@ -68,42 +70,49 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Resources
 
-<a name="resources-xss"></a>
+### Introductions
+
+<a name="introductions-xss"></a>
 ### XSS
 
 * [H5SC](https://github.com/cure53/H5SC) - HTML5 Security Cheatsheet - Collection of HTML5 related XSS attack vectors by [@cure53](https://github.com/cure53).
 * [XSS.png](https://github.com/jackmasa/XSS.png) - XSS mind map by [@jackmasa](https://github.com/jackmasa).
 
-<a name="resources-sql-injection"></a>
+<a name="introductions-sql-injection"></a>
 ### SQL Injection
 
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Brief introduction to Hibernate Query Injection.
 
-<a name="resources-xml"></a>
+<a name="introductions-xml"></a>
 ### XML
 
 * [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
 
-<a name="resources-csrf"></a>
+<a name="introductions-csrf"></a>
 ### CSRF
 
 * [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
 
-<a name="resources-rails"></a>
+<a name="introductions-rails"></a>
 ### Rails
 
 * [Rails 動態樣板路徑的風險](http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/) - Written by [Shaolin](http://devco.re/blog/author/shaolin/).
 * [Rails Security](http://php.ph/wydrops/drops/Rails%20Security%20(%E4%B8%8A).pdf) - Written by [@qazbnm456](https://github.com/qazbnm456).
 
-<a name="resources-angularjs"></a>
+<a name="introductions-angularjs"></a>
 ### AngularJS
 
 * [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
 
-<a name="resources-ssl-tls"></a>
+<a name="introductions-ssl-tls"></a>
 ### SSL/TLS
 
 * [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
+
+### Books
+
+* [Security Geek 2016 - Part. A](http://bobao.360.cn/download/book/security-geek-2016-A.pdf) - Written by [360网络攻防实验室](http://bobao.360.cn/).
+* [Security Geek 2016 - Part. B](http://bobao.360.cn/download/book/security-geek-2016-B.pdf) - Written by [360网络攻防实验室](http://bobao.360.cn/).
 
 ## Evasions
 
@@ -176,6 +185,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Others
 
 * [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [PHITHON](https://www.leavesongs.com/).
+* [CTF比赛总是输？你还差点Tricks!](https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065) - Written by [PHITHON](https://www.leavesongs.com/).
+* [隱匿的攻擊之-Domain Fronting](https://evi1cg.me/archives/Domain_Fronting.html) - Written by [Evi1cg](https://evi1cg.me/).
 
 ## Browser Exploitation
 
@@ -291,6 +302,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells) - Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
 * [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.
 * [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by[@x0rz](https://github.com/x0rz).
+* [Browser Extension and Login-Leak Experiment](https://extensions.inrialpes.fr/) - Browser Extension and Login-Leak Experiment.
 
 ## License
 
