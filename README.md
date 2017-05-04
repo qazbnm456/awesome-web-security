@@ -126,6 +126,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### CSP
 
 * [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/) - Written by [Detectify Labs](https://labs.detectify.com/).
+* [TWITTER XSS + CSP BYPASS](http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
 
 <a name="evasions-waf"></a>
 ### WAF
