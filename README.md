@@ -26,6 +26,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
         - [XML](#introductions-xml)
         - [XXE](introductions-xxe)
         - [CSRF](#introductions-csrf)
+        - [SSRF](#introductions-ssrf)
         - [Rails](#introductions-rails)
         - [AngularJS](#introductions-angularjs)
         - [SSL/TLS](#introductions-ssl-tls)
@@ -104,6 +105,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### CSRF
 
 * [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
+
+<a name="introductions-ssrf"></a>
+### SSRF
+
+* [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - Written by [@Wallarm](https://twitter.com/wallarm).
 
 <a name="introductions-rails"></a>
 ### Rails
@@ -318,6 +324,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [@cure53berlin](https://twitter.com/cure53berlin) - [Cure53](https://cure53.de/) is a German cybersecurity firm.
 * [@XssPayloads](https://twitter.com/XssPayloads) - The wonderland of JavaScript unexpected usages, and more.
 * [@kinugawamasato](https://twitter.com/kinugawamasato) - Japanese web penetrator.
+* [@h3xstream](https://twitter.com/h3xstream/) - Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero.
 
 ## Practices
 
