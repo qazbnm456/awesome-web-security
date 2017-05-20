@@ -24,6 +24,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
         - [XSS](#introductions-xss)
         - [SQL Injection](#introductions-sql-injection)
         - [XML](#introductions-xml)
+        - [XXE](introductions-xxe)
         - [CSRF](#introductions-csrf)
         - [Rails](#introductions-rails)
         - [AngularJS](#introductions-angularjs)
@@ -87,12 +88,17 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="introductions-sql-injection"></a>
 ### SQL Injection
 
-* [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Brief introduction to Hibernate Query Injection.
+* [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Written by [@h3xstream](https://twitter.com/h3xstream/).
 
 <a name="introductions-xml"></a>
 ### XML
 
 * [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
+
+<a name="introductions-xxe"></a>
+### XXE
+
+* [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 
 <a name="introductions-csrf"></a>
 ### CSRF
