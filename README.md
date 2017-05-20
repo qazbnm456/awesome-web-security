@@ -58,6 +58,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Webshell](#tools-webshell)
     - [Disassembler](#tools-disassembler)
     - [Others](#tools-others)
+- [Social Engineering Database](#social-engineering-database)
 - [Blogs](#blogs)
 - [Twitter Users](#twitter-users)
 - [Practices](#practices)
@@ -288,6 +289,13 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Others
 
 * [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - DNS Logger by [@iagox86](https://github.com/iagox86).
+
+## Social Engineering Database
+
+**use at your own risk**
+
+* [haveibeenpwned](https://haveibeenpwned.com/) - Check if you have an account that has been compromised in a data breach by [Troy Hunt](https://www.troyhunt.com/).
+* [70 SECURITY TEAM Social Engineering Data](http://s.70sec.com/) - 70 SECURITY TEAM 社工库 by [70 Security Team](http://70sec.com/).
 
 ## Blogs
 
