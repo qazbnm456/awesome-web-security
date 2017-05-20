@@ -48,14 +48,15 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [PoCs](#pocs)
     - [JavaScript](#pocs-javascript)
 - [Tools](#tools)
+    - [Reconnaissance](#tools-reconnaissance)
     - [Code Generating](#tools-code-generating)
-    - [Disassembler](#tools-disassembler)
     - [Fuzzing](#tools-fuzzing)
     - [Penetrating](#tools-penetrating)
     - [Leaking](#tools-leaking)
     - [Detecting](#tools-detecting)
     - [Preventing](#tools-preventing)
     - [Webshell](#tools-webshell)
+    - [Disassembler](#tools-disassembler)
     - [Others](#tools-others)
 - [Blogs](#blogs)
 - [Twitter Users](#twitter-users)
@@ -225,17 +226,17 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Tools
 
+<a name="tools-reconnaissance"></a>
+### Reconnaissance
+
+* [Censys](https://censys.io/) - Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by [University of Michigan](https://umich.edu/).
+* [urlscan.io](https://urlscan.io/) - Service which analyses websites and the resources they request by [@heipei](https://twitter.com/heipei).
+* [Certificate Transparency](https://github.com/google/certificate-transparency) - Google's Certificate Transparency project fixes several structural flaws in the SSL certificate system by [@google](https://github.com/google).
+
 <a name="tools-code-generating"></a>
 ### Code Generating
 
 * [VWGen](https://github.com/qazbnm456/lulumi-browser) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
-
-<a name="tools-disassembler"></a>
-### Disassembler
-
-* [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
-* [radare2](https://github.com/radare/radare2) - Unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
-* [Iaitō](https://github.com/hteso/iaito) - Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso).
 
 <a name="tools-fuzzing"></a>
 ### Fuzzing
@@ -275,6 +276,13 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Webshell
 
 * [webshell](https://github.com/tennc/webshell) - This is a webshell open source project by [@tennc](https://github.com/tennc).
+
+<a name="tools-disassembler"></a>
+### Disassembler
+
+* [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
+* [radare2](https://github.com/radare/radare2) - Unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
+* [Iaitō](https://github.com/hteso/iaito) - Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso).
 
 <a name="tools-others"></a>
 ### Others
