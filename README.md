@@ -32,6 +32,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
         - [SSL/TLS](#introductions-ssl-tls)
         - [Webmail](#introductions-webmail)
         - [AWS](#introductions-aws)
+        - [Fingerprint](#introductions-fingerprint)
     - [Books](#books)
 - [Evasions](#evasions)
 	- [CSP](#evasions-csp)
@@ -139,6 +140,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET](https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/) - Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/).
 
+<a name="introductions-fingerprint"></a>
+### Fingerprint
+
+* [浅谈Web客户端追踪](http://www.freebuf.com/articles/web/127266.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
+
 ### Books
 
 * [Security Geek 2016 - Part. A](http://bobao.360.cn/download/book/security-geek-2016-A.pdf) - Written by [360网络攻防实验室](http://bobao.360.cn/).
@@ -202,6 +208,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### SSRF
 
 * [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
+* [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
 
 <a name="tricks-header-injection"></a>
 ### Header Injection
