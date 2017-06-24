@@ -43,6 +43,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
     - [Remote Code Execution](#tricks-rce)
     - [XSS](#tricks-xss)
     - [SQL Injection](#tricks-sql-injection)
+    - [NoSQL Injection](#tricks-nosql-injection)
     - [SSRF](#tricks-ssrf)
     - [Header Injection](#tricks-header-injection)
     - [URL](#tricks-url)
@@ -203,6 +204,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [MySQL Error Based SQL  Injection Using  EXP](https://www.exploit-db.com/docs/37953.pdf) - Written by [@osandamalith](https://twitter.com/osandamalith).
 * [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html) - Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/).
 * [GitHub Enterprise SQL Injection](http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html) - Written by [Orange](http://blog.orange.tw/).
+
+<a name="tricks-nosql-injection"></a>
+### NoSQL Injection
+
+* [GraphQL NoSQL Injection Through JSON Types](https://medium.com/@east5th/graphql-nosql-injection-through-json-types-a1a0a310c759) - Written by [@east5th](https://medium.com/@east5th).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
