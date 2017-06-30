@@ -1,6 +1,6 @@
 Appreciate and recognize [all contributors](https://github.com/qazbnm456/awesome-web-security/graphs/contributors).
 
-Please note that this project is released with a [Contributor Code of Conduct](https://github.com/sindresorhus/awesome/blob/master/code-of-conduct.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/qazbnm456/awesome-web-security/blob/master/code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
 # Table of Contents
 
