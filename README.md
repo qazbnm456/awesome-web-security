@@ -77,6 +77,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Paper from Seebug](http://paper.seebug.org/) - Knowledge base for hacking technology built by [Seebug](http://seebug.org/).
 * [Freebuf](http://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
 * [安全脉搏](https://www.secpulse.com/) - Blog for Security things.
+* [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 
 ## Resources
 
