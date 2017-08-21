@@ -287,7 +287,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="tools-code-generating"></a>
 ### Code Generating
 
-* [VWGen](https://github.com/qazbnm456/lulumi-browser) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
+* [VWGen](https://github.com/qazbnm456/VWGen) - Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456).
 
 <a name="tools-fuzzing"></a>
 ### Fuzzing
