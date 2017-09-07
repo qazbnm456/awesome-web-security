@@ -78,6 +78,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Freebuf](http://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
 * [安全脉搏](https://www.secpulse.com/) - Blog for Security things.
 * [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
+* [T00LS](https://www.t00ls.net/) - T00LS - 低调求发展 - 潜心习安全.
 
 ## Resources
 
