@@ -382,6 +382,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [@kinugawamasato](https://twitter.com/kinugawamasato) - Japanese web penetrator.
 * [@h3xstream](https://twitter.com/h3xstream/) - Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero.
 * [@garethheyes](https://twitter.com/garethheyes) - English web penetrator.
+* [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
 
 ## Practices
 
