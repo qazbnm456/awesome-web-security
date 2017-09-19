@@ -20,54 +20,55 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 - [Forums](#forums)
 - [Resources](#resources)
-    - [Introductions](#introductions)
-        - [XSS](#introductions-xss)
-        - [SQL Injection](#introductions-sql-injection)
-        - [XML](#introductions-xml)
-        - [XXE](introductions-xxe)
-        - [CSRF](#introductions-csrf)
-        - [SSRF](#introductions-ssrf)
-        - [Rails](#introductions-rails)
-        - [AngularJS](#introductions-angularjs)
-        - [SSL/TLS](#introductions-ssl-tls)
-        - [Webmail](#introductions-webmail)
-        - [AWS](#introductions-aws)
-        - [Fingerprint](#introductions-fingerprint)
-    - [Books](#books)
+  - [XSS](#xss)
+  - [SQL Injection](#sql-injection)
+  - [XML](#xml)
+  - [XXE](xxe)
+  - [CSRF](#csrf)
+  - [SSRF](#ssrf)
+  - [Rails](#rails)
+  - [AngularJS](#angularjs)
+  - [SSL/TLS](#ssl-tls)
+  - [Webmail](#webmail)
+  - [AWS](#aws)
+  - [Fingerprint](#fingerprint)
+  - [Books](#books)
 - [Evasions](#evasions)
-    - [CSP](#evasions-csp)
-    - [WAF](#evasions-waf)
-    - [JSMVC](#evasions-jsmvc)
-    - [Authentication](#evasions-authentication)
+  - [CSP](#evasions-csp)
+  - [WAF](#evasions-waf)
+  - [JSMVC](#evasions-jsmvc)
+  - [Authentication](#evasions-authentication)
 - [Tricks](#tricks)
-    - [Remote Code Execution](#tricks-rce)
-    - [XSS](#tricks-xss)
-    - [SQL Injection](#tricks-sql-injection)
-    - [NoSQL Injection](#tricks-nosql-injection)
-    - [SSRF](#tricks-ssrf)
-    - [Header Injection](#tricks-header-injection)
-    - [URL](#tricks-url)
-    - [Others](#tricks-others)
+  - [Remote Code Execution](#tricks-rce)
+  - [XSS](#tricks-xss)
+  - [SQL Injection](#tricks-sql-injection)
+  - [NoSQL Injection](#tricks-nosql-injection)
+  - [SSRF](#tricks-ssrf)
+  - [Header Injection](#tricks-header-injection)
+  - [URL](#tricks-url)
+  - [Others](#tricks-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
-    - [JavaScript](#pocs-javascript)
+  - [JavaScript](#pocs-javascript)
 - [Tools](#tools)
-    - [Reconnaissance](#tools-reconnaissance)
-    - [Code Generating](#tools-code-generating)
-    - [Fuzzing](#tools-fuzzing)
-    - [Penetrating](#tools-penetrating)
-    - [Leaking](#tools-leaking)
-    - [Detecting](#tools-detecting)
-    - [Preventing](#tools-preventing)
-    - [Webshell](#tools-webshell)
-    - [Disassembler](#tools-disassembler)
-    - [Others](#tools-others)
+  - [Reconnaissance](#tools-reconnaissance)
+  - [Code Generating](#tools-code-generating)
+  - [Fuzzing](#tools-fuzzing)
+  - [Penetrating](#tools-penetrating)
+  - [Leaking](#tools-leaking)
+  - [Offensive](#tools-offensive)
+    - [Template Injection](#tools-template-injection)
+  - [Detecting](#tools-detecting)
+  - [Preventing](#tools-preventing)
+  - [Webshell](#tools-webshell)
+  - [Disassembler](#tools-disassembler)
+  - [Others](#tools-others)
 - [Social Engineering Database](#social-engineering-database)
 - [Blogs](#blogs)
 - [Twitter Users](#twitter-users)
 - [Practices](#practices)
-    - [AWS](#practices-aws)
-    - [XSS](#practices-xss)
+  - [AWS](#practices-aws)
+  - [XSS](#practices-xss)
 - [Community](#community)
 - [Miscellaneous](#miscellaneous)
 
@@ -82,68 +83,66 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 ## Resources
 
-### Introductions
-
-<a name="introductions-xss"></a>
+<a name="xss"></a>
 ### XSS
 
 * [H5SC](https://github.com/cure53/H5SC) - HTML5 Security Cheatsheet - Collection of HTML5 related XSS attack vectors by [@cure53](https://github.com/cure53).
 * [XSS.png](https://github.com/jackmasa/XSS.png) - XSS mind map by [@jackmasa](https://github.com/jackmasa).
 * [C.XSS Guide](https://excess-xss.com/) - Comprehensive tutorial on cross-site scripting by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).
 
-<a name="introductions-sql-injection"></a>
+<a name="sql-injection"></a>
 ### SQL Injection
 
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Written by [@h3xstream](https://twitter.com/h3xstream/).
 
-<a name="introductions-xml"></a>
+<a name="xml"></a>
 ### XML
 
 * [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
 
-<a name="introductions-xxe"></a>
+<a name="xxe"></a>
 ### XXE
 
 * [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 
-<a name="introductions-csrf"></a>
+<a name="csrf"></a>
 ### CSRF
 
 * [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
 
-<a name="introductions-ssrf"></a>
+<a name="ssrf"></a>
 ### SSRF
 
 * [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - Written by [@Wallarm](https://twitter.com/wallarm).
 
-<a name="introductions-rails"></a>
+<a name="rails"></a>
 ### Rails
 
 * [Rails 動態樣板路徑的風險](http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/) - Written by [Shaolin](http://devco.re/blog/author/shaolin/).
 * [Rails Security - First part](https://hackmd.io/s/SkuTVw5O-) - Written by [@qazbnm456](https://github.com/qazbnm456).
 
-<a name="introductions-angularjs"></a>
+<a name="angularjs"></a>
 ### AngularJS
 
 * [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
 * [DOM based Angular sandbox escapes](http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html) - Written by [@garethheyes](https://twitter.com/garethheyes)
 
-<a name="introductions-ssl-tls"></a>
+<a name="ssl-tls"></a>
 ### SSL/TLS
 
 * [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
 
-<a name="introductions-webmail"></a>
+<a name="webmail"></a>
 ### Webmail
 
 * [Webmail-Hacking](https://github.com/mottoin/SecPaper/blob/master/Webmail-Hacking.pdf) - Written by [千域千寻](http://blog.csdn.net/f1n4lly/).
 
-<a name="introductions-aws"></a>
+<a name="aws"></a>
 ### AWS
 
 * [PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET](https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/) - Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/).
 
-<a name="introductions-fingerprint"></a>
+<a name="fingerprint"></a>
 ### Fingerprint
 
 * [浅谈Web客户端追踪](http://www.freebuf.com/articles/web/127266.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
@@ -315,6 +314,14 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 * [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+
+<a name="tools-offensive"></a>
+### Offensive
+
+<a name="introductions-template-injection"></a>
+#### Template Injection
+
+* [tqlmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
 
 <a name="tools-leaking"></a>
 ### Leaking
