@@ -22,6 +22,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [Resources](#resources)
   - [XSS](#xss)
   - [SQL Injection](#sql-injection)
+  - [ORM Injection](#orm-injection)
   - [XML](#xml)
   - [XXE](xxe)
   - [CSRF](#csrf)
@@ -93,7 +94,15 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="sql-injection"></a>
 ### SQL Injection
 
+* [SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/) - Written by [@netsparker](https://twitter.com/netsparker).
+
+<a name="orm-injection"></a>
+### ORM Injection
+
 * [HQL for pentesters](http://blog.h3xstream.com/2014/02/hql-for-pentesters.html) - Written by [@h3xstream](https://twitter.com/h3xstream/).
+* [HQL : Hyperinsane Query Language (or how to access the whole SQL API within a HQL injection ?)](https://www.synacktiv.com/ressources/hql2sql_sstic_2015_en.pdf) - Written by [@_m0bius](https://twitter.com/_m0bius).
+* [ORM2Pwn: Exploiting injections in Hibernate ORM](https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm) - Written by [Mikhail Egorov](https://0ang3el.blogspot.tw/).
+* [ORM Injection](https://www.slideshare.net/simone.onofri/orm-injection) - Written by [Simone Onofri](https://onofri.org/).
 
 <a name="xml"></a>
 ### XML
