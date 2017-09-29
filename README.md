@@ -33,6 +33,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [Webmail](#webmail)
   - [AWS](#aws)
   - [Fingerprint](#fingerprint)
+  - [Crypto](#crypto)
   - [Books](#books)
 - [Evasions](#evasions)
   - [CSP](#evasions-csp)
@@ -155,6 +156,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Fingerprint
 
 * [浅谈Web客户端追踪](http://www.freebuf.com/articles/web/127266.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
+
+<a name="crypto"></a>
+### Crypto
+
+* [Applied Crypto Hardening](https://bettercrypto.org/static/applied-crypto-hardening.pdf) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
 
 ### Books
 
