@@ -404,6 +404,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 * [OpnSec](https://opnsec.com/) - Open Mind Security!
 * [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
+* [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
 
 ## Twitter Users
 
