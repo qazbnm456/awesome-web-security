@@ -403,6 +403,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 * [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 * [OpnSec](https://opnsec.com/) - Open Mind Security!
+* [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
 
 ## Twitter Users
 
