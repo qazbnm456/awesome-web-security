@@ -20,6 +20,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 - [Forums](#forums)
 - [Resources](#resources)
+  - [Tips](#tips)
   - [XSS](#xss)
   - [CSV Injection](#csv-injection)
   - [SQL Injection](#sql-injection)
@@ -86,6 +87,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [T00LS](https://www.t00ls.net/) - T00LS - 低调求发展 - 潜心习安全.
 
 ## Resources
+
+<a name="tips"></a>
+### Tips
+
+* [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
+* [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
 
 <a name="xss"></a>
 ### XSS
