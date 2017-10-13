@@ -36,6 +36,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [NFS](#nfs)
   - [AWS](#aws)
   - [Fingerprint](#fingerprint)
+  - [Sub-domain Enumeration](#sub-domain-enumeration)
   - [Crypto](#crypto)
   - [Books](#books)
 - [Evasions](#evasions)
@@ -176,6 +177,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Fingerprint
 
 * [浅谈Web客户端追踪](http://www.freebuf.com/articles/web/127266.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
+
+<a name="sub-domain-enumeration">
+### Sub-domain Enumeration
+
+* [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
 
 <a name="crypto"></a>
 ### Crypto
