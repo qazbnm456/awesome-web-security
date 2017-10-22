@@ -25,8 +25,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [CSV Injection](#csv-injection)
   - [SQL Injection](#sql-injection)
   - [ORM Injection](#orm-injection)
-  - [XML](#xml)
-  - [XXE](xxe)
+  - [FTP Injection](#ftp-injection)
+  - [XXE](#xxe)
   - [CSRF](#csrf)
   - [SSRF](#ssrf)
   - [Rails](#rails)
@@ -49,6 +49,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [XSS](#tricks-xss)
   - [SQL Injection](#tricks-sql-injection)
   - [NoSQL Injection](#tricks-nosql-injection)
+  - [FTP Injection](#tricks-ftp-injection)
   - [SSRF](#tricks-ssrf)
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
@@ -96,7 +97,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
 
 <a name="xss"></a>
-### XSS
+### XSS - Cross-Site Scripting
 
 * [H5SC](https://github.com/cure53/H5SC) - HTML5 Security Cheatsheet - Collection of HTML5 related XSS attack vectors by [@cure53](https://github.com/cure53).
 * [XSS.png](https://github.com/jackmasa/XSS.png) - XSS mind map by [@jackmasa](https://github.com/jackmasa).
@@ -121,24 +122,27 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [ORM2Pwn: Exploiting injections in Hibernate ORM](https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm) - Written by [Mikhail Egorov](https://0ang3el.blogspot.tw/).
 * [ORM Injection](https://www.slideshare.net/simone.onofri/orm-injection) - Written by [Simone Onofri](https://onofri.org/).
 
-<a name="xml"></a>
-### XML
+<a name="ftp-injection"></a>
+### FTP Injection
 
-* [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
+* [Advisory: Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+* [SMTP over XXE − how to send emails using Java's XML parser](https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/) - Written by [Alexander Klink](https://shiftordie.de/).
 
 <a name="xxe"></a>
-### XXE
+### XXE - XML eXternal Entity
 
 * [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
+* [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
+* [XXE漏洞的简单理解和测试](https://b1ngz.github.io/XXE-learning-note/) - Written by [@b1ngz](https://b1ngz.github.io/).
 
 <a name="csrf"></a>
-### CSRF
+### CSRF - Cross-Site Request Forgery
 
 * [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f) - Written by [Joe Rozner](https://medium.com/@jrozner).
 * [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
 
 <a name="ssrf"></a>
-### SSRF
+### SSRF = Server-Side Request Forgery
 
 * [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - Written by [@Wallarm](https://twitter.com/wallarm).
 
@@ -258,6 +262,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### NoSQL Injection
 
 * [GraphQL NoSQL Injection Through JSON Types](https://medium.com/@east5th/graphql-nosql-injection-through-json-types-a1a0a310c759) - Written by [@east5th](https://medium.com/@east5th).
+
+<a name="tricks-ftp-injection"></a>
+### FTP Injection
+
+* [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov.
+* [XXE OOB exploitation at Java 1.7+](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Written by [Ivan Novikov](http://lab.onsec.ru/).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
