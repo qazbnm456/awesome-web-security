@@ -58,6 +58,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [PoCs](#pocs)
   - [JavaScript](#pocs-javascript)
 - [Tools](#tools)
+  - [Auditing](#tools-auditing)
   - [Reconnaissance](#tools-reconnaissance)
   - [Code Generating](#tools-code-generating)
   - [Fuzzing](#tools-fuzzing)
@@ -326,6 +327,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) - 各种漏洞poc、Exp的收集或编写 by [@coffeehb](https://github.com/coffeehb).
 
 ## Tools
+
+<a name="tools-auditing"></a>
+### Auditing
+
+* [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 
 <a name="tools-reconnaissance"></a>
 ### Reconnaissance
