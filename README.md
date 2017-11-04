@@ -77,6 +77,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 - [Practices](#practices)
   - [AWS](#practices-aws)
   - [XSS](#practices-xss)
+  - [ModSecurity / OWASP ModSecurity Core Rule Set](#practices-modsecurity)
 - [Community](#community)
 - [Miscellaneous](#miscellaneous)
 
@@ -471,6 +472,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
 * [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
+
+
+<a name="practices-modsecurity"></a>
+### ModSecurity / OWASP ModSecurity Core Rule Set
+
+* [ModSecurity / OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorials/) - Series of tutorials to install, configure and tune ModSecurity and the Core Rule Set - Written by [@ChrFolini](https://twitter.com/ChrFolini).
 
 ## Community
 
