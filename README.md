@@ -444,6 +444,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 
 * [Orange](http://blog.orange.tw/) - Taiwan's talented web penetrator.
 * [leavesongs](https://www.leavesongs.com/) - China's talented web penetrator.
+* [James Kettle](http://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 * [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
