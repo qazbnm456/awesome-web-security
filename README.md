@@ -471,6 +471,10 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
 
 ## Practices
+<a name="practices-application"></a>
+### Application
+
+* [BadLibrary](https://github.com/SecureSkyTechnology/BadLibrary) - vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).
 
 <a name="practices-aws"></a>
 ### AWS
@@ -480,8 +484,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 <a name="practices-xss"></a>
 ### XSS
 
-* [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
+* [XSS Thousand Knocks](https://knock.xss.moe/index) - XSS Thousand Knocks - Written by [@yagihashoo](https://twitter.com/yagihashoo).
+* [XSS game](https://xss-game.appspot.com/) - Google XSS Challenge - Written by Google.
 * [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
+* [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
+* [XSS Challenges](http://xss-quiz.int21h.jp/) - Series of XSS challenges - Written by yamagata21.
 
 <a name="practices-modsecurity"></a>
 ### ModSecurity / OWASP ModSecurity Core Rule Set
