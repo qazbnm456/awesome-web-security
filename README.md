@@ -24,6 +24,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [XSS](#xss---cross-site-scripting)
   - [CSV Injection](#csv-injection)
   - [SQL Injection](#sql-injection)
+  - [Command Injection](#command-injection)
   - [ORM Injection](#orm-injection)
   - [FTP Injection](#ftp-injection)
   - [XXE](#xxe---xml-external-entity)
@@ -121,6 +122,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/) - Written by [@netsparker](https://twitter.com/netsparker).
 * [SQL Injection Wiki](https://sqlwiki.netspi.com/) - Written by [NETSPI](https://www.netspi.com/).
 * [SQL Injection Pocket Reference](https://websec.ca/kb/sql_injection) - Written by [@LightOS](https://twitter.com/LightOS).
+
+<a name="command-injection"></a>
+### Command Injection
+
+* [rubyでopenコマンドを使用するときに気をつけること](http://www.lanches.co.jp/blog/5996) - Written by [金子 将範](http://www.lanches.co.jp/author/rubyist).
+* [Potential command injection in resolv.rb](https://github.com/ruby/ruby/pull/1777) - Written by [@drigg3r](https://github.com/drigg3r).
 
 <a name="orm-injection"></a>
 ### ORM Injection
