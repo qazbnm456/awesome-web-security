@@ -474,6 +474,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
 
 ## Practices
+
 <a name="practices-application"></a>
 ### Application
 
