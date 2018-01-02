@@ -465,6 +465,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [leavesongs](https://www.leavesongs.com/) - China's talented web penetrator.
 * [James Kettle](http://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
 * [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
+* [Scrutiny](https://datarift.blogspot.tw/) - Internet Security through Web Browsers by Dhiraj Mishra.
 * [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 * [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 * [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
