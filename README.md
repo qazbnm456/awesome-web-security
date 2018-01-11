@@ -89,6 +89,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Freebuf](http://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
 * [指尖安全](https://www.secfree.com/) - 垂直互联网安全媒体 by [指尖安全](指尖安全).
 * [安全脉搏](https://www.secpulse.com/) - Blog for Security things.
+* [破壳（Beta）](https://pockr.org/) - 能看漏洞报告的安全社区 by [SOBUG漏洞悬赏平台](https://sobug.com/).
 * [Drops (backup)](https://drops.secquan.org/) - Drops was known as a famous knowledge base for hacking technology.
 * [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 * [T00LS](https://www.t00ls.net/) - T00LS - 低调求发展 - 潜心习安全.
