@@ -28,7 +28,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [ORM Injection](#orm-injection)
   - [FTP Injection](#ftp-injection)
   - [XXE](#xxe---xml-external-entity)
-  - [CSRF](##csrf---cross-site-request-forgery)
+  - [CSRF](#csrf---cross-site-request-forgery)
   - [SSRF](#ssrf---server-side-request-forgery)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
@@ -46,6 +46,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [JSMVC](#evasions-jsmvc)
   - [Authentication](#evasions-authentication)
 - [Tricks](#tricks)
+  - [CSRF](#tricks-csrf)
   - [Remote Code Execution](#tricks-rce)
   - [XSS](#tricks-xss)
   - [SQL Injection](#tricks-sql-injection)
@@ -249,6 +250,11 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Yahoo Bug Bounty: Chaining 3 Minor Issues To Takeover Flickr Accounts](http://blog.mish.re/index.php/2017/04/29/yahoo-bug-bounty-chaining-3-minor-issues-to-takeover-flickr-accounts/) - Written by [Mishre](http://blog.mish.re/).
 
 ## Tricks
+
+<a name="tricks-csrf"></a>
+### CSRF
+
+* [Neat tricks to bypass CSRF-protection](https://zhuanlan.zhihu.com/p/32716181) - Written by [Twosecurity](https://twosecurity.io/).
 
 <a name="tricks-rce"></a>
 ### Remote Code Execution
