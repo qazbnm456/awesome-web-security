@@ -39,6 +39,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
   - [Fingerprint](#fingerprint)
   - [Sub Domain Enumeration](#sub-domain-enumeration)
   - [Crypto](#crypto)
+  - [Web Shell](#web-shell)
   - [Books](#books)
 - [Evasions](#evasions)
   - [CSP](#evasions-csp)
@@ -200,6 +201,8 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### AWS
 
 * [PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET](https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/) - Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/).
+* [AWS PENETRATION TESTING PART 1. S3 BUCKETS](https://www.virtuesecurity.com/blog/aws-penetration-testing-s3-buckets/) - Written by [@VirtueSecurity](https://twitter.com/VirtueSecurity).
+* [AWS PENETRATION TESTING PART 2. S3, IAM, EC2](https://www.virtuesecurity.com/blog/aws-penetration-testing-part-2-s3-iam-ec2/) - Written by [@VirtueSecurity](https://twitter.com/VirtueSecurity).
 
 <a name="fingerprint"></a>
 ### Fingerprint
@@ -216,6 +219,12 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 ### Crypto
 
 * [Applied Crypto Hardening](https://bettercrypto.org/static/applied-crypto-hardening.pdf) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
+
+<a name="web-shell"></a>
+### Web Shell
+
+* [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells) - Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
+* [Hacking with JSP Shells](https://blog.netspi.com/hacking-with-jsp-shells/) - Written by [@_nullbind](https://twitter.com/_nullbind).
 
 ### Books
 
@@ -552,7 +561,6 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html) - Written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
 * [GITLEAKS](https://gitleaks.com/) - Search engine for exposed secrets on lots of places.
 * [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
-* [Hunting for Web Shells](https://www.tenable.com/blog/hunting-for-web-shells) - Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines).
 * [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.
 * [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz).
 * [Browser Extension and Login-Leak Experiment](https://extensions.inrialpes.fr/) - Browser Extension and Login-Leak Experiment.
