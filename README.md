@@ -406,6 +406,7 @@ Check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitt
 * [SpiderFoot](http://www.spiderfoot.net/) - Open source footprinting and intelligence-gathering tool by [@binarypool](https://twitter.com/binarypool).
 * [xray](https://github.com/evilsocket/xray) - XRay is a tool for recon, mapping and OSINT gathering from public networks by [@evilsocket](https://github.com/evilsocket).
 * [gitrob](https://github.com/michenriksen/Gitrob) - Reconnaissance tool for GitHub organizations by [@michenriksen](https://github.com/michenriksen).
+* [GSIL](https://github.com/FeeiCN/GSIL) - Github Sensitive Information Leakage（Github敏感信息泄露）by [@FeeiCN](https://github.com/FeeiCN).
 * [raven](https://github.com/0x09AL/raven) - raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin by [@0x09AL](https://github.com/0x09AL).
 * [ReconDog](https://github.com/UltimateHackers/ReconDog) - Recon Dog is an all in one tool for all your basic information gathering needs by [@UltimateHackers](https://github.com/UltimateHackers).
 
