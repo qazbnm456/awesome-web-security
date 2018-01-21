@@ -442,7 +442,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 * [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
-* [sqlmap](https://github.com/sqlmapproject/sqlmap) - An automatic SQL injection and database takeover tool for SQLi penetratiion testing of web applications.
+* [sqlmap](https://github.com/sqlmapproject/sqlmap) - An automatic SQL injection and database takeover tool for penetration testing of web applications.
 
 <a name="tools-offensive"></a>
 ### Offensive
