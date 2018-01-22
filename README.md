@@ -77,6 +77,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
     - [Template Injection](#tools-template-injection)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
+  - [Proxy](#tools-proxy)
   - [Webshell](#tools-webshell)
   - [Disassembler](#tools-disassembler)
   - [Others](#tools-others)
@@ -441,7 +442,6 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 ### Penetrating
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
-* [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
 
 <a name="tools-offensive"></a>
 ### Offensive
@@ -483,6 +483,12 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 ### Preventing
 
 * [js-xss](https://github.com/leizongmin/js-xss) - Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin).
+
+<a name="tools-proxy"></a>
+### Proxy
+
+* [Charles](https://www.charlesproxy.com/) - HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.
+* [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
 
 <a name="tools-webshell"></a>
 ### Webshell
