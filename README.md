@@ -72,6 +72,8 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
   - [Penetrating](#tools-penetrating)
   - [Leaking](#tools-leaking)
   - [Offensive](#tools-offensive)
+    - [XSS](#tools-xss)
+    - [SQL Injection](#tools-sql-injection)
     - [Template Injection](#tools-template-injection)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
@@ -431,21 +433,29 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 
 * [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
 * [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - Script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
-* [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - Simple too to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
+* [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - Simple tool to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
 * [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
 * [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
-* [XSStrike](https://github.com/UltimateHackers/XSStrike) - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@UltimateHackers](https://github.com/UltimateHackers).
-* [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos).
 
 <a name="tools-penetrating"></a>
 ### Penetrating
 
 * [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 * [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
-* [sqlmap](https://github.com/sqlmapproject/sqlmap) - An automatic SQL injection and database takeover tool for penetration testing of web applications.
 
 <a name="tools-offensive"></a>
 ### Offensive
+
+<a name="tools-xss"></a>
+#### XSS - Cross-Site Scripting
+
+* [XSStrike](https://github.com/UltimateHackers/XSStrike) - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@UltimateHackers](https://github.com/UltimateHackers).
+* [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos).
+
+<a name="tools-sql-injection"></a>
+#### SQL Injection
+
+* [sqlmap](https://github.com/sqlmapproject/sqlmap) - An automatic SQL injection and database takeover tool for penetration testing of web applications.
 
 <a name="tools-template-injection"></a>
 #### Template Injection
