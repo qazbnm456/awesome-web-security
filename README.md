@@ -85,6 +85,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 - [Blogs](#blogs)
 - [Twitter Users](#twitter-users)
 - [Practices](#practices)
+  - [Application](#practices-application)
   - [AWS](#practices-aws)
   - [XSS](#practices-xss)
   - [ModSecurity / OWASP ModSecurity Core Rule Set](#practices-modsecurity)
@@ -553,6 +554,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 
 * [BadLibrary](https://github.com/SecureSkyTechnology/BadLibrary) - vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).
 * [Hackxor](http://hackxor.net/) - realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
+* [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 
 <a name="practices-aws"></a>
 ### AWS
