@@ -282,6 +282,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 ### CSRF
 
 * [Neat tricks to bypass CSRF-protection](https://zhuanlan.zhihu.com/p/32716181) - Written by [Twosecurity](https://twosecurity.io/).
+* [Exploiting CSRF on JSON endpoints with Flash and redirects](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b) - Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).
 
 <a name="tricks-rce"></a>
 ### Remote Code Execution
