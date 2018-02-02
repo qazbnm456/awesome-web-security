@@ -598,6 +598,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 * [notes](https://github.com/ChALkeR/notes) - Some public notes by [@ChALkeR](https://github.com/ChALkeR).
 * [A glimpse into GitHub's Bug Bounty workflow](https://githubengineering.com/githubs-bug-bounty-workflow/) - Written by [@gregose](https://github.com/gregose).
 * [暗网系列之：利用Dark Web Report + EyeWitness+ TorGhost +Docker，自动化获取暗网站点的信息](http://www.mottoin.com/106687.html) - Written by [鹰小编](http://www.mottoin.com/user/ying/).
+* [Cybersecurity Campaign Playbook](https://www.belfercenter.org/CyberPlaybook) - Written by [Belfer Center for Science and International Affairs](https://www.belfercenter.org/).
 
 ## Code of Conduct
 
