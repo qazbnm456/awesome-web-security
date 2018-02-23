@@ -442,6 +442,8 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 * [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by [@kost](https://github.com/kost).
 * [DVCS-Pillage](https://github.com/evilpacket/DVCS-Pillage) - Pillage web accessible GIT, HG and BZR repositories by [@evilpacket](https://github.com/evilpacket).
 * [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github by [@UnkL4b](https://github.com/UnkL4b).
+* [gitleaks](https://github.com/zricethezav/gitleaks) - Searches full repo history for secrets and keys by [@zricethezav](https://github.com/zricethezav).
+* [CSS-Keylogging](https://github.com/maxchehab/CSS-Keylogging) - Chrome extension and Express server that exploits keylogging abilities of CSS by [@maxchehab](https://github.com/maxchehab).
 
 <a name="tools-detecting"></a>
 ### Detecting
