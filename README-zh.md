@@ -397,6 +397,7 @@ And don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or s
 ### Auditing
 
 * [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
+* [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 
 <a name="tools-reconnaissance"></a>
 ### Reconnaissance
