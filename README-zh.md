@@ -54,6 +54,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [SQL Injection](#tricks-sql-injection)
   - [NoSQL Injection](#tricks-nosql-injection)
   - [FTP Injection](#tricks-ftp-injection)
+  - [XXE](#tricks-xxe)
   - [SSRF](#tricks-ssrf)
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
@@ -330,6 +331,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov.
 - [XXE OOB exploitation at Java 1.7+](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Written by [Ivan Novikov](http://lab.onsec.ru/).
+
+<a name="tricks-xxe"></a>
+### XXE
+
+- [Evil XML with two encodings](https://mohemiv.com/all/evil-xml/) - Written by [Arseniy Sharoglazov](https://mohemiv.com/).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
