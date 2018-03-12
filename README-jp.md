@@ -80,6 +80,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Proxy](#tools-proxy)
   - [Webshell](#tools-webshell)
   - [Disassembler](#tools-disassembler)
+  - [Decompiler](#tools-decompiler)
   - [Others](#tools-others)
 - [Social Engineering Database](#social-engineering-database)
 - [Blogs](#blogs)
@@ -495,6 +496,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [plasma](https://github.com/plasma-disassembler/plasma) - Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler).
 - [radare2](https://github.com/radare/radare2) - Unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare).
 - [Iaitō](https://github.com/hteso/iaito) - Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso).
+
+<a name="tools-decompiler"></a>
+### Decompiler
+
+- [CFR](http://www.benf.org/other/cfr/) - Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf).
 
 <a name="tools-others"></a>
 ### Others
