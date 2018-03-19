@@ -313,6 +313,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Written by [Sebastian Lekies](https://twitter.com/slekies), [Krzysztof Kotowicz](https://twitter.com/kkotowicz), and [Eduardo Vela](https://twitter.com/sirdarckcat).
 - [Uber XSS via Cookie](http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/) - Written by [zhchbin](http://zhchbin.github.io/).
 - [DOM XSS – auth.uber.com](http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth_14.html) - Written by [StamOne_](http://stamone-bug-bounty.blogspot.tw/).
+- [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) - Written by [Enguerran Gillier](https://opnsec.com/).
 
 <a name="tricks-sql-injection"></a>
 ### SQL Injection

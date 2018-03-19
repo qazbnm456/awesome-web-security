@@ -289,6 +289,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Uber XSS via Cookie](http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/) - Written by [zhchbin](http://zhchbin.github.io/).
 - [DOM XSS – auth.uber.com](http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth_14.html) - Written by [StamOne_](http://stamone-bug-bounty.blogspot.tw/).
 - [5文字で書くJavaScript](https://speakerdeck.com/masatokinugawa/shibuya-dot-xss-techtalk-number-10) - Shibuya.XSS techtalk #10 by [Masato Kinugawa](https://twitter.com/kinugawamasato).
+- [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) - Written by [Enguerran Gillier](https://opnsec.com/).
 
 <a name="tricks-sql-injection"></a>
 ### SQL Injection
