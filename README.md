@@ -429,6 +429,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 - [TIDoS-Framework](https://github.com/the-Infected-Drake/TIDoS-Framework) - Web-penetration testing toolkit, presently suited for reconnaissance purposes by [@the-Infected-Drake](https://github.com/the-Infected-Drake).
+- [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
 
 <a name="tools-offensive"></a>
 ### Offensive
@@ -459,6 +460,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [gitleaks](https://github.com/zricethezav/gitleaks) - Searches full repo history for secrets and keys by [@zricethezav](https://github.com/zricethezav).
 - [CSS-Keylogging](https://github.com/maxchehab/CSS-Keylogging) - Chrome extension and Express server that exploits keylogging abilities of CSS by [@maxchehab](https://github.com/maxchehab).
 - [pwngitmanager](https://github.com/allyshka/pwngitmanager) - Git manager for pentesters by [@allyshka](https://github.com/allyshka).
+- [snallygaster](https://github.com/hannob/snallygaster) - Tool to scan for secret files on HTTP servers by [@hannob](https://github.com/hannob).
 
 <a name="tools-detecting"></a>
 ### Detecting
