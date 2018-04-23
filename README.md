@@ -430,6 +430,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 - [TIDoS-Framework](https://github.com/the-Infected-Drake/TIDoS-Framework) - Web-penetration testing toolkit, presently suited for reconnaissance purposes by [@the-Infected-Drake](https://github.com/the-Infected-Drake).
 - [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
+- [aws_pwn](https://github.com/dagrz/aws_pwn) - A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).
 
 <a name="tools-offensive"></a>
 ### Offensive
