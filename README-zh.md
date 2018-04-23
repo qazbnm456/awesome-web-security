@@ -434,6 +434,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [ReconDog](https://github.com/UltimateHackers/ReconDog) - Recon Dog is an all in one tool for all your basic information gathering needs by [@UltimateHackers](https://github.com/UltimateHackers).
 - [Databases - start.me](https://start.me/p/QRENnO/databases) - Various databases which you can use for your OSINT research by [@technisette](https://twitter.com/technisette).
 - [peoplefindThor](https://peoplefindthor.dk/) - the easy way to find people on Facebook by [postkassen](mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk comments).
+- [tinfoleak](https://github.com/vaguileradiaz/tinfoleak) - The most complete open-source tool for Twitter intelligence analysis by [@vaguileradiaz](https://github.com/vaguileradiaz).
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
