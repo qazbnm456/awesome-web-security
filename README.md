@@ -277,6 +277,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!](http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html) - Written by [Orange](http://blog.orange.tw/).
 - [How i Hacked into a PayPal's Server - Unrestricted File Upload to Remote Code Execution](http://blog.pentestbegins.com/2017/07/21/hacking-into-paypal-server-remote-code-execution-2017/) - Written by [Vikas Anil Sharma](http://blog.pentestbegins.com/).
 - [$36k Google App Engine RCE](https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce) - Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/).
+- [Poor RichFaces](https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html) - Written by [CODE WHITE](https://www.code-white.com/).
 
 <a name="tricks-xss"></a>
 ### XSS
