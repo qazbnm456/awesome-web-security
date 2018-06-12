@@ -123,6 +123,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [C.XSS Guide](https://excess-xss.com/) - Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).
 - [A talk about XSS thousand knocks](https://speakerdeck.com/yagihashoo/a-talk-about-xss-thousand-knocks-shibuya-dot-xss-techtalk-number-10) - Written by [Yu Yagihashi](https://speakerdeck.com/yagihashoo).
 - [THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS](http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
+- [クロスサイトスクリプティングの仕組みと攻撃を回避する７つの対策](https://blogs.mcafee.jp/cross-site-scripting-overview) - Written by [McAfee Blog](https://blogs.mcafee.jp/).
 
 <a name="csv-injection"></a>
 ### CSV Injection
