@@ -192,6 +192,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="webmail"></a>
 ### Webmail
 
+- [Why mail() is dangerous in PHP](https://blog.ripstech.com/2017/why-mail-is-dangerous-in-php/) - Written by [Robin Peraglie](https://www.ripstech.com/).
+
 <a name="nfs"></a>
 ### NFS
 
@@ -544,6 +546,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [OpnSec](https://opnsec.com/) - Open Mind Security!
 - [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
 - [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
+- [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 
 ## Twitter Users
 
