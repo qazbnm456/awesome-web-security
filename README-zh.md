@@ -32,6 +32,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [SSRF](#ssrf---server-side-request-forgery)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
+  - [ReactJS](#reactjs)
   - [SSL/TLS](#ssltls)
   - [Webmail](#webmail)
   - [NFS](#nfs)
@@ -194,6 +195,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [XSS without HTML: Client-Side Template Injection with AngularJS](http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
 - [DOM based Angular sandbox escapes](http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html) - Written by [@garethheyes](https://twitter.com/garethheyes)
+
+<a name="reactjs"></a>
+### ReactJS
+
+- [XSS via a spoofed React element](http://danlec.com/blog/xss-via-a-spoofed-react-element) - Written by [Daniel LeCheminant](http://danlec.com/).
 
 <a name="ssl-tls"></a>
 ### SSL/TLS
