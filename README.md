@@ -455,7 +455,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tools-xss"></a>
 #### XSS - Cross-Site Scripting
 
-- [XSStrike](https://github.com/UltimateHackers/XSStrike) - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@UltimateHackers](https://github.com/UltimateHackers).
+- [XSStrike](https://github.com/s0md3v/XSStrike) - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@s0md3v](https://github.com/s0md3v).
 - [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos).
 
 <a name="tools-sql-injection"></a>
