@@ -146,6 +146,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/) - Written by [@netsparker](https://twitter.com/netsparker).
 - [SQL Injection Wiki](https://sqlwiki.netspi.com/) - Written by [NETSPI](https://www.netspi.com/).
 - [SQL Injection Pocket Reference](https://websec.ca/kb/sql_injection) - Written by [@LightOS](https://twitter.com/LightOS).
+- [Error Based SQL Injection - MySQL](http://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/) - Written by [DogeWatch](http://dogewatch.github.io/).
 
 <a name="command-injection"></a>
 ### Command Injection
