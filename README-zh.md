@@ -356,6 +356,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-ssrf"></a>
 ### SSRF
 
+- [SSRF to ROOT Access](https://hackerone.com/reports/341876) - A $25k bounty for SSRF leading to ROOT Access in all instances by [0xacb](https://hackerone.com/0xacb).
 - [PHP SSRF Techniques](https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51) - Written by [@themiddleblue](https://medium.com/@themiddleblue).
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
 - [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
@@ -456,6 +457,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
 
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) - Sublist3r is a multi-threaded sub-domain enumeration tool for penetration testers by [@aboul3la](https://github.com/aboul3la).
 - [EyeWitness](https://github.com/ChrisTruncer/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible by [@ChrisTruncer](https://github.com/ChrisTruncer).
 - [subDomainsBrute](https://github.com/lijiejie/subDomainsBrute) - A simple and fast sub domain brute tool for pentesters by [@lijiejie](https://github.com/lijiejie).
 - [AQUATONE](https://github.com/michenriksen/aquatone) - Tool for Domain Flyovers by [@michenriksen](https://github.com/michenriksen).
@@ -481,7 +483,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [domato](https://github.com/google/domato) - DOM fuzzer by [@google](https://github.com/google).
 
 <a name="tools-penetrating"></a>
-### Penetrating
+### Penetration Testing
 
 - [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
 - [TIDoS-Framework](https://github.com/theInfectedDrake/TIDoS-Framework) - A comprehensive web application audit framework to cover up everything from Reconnaissance and OSINT to Vulnerability Analysis by [@_tID](https://github.com/theInfectedDrake).
@@ -505,7 +507,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tools-template-injection"></a>
 #### Template Injection
 
-- [tqlmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
+- [tplmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
 
 <a name="tools-leaking"></a>
 ### Leaking
@@ -592,6 +594,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
 - [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
+- [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 
 ## Twitter Users
 
