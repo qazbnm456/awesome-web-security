@@ -417,6 +417,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [peoplefindThor](https://peoplefindthor.dk/) - the easy way to find people on Facebook by [postkassen](mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk comments).
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak) - The most complete open-source tool for Twitter intelligence analysis by [@vaguileradiaz](https://github.com/vaguileradiaz).
 - [OSINT TOOLKIT](https://osinttoolkit.github.io/index.html) - OSINT TOOLKIT by [the OSINT Toolkit Admin Team](https://osinttoolkit.github.io/).
+- [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high performance offensive security tool for reconnaissance and vulnerability scanning 
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
