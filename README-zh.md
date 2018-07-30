@@ -539,6 +539,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Preventing
 
 - [js-xss](https://github.com/leizongmin/js-xss) - Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin).
+- [Acra](https://github.com/cossacklabs/acra) - Client-side encryption engine for SQL databases, with strong selective encryption, SQL injections prevention and intrusion detection by [@cossacklabs](https://www.cossacklabs.com/).
 
 <a name="tools-proxy"></a>
 ### Proxy
