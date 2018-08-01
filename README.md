@@ -160,6 +160,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### XXE - XML eXternal Entity
 
 - [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
+- [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
 
 <a name="csrf"></a>
 ### CSRF - Cross-Site Request Forgery
