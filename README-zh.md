@@ -275,6 +275,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Evading CSP with DOM-based dangling markup](https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup) - Written by [portswigger](https://portswigger.net/).
 - [GitHub's CSP journey](https://githubengineering.com/githubs-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
 - [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
+- [那些年我们绕过的CSP](http://heartsky.info/2017/03/03/那些年我们绕过的CSP) - Written by [HeartSky](http://heartsky.info/).
 
 <a name="evasions-waf"></a>
 ### WAF
