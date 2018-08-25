@@ -65,6 +65,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [JavaScript](#pocs-javascript)
 - [Tools](#tools)
   - [Auditing](#tools-auditing)
+  - [Command Injection](#tools-command-injection)
   - [Reconnaissance](#tools-reconnaissance)
     - [OSINT](#tools-osint)
     - [Sub Domain Enumeration](#tools-sub-domain-enumeration)
@@ -398,6 +399,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
+
+<a name="tools-command-injection"></a>
+### Command Injection
+
+- [commix](https://github.com/commixproject/commix) - Automated All-in-One OS command injection and exploitation tool by [@commixproject](https://github.com/commixproject).
 
 <a name="tools-reconnaissance"></a>
 ### Reconnaissance
