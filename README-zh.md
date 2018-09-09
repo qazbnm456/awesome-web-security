@@ -30,6 +30,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [XXE](#xxe---xml-external-entity)
   - [CSRF](#csrf---cross-site-request-forgery)
   - [SSRF](#ssrf---server-side-request-forgery)
+  - [Open Redirect](#open-redirect)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
   - [ReactJS](#reactjs)
@@ -186,6 +187,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### SSRF - Server-Side Request Forgery
 
 - [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - Written by [Wallarm](https://wallarm.com/).
+
+<a name="open-redirect"></a>
+### Open Redirect
+
+- [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
 
 <a name="rails"></a>
 ### Rails
