@@ -63,7 +63,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Others](#tricks-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
-  - [JavaScript](#pocs-javascript)
+  - [Database](#pocs-database)
 - [Tools](#tools)
   - [Auditing](#tools-auditing)
   - [Command Injection](#tools-command-injection)
@@ -392,13 +392,15 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## PoCs
 
-<a name="pocs-javascript"></a>
-### JavaScript
+<a name="pocs-database"></a>
+### Database
 
 - [js-vuln-db](https://github.com/tunz/js-vuln-db) - Collection of JavaScript engine CVEs with PoCs by [@tunz](https://github.com/tunz).
 - [awesome-cve-poc](https://github.com/qazbnm456/awesome-cve-poc) - Curated list of CVE PoCs by [@qazbnm456](https://github.com/qazbnm456).
 - [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) - 各种漏洞poc、Exp的收集或编写 by [@coffeehb](https://github.com/coffeehb).
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
+- [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
+- [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/community-projects/the-exploit-database/).
 
 ## Tools
 
