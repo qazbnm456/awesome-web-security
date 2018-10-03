@@ -506,6 +506,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
 - [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 - [domato](https://github.com/google/domato) - DOM fuzzer by [@google](https://github.com/google).
+- [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
+
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
