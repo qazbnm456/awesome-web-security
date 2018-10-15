@@ -395,6 +395,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-others"></a>
 ### Others
 
+- [PHP代码审计中的一些Tips](http://zeroyu.xyz/2018/10/13/php-audit-tips/) - Written by [z3r0yu](http://zeroyu.xyz/).
 - [How I hacked Google’s bug tracking system itself for $15,600 in bounties](https://medium.freecodecamp.org/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5) - Written by [@alex.birsan](https://medium.freecodecamp.org/@alex.birsan).
 - [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [PHITHON](https://www.leavesongs.com/).
 - [CTF比赛总是输？你还差点Tricks!](https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065) - Written by [PHITHON](https://www.leavesongs.com/).
