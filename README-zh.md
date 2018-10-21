@@ -558,6 +558,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
 - [bXSS](https://github.com/LewisArdern/bXSS) - bXSS is a simple Blind XSS application adapted from [cure53.de/m](https://cure53.de/m) by [@LewisArdern](https://github.com/LewisArdern).
 - [重大漏洞在线检测系统](http://0day.websaas.com.cn/) - 重大漏洞在线检测系统 by [杭州安恒信息技术有限公司](http://www.dbappsecurity.com.cn/).
+- [DirHunt](https://github.com/Nekmo/dirhunt) - Dirhunt is a web crawler optimize for search and analyze directories without using brute force.
 
 <a name="tools-preventing"></a>
 ### Preventing

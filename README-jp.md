@@ -523,6 +523,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [malware-jail](https://github.com/HynekPetrak/malware-jail) - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak).
 - [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
 - [bXSS](https://github.com/LewisArdern/bXSS) - bXSS is a simple Blind XSS application adapted from [cure53.de/m](https://cure53.de/m) by [@LewisArdern](https://github.com/LewisArdern).
+- [DirHunt](https://github.com/Nekmo/dirhunt) - Dirhunt is a web crawler optimize for search and analyze directories without using brute force.
 
 <a name="tools-preventing"></a>
 ### Preventing
