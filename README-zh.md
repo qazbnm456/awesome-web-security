@@ -118,6 +118,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tips"></a>
 ### Tips
 
+- [phith0n/Mind-Map](https://github.com/phith0n/Mind-Map) - Written by [@phith0n](https://github.com/phith0n).
 - [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
 - [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
 - [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
