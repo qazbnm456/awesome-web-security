@@ -59,6 +59,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [FTP Injection](#tricks-ftp-injection)
   - [XXE](#tricks-xxe)
   - [SSRF](#tricks-ssrf)
+  - [Web Cache Poisoning](#tricks-web-cache-poisoning)
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
   - [Others](#tricks-others)
@@ -355,6 +356,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) - Written by [Orange](http://blog.orange.tw/).
 - [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](http://blog.safebuff.com/).
 - [Into the Borg – SSRF inside Google production network](https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/) - Written by [opnsec](https://opnsec.com/).
+
+<a name="tricks-web-cache-poisoning"></a>
+### Web Cache Poisoning 
+
+- [Bypassing Web Cache Poisoning Countermeasures](https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures) - Written by [@albinowax](https://twitter.com/albinowax).
+- [Cache poisoning and other dirty tricks](https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f) - Written by [Wallarm](https://wallarm.com/).
 
 <a name="tricks-header-injection"></a>
 ### Header Injection
