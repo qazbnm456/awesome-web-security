@@ -420,6 +420,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [SOP bypass / UXSS – Stealing Credentials Pretty Fast (Edge)](https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/) - Written by [Manuel](https://twitter.com/magicmac2000).
 - [Особенности Safari в client-side атаках](https://bo0om.ru/safari-client-side) - Written by [Bo0oM](https://bo0om.ru/author/admin).
 - [Особенности Safari в client-side атаках](https://bo0om.ru/safari-client-side) - Written by [Bo0oM](https://bo0om.ru/author/admin).
+- [How do we Stop Spilling the Beans Across Origins?](https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/) - Written by [aaj at google.com](aaj@google.com) and [mkwst at google.com](mkwst@google.com).
+- [Setting arbitrary request headers in Chromium via CRLF injection](https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
 
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
