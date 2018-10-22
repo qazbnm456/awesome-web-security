@@ -30,6 +30,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [XXE](#xxe---xml-external-entity)
   - [CSRF](#csrf---cross-site-request-forgery)
   - [SSRF](#ssrf---server-side-request-forgery)
+  - [Web Cache Poisoning](#web-cache-poisoning)
   - [Open Redirect](#open-redirect)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
@@ -189,6 +190,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### SSRF - Server-Side Request Forgery
 
 - [SSRF bible. Cheatsheet](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit) - Written by [Wallarm](https://wallarm.com/).
+
+<a name="web-cache-poisoning"></a>
+### Web Cache Poisoning
+
+- [Practical Web Cache Poisoning](https://portswigger.net/blog/practical-web-cache-poisoning) - Written by [@albinowax](https://twitter.com/albinowax).
 
 <a name="open-redirect"></a>
 ### Open Redirect
