@@ -74,6 +74,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [Sub Domain Enumeration](#tools-sub-domain-enumeration)
   - [Code Generating](#tools-code-generating)
   - [Fuzzing](#tools-fuzzing)
+  - [Scanning](#tools-scanning)
   - [Penetration Testing](#tools-penetration-testing)
   - [Leaking](#tools-leaking)
   - [Offensive](#tools-offensive)
@@ -362,7 +363,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Into the Borg – SSRF inside Google production network](https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/) - Written by [opnsec](https://opnsec.com/).
 
 <a name="tricks-web-cache-poisoning"></a>
-### Web Cache Poisoning 
+### Web Cache Poisoning
 
 - [Bypassing Web Cache Poisoning Countermeasures](https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures) - Written by [@albinowax](https://twitter.com/albinowax).
 - [Cache poisoning and other dirty tricks](https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f) - Written by [Wallarm](https://wallarm.com/).
@@ -431,7 +432,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
-- [dirhunt](https://github.com/Nekmo/dirhunt) - Web crawler optimized for searching and analyzing the directory structure of a site by [@nekmo](https://github.com/Nekmo).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
@@ -460,7 +460,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Databases - start.me](https://start.me/p/QRENnO/databases) - Various databases which you can use for your OSINT research by [@technisette](https://twitter.com/technisette).
 - [peoplefindThor](https://peoplefindthor.dk/) - the easy way to find people on Facebook by [postkassen](mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk comments).
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak) - The most complete open-source tool for Twitter intelligence analysis by [@vaguileradiaz](https://github.com/vaguileradiaz).
-- [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high performance offensive security tool for reconnaissance and vulnerability scanning 
+- [Raccoon](https://github.com/evyatarmeged/Raccoon) - A high performance offensive security tool for reconnaissance and vulnerability scanning.
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
@@ -486,11 +486,15 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [wfuzz](https://github.com/xmendez/wfuzz) - Web application bruteforcer by [@xmendez](https://github.com/xmendez).
 - [charsetinspect](https://github.com/hack-all-the-things/charsetinspect) - Script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things).
 - [IPObfuscator](https://github.com/OsandaMalith/IPObfuscator) - Simple tool to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith).
-- [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
-- [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 - [domato](https://github.com/google/domato) - DOM fuzzer by [@google](https://github.com/google).
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
+- [dirhunt](https://github.com/Nekmo/dirhunt) - Web crawler optimized for searching and analyzing the directory structure of a site by [@nekmo](https://github.com/Nekmo).
 
+<a name="tools-scanning"></a>
+### Scanning
+
+- [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
+- [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
