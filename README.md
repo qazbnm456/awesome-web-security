@@ -124,7 +124,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Cross-Site Scripting – Application Security – Google](https://www.google.com/intl/sw/about/appsecurity/learning/xss/) - Written by [Google](https://www.google.com/).
 - [H5SC](https://github.com/cure53/H5SC) - Written by [@cure53](https://github.com/cure53).
-- [XSS.png](https://github.com/jackmasa/XSS.png) - Written by [@jackmasa](https://github.com/jackmasa).
 - [C.XSS Guide](https://excess-xss.com/) - Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).
 - [THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS](http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
 
