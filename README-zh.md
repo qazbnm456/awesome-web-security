@@ -32,6 +32,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [SSRF](#ssrf---server-side-request-forgery)
   - [Web Cache Poisoning](#web-cache-poisoning)
   - [Open Redirect](#open-redirect)
+  - [Upload](#upload)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
   - [ReactJS](#reactjs)
@@ -203,6 +204,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Open Redirect
 
 - [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
+
+<a name="upload"></a>
+### Upload
+
+- [File Upload Restrictions Bypass](https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf) - Written by [Haboob Team](https://www.exploit-db.com/author/?a=9381).
 
 <a name="rails"></a>
 ### Rails
