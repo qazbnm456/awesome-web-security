@@ -619,6 +619,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
+- [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 
 ## Twitter Users
 
