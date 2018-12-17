@@ -116,6 +116,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [破壳（Beta）](https://pockr.org/) - 能看漏洞报告的安全社区 by [SOBUG漏洞悬赏平台](https://sobug.com/).
 - [Drops (backup)](https://drops.secquan.org/) - Drops was known as a famous knowledge base for hacking technology.
 - [T00LS](https://www.t00ls.net/) - T00LS - 低调求发展 - 潜心习安全.
+- [长亭技术专栏](https://zhuanlan.zhihu.com/chaitin-tech) - 安全攻防技术分享 by [长亭科技](https://www.chaitin.cn/zh/).
 
 ## Resources
 
