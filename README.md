@@ -82,6 +82,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [XSS](#tools-xss)
     - [SQL Injection](#tools-sql-injection)
     - [Template Injection](#tools-template-injection)
+    - [Cross Site Request Forgery](#tools-csrf)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
   - [Proxy](#tools-proxy)
