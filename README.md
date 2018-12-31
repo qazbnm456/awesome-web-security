@@ -538,6 +538,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [tplmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
 
+<a name="tools-csrf"></a>
+#### Cross Site Request Forgery
+
+- [XSRFProbe](https://github.com/0xInfection/XSRFProbe) - The Prime CSRF Audit & Exploitation Toolkit by [@0xInfection](https://github.com/0xinfection).
+
 <a name="tools-leaking"></a>
 ### Leaking
 
