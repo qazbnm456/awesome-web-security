@@ -82,6 +82,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [XSS](#tools-xss)
     - [SQL Injection](#tools-sql-injection)
     - [Template Injection](#tools-template-injection)
+    - [Cross Site Request Forgery](#tools-csrf)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
   - [Proxy](#tools-proxy)
@@ -537,6 +538,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### Template Injection
 
 - [tplmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
+
+<a name="tools-csrf"></a>
+#### Cross Site Request Forgery
+
+- [XSRFProbe](https://github.com/0xInfection/XSRFProbe) - The Prime CSRF Audit & Exploitation Toolkit by [@0xInfection](https://github.com/0xinfection).
 
 <a name="tools-leaking"></a>
 ### Leaking
