@@ -517,7 +517,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
 - [aws_pwn](https://github.com/dagrz/aws_pwn) - A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).
 - [grayhatwarfare](https://buckets.grayhatwarfare.com/) - Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/).
-
+- [Anevicon](https://github.com/Gymmasssorla/anevicon) - The most powerful UDP-based load generator, written in Rust.
 <a name="tools-offensive"></a>
 ### Offensive
 
@@ -686,7 +686,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [bug-bounty-reference](https://github.com/ngalongc/bug-bounty-reference) - List of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc).
 - [Google VRP and Unicorns](https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns) - Written by [Daniel Stelter-Gliese](https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/).
 - [Brute Forcing Your Facebook Email and Phone Number](http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html) - Written by [PwnDizzle](http://pwndizzle.blogspot.jp/).
-- [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
+- [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Testing and Exploit Dev CheatSheet.
 - [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.
 - [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz).
 - [Browser Extension and Login-Leak Experiment](https://extensions.inrialpes.fr/) - Browser Extension and Login-Leak Experiment.
