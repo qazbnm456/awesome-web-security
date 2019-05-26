@@ -297,6 +297,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="evasions-csp"></a>
 ### CSP
 
+- [Any protection against dynamic module import?](https://github.com/w3c/webappsec-csp/issues/243) - Written by [@shhnjk](https://twitter.com/@shhnjk).
 - [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/) - Written by [Detectify Labs](https://labs.detectify.com/).
 - [TWITTER XSS + CSP BYPASS](http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
 - [Neatly bypassing CSP](https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa) - Written by [Wallarm](https://wallarm.com/).
@@ -336,6 +337,9 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-rce"></a>
 ### Remote Code Execution
 
+- [WebLogic RCE(CVE-2019-2725)漏洞之旅](https://paper.seebug.org/909/) - Written by Badcode@知道创宇404实验室.
+- [Weblogic 反序列化漏洞(CVE-2018-2628)漫谈](https://paper.seebug.org/584/) - Written by Badcode@知道创宇404实验室.
+- [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/@breenmachine).
 - [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/) - Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
 - [eval长度限制绕过 && PHP5.6新特性](https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html) - Written by [PHITHON](https://www.leavesongs.com/).
 - [PHP垃圾回收机制UAF漏洞分析](http://www.freebuf.com/vuls/122938.html) - Written by [ph1re](http://www.freebuf.com/author/ph1re).
@@ -351,6 +355,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-xss"></a>
 ### XSS
 
+- [XSS-Auditor — the protector of unprotected and the deceiver of protected.](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b) - Written by [@terjanq](https://medium.com/@terjanq).
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - Written by [kenziy](https://hackerone.com/kenziy).
 - [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 - [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas) - Written by [@marin_m](https://medium.com/@marin_m).
@@ -392,6 +397,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-ssrf"></a>
 ### SSRF
 
+- [IPv6 三个访问本地地址的小Tips](https://www.tttang.com/archive/1293/) - Written by [phith0n](https://www.tttang.com/user/phith0n).
 - [AWS takeover through SSRF in JavaScript](http://10degres.net/aws-takeover-ssrf-javascript/) - Written by [Gwen](http://10degres.net/).
 - [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) - Written by [@0xacb](https://twitter.com/0xacb).
 - [SSRF to ROOT Access](https://hackerone.com/reports/341876) - A $25k bounty for SSRF leading to ROOT Access in all instances by [0xacb](https://hackerone.com/0xacb).
@@ -440,6 +446,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ### Frontend (like SOP bypass, URL spoofing, and something like that)
 
+- [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/) - Written by [jameshfisher](https://jameshfisher.com/).
 - [浏览器漏洞挖掘思路](https://zhuanlan.zhihu.com/p/28719766) - Written by [Twosecurity](https://twosecurity.io/).
 - [Browser UI Security 技术白皮书](http://xlab.tencent.com/cn/wp-content/uploads/2017/10/browser-ui-security-whitepaper.pdf) - Written by [腾讯玄武实验室](http://xlab.tencent.com/).
 - [JSON hijacking for the modern web](http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html) - Written by [portswigger](https://portswigger.net/).
@@ -453,6 +460,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
+- [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](phrack@saelo.net).
 - [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [Luke Viruswalker](http://blogs.360.cn/360safe/author/xsecure/).
 - [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
@@ -755,6 +763,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob?fbclid=IwAR0BQ7RmYGzQzsL33IJ2LM7lmlH0OSuIuxKLebUUBi1D51R-9UOnHrW0DQg) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
 - [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
+- [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
 
 ## Code of Conduct
 

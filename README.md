@@ -270,6 +270,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="evasions-csp"></a>
 ### CSP
 
+- [Any protection against dynamic module import?](https://github.com/w3c/webappsec-csp/issues/243) - Written by [@shhnjk](https://twitter.com/@shhnjk).
 - [CSP: bypassing form-action with reflected XSS](https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/) - Written by [Detectify Labs](https://labs.detectify.com/).
 - [TWITTER XSS + CSP BYPASS](http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
 - [Neatly bypassing CSP](https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa) - Written by [Wallarm](https://wallarm.com/).
@@ -307,6 +308,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-rce"></a>
 ### Remote Code Execution
 
+- [WebLogic RCE (CVE-2019-2725) Debug Diary](https://paper.seebug.org/910/) - Written by Badcode@Knownsec 404 Team.
+- [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/@breenmachine).
 - [Exploiting Node.js deserialization bug for Remote Code Execution](https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/) - Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/).
 - [DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE](https://www.ambionics.io/blog/drupal-services-module-rce) - Written by [Ambionics Security](https://www.ambionics.io/).
 - [How we exploited a remote code execution vulnerability in math.js](https://capacitorset.github.io/mathjs/) - Written by [@capacitorset](https://github.com/capacitorset).
@@ -320,6 +323,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-xss"></a>
 ### XSS
 
+- [XSS-Auditor — the protector of unprotected and the deceiver of protected.](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b) - Written by [@terjanq](https://medium.com/@terjanq).
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - Written by [kenziy](https://hackerone.com/kenziy).
 - [ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else](http://www.slideshare.net/x00mario/es6-en) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
 - [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas) - Written by [@marin_m](https://medium.com/@marin_m).
@@ -401,6 +405,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ### Frontend (like SOP bypass, URL spoofing, and something like that)
 
+- [The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/) - Written by [jameshfisher](https://jameshfisher.com/).
 - [JSON hijacking for the modern web](http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html) - Written by [portswigger](https://portswigger.net/).
 - [IE11 Information disclosure - local file detection](https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater) - Written by James Lee.
 - [SOP bypass / UXSS – Stealing Credentials Pretty Fast (Edge)](https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/) - Written by [Manuel](https://twitter.com/magicmac2000).
@@ -411,6 +416,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
+- [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](phrack@saelo.net).
 - [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [Luke Viruswalker](http://blogs.360.cn/360safe/author/xsecure/).
 - [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
@@ -707,6 +713,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob?fbclid=IwAR0BQ7RmYGzQzsL33IJ2LM7lmlH0OSuIuxKLebUUBi1D51R-9UOnHrW0DQg) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
 - [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
+- [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
 
 ## Code of Conduct
 
