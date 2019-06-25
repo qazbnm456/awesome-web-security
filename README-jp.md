@@ -33,6 +33,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Web Cache Poisoning](#web-cache-poisoning)
   - [Relative Path Overwrite](#relative-path-overwrite)
   - [Open Redirect](#open-redirect)
+  - [SAML](#saml)
   - [Upload](#upload)
   - [Rails](#rails)
   - [AngularJS](#angularjs)
@@ -199,6 +200,13 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Open Redirect
 
 - [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
+
+<a name="saml"></a>
+### Security Assertion Markup Language (SAML)
+
+- [How to Hunt Bugs in SAML; a Methodology - Part I](https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology/) - Written by [epi](https://epi052.gitlab.io/notes-to-self/).
+- [How to Hunt Bugs in SAML; a Methodology - Part II](https://epi052.gitlab.io/notes-to-self/blog/2019-03-13-how-to-test-saml-a-methodology-part-two/) - Written by [epi](https://epi052.gitlab.io/notes-to-self/).
+- [How to Hunt Bugs in SAML; a Methodology - Part III](https://epi052.gitlab.io/notes-to-self/blog/2019-03-16-how-to-test-saml-a-methodology-part-three/) - Written by [epi](https://epi052.gitlab.io/notes-to-self/).
 
 <a name="upload"></a>
 ### Upload
