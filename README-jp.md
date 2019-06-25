@@ -31,6 +31,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [CSRF](#csrf---cross-site-request-forgery)
   - [SSRF](#ssrf---server-side-request-forgery)
   - [Web Cache Poisoning](#web-cache-poisoning)
+  - [Relative Path Overwrite](#relative-path-overwrite)
   - [Open Redirect](#open-redirect)
   - [Upload](#upload)
   - [Rails](#rails)
@@ -187,6 +188,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Web Cache Poisoning
 
 - [Practical Web Cache Poisoning](https://portswigger.net/blog/practical-web-cache-poisoning) - Written by [@albinowax](https://twitter.com/albinowax).
+
+<a name="relative-path-overwrite"></a>
+### Relative Path Overwrite
+
+- [Large-scale analysis of style injection by relative path overwrite](https://blog.acolyer.org/2018/05/28/large-scale-analysis-of-style-injection-by-relative-path-overwrite/) - Written by [The Morning Paper](https://blog.acolyer.org/).
+- [MBSD Technical Whitepaper - A few RPO exploitation techniques](https://www.mbsd.jp/Whitepaper/rpo.pdf) - Written by [Mitsui Bussan Secure Directions, Inc.](https://www.mbsd.jp/).
 
 <a name="open-redirect"></a>
 ### Open Redirect
