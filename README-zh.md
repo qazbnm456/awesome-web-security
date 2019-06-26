@@ -85,6 +85,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [SQL Injection](#tools-sql-injection)
     - [Template Injection](#tools-template-injection)
     - [Cross Site Request Forgery](#tools-csrf)
+    - [SSRF](#tools-ssrf)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
   - [Proxy](#tools-proxy)
@@ -614,6 +615,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### Cross Site Request Forgery
 
 - [XSRFProbe](https://github.com/0xInfection/XSRFProbe) - The Prime CSRF Audit & Exploitation Toolkit by [@0xInfection](https://github.com/0xinfection).
+
+<a name="tools-ssrf"></a>
+#### Server-Side Request Forgery
+
+- [Open redirect/SSRF payload generator](https://tools.intigriti.io/redirector/) - Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/).
 
 <a name="tools-leaking"></a>
 ### Leaking
