@@ -533,6 +533,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
 - [dirhunt](https://github.com/Nekmo/dirhunt) - Web crawler optimized for searching and analyzing the directory structure of a site by [@nekmo](https://github.com/Nekmo).
 - [ssltest](https://www.ssllabs.com/ssltest/) - Online service that performs a deep analysis of the configuration of any SSL web server on the public internet. Provided by [Qualys SSL Labs](https://www.ssllabs.com).
+- [fuzz.txt](https://github.com/Bo0oM/fuzz.txt) - Potentially dangerous files by [@Bo0oM](https://github.com/Bo0oM).
 
 <a name="tools-scanning"></a>
 ### Scanning
@@ -592,6 +593,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [CSS-Keylogging](https://github.com/maxchehab/CSS-Keylogging) - Chrome extension and Express server that exploits keylogging abilities of CSS by [@maxchehab](https://github.com/maxchehab).
 - [pwngitmanager](https://github.com/allyshka/pwngitmanager) - Git manager for pentesters by [@allyshka](https://github.com/allyshka).
 - [snallygaster](https://github.com/hannob/snallygaster) - Tool to scan for secret files on HTTP servers by [@hannob](https://github.com/hannob).
+- [LinkFinder](https://github.com/GerbenJavado/LinkFinder) - Python script that finds endpoints in JavaScript files by [@GerbenJavado](https://github.com/GerbenJavado).
 
 <a name="tools-detecting"></a>
 ### Detecting
@@ -744,6 +746,9 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob?fbclid=IwAR0BQ7RmYGzQzsL33IJ2LM7lmlH0OSuIuxKLebUUBi1D51R-9UOnHrW0DQg) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
 - [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
 - [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
+- [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - Written by [Jayson](https://techvomit.net/).
+- [Hacking with a Heads Up Display](https://segment.com/blog/hacking-with-a-heads-up-display/) - Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/).
+- [Alexa Top 1 Million Security - Hacking the Big Ones](https://slashcrypto.org/data/itsecx2018.pdf) - Written by [@slashcrypto](https://twitter.com/slashcrypto).
 
 ## Code of Conduct
 
