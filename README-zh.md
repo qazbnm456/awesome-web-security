@@ -42,6 +42,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Webmail](#webmail)
   - [NFS](#nfs)
   - [AWS](#aws)
+  - [Azure](#azure)
   - [Fingerprint](#fingerprint)
   - [Sub Domain Enumeration](#sub-domain-enumeration)
   - [Crypto](#crypto)
@@ -268,6 +269,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET](https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/) - Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/).
 - [AWS PENETRATION TESTING PART 1. S3 BUCKETS](https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/) - Written by [VirtueSecurity](https://www.virtuesecurity.com/).
 - [AWS PENETRATION TESTING PART 2. S3, IAM, EC2](https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/) - Written by [VirtueSecurity](https://www.virtuesecurity.com/).
+
+<a name="azure"></a>
+### Azure
+
+- [Common Azure Security Vulnerabilities and Misconfigurations](https://rhinosecuritylabs.com/cloud-security/common-azure-security-vulnerabilities/) - Written by [@rhinobenjamin](https://twitter.com/rhinobenjamin).
+- [Cloud Security Risks (Part 1): Azure CSV Injection Vulnerability](https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability/) - Written by [@spengietz](https://twitter.com/spengietz).
 
 <a name="fingerprint"></a>
 ### Fingerprint
