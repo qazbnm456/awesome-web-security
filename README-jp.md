@@ -682,6 +682,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [@h3xstream](https://twitter.com/h3xstream/) - Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero.
 - [@garethheyes](https://twitter.com/garethheyes) - English web penetrator.
 - [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
+- [@shhnjk](https://twitter.com/shhnjk) - Web and Browsers Security Researcher.
 
 ## Practices
 
