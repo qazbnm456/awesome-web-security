@@ -29,6 +29,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [FTP Injection](#ftp-injection)
   - [XXE](#xxe---xml-external-entity)
   - [CSRF](#csrf---cross-site-request-forgery)
+  - [Clickjacking](#clickjacking)
   - [SSRF](#ssrf---server-side-request-forgery)
   - [Web Cache Poisoning](#web-cache-poisoning)
   - [Relative Path Overwrite](#relative-path-overwrite)
@@ -56,6 +57,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Authentication](#evasions-authentication)
 - [Tricks](#tricks)
   - [CSRF](#tricks-csrf)
+  - [Clickjacking](#tricks-clickjacking)
   - [Remote Code Execution](#tricks-rce)
   - [XSS](#tricks-xss)
   - [SQL Injection](#tricks-sql-injection)
@@ -195,6 +197,13 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f) - Written by [@jrozner](https://medium.com/@jrozner).
 - [讓我們來談談 CSRF](http://blog.techbridge.cc/2017/02/25/csrf-introduction/) - Written by [TechBridge](http://blog.techbridge.cc/).
+
+<a name="clickjacking"></a>
+### Clickjacking
+
+- [Clickjacking](https://www.imperva.com/learn/application-security/clickjacking/) - Written by [Imperva](https://www.imperva.com/).
+- [X-Frame-Options: All about Clickjacking?](https://github.com/cure53/Publications/blob/master/xfo-clickjacking.pdf?raw=true) - Written by [Mario Heiderich](http://www.slideshare.net/x00mario).
+- [新增幾項設定來防範 Clickjacking Frame Attack](https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/) - Written by [M157q](https://blog.m157q.tw/).
 
 <a name="ssrf"></a>
 ### SSRF - Server-Side Request Forgery
@@ -358,6 +367,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Exploiting CSRF on JSON endpoints with Flash and redirects](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b) - Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).
 - [Stealing CSRF tokens with CSS injection (without iFrames)](https://github.com/dxa4481/cssInjection) - Written by [@dxa4481](https://github.com/dxa4481).
 - [Cracking Java’s RNG for CSRF - Javax Faces and Why CSRF Token Randomness Matters](https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2) - Written by [@rramgattie](https://blog.securityevaluators.com/@rramgattie).
+
+<a name="tricks-clickjacking"></a>
+### Clickjacking
+
+- [Clickjackings in Google worth 14981.7$](https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a) - Written by [@raushanraj_65039](https://medium.com/@raushanraj_65039).
+- [Bug Bounty 獎金獵人甘苦談 - 那些年我回報過的漏洞](https://speakerdeck.com/p8361/bug-bounty-jiang-jin-lie-ren-gan-ku-tan-na-xie-nian-wo-hui-bao-guo-de-lou-dong) - Written by [Orange](http://blog.orange.tw/).
 
 <a name="tricks-rce"></a>
 ### Remote Code Execution
