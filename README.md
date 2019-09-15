@@ -669,10 +669,10 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tools-dns-rebinding"></a>
 ### DNS Rebinding
 
-- [DNS Rebind Toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN) by [@brannondorsey]
-- [dref](https://github.com/mwrlabs/dref) - DNS Rebinding Exploitation Framework. Dref does the heavy-lifting for DNS rebinding.
-- [Singularity of Origin](https://github.com/nccgroup/singularity) - It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine by [@nccgroup]
-- [Whonow DNS Server](https://github.com/brannondorsey/whonow) - A malicious DNS server for executing DNS Rebinding attacks on the fly by [@brannondorsey]
+- [DNS Rebind Toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN) by [@brannondorsey](https://github.com/brannondorsey)
+- [dref](https://github.com/mwrlabs/dref) - DNS Rebinding Exploitation Framework. Dref does the heavy-lifting for DNS rebinding by [@mwrlabs](https://github.com/mwrlabs)
+- [Singularity of Origin](https://github.com/nccgroup/singularity) - It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine by [@nccgroup](https://github.com/nccgroup)
+- [Whonow DNS Server](https://github.com/brannondorsey/whonow) - A malicious DNS server for executing DNS Rebinding attacks on the fly by [@brannondorsey](https://github.com/brannondorsey)
 
 <a name="tools-others"></a>
 ### Others
