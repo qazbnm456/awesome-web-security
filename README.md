@@ -50,6 +50,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Web Shell](#web-shell)
   - [OSINT](#osint)
   - [Books](#books)
+  - [DNS Rebinding](#dns-rebinding)
 - [Evasions](#evasions)
   - [CSP](#evasions-csp)
   - [WAF](#evasions-waf)
@@ -95,6 +96,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Webshell](#tools-webshell)
   - [Disassembler](#tools-disassembler)
   - [Decompiler](#tools-decompiler)
+  - [DNS Rebinding](#tools-dns-rebinding)
   - [Others](#tools-others)
 - [Social Engineering Database](#social-engineering-database)
 - [Blogs](#blogs)
@@ -292,9 +294,16 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [102 Deep Dive in the Dark Web OSINT Style Kirby Plessas](https://www.youtube.com/watch?v=fzd3zkAI_o4) - Presented by [@kirbstr](https://twitter.com/kirbstr).
 - [The most complete guide to finding anyone’s email](https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email) - Written by [Timur Daudpota](https://www.blurbiz.io/).
 
+<a name="books"></a>
 ### Books
 
 - [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
+
+<a name="dns-rebinding"></a>
+### DNS Rebinding
+
+- [Attacking Private Networks from the Internet with DNS Rebinding](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325) - Written by [@brannondorsey](https://medium.com/@brannondorsey)
+- [Hacking home routers from the Internet](https://medium.com/@radekk/hackers-can-get-access-to-your-home-router-1ddadd12a7a7) - Written by [@radekk](https://medium.com/@radekk)
 
 ## Evasions
 
@@ -656,6 +665,14 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Decompiler
 
 - [CFR](http://www.benf.org/other/cfr/) - Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf).
+
+<a name="tools-dns-rebinding"></a>
+### DNS Rebinding
+
+- [DNS Rebind Toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - DNS Rebind Toolkit is a frontend JavaScript framework for developing DNS Rebinding exploits against vulnerable hosts and services on a local area network (LAN) by [@brannondorsey](https://github.com/brannondorsey)
+- [dref](https://github.com/mwrlabs/dref) - DNS Rebinding Exploitation Framework. Dref does the heavy-lifting for DNS rebinding by [@mwrlabs](https://github.com/mwrlabs)
+- [Singularity of Origin](https://github.com/nccgroup/singularity) - It includes the necessary components to rebind the IP address of the attack server DNS name to the target machine's IP address and to serve attack payloads to exploit vulnerable software on the target machine by [@nccgroup](https://github.com/nccgroup)
+- [Whonow DNS Server](https://github.com/brannondorsey/whonow) - A malicious DNS server for executing DNS Rebinding attacks on the fly by [@brannondorsey](https://github.com/brannondorsey)
 
 <a name="tools-others"></a>
 ### Others
