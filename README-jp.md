@@ -731,6 +731,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [BadLibrary](https://github.com/SecureSkyTechnology/BadLibrary) - vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).
 - [Hackxor](http://hackxor.net/) - realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
+- [Portswigger Web Security Academy](https://portswigger.net/web-security) - free trainings and labs made by portswigger, the authors of burpsuite.
 
 <a name="practices-aws"></a>
 ### AWS
