@@ -443,7 +443,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### XXE
 
 - [Evil XML with two encodings](https://mohemiv.com/all/evil-xml/) - Written by [Arseniy Sharoglazov](https://mohemiv.com/).
-- [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](1024rosecode at gamil dot com).
+- [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](1024rosecode at gmail dot com).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
