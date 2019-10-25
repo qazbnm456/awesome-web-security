@@ -194,11 +194,21 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="xxe"></a>
 ### XXE - XML eXternal Entity
 
-- [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 - [XML实体攻击 - 从内网探测到命令执行步步惊心](http://www.freebuf.com/video/49961.html) - Written by 张天琪.
 - [XXE漏洞的简单理解和测试](https://b1ngz.github.io/XXE-learning-note/) - Written by [@b1ngz](https://b1ngz.github.io/).
-- [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
-- [PayloadsAllTheThings XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo)
+- [PayloadsAllTheThings XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by various contributors.
+- [XML external entity (XXE) injection](https://portswigger.net/web-security/xxe) - Written by PortSwigger.
+- [XML  Out-Of-Band Data  Retrieval (2013)](
+https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf): Ex-filtration using out-of-bound Gopher or HTTP protocols by Timur Yunusov & Alexey Osipov.
+  - [XXE OOB exploitation at Java 1.7+ (2014)](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html): Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/).
+  - [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
+- [What You Didn't Know About XML External Entities Attacks](https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf) ([paper](https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf)): Concatenating CDATA prefix using external DTD (2013) by [Timothy D. Morgan](https://twitter.com/ecbftw).
+- [Pre-authentication XXE vulnerability in the Services Drupal module (2015)](https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf): Error based file exfiltration combined with PHP encoding filter - Written by [Renaud Dubourguais](https://twitter.com/_m0bius).
+  - [Forcing XXE Reflection through Server Error Messages (2015)](https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/): Error based XXE - Written by Antti Rantasaari.
+- [Exploiting XXE with local DTD files (2018)](https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/): Error based XXE with local DTD - Written by [Arseniy Sharoglazov](https://twitter.com/_mohemiv).
+  - [XXE payloads for specific DTDs](https://github.com/GoSecure/dtd-finder/blob/master/list/xxe_payloads.md)
+  - [Automating local DTD discovery for XXE exploitation (2019)](https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation) - Written by [Philippe Arteau](https://twitter.com/h3xstream).
+- [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 
 <a name="csrf"></a>
 ### CSRF - Cross-Site Request Forgery
