@@ -410,6 +410,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-rce"></a>
 ### Remote Code Execution
 
+- [CVE-2019-1306: ARE YOU MY INDEX?](https://www.thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index) - Written by [@yu5k3](https://twitter.com/yu5k3).
 - [WebLogic RCE(CVE-2019-2725)漏洞之旅](https://paper.seebug.org/909/) - Written by Badcode@知道创宇404实验室.
 - [Weblogic 反序列化漏洞(CVE-2018-2628)漫谈](https://paper.seebug.org/584/) - Written by Badcode@知道创宇404实验室.
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/@breenmachine).
