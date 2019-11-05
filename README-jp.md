@@ -88,7 +88,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [XSS](#tools-xss)
     - [SQL Injection](#tools-sql-injection)
     - [Template Injection](#tools-template-injection)
-    - [Cross Site Request Forgery](#tools-csrf)
+    - [XXE](#tools-xxe)
+    - [CSRF](#tools-csrf)
     - [SSRF](#tools-ssrf)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
@@ -626,6 +627,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### Template Injection
 
 - [tplmap](https://github.com/epinna/tplmap) - Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna).
+
+<a name="tools-xxe"></a>
+#### XXE
+
+- [dtd-finder](https://github.com/GoSecure/dtd-finder) - List DTDs and generate XXE payloads using those local DTDs by [@GoSecure](https://github.com/GoSecure).
 
 <a name="tools-csrf"></a>
 #### Cross Site Request Forgery
