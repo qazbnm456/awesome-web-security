@@ -429,6 +429,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-xss"></a>
 ### XSS
 
+- [Upgrade self XSS to Exploitable XSS an 3 Ways Technic](https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html) - Written by [HAHWUL](https://www.hahwul.com/).
 - [XSS without parentheses and semi-colons](https://portswigger.net/blog/xss-without-parentheses-and-semi-colons) - Written by [@garethheyes](https://twitter.com/garethheyes).
 - [XSS-Auditor — the protector of unprotected and the deceiver of protected.](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b) - Written by [@terjanq](https://medium.com/@terjanq).
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - Written by [kenziy](https://hackerone.com/kenziy).
