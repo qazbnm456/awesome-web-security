@@ -52,6 +52,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Books](#books)
   - [DNS Rebinding](#dns-rebinding)
 - [Evasions](#evasions)
+  - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
   - [WAF](#evasions-waf)
   - [JSMVC](#evasions-jsmvc)
@@ -325,6 +326,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## Evasions
 
+<a name="evasions-xxe"></a>
+### XXE
+
+- [Bypass Fix of OOB XXE Using Different encoding](https://twitter.com/SpiderSec/status/1191375472690528256) - Written by [@SpiderSec](https://twitter.com/SpiderSec).
+
 <a name="evasions-csp"></a>
 ### CSP
 
@@ -403,7 +409,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-sql-injection"></a>
 ### SQL Injection
 
-- [MySQL Error Based SQL  Injection Using  EXP](https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf) - Written by [@osandamalith](https://twitter.com/osandamalith).
+- [MySQL Error Based SQL Injection Using EXP](https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf) - Written by [@osandamalith](https://twitter.com/osandamalith).
 - [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html) - Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/).
 - [GitHub Enterprise SQL Injection](http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html) - Written by [Orange](http://blog.orange.tw/).
 - [Making a Blind SQL Injection a little less blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8) - Written by [TomNomNom](https://twitter.com/TomNomNom).
@@ -710,6 +716,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - DNS Logger by [@iagox86](https://github.com/iagox86).
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by [@GCHQ](https://github.com/gchq).
+- [ntlm_challenger](https://github.com/b17zr/ntlm_challenger) - Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr).
 
 ## Social Engineering Database
 
