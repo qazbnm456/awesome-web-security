@@ -19,7 +19,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ## Contents
 
 - [Forums](#forums)
-- [Resources](#resources)
+- [Introduction](#intro)
   - [Tips](#tips)
   - [XSS](#xss---cross-site-scripting)
   - [CSV Injection](#csv-injection)
@@ -118,7 +118,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Dark Reading](https://www.darkreading.com/Default.asp) - Connecting The Information Security Community.
 - [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 
-## Resources
+<a name="intro"></a>
+## Introduction
 
 <a name="tips"></a>
 ### Tips
@@ -431,7 +432,7 @@ https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slide
 ### XXE
 
 - [Evil XML with two encodings](https://mohemiv.com/all/evil-xml/) - Written by [Arseniy Sharoglazov](https://mohemiv.com/).
-- [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](1024rosecode at gmail dot com).
+- [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](https://twitter.com/codeshtool).
 
 <a name="tricks-ssrf"></a>
 ### SSRF
