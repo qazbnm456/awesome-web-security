@@ -320,7 +320,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="crypto"></a>
 ### Crypto
 
-- [Applied Crypto Hardening](https://bettercrypto.org/static/applied-crypto-hardening.pdf) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
+- [Applied Crypto Hardening](https://bettercrypto.org/) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
 
 <a name="web-shell"></a>
 ### Web Shell
@@ -457,7 +457,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-nosql-injection"></a>
 ### NoSQL Injection
 
-- [GraphQL NoSQL Injection Through JSON Types](https://medium.com/@east5th/graphql-nosql-injection-through-json-types-a1a0a310c759) - Written by [@east5th](https://medium.com/@east5th).
+- [GraphQL NoSQL Injection Through JSON Types](http://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/) - Written by [Pete](http://www.petecorey.com/work/).
 
 <a name="tricks-ftp-injection"></a>
 ### FTP Injection
@@ -488,7 +488,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [SSRF to ROOT Access](https://hackerone.com/reports/341876) - A $25k bounty for SSRF leading to ROOT Access in all instances by [0xacb](https://hackerone.com/0xacb).
 - [PHP SSRF Techniques](https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51) - Written by [@themiddleblue](https://medium.com/@themiddleblue).
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
-- [All you need to know about SSRF and how may we write tools to do auto-detect](https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html) - Written by [@realAuxy233](https://twitter.com/realAuxy233).
+- [All you need to know about SSRF and how may we write tools to do auto-detect](https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html) - Written by [@Auxy233](https://twitter.com/Auxy233).
 - [SSRF漏洞中绕过IP限制的几种方法总结](http://www.freebuf.com/articles/web/135342.html) - Written by [arkteam](http://www.freebuf.com/author/arkteam).
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) - Written by [Orange](http://blog.orange.tw/).
 - [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](http://blog.safebuff.com/).
@@ -519,7 +519,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Others
 
 - [PHP代码审计中的一些Tips](http://zeroyu.xyz/2018/10/13/php-audit-tips/) - Written by [z3r0yu](http://zeroyu.xyz/).
-- [How I hacked Google’s bug tracking system itself for $15,600 in bounties](https://medium.freecodecamp.org/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5) - Written by [@alex.birsan](https://medium.freecodecamp.org/@alex.birsan).
+- [How I hacked Google’s bug tracking system itself for $15,600 in bounties](https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5) - Written by [@alex.birsan](https://medium.com/@alex.birsan).
 - [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [PHITHON](https://www.leavesongs.com/).
 - [CTF比赛总是输？你还差点Tricks!](https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065) - Written by [PHITHON](https://www.leavesongs.com/).
 - [隱匿的攻擊之-Domain Fronting](https://evi1cg.me/archives/Domain_Fronting.html) - Written by [Evi1cg](https://evi1cg.me/).
@@ -548,7 +548,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](phrack@saelo.net).
-- [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [Luke Viruswalker](http://blogs.360.cn/360safe/author/xsecure/).
+- [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
 - [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
 - [FROM CRASH TO EXPLOIT: CVE-2015-6086 – OUT OF BOUND READ/ASLR BYPASS](http://payatu.com/from-crash-to-exploit/) - Written by [payatu](http://payatu.com/).
 - [SSD Advisory – Chrome Turbofan Remote Code Execution](https://blogs.securiteam.com/index.php/archives/3379) - Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).
@@ -567,7 +567,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Some-PoC-oR-ExP](https://github.com/coffeehb/Some-PoC-oR-ExP) - 各种漏洞poc、Exp的收集或编写 by [@coffeehb](https://github.com/coffeehb).
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
 - [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
-- [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/community-projects/the-exploit-database/).
+- [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).
 
 ## Tools
 
@@ -773,12 +773,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## Social Engineering Database
 
-**use at your own risk**
-
 - [haveibeenpwned](https://haveibeenpwned.com/) - Check if you have an account that has been compromised in a data breach by [Troy Hunt](https://www.troyhunt.com/).
-- [databases.today](https://www.databases.today/index.php) - The biggest free-to-download collection of publicly available website databases for security researchers and journalists by [@publicdbhost](https://twitter.com/publicdbhost).
-- [70 SECURITY TEAM Social Engineering Data](http://s.70sec.com/) - 70 SECURITY TEAM 社工库 by [70 Security Team](http://70sec.com/).
-- [mysql-password](http://www.mysql-password.com/database/1) - Database of MySQL hashes.
 
 ## Blogs
 
@@ -829,7 +824,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="practices-xss"></a>
 ### XSS
 
-- [XSS Thousand Knocks](https://knock.xss.moe/index) - XSS Thousand Knocks - Written by [@yagihashoo](https://twitter.com/yagihashoo).
 - [XSS game](https://xss-game.appspot.com/) - Google XSS Challenge - Written by Google.
 - [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
 - [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
@@ -856,7 +850,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Pentest + Exploit dev Cheatsheet wallpaper](http://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
 - [The Definitive Security Data Science and Machine Learning Guide](http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.
 - [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz).
-- [Browser Extension and Login-Leak Experiment](https://extensions.inrialpes.fr/) - Browser Extension and Login-Leak Experiment.
 - [notes](https://github.com/ChALkeR/notes) - Some public notes by [@ChALkeR](https://github.com/ChALkeR).
 - [A glimpse into GitHub's Bug Bounty workflow](https://githubengineering.com/githubs-bug-bounty-workflow/) - Written by [@gregose](https://github.com/gregose).
 - [暗网系列之：利用Dark Web Report + EyeWitness+ TorGhost +Docker，自动化获取暗网站点的信息](http://www.mottoin.com/106687.html) - Written by [鹰小编](http://www.mottoin.com/user/ying/).
