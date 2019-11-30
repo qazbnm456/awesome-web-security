@@ -156,6 +156,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [XSS.png](https://github.com/LucaBongiorni/XSS.png) - Written by @jackmasa.- [C.XSS Guide](https://excess-xss.com/) - Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).
 - [C.XSS Guide](https://excess-xss.com/) - Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/).
 - [THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS](http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html) - Written by [Paulos Yibelo](http://www.paulosyibelo.com/).
+- [payloadbox/xss-payload-list](https://github.com/payloadbox/xss-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - XSS Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="csv-injection"></a>
@@ -172,12 +173,14 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [SQL Injection Wiki](https://sqlwiki.netspi.com/) - Written by [NETSPI](https://www.netspi.com/).
 - [SQL Injection Pocket Reference](https://websec.ca/kb/sql_injection) - Written by [@LightOS](https://twitter.com/LightOS).
 - [Error Based SQL Injection - MySQL](http://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/) - Written by [DogeWatch](http://dogewatch.github.io/).
+- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="command-injection"></a>
 ### Command Injection
 
 - [Potential command injection in resolv.rb](https://github.com/ruby/ruby/pull/1777) - Written by [@drigg3r](https://github.com/drigg3r).
+- [payloadbox/command-injection-payload-list](https://github.com/payloadbox/command-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - Command Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="orm-injection"></a>
@@ -202,6 +205,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 - [XML external entity (XXE) injection](https://portswigger.net/web-security/xxe) - Written by [portswigger](https://portswigger.net/).
 - [XML Schema, DTD, and Entity Attacks](https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.
+- [payloadbox/xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox)
 - [PayloadsAllTheThings - XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by various contributors.
 
 <a name="csrf"></a>
@@ -241,6 +245,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Open Redirect
 
 - [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
+- [payloadbox/open-redirect-payload-list](https://github.com/payloadbox/open-redirect-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - Open Redirect](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="saml"></a>
