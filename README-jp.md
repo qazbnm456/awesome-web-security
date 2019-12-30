@@ -22,6 +22,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Introduction](#intro)
   - [Tips](#tips)
   - [XSS](#xss---cross-site-scripting)
+  - [Prototype Pollution](#prototype-pollution)
   - [CSV Injection](#csv-injection)
   - [SQL Injection](#sql-injection)
   - [Command Injection](#command-injection)
@@ -147,6 +148,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [クロスサイトスクリプティングの仕組みと攻撃を回避する７つの対策](https://blogs.mcafee.jp/cross-site-scripting-overview) - Written by [McAfee Blog](https://blogs.mcafee.jp/).
 - [payloadbox/xss-payload-list](https://github.com/payloadbox/xss-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - XSS Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+
+<a name="prototype-pollution"></a>
+### Prototype Pollution
+
+- [Prototype pollution attack in NodeJS application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - Written by [@HoLyVieR](https://github.com/HoLyVieR).
 
 <a name="csv-injection"></a>
 ### CSV Injection
@@ -489,7 +495,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Others
 
 - [How I hacked Google’s bug tracking system itself for $15,600 in bounties](https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5) - Written by [@alex.birsan](https://medium.com/@alex.birsan).
-- [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [PHITHON](https://www.leavesongs.com/).
+- [Some Tricks From My Secret Group](https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html) - Written by [phithon](https://www.leavesongs.com/).
 - [Inducing DNS Leaks in Onion Web Services](https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md) - Written by [@epidemics-scepticism](https://github.com/epidemics-scepticism).
 - [Stored XSS, and SSRF in Google using the Dataset Publishing Language](https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html) - Written by [@signalchaos](https://twitter.com/signalchaos).
 
