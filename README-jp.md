@@ -120,6 +120,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [The Register](http://www.theregister.co.uk/) - Biting the hand that feeds IT.
 - [Dark Reading](https://www.darkreading.com/Default.asp) - Connecting The Information Security Community.
 - [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
+- [Hacking News](http://hackingnews.com/) - Latest security news. The hacker blog.
 
 <a name="intro"></a>
 ## Introduction
@@ -582,6 +583,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Raccoon](https://github.com/evyatarmeged/Raccoon) - High performance offensive security tool for reconnaissance and vulnerability scanning by [@evyatarmeged](https://github.com/evyatarmeged).
 - [Social Mapper](https://github.com/SpiderLabs/social_mapper) - Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by [@SpiderLabs](https://github.com/SpiderLabs).
 - [espi0n/Dockerfiles](https://github.com/espi0n/Dockerfiles) - Dockerfiles for various OSINT tools by [@espi0n](https://github.com/espi0n).
+- [Is it Hacked?](http://isithacked.com) - Free cloud website security check and malware scanner. Email notifications for registered users. by [Protectumus](https://protectumus.com).
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
