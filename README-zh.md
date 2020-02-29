@@ -797,15 +797,14 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [James Kettle](http://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
 - [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 - [Scrutiny](https://datarift.blogspot.tw/) - Internet Security through Web Browsers by Dhiraj Mishra.
-- [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 - [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 - [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 - [OpnSec](https://opnsec.com/) - Open Mind Security!
 - [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
-- [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
+- [What is Security?](https://kingx.me/) - Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offense & Defense / Java Security.
 
 ## Twitter Users
 
