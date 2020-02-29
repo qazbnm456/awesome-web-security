@@ -805,6 +805,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 - [What is Security?](https://kingx.me/) - Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offense & Defense / Java Security.
+- [l1nk3r's blog](http://www.lmxspace.com/) - Web security.
 
 ## Twitter Users
 
