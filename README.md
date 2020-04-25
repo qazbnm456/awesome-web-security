@@ -756,7 +756,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
-- [Capture the Flag CheatSheet](https://uppusaikiran.github.io/hacking/Capture-the-Flag-CheatSheet/) - Security Cheatsheet.
+- [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet#awesome-ctf-cheatsheet-) - Security Cheatsheet.
 
 ## Twitter Users
 
