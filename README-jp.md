@@ -275,6 +275,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### SSL/TLS
 
 - [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
+- [Practical introduction to SSL/TLS](https://github.com/Hakky54/mutual-tls-ssl) - Written by [@Hakky54](https://github.com/Hakky54).
 
 <a name="webmail"></a>
 ### Webmail
@@ -780,7 +781,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
-- [Encrypting with SSL/TLS](https://github.com/Hakky54/mutual-tls-ssl) Step by step guide for encrypting client and server communication - Written by [Hakky54](https://github.com/Hakky54).
 
 <a name="practices-aws"></a>
 ### AWS
