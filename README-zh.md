@@ -594,7 +594,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Security Geek 2017 - Q3](http://bobao.360.cn/download/book/security-geek-2017-q3.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
 - [Security Geek 2017 - Q4](https://static.anquanke.com/download/b/security-geek-2017-q4.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
 - [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
-- [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet#awesome-ctf-cheatsheet-) - Security Cheatsheet.
+- [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet) - Written by [@uppusaikiran](https://github.com/uppusaikiran).
 
 ## Tools
 
