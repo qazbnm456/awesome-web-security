@@ -51,6 +51,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Web Shell](#web-shell)
   - [OSINT](#osint)
   - [DNS Rebinding](#dns-rebinding)
+  - [Deserialization](#deserialization)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -353,6 +354,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Attacking Private Networks from the Internet with DNS Rebinding](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325) - Written by [@brannondorsey](https://medium.com/@brannondorsey)
 - [Hacking home routers from the Internet](https://medium.com/@radekk/hackers-can-get-access-to-your-home-router-1ddadd12a7a7) - Written by [@radekk](https://medium.com/@radekk)
+
+<a name="deserialization"></a>
+### Deserialization
+
+- [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
 
 ## Evasions
 
