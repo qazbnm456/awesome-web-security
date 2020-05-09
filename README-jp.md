@@ -50,7 +50,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Crypto](#crypto)
   - [Web Shell](#web-shell)
   - [OSINT](#osint)
-  - [Books](#books)
   - [DNS Rebinding](#dns-rebinding)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
@@ -75,6 +74,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
   - [Database](#pocs-database)
+- [Cheetsheets](#cheetsheets)
 - [Tools](#tools)
   - [Auditing](#tools-auditing)
   - [Command Injection](#tools-command-injection)
@@ -327,11 +327,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [102 Deep Dive in the Dark Web OSINT Style Kirby Plessas](https://www.youtube.com/watch?v=fzd3zkAI_o4) - Presented by [@kirbstr](https://twitter.com/kirbstr).
 - [The most complete guide to finding anyone’s email](https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email) - Written by [Timur Daudpota](https://www.blurbiz.io/).
 
-<a name="books"></a>
-### Books
-
-- [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
-
 <a name="dns-rebinding"></a>
 ### DNS Rebinding
 
@@ -540,6 +535,10 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
 - [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
 - [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).
+
+## Cheetsheets
+
+- [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
 
 ## Tools
 
