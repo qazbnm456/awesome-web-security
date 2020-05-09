@@ -71,6 +71,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Web Cache Poisoning](#tricks-web-cache-poisoning)
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
+  - [Deserialization](#tricks-deserialization)
   - [Others](#tricks-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
@@ -487,6 +488,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/) - Written by [Xudong Zheng](https://www.xudongz.com/).
 - [Unicode Domains are bad and you should feel bad for supporting them](https://www.vgrsec.com/post20170219.html) - Written by [VRGSEC](https://www.vgrsec.com/).
 - [[dev.twitter.com] XSS](http://blog.blackfan.ru/2017/09/devtwittercom-xss.html) - Written by [Sergey Bobrov](http://blog.blackfan.ru/).
+
+<a name="tricks-deserialization"></a>
+### Deserialization
+
+- [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/) - Written by [@irsdl](https://twitter.com/irsdl).
 
 <a name="tricks-others"></a>
 ### Others
