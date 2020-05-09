@@ -18,9 +18,9 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## Contents
 
+- [Digests](#digests)
 - [Forums](#forums)
 - [Introduction](#intro)
-  - [Tips](#tips)
   - [XSS](#xss---cross-site-scripting)
   - [Prototype Pollution](#prototype-pollution)
   - [CSV Injection](#csv-injection)
@@ -50,8 +50,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Crypto](#crypto)
   - [Web Shell](#web-shell)
   - [OSINT](#osint)
-  - [Books](#books)
   - [DNS Rebinding](#dns-rebinding)
+  - [Deserialization](#deserialization)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -71,10 +71,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Web Cache Poisoning](#tricks-web-cache-poisoning)
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
+  - [Deserialization](#tricks-deserialization)
   - [Others](#tricks-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
   - [Database](#pocs-database)
+- [Cheetsheets](#cheetsheets)
 - [Tools](#tools)
   - [Auditing](#tools-auditing)
   - [Command Injection](#tools-command-injection)
@@ -112,6 +114,20 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Community](#community)
 - [Miscellaneous](#miscellaneous)
 
+## Digests
+
+- [梧桐百科 - 碎片化知识学习](https://tricking.io/) - Written by [@phith0n](https://github.com/phith0n).
+- [phith0n/Mind-Map](https://github.com/phith0n/Mind-Map) - Written by [@phith0n](https://github.com/phith0n).
+- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
+- [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
+- [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
+- [腾讯玄武实验室安全动态推送](https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html) - Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/).
+- [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
+- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
+- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
+- [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+
 ## Forums
 
 - [Phrack Magazine](http://www.phrack.org/) - Ezine written by and for hackers.
@@ -132,21 +148,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 <a name="intro"></a>
 ## Introduction
-
-<a name="tips"></a>
-### Tips
-
-- [梧桐百科 - 碎片化知识学习](https://tricking.io/) - Written by [@phith0n](https://github.com/phith0n).
-- [phith0n/Mind-Map](https://github.com/phith0n/Mind-Map) - Written by [@phith0n](https://github.com/phith0n).
-- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
-- [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
-- [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
-- [腾讯玄武实验室安全动态推送](https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html) - Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/).
-- [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
-- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
-- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
-- [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="xss"></a>
 ### XSS - Cross-Site Scripting
@@ -293,6 +294,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### SSL/TLS
 
 - [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
+- [Practical introduction to SSL/TLS](https://github.com/Hakky54/mutual-tls-ssl) - Written by [@Hakky54](https://github.com/Hakky54).
 
 <a name="webmail"></a>
 ### Webmail
@@ -348,22 +350,16 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [102 Deep Dive in the Dark Web OSINT Style Kirby Plessas](https://www.youtube.com/watch?v=fzd3zkAI_o4) - Presented by [@kirbstr](https://twitter.com/kirbstr).
 - [The most complete guide to finding anyone’s email](https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email) - Written by [Timur Daudpota](https://www.blurbiz.io/).
 
-<a name="books"></a>
-### Books
-
-- [Security Geek 2016 - Part. A](http://bobao.360.cn/download/book/security-geek-2016-A.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [Security Geek 2016 - Part. B](http://bobao.360.cn/download/book/security-geek-2016-B.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [Security Geek 2017 - Q1](http://bobao.360.cn/download/book/security-geek-2017-q1.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [Security Geek 2017 - Q2](http://bobao.360.cn/download/book/security-geek-2017-q2.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [Security Geek 2017 - Q3](http://bobao.360.cn/download/book/security-geek-2017-q3.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [Security Geek 2017 - Q4](https://static.anquanke.com/download/b/security-geek-2017-q4.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
-- [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
-
 <a name="dns-rebinding"></a>
 ### DNS Rebinding
 
 - [Attacking Private Networks from the Internet with DNS Rebinding](https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325) - Written by [@brannondorsey](https://medium.com/@brannondorsey)
 - [Hacking home routers from the Internet](https://medium.com/@radekk/hackers-can-get-access-to-your-home-router-1ddadd12a7a7) - Written by [@radekk](https://medium.com/@radekk)
+
+<a name="deserialization"></a>
+### Deserialization
+
+- [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
 
 ## Evasions
 
@@ -528,6 +524,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Unicode Domains are bad and you should feel bad for supporting them](https://www.vgrsec.com/post20170219.html) - Written by [VRGSEC](https://www.vgrsec.com/).
 - [[dev.twitter.com] XSS](http://blog.blackfan.ru/2017/09/devtwittercom-xss.html) - Written by [Sergey Bobrov](http://blog.blackfan.ru/).
 
+<a name="tricks-deserialization"></a>
+### Deserialization
+
+- [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/) - Written by [@irsdl](https://twitter.com/irsdl).
+
 <a name="tricks-others"></a>
 ### Others
 
@@ -565,7 +566,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](phrack@saelo.net).
 - [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
 - [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
-- [FROM CRASH TO EXPLOIT: CVE-2015-6086 – OUT OF BOUND READ/ASLR BYPASS](http://payatu.com/from-crash-to-exploit/) - Written by [payatu](http://payatu.com/).
 - [SSD Advisory – Chrome Turbofan Remote Code Execution](https://blogs.securiteam.com/index.php/archives/3379) - Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).
 - [Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11](https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf) - Written by [@moritzj](http://twitter.com/moritzj).
 - [PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT](https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit) - Written by [@wanderingglitch](https://twitter.com/wanderingglitch).
@@ -583,6 +583,16 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
 - [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
 - [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).
+
+## Cheetsheets
+
+- [Security Geek 2016 - Part. A](http://bobao.360.cn/download/book/security-geek-2016-A.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [Security Geek 2016 - Part. B](http://bobao.360.cn/download/book/security-geek-2016-B.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [Security Geek 2017 - Q1](http://bobao.360.cn/download/book/security-geek-2017-q1.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [Security Geek 2017 - Q2](http://bobao.360.cn/download/book/security-geek-2017-q2.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [Security Geek 2017 - Q3](http://bobao.360.cn/download/book/security-geek-2017-q3.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [Security Geek 2017 - Q4](https://static.anquanke.com/download/b/security-geek-2017-q4.pdf) - Written by [360网络攻防实验室](https://weibo.com/360adlab).
+- [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
 
 ## Tools
 
@@ -797,15 +807,15 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [James Kettle](http://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
 - [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 - [Scrutiny](https://datarift.blogspot.tw/) - Internet Security through Web Browsers by Dhiraj Mishra.
-- [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 - [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 - [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 - [OpnSec](https://opnsec.com/) - Open Mind Security!
 - [LoRexxar](https://lorexxar.cn/) - 带着对技术的敬畏之心成长，不安于一隅...
-- [Wfox](http://sec2hack.com/) - 技术宅，热衷各种方面。
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
+- [What is Security?](https://kingx.me/) - Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offense & Defense / Java Security.
+- [l1nk3r's blog](http://www.lmxspace.com/) - Web security.
 
 ## Twitter Users
 
@@ -881,7 +891,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [CSS Is So Overpowered It Can Deanonymize Facebook Users](https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/) - Written by [Ruslan Habalov](https://www.evonide.com/).
 - [Introduction to Web Application Security](https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018) - Written by [@itsC0rg1](https://twitter.com/itsC0rg1), [@jmkeads](https://twitter.com/jmkeads) and [@matir](https://twitter.com/matir).
 - [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).
-- [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob?fbclid=IwAR0BQ7RmYGzQzsL33IJ2LM7lmlH0OSuIuxKLebUUBi1D51R-9UOnHrW0DQg) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
+- [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
 - [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
 - [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
 - [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - Written by [Jayson](https://techvomit.net/).
@@ -889,6 +899,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Alexa Top 1 Million Security - Hacking the Big Ones](https://slashcrypto.org/data/itsecx2018.pdf) - Written by [@slashcrypto](https://twitter.com/slashcrypto).
 - [The bug bounty program that changed my life](http://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](http://10degres.net/).
 - [List of bug bounty writeups](https://pentester.land/list-of-bug-bounty-writeups.html) - Written by [Mariem](https://pentester.land/).
+- [Implications of Loading .NET Assemblies](https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html) - Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).
 
 ## Code of Conduct
 
