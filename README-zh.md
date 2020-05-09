@@ -573,6 +573,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT](https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit) - Written by [@wanderingglitch](https://twitter.com/wanderingglitch).
 - [A Methodical Approach to Browser Exploitation](https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/) - Written by [RET2 SYSTEMS, INC](https://blog.ret2.io/).
 - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/) - Written by [Diary of a reverse-engineer](https://doar-e.github.io/).
+- [从一道CTF题零基础学V8漏洞利用](https://www.freebuf.com/vuls/203721.html) - Written by [walkerfuz](https://www.freebuf.com/author/walkerfuz).
 
 ## PoCs
 
