@@ -105,6 +105,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Others](#tools-others)
 - [Social Engineering Database](#social-engineering-database)
 - [Blogs](#blogs)
+- [Cheatsheets](#cheetsheets)
 - [Twitter Users](#twitter-users)
 - [Practices](#practices)
   - [Application](#practices-application)
@@ -816,6 +817,10 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
 - [What is Security?](https://kingx.me/) - Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offense & Defense / Java Security.
 - [l1nk3r's blog](http://www.lmxspace.com/) - Web security.
+
+## CheatSheets
+
+- [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet#awesome-ctf-cheatsheet-) - Security Cheatsheet.
 
 ## Twitter Users
 
