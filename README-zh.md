@@ -899,6 +899,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Alexa Top 1 Million Security - Hacking the Big Ones](https://slashcrypto.org/data/itsecx2018.pdf) - Written by [@slashcrypto](https://twitter.com/slashcrypto).
 - [The bug bounty program that changed my life](http://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](http://10degres.net/).
 - [List of bug bounty writeups](https://pentester.land/list-of-bug-bounty-writeups.html) - Written by [Mariem](https://pentester.land/).
+- [Implications of Loading .NET Assemblies](https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html) - Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).
 
 ## Code of Conduct
 
