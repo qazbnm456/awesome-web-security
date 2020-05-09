@@ -18,7 +18,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## Contents
 
-- [Digests](#digest)
+- [Digests](#digests)
 - [Forums](#forums)
 - [Introduction](#intro)
   - [XSS](#xss---cross-site-scripting)
