@@ -18,9 +18,9 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 ## Contents
 
+- [Digests](#digest)
 - [Forums](#forums)
 - [Introduction](#intro)
-  - [Tips](#tips)
   - [XSS](#xss---cross-site-scripting)
   - [Prototype Pollution](#prototype-pollution)
   - [CSV Injection](#csv-injection)
@@ -112,6 +112,20 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Community](#community)
 - [Miscellaneous](#miscellaneous)
 
+## Digests
+
+- [梧桐百科 - 碎片化知识学习](https://tricking.io/) - Written by [@phith0n](https://github.com/phith0n).
+- [phith0n/Mind-Map](https://github.com/phith0n/Mind-Map) - Written by [@phith0n](https://github.com/phith0n).
+- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
+- [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
+- [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
+- [腾讯玄武实验室安全动态推送](https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html) - Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/).
+- [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
+- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
+- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
+- [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+
 ## Forums
 
 - [Phrack Magazine](http://www.phrack.org/) - Ezine written by and for hackers.
@@ -132,21 +146,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 <a name="intro"></a>
 ## Introduction
-
-<a name="tips"></a>
-### Tips
-
-- [梧桐百科 - 碎片化知识学习](https://tricking.io/) - Written by [@phith0n](https://github.com/phith0n).
-- [phith0n/Mind-Map](https://github.com/phith0n/Mind-Map) - Written by [@phith0n](https://github.com/phith0n).
-- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
-- [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
-- [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
-- [腾讯玄武实验室安全动态推送](https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html) - Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/).
-- [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
-- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
-- [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
-- [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="xss"></a>
 ### XSS - Cross-Site Scripting
