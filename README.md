@@ -52,6 +52,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [OSINT](#osint)
   - [DNS Rebinding](#dns-rebinding)
   - [Deserialization](#deserialization)
+  - [OAuth](#oauth)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -72,6 +73,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Header Injection](#tricks-header-injection)
   - [URL](#tricks-url)
   - [Deserialization](#tricks-deserialization)
+  - [OAuth](#tricks-oauth)
   - [Others](#tricks-others)
 - [Browser Exploitation](#browser-exploitation)
 - [PoCs](#pocs)
@@ -338,6 +340,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
 
+<a name="oauth"></a>
+### OAuth
+
+- [What is going on with OAuth 2.0? And why you should not use it for authentication.](https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611) - Written by [@damianrusinek](https://medium.com/@damianrusinek).
+
 ## Evasions
 
 <a name="evasions-xxe"></a>
@@ -383,6 +390,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Exploiting CSRF on JSON endpoints with Flash and redirects](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b) - Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).
 - [Stealing CSRF tokens with CSS injection (without iFrames)](https://github.com/dxa4481/cssInjection) - Written by [@dxa4481](https://github.com/dxa4481).
 - [Cracking Java’s RNG for CSRF - Javax Faces and Why CSRF Token Randomness Matters](https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2) - Written by [@rramgattie](https://blog.securityevaluators.com/@rramgattie).
+- [If HttpOnly You Could Still CSRF… Of CORS you can!](https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443) - Written by [@GraphX](https://twitter.com/GraphX).
 
 <a name="tricks-clickjacking"></a>
 ### Clickjacking
@@ -496,6 +504,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/) - Written by [@irsdl](https://twitter.com/irsdl).
 
+<a name="tricks-oauth"></a>
+### OAuth
+
+- [Facebook OAuth Framework Vulnerability](https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/) - Written by [@AmolBaikar](https://twitter.com/AmolBaikar).
+
 <a name="tricks-others"></a>
 ### Others
 
@@ -519,7 +532,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [How do we Stop Spilling the Beans Across Origins?](https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/) - Written by [aaj at google.com](aaj@google.com) and [mkwst at google.com](mkwst@google.com).
 - [Setting arbitrary request headers in Chromium via CRLF injection](https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
 - [I’m harvesting credit card numbers and passwords from your site. Here’s how.](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5) - Written by [David Gilbertson](https://hackernoon.com/@david.gilbertson).
-- [Sending arbitrary IPC messages via overriding Function.prototype.apply](https://hackerone.com/reports/188086) - Written by [@kinugawamasato](https://twitter.com/kinugawamasato),
+- [Sending arbitrary IPC messages via overriding Function.prototype.apply](https://hackerone.com/reports/188086) - Written by [@kinugawamasato](https://twitter.com/kinugawamasato).
+- [Take Advantage of Out-of-Scope Domains in Bug Bounty Programs](https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/) - Written by [@Abdulahhusam](https://twitter.com/Abdulahhusam).
 
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
