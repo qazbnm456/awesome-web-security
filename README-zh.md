@@ -363,6 +363,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Deserialization
 
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
+- [总结了十篇.Net反序列化文章，持续更新](https://github.com/Ivan1ee/NET-Deserialize) - Written by [@Ivan1ee](https://github.com/Ivan1ee).
 
 <a name="oauth"></a>
 ### OAuth
