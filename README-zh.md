@@ -366,6 +366,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [总结了十篇.Net反序列化文章，持续更新](https://github.com/Ivan1ee/NET-Deserialize) - Written by [@Ivan1ee](https://github.com/Ivan1ee).
 - [Attacking .NET deserialization](https://www.youtube.com/watch?v=eDfGpu3iE4Q) - Written by [@pwntester](https://twitter.com/pwntester).
 - [.NET Roulette: Exploiting Insecure Deserialization in Telerik UI](https://www.youtube.com/watch?v=--6PiuvBGAU) - Written by [@noperator](https://twitter.com/noperator).
+- [How to exploit the DotNetNuke Cookie Deserialization](https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization/) - Written by [CRISTIAN CORNEA](https://pentest-tools.com/blog/author/pentest-cristian/).
 
 <a name="oauth"></a>
 ### OAuth

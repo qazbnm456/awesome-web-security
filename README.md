@@ -341,6 +341,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
 - [Attacking .NET deserialization](https://www.youtube.com/watch?v=eDfGpu3iE4Q) - Written by [@pwntester](https://twitter.com/pwntester).
 - [.NET Roulette: Exploiting Insecure Deserialization in Telerik UI](https://www.youtube.com/watch?v=--6PiuvBGAU) - Written by [@noperator](https://twitter.com/noperator).
+- [How to exploit the DotNetNuke Cookie Deserialization](https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization/) - Written by [CRISTIAN CORNEA](https://pentest-tools.com/blog/author/pentest-cristian/).
 
 <a name="oauth"></a>
 ### OAuth
