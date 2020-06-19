@@ -597,6 +597,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/) - Written by [Diary of a reverse-engineer](https://doar-e.github.io/).
 - [从一道CTF题零基础学V8漏洞利用](https://www.freebuf.com/vuls/203721.html) - Written by [walkerfuz](https://www.freebuf.com/author/walkerfuz).
 - [CLEANLY ESCAPING THE CHROME SANDBOX](https://theori.io/research/escaping-chrome-sandbox) - Written by [@tjbecker_](https://twitter.com/tjbecker_).
+- [A Methodical Approach to Browser Exploitation](https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/) - Written by [@PatrickBiernat](https://twitter.com/PatrickBiernat), [@gaasedelen](https://twitter.com/gaasedelen) and [@itszn13](https://twitter.com/itszn13).
 
 ## PoCs
 
