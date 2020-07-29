@@ -53,7 +53,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [DNS Rebinding](#dns-rebinding)
   - [Deserialization](#deserialization)
   - [OAuth](#oauth)
-  - [JWT](#jwt)  
+  - [JWT](#jwt)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -353,6 +353,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 <a name="jwt"></a>
 ### JWT
+
 - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
 
 ## Evasions

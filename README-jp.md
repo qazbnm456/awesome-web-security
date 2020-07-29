@@ -53,6 +53,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [DNS Rebinding](#dns-rebinding)
   - [Deserialization](#deserialization)
   - [OAuth](#oauth)
+  - [JWT](#jwt)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -125,6 +126,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
 - [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+- [tl;dr sec](https://tldrsec.com/) - Weekly summary of top security tools, blog posts, and security research.
 
 ## Forums
 
@@ -351,6 +353,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Introduction to OAuth 2.0 and OpenID Connect](https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html) - Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck).
 - [What is going on with OAuth 2.0? And why you should not use it for authentication.](https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611) - Written by [@damianrusinek](https://medium.com/@damianrusinek).
+
+<a name="jwt"></a>
+### JWT
+
+- [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
 
 ## Evasions
 
