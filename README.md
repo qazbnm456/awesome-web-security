@@ -156,6 +156,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Prototype Pollution
 
 - [Prototype pollution attack in NodeJS application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - Written by [@HoLyVieR](https://github.com/HoLyVieR).
+- [Real-world JS - 1](https://blog.p6.is/Real-World-JS-1/) - Written by [@po6ix](https://twitter.com/po6ix).
 
 <a name="csv-injection"></a>
 ### CSV Injection
