@@ -98,6 +98,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [XXE](#tools-xxe)
     - [CSRF](#tools-csrf)
     - [SSRF](#tools-ssrf)
+    - [LFI & Path Traversal](#tools-lfi)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
   - [Proxy](#tools-proxy)
@@ -704,6 +705,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### Server-Side Request Forgery
 
 - [Open redirect/SSRF payload generator](https://tools.intigriti.io/redirector/) - Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/).
+
+<a name="tools-lfi"></a>
+#### Path Traversal & Local File Inclusion
+
+- [Vailyn](https://github.com/VainlyStrain/Vailyn) - Evasive Path Traversal Detection and Exploitation Tool with Many Attack Vectors by [VainlyStrain](https://github.com/VainlyStrain)
 
 <a name="tools-leaking"></a>
 ### Leaking
