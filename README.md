@@ -823,6 +823,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
+- [DVWA ](https://github.com/digininja/DVWA) - Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable.
+- [Vulnerable-Flask-App](https://github.com/we45/Vulnerable-Flask-App) -  Damn Vulnerable Flask Application
 
 <a name="practices-aws"></a>
 ### AWS
