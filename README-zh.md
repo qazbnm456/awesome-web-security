@@ -807,6 +807,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Reverse-Shell-Manager](https://github.com/WangYihang/Reverse-Shell-Manager) - Reverse Shell Manager via Terminal [@WangYihang](https://github.com/WangYihang).
 - [Linux后门整理合集（脉搏推荐）](https://www.secpulse.com/archives/59674.html) - Written by [armyzer0](https://www.secpulse.com/archives/author/armyzer0).
 - [reverse-shell](https://github.com/lukechilds/reverse-shell) - Reverse Shell as a Service by [@lukechilds](https://github.com/lukechilds).
+- [PhpSploit](https://github.com/nil0x42/phpsploit) - Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42).
 
 <a name="tools-disassembler"></a>
 ### Disassembler
