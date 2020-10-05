@@ -342,6 +342,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Crypto
 
 - [Applied Crypto Hardening](https://bettercrypto.org/) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
+- [What is a Side-Channel Attack ?](https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).
 
 <a name="web-shell"></a>
 ### Web Shell
