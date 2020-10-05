@@ -870,6 +870,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [@garethheyes](https://twitter.com/garethheyes) - English web penetrator.
 - [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
 - [@shhnjk](https://twitter.com/shhnjk) - Web and Browsers Security Researcher.
+- [@albinowax](https://twitter.com/albinowax) - Director of Research at PortSwigger Web Security
+
 
 ## Practices
 
