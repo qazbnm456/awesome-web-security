@@ -815,6 +815,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [@garethheyes](https://twitter.com/garethheyes) - English web penetrator.
 - [@hasegawayosuke](https://twitter.com/hasegawayosuke) - Japanese javascript security researcher.
 - [@shhnjk](https://twitter.com/shhnjk) - Web and Browsers Security Researcher.
+- [@albinowax](https://twitter.com/albinowax) - Director of Research at PortSwigger Web Security.
 
 ## Practices
 
@@ -888,6 +889,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
 - [How I got my first big bounty payout with Tesla](https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d) - Written by [@cj.fairhead](https://medium.com/@cj.fairhead).
+- [Resources for Application Security](https://ishaqmohammed.me/posts/resources-for-application-security/) - Written by [Ishaq Mohammed](https://twitter.com/security_prince).
 
 ## Code of Conduct
 
