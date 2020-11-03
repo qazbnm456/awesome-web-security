@@ -54,6 +54,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
   - [Deserialization](#deserialization)
   - [OAuth](#oauth)
   - [JWT](#jwt)
+  - [Javascript Anti Debugging](#javascript-anti-debugging)
 - [Evasions](#evasions)
   - [XXE](#evasions-xxe)
   - [CSP](#evasions-csp)
@@ -360,6 +361,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
 
+<a name="javascript-anti-debugging"></a>
+### Javascript Anti Debugging
+
+- [Awesome list of javascript anti debugging introduction and techniques](https://github.com/weizman/awesome-javascript-anti-debugging#intro) - Written by [@weizman](https://twitter.com/WeizmanGal)
+
 ## Evasions
 
 <a name="evasions-xxe"></a>
@@ -576,6 +582,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
 - [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
 - [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).
+- [Javascript Anti Debugging Techniques](https://github.com/weizman/awesome-javascript-anti-debugging) - awesome list of javascript anti debugging techniques PoCs by [Gal Weizman](https://weizman.github.io/)
 
 ## Cheetsheets
 
