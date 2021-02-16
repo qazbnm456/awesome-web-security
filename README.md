@@ -377,6 +377,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Evading CSP with DOM-based dangling markup](https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup) - Written by [portswigger](https://portswigger.net/).
 - [GitHub's CSP journey](https://githubengineering.com/githubs-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
 - [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
+- [CSP bypasses, and how developers can build a strict CSP!](https://rapidsec.com/docs/csp-bypasses) - Written by [@shaialon](https://github.com/shaialon).
+
 
 <a name="evasions-waf"></a>
 ### WAF
@@ -590,6 +592,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
+- [CSP Scanner Extension](https://chrome.google.com/webstore/detail/csp-scanner-test-analyze/eoiiiomeoogcpnkdedcodoeaacpdfmdj) - Chrome extention to analyze a site's Content-Security-Policy (CSP) by [CSP Scanner](https://cspscanner.com/).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
@@ -739,6 +742,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [js-xss](https://github.com/leizongmin/js-xss) - Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin).
 - [Acra](https://github.com/cossacklabs/acra) - Client-side encryption engine for SQL databases, with strong selective encryption, SQL injections prevention and intrusion detection by [@cossacklabs](https://www.cossacklabs.com/).
 - [Csper](https://csper.io) - A set of tools for building/evaluating/monitoring content-security-policy to prevent/detect cross site scripting by [Csper](https://csper.io).
+- [RapidSec](https://rapidsec.com/) - Generate a strong Content-Security-Policy (CSP) and monitor it's logs for free by [RapidSec](https://rapidsec.com/).
 
 <a name="tools-proxy"></a>
 ### Proxy
