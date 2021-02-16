@@ -592,7 +592,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
-- [CSP Scanner Extension](https://chrome.google.com/webstore/detail/csp-scanner-test-analyze/eoiiiomeoogcpnkdedcodoeaacpdfmdj) - Chrome extention to analyze a site's Content-Security-Policy (CSP) by [@shaialon](https://github.com/shaialon).
+- [CSP Scanner Extension](https://chrome.google.com/webstore/detail/csp-scanner-test-analyze/eoiiiomeoogcpnkdedcodoeaacpdfmdj) - Chrome extention to analyze a site's Content-Security-Policy (CSP) by [CSP Scanner](https://cspscanner.com/).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
