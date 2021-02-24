@@ -603,7 +603,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### OSINT - Open-Source Intelligence
 
 - [Shodan](https://www.shodan.io/) - Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq).
-- [Censys](https://censys.io/) - Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by [University of Michigan](https://umich.edu/).
+- [Censys](https://censys.io/) - Censys allows users to discover the devices, networks, and infrastructure on the Internet and monitor how it changes over time by [@censysio](https://twitter.com/censysio).
 - [urlscan.io](https://urlscan.io/) - Service which analyses websites and the resources they request by [@heipei](https://twitter.com/heipei).
 - [ZoomEye](https://www.zoomeye.org/) - Cyberspace Search Engine by [@zoomeye_team](https://twitter.com/zoomeye_team).
 - [FOFA](https://fofa.so/?locale=en) - Cyberspace Search Engine by [BAIMAOHUI](http://baimaohui.net/).
