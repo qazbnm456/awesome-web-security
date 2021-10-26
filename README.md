@@ -193,7 +193,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="ftp-injection"></a>
 ### FTP Injection
 
-- [Advisory: Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+- [Advisory: Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by Timothy Morgan
 - [SMTP over XXE − how to send emails using Java's XML parser](https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/) - Written by [Alexander Klink](https://shiftordie.de/).
 
 <a name="xxe"></a>
@@ -201,7 +201,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [XXE](https://phonexicum.github.io/infosec/xxe.html) - Written by [@phonexicum](https://twitter.com/phonexicum).
 - [XML external entity (XXE) injection](https://portswigger.net/web-security/xxe) - Written by [portswigger](https://portswigger.net/).
-- [XML Schema, DTD, and Entity Attacks](https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.
+- [XML Schema, DTD, and Entity Attacks](https://research.nccgroup.com/wp-content/uploads/2020/09/VSR-XMLDTDEntityAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.
 - [payloadbox/xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox)
 - [PayloadsAllTheThings - XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by various contributors.
 
@@ -311,7 +311,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="sub-domain-enumeration"></a>
 ### Sub Domain Enumeration
 
-- [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
+- [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by Bharath.
 - [The Art of Subdomain Enumeration](https://blog.sweepatic.com/art-of-subdomain-enumeration/) - Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/).
 
 <a name="crypto"></a>
@@ -431,7 +431,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-xss"></a>
 ### XSS
 
-- [Exploiting XSS with 20 characters limitation](https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html) - Written by [Jorge Lajara](https://jlajara.gitlab.io/).
 - [Upgrade self XSS to Exploitable XSS an 3 Ways Technic](https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html) - Written by [HAHWUL](https://www.hahwul.com/).
 - [XSS without parentheses and semi-colons](https://portswigger.net/blog/xss-without-parentheses-and-semi-colons) - Written by [@garethheyes](https://twitter.com/garethheyes).
 - [XSS-Auditor — the protector of unprotected and the deceiver of protected.](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b) - Written by [@terjanq](https://medium.com/@terjanq).
@@ -473,7 +472,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Evil XML with two encodings](https://mohemiv.com/all/evil-xml/) - Written by [Arseniy Sharoglazov](https://mohemiv.com/).
 - [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](https://twitter.com/codeshtool).
-- [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by Timur Yunusov and Alexey Osipov.
 - [XXE OOB exploitation at Java 1.7+ (2014)](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html): Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/).
 - [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
 - [What You Didn't Know About XML External Entities Attacks](https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw).
@@ -505,7 +503,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-header-injection"></a>
 ### Header Injection
 
-- [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+- [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by Timothy Morgan
 
 <a name="tricks-url"></a>
 ### URL
@@ -554,7 +552,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
 - [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
-- [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](phrack@saelo.net).
 - [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
 - [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
 - [SSD Advisory – Chrome Turbofan Remote Code Execution](https://blogs.securiteam.com/index.php/archives/3379) - Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).
@@ -803,6 +800,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
 - [Blog of Osanda](https://osandamalith.com/) - Security Researching and Reverse Engineering.
+- [Logit.io](https://logit.io/blog?f=interview) - Often posts interviews with leaders in cybersecurity.
 
 ## Twitter Users
 
@@ -876,14 +874,12 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Introduction to Web Application Security](https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018) - Written by [@itsC0rg1](https://twitter.com/itsC0rg1), [@jmkeads](https://twitter.com/jmkeads) and [@matir](https://twitter.com/matir).
 - [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
-- [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
 - [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
 - [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - Written by [Jayson](https://techvomit.net/).
-- [Hacking with a Heads Up Display](https://segment.com/blog/hacking-with-a-heads-up-display/) - Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/).
+- [Hacking with a Heads Up Display](https://segment.com/blog/hacking-with-a-heads-up-display/) - Written by David Scrobonia
 - [Alexa Top 1 Million Security - Hacking the Big Ones](https://slashcrypto.org/data/itsecx2018.pdf) - Written by [@slashcrypto](https://twitter.com/slashcrypto).
 - [The bug bounty program that changed my life](http://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](http://10degres.net/).
 - [List of bug bounty writeups](https://pentester.land/list-of-bug-bounty-writeups.html) - Written by [Mariem](https://pentester.land/).
-- [Implications of Loading .NET Assemblies](https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html) - Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).
 - [WCTF2019: Gyotaku The Flag](https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf) - Written by [@t0nk42](https://twitter.com/t0nk42).
 - [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
