@@ -669,6 +669,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
 - [aws_pwn](https://github.com/dagrz/aws_pwn) - A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).
 - [grayhatwarfare](https://buckets.grayhatwarfare.com/) - Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/).
+- [OWASP ZAP](https://www.zaproxy.org) - OWASP ZAP is a completely free and open source tool for performing security testing of web applications
 
 <a name="tools-offensive"></a>
 ### Offensive
