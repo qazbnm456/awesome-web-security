@@ -98,6 +98,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
     - [XXE](#tools-xxe)
     - [CSRF](#tools-csrf)
     - [SSRF](#tools-ssrf)
+    - [Subdomain Takeover](#tools-subdomain-takeover)
   - [Detecting](#tools-detecting)
   - [Preventing](#tools-preventing)
   - [Proxy](#tools-proxy)
@@ -759,6 +760,11 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 #### Server-Side Request Forgery
 
 - [Open redirect/SSRF payload generator](https://tools.intigriti.io/redirector/) - Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/).
+
+<a name="tools-subdomain-takeover"></a>
+#### Subdomain Takeover
+
+- [NtHiM (Now, the Host is Mine!)](https://github.com/TheBinitGhimire/NtHiM) - Super Fast Sub-domain Takeover Detection! by [@TheBinitGhimire](https://github.com/TheBinitGhimire).
 
 <a name="tools-leaking"></a>
 ### Leaking
