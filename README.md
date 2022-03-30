@@ -822,6 +822,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Application
 
 - [OWASP Juice Shop](https://github.com/bkimminich/juice-shop) - Probably the most modern and sophisticated insecure web application - Written by [@bkimminich](https://github.com/bkimminich) and the [@owasp_juiceshop](https://twitter.com/owasp_juiceshop) team.
+- [OWASP Webgoat](https://github.com/WebGoat/WebGoat) - WebGoat is a deliberately insecure application written in Java.
+- [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets) - Vulnerable application which shows how to NOT handle secrets. Supports GCP/AWS/Azure and shows a lot of mistakes in Docker. Maintained by [commjoenie](https://twitter.com/commjoenie) and the WrongSecrets team.
 - [BadLibrary](https://github.com/SecureSkyTechnology/BadLibrary) - Vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
