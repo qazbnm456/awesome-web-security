@@ -832,6 +832,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
+- [SecDim](https://secdim.com) - Learn appsec the fun way with learning content and appsec games - Written by [lord-pendragon](https://github.com/lord-pendragon).
 
 <a name="practices-aws"></a>
 ### AWS
