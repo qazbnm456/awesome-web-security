@@ -785,6 +785,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [ntlm_challenger](https://github.com/b17zr/ntlm_challenger) - Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr).
 - [cefdebug](https://github.com/taviso/cefdebug) - Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso).
 - [ctftool](https://github.com/taviso/ctftool) - Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso).
+- [Certificate Ripper](https://github.com/Hakky54/certificate-ripper) - A CLI tool to extracts server certificates by [@hakky54](https://github.com/Hakky54).
 
 ## Social Engineering Database
 
