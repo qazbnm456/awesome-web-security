@@ -581,6 +581,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
 - [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet) - Written by [@uppusaikiran](https://github.com/uppusaikiran).
+- [OpenSSL CheatSheet](https://gist.github.com/Hakky54/b30418b25215ad7d18f978bc0b448d81) - Written by [@hakky54](https://github.com/Hakky54).
 
 ## Tools
 
