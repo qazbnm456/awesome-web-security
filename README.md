@@ -313,6 +313,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
 - [The Art of Subdomain Enumeration](https://blog.sweepatic.com/art-of-subdomain-enumeration/) - Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/).
+- [Subdomain enumeration tools and techniques](https://www.ceeyu.io/resources/blog/subdomain-enumeration-tools-and-techniques) - Written by [Ceeyu](https://ceeyu.io).
 
 <a name="crypto"></a>
 ### Crypto
