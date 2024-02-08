@@ -888,6 +888,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
 - [How I got my first big bounty payout with Tesla](https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d) - Written by [@cj.fairhead](https://medium.com/@cj.fairhead).
+- [Grokking Web Application Security](https://www.manning.com/books/grokking-web-application-security) - Written by [Malcolm McDonald].
 
 ## Code of Conduct
 
