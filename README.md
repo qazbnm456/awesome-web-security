@@ -581,6 +581,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [uxss-db](https://github.com/Metnew/uxss-db) - Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew).
 - [SPLOITUS](https://sploitus.com/) - Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om).
 - [Exploit Database](https://www.exploit-db.com/) - ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/).
+- [defaulty](https://defaulty.io/) - Default Passwords Platform by [@Defaulty-io](https://github.com/Defaulty-io).
+
 
 ## Cheetsheets
 
