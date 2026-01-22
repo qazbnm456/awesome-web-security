@@ -831,6 +831,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
 - [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
+- [Code Review Lab](https://www.codereviewlab.com/) - Freemium platform to practice security code review
 
 <a name="practices-aws"></a>
 ### AWS
