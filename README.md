@@ -670,6 +670,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Penetration Testing
 
 - [Burp Suite](https://portswigger.net/burp/) - Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/).
+- [Echolon](https://echolon.app) - Free and Open Source Postman alternative for Mac, Windows, Linux and the Web. Powerful, Local-First, offline and git friendly.
 - [TIDoS-Framework](https://github.com/theInfectedDrake/TIDoS-Framework) - A comprehensive web application audit framework to cover up everything from Reconnaissance and OSINT to Vulnerability Analysis by [@_tID](https://github.com/theInfectedDrake).
 - [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
 - [aws_pwn](https://github.com/dagrz/aws_pwn) - A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).
