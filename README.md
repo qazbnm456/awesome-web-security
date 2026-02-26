@@ -790,6 +790,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [ntlm_challenger](https://github.com/b17zr/ntlm_challenger) - Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr).
 - [cefdebug](https://github.com/taviso/cefdebug) - Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso).
 - [ctftool](https://github.com/taviso/ctftool) - Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso).
+- [Vaulted](https://www.vaulted.fyi) - Zero-knowledge secret sharing built on Web Crypto API. AES-256-GCM client-side encryption with key-in-fragment architecture. Self-destructing links with configurable view limits, expiration, and passphrase protection.
 
 ## Social Engineering Database
 
