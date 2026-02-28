@@ -660,6 +660,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 - [WAScan](https://github.com/m4ll0k/WAScan) - Is an open source web application security scanner that uses "black-box" method, created by [@m4ll0k](https://github.com/m4ll0k).
 - [Nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use by [@projectdiscovery](https://github.com/projectdiscovery).
+- [Cyber Lens AI](https://www.cyberlensai.com) - Free AI-powered website security scanner for detecting XSS, SQL injection, and logic flaws with automated remediation guidance by [Cyber Lens AI](https://www.cyberlensai.com/).
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
