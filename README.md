@@ -123,7 +123,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
 - [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
 - [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
-- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
 - [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 - [tl;dr sec](https://tldrsec.com/) - Weekly summary of top security tools, blog posts, and security research.
@@ -135,7 +134,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Security Weekly](https://securityweekly.com/) - The security podcast network.
 - [The Register](http://www.theregister.co.uk/) - Biting the hand that feeds IT.
 - [Dark Reading](https://www.darkreading.com/Default.asp) - Connecting The Information Security Community.
-- [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 
 <a name="intro"></a>
 ## Introduction
@@ -179,7 +177,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Command Injection
 
 - [Potential command injection in resolv.rb](https://github.com/ruby/ruby/pull/1777) - Written by [@drigg3r](https://github.com/drigg3r).
-- [payloadbox/command-injection-payload-list](https://github.com/payloadbox/command-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - Command Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="orm-injection"></a>
@@ -237,8 +234,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 <a name="open-redirect"></a>
 ### Open Redirect
-
-- [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
 - [payloadbox/open-redirect-payload-list](https://github.com/payloadbox/open-redirect-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [PayloadsAllTheThings - Open Redirect](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
@@ -259,7 +254,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="rails"></a>
 ### Rails
 
-- [Rails Security - First part](https://hackmd.io/s/SkuTVw5O-) - Written by [@qazbnm456](https://github.com/qazbnm456).
 - [Zen Rails Security Checklist](https://github.com/brunofacca/zen-rails-security-checklist) - Written by [@brunofacca](https://github.com/brunofacca).
 - [Rails SQL Injection](https://rails-sqli.org) - Written by [@presidentbeef](https://github.com/presidentbeef).
 - [Official Rails Security Guide](http://guides.rubyonrails.org/security.html) - Written by [Rails team](https://rubyonrails.org/).
@@ -312,12 +306,10 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### Sub Domain Enumeration
 
 - [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
-- [The Art of Subdomain Enumeration](https://blog.sweepatic.com/art-of-subdomain-enumeration/) - Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/).
 
 <a name="crypto"></a>
 ### Crypto
 
-- [Applied Crypto Hardening](https://bettercrypto.org/) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
 - [What is a Side-Channel Attack ?](https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).
 
 <a name="web-shell"></a>
@@ -401,10 +393,8 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-csrf"></a>
 ### CSRF
 
-- [Neat tricks to bypass CSRF-protection](https://zhuanlan.zhihu.com/p/32716181) - Written by [Twosecurity](https://twosecurity.io/).
 - [Exploiting CSRF on JSON endpoints with Flash and redirects](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b) - Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).
 - [Stealing CSRF tokens with CSS injection (without iFrames)](https://github.com/dxa4481/cssInjection) - Written by [@dxa4481](https://github.com/dxa4481).
-- [Cracking Java’s RNG for CSRF - Javax Faces and Why CSRF Token Randomness Matters](https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2) - Written by [@rramgattie](https://blog.securityevaluators.com/@rramgattie).
 - [If HttpOnly You Could Still CSRF… Of CORS you can!](https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443) - Written by [@GraphX](https://twitter.com/GraphX).
 
 <a name="tricks-clickjacking"></a>
@@ -432,7 +422,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ### XSS
 
 - [Exploiting XSS with 20 characters limitation](https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html) - Written by [Jorge Lajara](https://jlajara.gitlab.io/).
-- [Upgrade self XSS to Exploitable XSS an 3 Ways Technic](https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html) - Written by [HAHWUL](https://www.hahwul.com/).
 - [XSS without parentheses and semi-colons](https://portswigger.net/blog/xss-without-parentheses-and-semi-colons) - Written by [@garethheyes](https://twitter.com/garethheyes).
 - [XSS-Auditor — the protector of unprotected and the deceiver of protected.](https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b) - Written by [@terjanq](https://medium.com/@terjanq).
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - Written by [kenziy](https://hackerone.com/kenziy).
@@ -440,7 +429,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)](https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas) - Written by [@marin_m](https://medium.com/@marin_m).
 - [DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Written by [Sebastian Lekies](https://twitter.com/slekies), [Krzysztof Kotowicz](https://twitter.com/kkotowicz), and [Eduardo Vela](https://twitter.com/sirdarckcat).
 - [Uber XSS via Cookie](http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/) - Written by [zhchbin](http://zhchbin.github.io/).
-- [DOM XSS – auth.uber.com](http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html) - Written by [StamOne_](http://stamone-bug-bounty.blogspot.tw/).
 - [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) - Written by [Enguerran Gillier](https://opnsec.com/).
 - [XSS in Google Colaboratory + CSP bypass](https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
 - [Another XSS in Google Colaboratory](https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
@@ -475,7 +463,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](http://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](https://twitter.com/codeshtool).
 - [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by Timur Yunusov and Alexey Osipov.
 - [XXE OOB exploitation at Java 1.7+ (2014)](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html): Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/).
-- [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
 - [What You Didn't Know About XML External Entities Attacks](https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw).
 - [Pre-authentication XXE vulnerability in the Services Drupal module](https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf) -  Written by [Renaud Dubourguais](https://twitter.com/_m0bius).
 - [Forcing XXE Reflection through Server Error Messages](https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/) - Written by [Antti Rantasaari](https://blog.netspi.com/author/antti-rantasaari/).
@@ -492,7 +479,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
 - [All you need to know about SSRF and how may we write tools to do auto-detect](https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html) - Written by [@Auxy233](https://twitter.com/Auxy233).
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) - Written by [Orange](http://blog.orange.tw/).
-- [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](http://blog.safebuff.com/).
 - [Into the Borg – SSRF inside Google production network](https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/) - Written by [opnsec](https://opnsec.com/).
 - [Piercing the Veil: Server Side Request Forgery to NIPRNet access](https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a) - Written by [Alyssa Herrera](https://medium.com/@alyssa.o.herrera).
 
@@ -518,7 +504,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 <a name="tricks-deserialization"></a>
 ### Deserialization
 
-- [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/) - Written by [@irsdl](https://twitter.com/irsdl).
 
 <a name="tricks-oauth"></a>
 ### OAuth
@@ -782,7 +767,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [Dnslogger](https://wiki.skullsecurity.org/index.php?title=Dnslogger) - DNS Logger by [@iagox86](https://github.com/iagox86).
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by [@GCHQ](https://github.com/gchq).
-- [ntlm_challenger](https://github.com/b17zr/ntlm_challenger) - Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr).
 - [cefdebug](https://github.com/taviso/cefdebug) - Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso).
 - [ctftool](https://github.com/taviso/ctftool) - Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso).
 
@@ -798,7 +782,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
 - [Scrutiny](https://datarift.blogspot.tw/) - Internet Security through Web Browsers by Dhiraj Mishra.
 - [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
-- [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 - [OpnSec](https://opnsec.com/) - Open Mind Security!
 - [RIPS Technologies](https://blog.ripstech.com/tags/security/) - Write-ups for PHP vulnerabilities.
 - [0Day Labs](http://blog.0daylabs.com/) - Awesome bug-bounty and challenges writeups.
@@ -824,7 +807,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [OWASP Juice Shop](https://github.com/bkimminich/juice-shop) - Probably the most modern and sophisticated insecure web application - Written by [@bkimminich](https://github.com/bkimminich) and the [@owasp_juiceshop](https://twitter.com/owasp_juiceshop) team.
 - [BadLibrary](https://github.com/SecureSkyTechnology/BadLibrary) - Vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology).
 - [Hackxor](http://hackxor.net/) - Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax).
-- [SELinux Game](http://selinuxgame.org/) - Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame).
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
 
 <a name="practices-aws"></a>
@@ -876,7 +858,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Introduction to Web Application Security](https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018) - Written by [@itsC0rg1](https://twitter.com/itsC0rg1), [@jmkeads](https://twitter.com/jmkeads) and [@matir](https://twitter.com/matir).
 - [Finding The Real Origin IPs Hiding Behind CloudFlare or TOR](https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/) - Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
-- [How I could have stolen your photos from Google - my first 3 bug bounty writeups](https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/) - Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi).
 - [An example why NAT is NOT security](https://0day.work/an-example-why-nat-is-not-security/) - Written by [@0daywork](https://twitter.com/@0daywork).
 - [WEB APPLICATION PENETRATION TESTING NOTES](https://techvomit.net/web-application-penetration-testing-notes/) - Written by [Jayson](https://techvomit.net/).
 - [Hacking with a Heads Up Display](https://segment.com/blog/hacking-with-a-heads-up-display/) - Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/).
@@ -884,7 +865,6 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [The bug bounty program that changed my life](http://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](http://10degres.net/).
 - [List of bug bounty writeups](https://pentester.land/list-of-bug-bounty-writeups.html) - Written by [Mariem](https://pentester.land/).
 - [Implications of Loading .NET Assemblies](https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html) - Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).
-- [WCTF2019: Gyotaku The Flag](https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf) - Written by [@t0nk42](https://twitter.com/t0nk42).
 - [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
 - [How I got my first big bounty payout with Tesla](https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d) - Written by [@cj.fairhead](https://medium.com/@cj.fairhead).
