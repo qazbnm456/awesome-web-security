@@ -660,6 +660,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 - [WAScan](https://github.com/m4ll0k/WAScan) - Is an open source web application security scanner that uses "black-box" method, created by [@m4ll0k](https://github.com/m4ll0k).
 - [Nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use by [@projectdiscovery](https://github.com/projectdiscovery).
+- [SaaSFort](https://saasfort.com) - External security posture scanner running 60+ automated checks (SSL/TLS, DNS, security headers, OWASP Top 10) with NIS2 Directive and ISO 27001 Annex A compliance mapping. Produces an A-F grade in under 60 seconds.
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
