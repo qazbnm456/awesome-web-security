@@ -16,6 +16,7 @@ Needless to say, most websites suffer from various types of bugs which may event
 
 If you enjoy this awesome list and would like to support it, check out my [Patreon](https://www.patreon.com/boik) page :)<br>Also, don't forget to check out my [repos](https://github.com/qazbnm456) 🐾 or say *hi* on my [Twitter](https://twitter.com/qazbnm456)!
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts including web security scanning, vulnerability assessment, and automated threat detection. MIT licensed.
 ## Contents
 
 - [Digests](#digests)
