@@ -669,6 +669,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Astra](https://github.com/flipkart-incubator/astra) - Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator).
 - [aws_pwn](https://github.com/dagrz/aws_pwn) - A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz).
 - [grayhatwarfare](https://buckets.grayhatwarfare.com/) - Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/).
+- [numasec](https://github.com/FrancescoStabile/numasec) - AI-powered penetration testing platform with multi-agent orchestration. 10 specialized agents coordinate 38 vulnerability scanners covering OWASP Top 10, achieving 96% detection rate on OWASP Juice Shop by [@FrancescoStabile](https://github.com/FrancescoStabile).
 
 <a name="tools-offensive"></a>
 ### Offensive
