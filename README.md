@@ -585,6 +585,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 ## Tools
 
 <a name="tools-auditing"></a>
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=qazbnm456_awesome-web-security) - Follow developers on GitHub and get a feed of what they star and build.
 ### Auditing
 
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
