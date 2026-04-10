@@ -731,6 +731,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [bXSS](https://github.com/LewisArdern/bXSS) - bXSS is a simple Blind XSS application adapted from [cure53.de/m](https://cure53.de/m) by [@LewisArdern](https://github.com/LewisArdern).
 - [OpenRASP](https://github.com/baidu/openrasp) - An open source RASP solution actively maintained by Baidu Inc. With context-aware detection algorithm the project achieved nearly no false positives. And less than 3% performance reduction is observed under heavy server load.
 - [GuardRails](https://github.com/apps/guardrails) - A GitHub App that provides security feedback in Pull Requests.
+- [IPASIS](https://ipasis.com) - Real-time bot detection and fraud prevention API combining IP reputation, VPN/proxy/Tor detection, and email validation in a single call by [IPASIS](https://ipasis.com).
 
 <a name="tools-preventing"></a>
 ### Preventing
