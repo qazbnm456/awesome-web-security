@@ -581,6 +581,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 
 - [XSS Cheat Sheet - 2018 Edition](https://leanpub.com/xss) - Written by [@brutelogic](https://twitter.com/brutelogic).
 - [Capture the Flag CheatSheet](https://github.com/uppusaikiran/awesome-ctf-cheatsheet) - Written by [@uppusaikiran](https://github.com/uppusaikiran).
+- [Pentest Mindmap](https://pentestmindmap.com) - Interactive mindmap with 11,600+ pentesting commands organized by category: web attacks, API security, SSRF, SQLi, XSS, network, and more — by [@gzuescriva](https://github.com/gzuescriva).
 
 ## Tools
 
