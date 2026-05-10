@@ -377,6 +377,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [Evading CSP with DOM-based dangling markup](https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup) - Written by [portswigger](https://portswigger.net/).
 - [GitHub's CSP journey](https://githubengineering.com/githubs-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
 - [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
+- [Laravel Content Security Policy: Complete Implementation Guide]([https://githubengineering.com/githubs-post-csp-journey/](https://blog.shakiltech.com/laravel-content-security-policy-guide/)) - Written by [@itxshakil](https://github.com/itxshakil).
 
 <a name="evasions-waf"></a>
 ### WAF
@@ -681,6 +682,7 @@ If you enjoy this awesome list and would like to support it, check out my [Patre
 - [XSStrike](https://github.com/s0md3v/XSStrike) - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@s0md3v](https://github.com/s0md3v).
 - [xssor2](https://github.com/evilcos/xssor2) - XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos).
 - [csp evaluator](https://csper.io/evaluator) - A tool for evaluating content-security-policies by [Csper](http://csper.io).
+- [Laravel CSP Generator](https://csp-generator.shakiltech.com) - Visual Content Security Policy builder for Laravel — configure directives, get PHP middleware code and a pre-enforcement checklist by [itxhshakil](http://shakiltech.com).
 
 <a name="tools-sql-injection"></a>
 #### SQL Injection
