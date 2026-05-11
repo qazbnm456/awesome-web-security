@@ -80,7 +80,7 @@ YAML data, Python tooling, or Markdown docs.
   archive_url: null                             # filled by post-merge-archive workflow
   last_checked: null                            # filled by weekly-health workflow
   fingerprint: null                             # content fingerprint, filled by health
-  status: active                                # active|dead|archived-only|quarantined
+  status: active                                # active|inactive|archived-only|quarantined
 ```
 
 Optional: `raw_rest` preserves the original "rest of line" from the
