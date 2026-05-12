@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T12:57:40Z",
+  "generated_at": "2026-05-12T18:53:45Z",
   "categories": [
     {
       "key": "digests",
@@ -7897,6 +7897,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-11",
       "archive_url": "https://web.archive.org/web/20260511151417/https://www.zaproxy.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-trust-scan",
+      "url": "https://github.com/undeadlist/trust-scan",
+      "title": "Trust Scan",
+      "author": {
+        "name": "@undeadlist",
+        "url": "https://github.com/undeadlist"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
