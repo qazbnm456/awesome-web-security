@@ -1,0 +1,36 @@
+# Entries for section: Crypto
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: crypto-applied-crypto-hardening
+    url: "https://bettercrypto.org/"
+    title: Applied Crypto Hardening
+    author:
+      name: The bettercrypto.org Team
+      url: "https://bettercrypto.org/"
+    category: crypto
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [The bettercrypto.org Team](https://bettercrypto.org/)."
+  - id: crypto-what-is-a-side-channel-attack
+    url: "https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html"
+    title: "What is a Side-Channel Attack ?"
+    author:
+      name: J.M Porup
+      url: "https://www.csoonline.com/author/J.M.-Porup/"
+    category: crypto
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-10-05"
+    archive_url: "https://web.archive.org/web/20260511151533/https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/)."

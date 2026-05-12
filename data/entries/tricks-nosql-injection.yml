@@ -1,0 +1,20 @@
+# Entries for section: NoSQL Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-nosql-injection-graphql-nosql-injection-through-json-types
+    url: "http://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/"
+    title: GraphQL NoSQL Injection Through JSON Types
+    author:
+      name: Pete
+      url: "http://www.petecorey.com/work/"
+    category: tricks-nosql-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Pete](http://www.petecorey.com/work/)."

@@ -1,0 +1,36 @@
+# Entries for section: Proxy
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-proxy-charles
+    url: "https://www.charlesproxy.com/"
+    title: Charles
+    author:
+      name: HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all o
+      url: null
+    category: tools-proxy
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.
+  - id: tools-proxy-mitmproxy
+    url: "https://github.com/mitmproxy/mitmproxy"
+    title: mitmproxy
+    author:
+      name: "@mitmproxy"
+      url: "https://github.com/mitmproxy"
+    category: tools-proxy
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy)."

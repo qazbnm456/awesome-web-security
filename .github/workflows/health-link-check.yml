@@ -1,0 +1,126 @@
+name: Health link check
+
+# Replaces the previous validate.yml (ad-m/report-link-action@master, unmaintained).
+# Runs lychee over the generated READMEs and data/index.json on a daily cron
+# and on every push to master. Broken links surface in a single rolling issue
+# labelled `health/link-check` rather than spamming new issues each run.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'README.md'
+      - 'README-zh.md'
+      - 'README-jp.md'
+  schedule:
+    # Daily at 12:00 UTC, working days only
+    - cron: '0 12 * * 1-5'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: health-link-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run lychee
+        id: lychee
+        # Pin to commit SHA (v2.8.0) for supply-chain integrity. Update by
+        # bumping the SHA and the trailing comment together.
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --cache
+            --max-cache-age 1d
+            --accept 200..=299,403,429
+            README.md
+            README-zh.md
+            README-jp.md
+          fail: false
+          output: lychee-report.md
+
+      - name: Surface broken links via rolling issue
+        if: steps.lychee.outputs.exit_code != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -u
+
+          # Ensure the rolling-issue label exists. Idempotent: gh exits non-zero
+          # if the label already exists; suppress that and continue.
+          gh label create health/link-check \
+            --color C5DEF5 \
+            --description "Rolling link-health report from lychee" \
+            -R "$REPO" 2>/dev/null || true
+
+          # Find an existing open rolling issue (label: health/link-check).
+          existing=$(gh issue list -R "$REPO" \
+            --label health/link-check --state open \
+            --json number,title -q '.[0].number' || true)
+
+          # Prepend metadata (timestamp + run link) to the report. The
+          # resulting file is the canonical "current snapshot" that
+          # replaces the issue body each run.
+          {
+            echo "_Updated by [run $GITHUB_RUN_ID]($RUN_URL) at $(date -u +%Y-%m-%dT%H:%M:%SZ)._"
+            echo ""
+            cat lychee-report.md
+          } > issue-body.md
+
+          # Extract current error count from the new report (best-effort).
+          extract_errors() {
+            grep -oE '🚫 Errors[[:space:]]*\|[[:space:]]*[0-9]+' "$1" 2>/dev/null \
+              | grep -oE '[0-9]+$' \
+              | head -1
+          }
+          new_errors=$(extract_errors lychee-report.md)
+          new_errors=${new_errors:-?}
+
+          if [ -n "${existing}" ] && [ "${existing}" != "null" ]; then
+            # Replace the issue body with the current snapshot so the top of
+            # the issue always shows "what's broken right now". Keep the
+            # comment thread as an audit log of which run did what.
+            prev_body_file=$(mktemp)
+            gh issue view "$existing" -R "$REPO" --json body -q .body > "$prev_body_file" || true
+            prev_errors=$(extract_errors "$prev_body_file")
+            prev_errors=${prev_errors:-?}
+
+            # Compute delta when both counts are numeric; otherwise show "—".
+            if [[ "$new_errors" =~ ^[0-9]+$ ]] && [[ "$prev_errors" =~ ^[0-9]+$ ]]; then
+              delta=$((new_errors - prev_errors))
+              if [ "$delta" -gt 0 ]; then
+                delta_str="+${delta} (worse)"
+              elif [ "$delta" -lt 0 ]; then
+                delta_str="${delta} (better)"
+              else
+                delta_str="±0"
+              fi
+            else
+              delta_str="—"
+            fi
+
+            gh issue edit "$existing" -R "$REPO" --body-file issue-body.md
+            gh issue comment "$existing" -R "$REPO" \
+              -b "Run [#$GITHUB_RUN_ID]($RUN_URL): ${new_errors} errors (Δ ${delta_str} vs previous). See body above for the current snapshot."
+            rm -f "$prev_body_file"
+            echo "updated rolling issue #$existing (errors: $new_errors, delta: $delta_str)"
+          else
+            gh issue create -R "$REPO" \
+              --title "Link health report" \
+              --label health/link-check \
+              -F issue-body.md
+            echo "opened new rolling issue"
+          fi

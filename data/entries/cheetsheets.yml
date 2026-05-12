@@ -1,0 +1,132 @@
+# Entries for section: Cheetsheets
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: cheetsheets-capture-the-flag-cheatsheet
+    url: "https://github.com/uppusaikiran/awesome-ctf-cheatsheet"
+    title: Capture the Flag CheatSheet
+    author:
+      name: "@uppusaikiran"
+      url: "https://github.com/uppusaikiran"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@uppusaikiran](https://github.com/uppusaikiran)."
+  - id: cheetsheets-security-geek-2016-part-a
+    url: "http://bobao.360.cn/download/book/security-geek-2016-A.pdf"
+    title: Security Geek 2016 - Part. A
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-security-geek-2016-part-b
+    url: "http://bobao.360.cn/download/book/security-geek-2016-B.pdf"
+    title: Security Geek 2016 - Part. B
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-security-geek-2017-q1
+    url: "http://bobao.360.cn/download/book/security-geek-2017-q1.pdf"
+    title: Security Geek 2017 - Q1
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-security-geek-2017-q2
+    url: "http://bobao.360.cn/download/book/security-geek-2017-q2.pdf"
+    title: Security Geek 2017 - Q2
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-security-geek-2017-q3
+    url: "http://bobao.360.cn/download/book/security-geek-2017-q3.pdf"
+    title: Security Geek 2017 - Q3
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-security-geek-2017-q4
+    url: "https://static.anquanke.com/download/b/security-geek-2017-q4.pdf"
+    title: Security Geek 2017 - Q4
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: cheetsheets-xss-cheat-sheet-2018-edition
+    url: "https://leanpub.com/xss"
+    title: XSS Cheat Sheet - 2018 Edition
+    author:
+      name: "@brutelogic"
+      url: "https://twitter.com/brutelogic"
+    category: cheetsheets
+    type: cheatsheet
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@brutelogic](https://twitter.com/brutelogic)."

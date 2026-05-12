@@ -1,0 +1,84 @@
+# Entries for section: XSS - Cross-Site Scripting
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-xss-xssor2
+    url: "https://github.com/evilcos/xssor2"
+    title: xssor2
+    author:
+      name: "@evilcos"
+      url: "https://github.com/evilcos"
+    category: tools-xss
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "XSS'OR - Hack with JavaScript by [@evilcos](https://github.com/evilcos)."
+  - id: tools-xss-xsstrike
+    url: "https://github.com/s0md3v/XSStrike"
+    title: XSStrike
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: tools-xss
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-11"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by [@s0md3v](https://github.com/s0md3v)."
+  - id: tools-xss-jshell
+    url: "https://github.com/s0md3v/JShell"
+    title: JShell
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: tools-xss
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Get a JavaScript shell with XSS by [@s0md3v](https://github.com/s0md3v)."
+  - id: tools-xss-beef
+    url: "https://github.com/beefproject/beef"
+    title: beef
+    author:
+      name: beefproject
+      url: "https://beefproject.com"
+    category: tools-xss
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The Browser Exploitation Framework Project by [beefproject](https://beefproject.com)."
+  - id: tools-xss-csp-evaluator
+    url: "https://csper.io/evaluator"
+    title: csp evaluator
+    author:
+      name: Csper
+      url: "http://csper.io"
+    category: tools-xss
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A tool for evaluating content-security-policies by [Csper](http://csper.io)."

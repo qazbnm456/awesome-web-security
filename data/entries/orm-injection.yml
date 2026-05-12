@@ -1,0 +1,68 @@
+# Entries for section: ORM Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: orm-injection-hql-hyperinsane-query-language-or-how-to-access-th
+    url: "https://www.synacktiv.com/ressources/hql2sql_sstic_2015_en.pdf"
+    title: "HQL : Hyperinsane Query Language (or how to access the whole SQL API within a HQL injection ?)"
+    author:
+      name: "@_m0bius"
+      url: "https://twitter.com/_m0bius"
+    category: orm-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@_m0bius](https://twitter.com/_m0bius)."
+  - id: orm-injection-hql-for-pentesters
+    url: "http://blog.h3xstream.com/2014/02/hql-for-pentesters.html"
+    title: HQL for pentesters
+    author:
+      name: "@h3xstream"
+      url: "https://twitter.com/h3xstream/"
+    category: orm-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@h3xstream](https://twitter.com/h3xstream/)."
+  - id: orm-injection-orm-injection
+    url: "https://www.slideshare.net/simone.onofri/orm-injection"
+    title: ORM Injection
+    author:
+      name: Simone Onofri
+      url: "https://onofri.org/"
+    category: orm-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Simone Onofri](https://onofri.org/)."
+  - id: orm-injection-orm2pwn-exploiting-injections-in-hibernate-orm
+    url: "https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm"
+    title: "ORM2Pwn: Exploiting injections in Hibernate ORM"
+    author:
+      name: Mikhail Egorov
+      url: "https://0ang3el.blogspot.tw/"
+    category: orm-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mikhail Egorov](https://0ang3el.blogspot.tw/)."

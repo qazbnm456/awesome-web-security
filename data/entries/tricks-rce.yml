@@ -1,0 +1,260 @@
+# Entries for section: Remote Code Execution
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-rce-drupal-7-x-services-module-unserialize-to-rce
+    url: "https://www.ambionics.io/blog/drupal-services-module-rce"
+    title: DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE
+    author:
+      name: Ambionics Security
+      url: "https://www.ambionics.io/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ambionics Security](https://www.ambionics.io/)."
+  - id: tricks-rce-exploiting-node-js-deserialization-bug-for-remote
+    url: "https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/"
+    title: Exploiting Node.js deserialization bug for Remote Code Execution
+    author:
+      name: OpSecX
+      url: "https://opsecx.com/index.php/author/ajinabraham/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/)."
+  - id: tricks-rce-github-enterprise-remote-code-execution
+    url: "http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html"
+    title: GitHub Enterprise Remote Code Execution
+    author:
+      name: "@iblue"
+      url: "https://github.com/iblue"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@iblue](https://github.com/iblue)."
+  - id: tricks-rce-how-i-chained-4-vulnerabilities-on-github-enterpri
+    url: "http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html"
+    title: "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!"
+    author:
+      name: Orange
+      url: "http://blog.orange.tw/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+  - id: tricks-rce-how-we-exploited-a-remote-code-execution-vulnerabi
+    url: "https://capacitorset.github.io/mathjs/"
+    title: How we exploited a remote code execution vulnerability in math.js
+    author:
+      name: "@capacitorset"
+      url: "https://github.com/capacitorset"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@capacitorset](https://github.com/capacitorset)."
+  - id: tricks-rce-php-uaf
+    url: "http://www.freebuf.com/vuls/122938.html"
+    title: PHP垃圾回收机制UAF漏洞分析
+    author:
+      name: ph1re
+      url: "http://www.freebuf.com/author/ph1re"
+    category: tricks-rce
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [ph1re](http://www.freebuf.com/author/ph1re)."
+  - id: tricks-rce-36k-google-app-engine-rce
+    url: "https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce"
+    title: $36k Google App Engine RCE
+    author:
+      name: Ezequiel Pereira
+      url: "https://sites.google.com/site/testsitehacking/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-05-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/)."
+  - id: tricks-rce-poor-richfaces
+    url: "https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html"
+    title: Poor RichFaces
+    author:
+      name: CODE WHITE
+      url: "https://www.code-white.com/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-05-31"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [CODE WHITE](https://www.code-white.com/)."
+  - id: tricks-rce-remote-code-execution-on-a-facebook-server
+    url: "https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/"
+    title: Remote Code Execution on a Facebook server
+    author:
+      name: "@blaklis_"
+      url: "https://twitter.com/blaklis_"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@blaklis_](https://twitter.com/blaklis_)."
+  - id: tricks-rce-evil-teacher-code-injection-in-moodle
+    url: "https://blog.ripstech.com/2018/moodle-remote-code-execution/"
+    title: "Evil Teacher: Code Injection in Moodle"
+    author:
+      name: RIPS Technologies
+      url: "https://www.ripstech.com/"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [RIPS Technologies](https://www.ripstech.com/)."
+  - id: tricks-rce-weblogic-rce-cve-2019-2725-debug-diary
+    url: "https://paper.seebug.org/910/"
+    title: WebLogic RCE (CVE-2019-2725) Debug Diary
+    author:
+      name: "Badcode@Knownsec 404 Team"
+      url: null
+    category: tricks-rce
+    type: article
+    languages: [en, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by Badcode@Knownsec 404 Team."
+  - id: tricks-rce-weblogic-rce-cve-2019-2725
+    url: "https://paper.seebug.org/909/"
+    title: WebLogic RCE(CVE-2019-2725)漏洞之旅
+    author:
+      name: "Badcode@知道创宇404实验室"
+      url: null
+    category: tricks-rce
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by Badcode@知道创宇404实验室."
+  - id: tricks-rce-weblogic-cve-2018-2628
+    url: "https://paper.seebug.org/584/"
+    title: Weblogic 反序列化漏洞(CVE-2018-2628)漫谈
+    author:
+      name: "Badcode@知道创宇404实验室"
+      url: null
+    category: tricks-rce
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by Badcode@知道创宇404实验室."
+  - id: tricks-rce-what-do-weblogic-websphere-jboss-jenkins-opennms-a
+    url: "https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/"
+    title: "What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability."
+    author:
+      name: "@breenmachine"
+      url: "https://twitter.com/@breenmachine"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@breenmachine](https://twitter.com/@breenmachine)."
+  - id: tricks-rce-cve-2019-1306-are-you-my-index
+    url: "https://www.thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index"
+    title: "CVE-2019-1306: ARE YOU MY INDEX?"
+    author:
+      name: "@yu5k3"
+      url: "https://twitter.com/yu5k3"
+    category: tricks-rce
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@yu5k3](https://twitter.com/yu5k3)."
+  - id: tricks-rce-eval-php5-6
+    url: "https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html"
+    title: "eval长度限制绕过 && PHP5.6新特性"
+    author:
+      name: phithon
+      url: "https://www.leavesongs.com/"
+    category: tricks-rce
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phithon](https://www.leavesongs.com/)."
