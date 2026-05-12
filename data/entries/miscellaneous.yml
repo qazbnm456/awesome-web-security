@@ -51,7 +51,7 @@ entries:
     status: active
     raw_rest: "Written by [PwnDizzle](http://pwndizzle.blogspot.jp/)."
   - id: miscellaneous-cybersecurity-campaign-playbook
-    url: "https://www.belfercenter.org/CyberPlaybook"
+    url: "https://www.belfercenter.org/publication/cybersecurity-campaign-playbook"
     title: Cybersecurity Campaign Playbook
     author:
       name: Belfer Center for Science and International Affairs

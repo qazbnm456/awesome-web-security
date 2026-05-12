@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T09:26:34Z",
+  "generated_at": "2026-05-12T09:37:30Z",
   "categories": [
     {
       "key": "digests",
@@ -3860,7 +3860,7 @@
     },
     {
       "id": "miscellaneous-cybersecurity-campaign-playbook",
-      "url": "https://www.belfercenter.org/CyberPlaybook",
+      "url": "https://www.belfercenter.org/publication/cybersecurity-campaign-playbook",
       "title": "Cybersecurity Campaign Playbook",
       "author": {
         "name": "Belfer Center for Science and International Affairs",
