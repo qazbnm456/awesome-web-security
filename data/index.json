@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T08:56:32Z",
+  "generated_at": "2026-05-12T09:21:24Z",
   "categories": [
     {
       "key": "digests",
@@ -5673,6 +5673,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "social-engineering-database-hudson-rock",
+      "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
+      "title": "Hudson Rock",
+      "author": {
+        "name": "Hudson Rock",
+        "url": "https://www.hudsonrock.com/"
+      },
+      "category": "social-engineering-database",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

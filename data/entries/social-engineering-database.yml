@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Check if you have an account that has been compromised in a data breach by [Troy Hunt](https://www.troyhunt.com/)."
+  - id: social-engineering-database-hudson-rock
+    url: "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+    title: Hudson Rock
+    author:
+      name: Hudson Rock
+      url: "https://www.hudsonrock.com/"
+    category: social-engineering-database
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Check if your email or domain was compromised by infostealer malware, maintained by [Hudson Rock](https://www.hudsonrock.com/)."

@@ -864,6 +864,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ## Social Engineering Database
 
 - [haveibeenpwned](https://haveibeenpwned.com/) - Check if you have an account that has been compromised in a data breach by [Troy Hunt](https://www.troyhunt.com/).
+- [Hudson Rock](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) - Check if your email or domain was compromised by infostealer malware, maintained by [Hudson Rock](https://www.hudsonrock.com/).
 
 ## Blogs
 
