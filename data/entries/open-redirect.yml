@@ -1,0 +1,52 @@
+# Entries for section: Open Redirect
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: open-redirect-open-redirect-vulnerability
+    url: "https://s0cket7.com/open-redirect-vulnerability/"
+    title: Open Redirect Vulnerability
+    author:
+      name: s0cket7
+      url: "https://s0cket7.com/"
+    category: open-redirect
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-09-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [s0cket7](https://s0cket7.com/)."
+  - id: open-redirect-payloadsallthethings-open-redirect
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect"
+    title: PayloadsAllTheThings - Open Redirect
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: open-redirect
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
+  - id: open-redirect-payloadbox-open-redirect-payload-list
+    url: "https://github.com/payloadbox/open-redirect-payload-list"
+    title: payloadbox/open-redirect-payload-list
+    author:
+      name: "@payloadbox"
+      url: "https://github.com/payloadbox"
+    category: open-redirect
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."

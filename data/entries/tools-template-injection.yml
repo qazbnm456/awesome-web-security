@@ -1,0 +1,20 @@
+# Entries for section: Template Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-template-injection-tplmap
+    url: "https://github.com/epinna/tplmap"
+    title: tplmap
+    author:
+      name: "@epinna"
+      url: "https://github.com/epinna"
+    category: tools-template-injection
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Code and Server-Side Template Injection Detection and Exploitation Tool by [@epinna](https://github.com/epinna)."

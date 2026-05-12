@@ -1,0 +1,20 @@
+# Entries for section: Authentication
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: evasions-authentication-trend-micro-threat-discovery-appliance-session-gen
+    url: "http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html"
+    title: Trend Micro Threat Discovery Appliance - Session Generation Authentication Bypass (CVE-2016-8584)
+    author:
+      name: "@malerisch"
+      url: "https://twitter.com/malerisch"
+    category: evasions-authentication
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@malerisch](https://twitter.com/malerisch) and [@steventseeley](https://twitter.com/steventseeley)."

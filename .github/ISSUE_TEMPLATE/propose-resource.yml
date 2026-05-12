@@ -1,0 +1,107 @@
+name: Propose a Resource
+description: Propose a web security resource to add to the curated list.
+title: "[propose] <short title>"
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a resource. Fill in the fields below; the bot will
+        use them to suggest a draft pull request. For categories, see the
+        section headings in [README.md](../blob/master/README.md) (e.g. `xss`,
+        `tools-scanning`, `tricks-rce`).
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: HTTPS preferred. The bot will check reachability and follow redirects.
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The exact title of the article, tool, or project.
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Author / Organization
+      description: Who wrote or maintains this resource.
+    validations:
+      required: true
+  - type: input
+    id: author_url
+    attributes:
+      label: Author URL (optional)
+      placeholder: "https://twitter.com/... or https://github.com/..."
+  - type: input
+    id: category
+    attributes:
+      label: Category key
+      description: 'Slug from data/categories.yml. Examples: `xss`, `sql-injection`, `tools-scanning`, `tricks-rce`, `blogs`.'
+      placeholder: "xss"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - article
+        - tool
+        - cheatsheet
+        - video
+        - book
+        - community
+        - payload-list
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - intro
+        - intermediate
+        - advanced
+    validations:
+      required: true
+  - type: checkboxes
+    id: languages
+    attributes:
+      label: Target language version(s)
+      description: Which README files should list this entry?
+      options:
+        - label: "English (README.md)"
+        - label: "中文 (README-zh.md)"
+        - label: "日本語 (README-jp.md)"
+        - label: "Universal — list in all three"
+  - type: textarea
+    id: justification
+    attributes:
+      label: Why is this worth adding?
+      description: What gap does this fill? How does it differ from existing entries in the same category? Cite specific URLs if relevant.
+      placeholder: "This is the first deep-dive into X technique I've seen with reproducible PoC..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: archive_opt_out
+    attributes:
+      label: Wayback Machine archiving
+      description: |
+        Accepted entries are submitted to web.archive.org by default to protect against link rot. Uncheck if the original author has explicitly requested no archive (e.g. paywalled or under takedown).
+      options:
+        - label: "Skip Wayback Machine archiving for this entry"
+          required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Author confirmation
+      options:
+        - label: "I have searched existing entries and confirmed this is not a duplicate."
+          required: true
+        - label: "I have read [CONTRIBUTING.md](../blob/master/CONTRIBUTING.md) and [RUBRIC.md](../blob/master/RUBRIC.md)."
+          required: true

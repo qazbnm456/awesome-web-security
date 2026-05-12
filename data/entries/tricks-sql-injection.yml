@@ -1,0 +1,100 @@
+# Entries for section: SQL Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-sql-injection-github-enterprise-sql-injection
+    url: "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
+    title: GitHub Enterprise SQL Injection
+    author:
+      name: Orange
+      url: "http://blog.orange.tw/"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+  - id: tricks-sql-injection-sql-injection-in-an-update-query-a-bug-bounty-stor
+    url: "http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html"
+    title: "SQL injection in an UPDATE query - a bug bounty story!"
+    author:
+      name: Zombiehelp54
+      url: "http://zombiehelp54.blogspot.jp/"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/)."
+  - id: tricks-sql-injection-making-a-blind-sql-injection-a-little-less-blind
+    url: "https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8"
+    title: Making a Blind SQL Injection a little less blind
+    author:
+      name: TomNomNom
+      url: "https://twitter.com/TomNomNom"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [TomNomNom](https://twitter.com/TomNomNom)."
+  - id: tricks-sql-injection-red-team-tales-0x01-from-mssql-to-rce
+    url: "https://www.tarlogic.com/en/blog/red-team-tales-0x01/"
+    title: "Red Team Tales 0x01: From MSSQL to RCE"
+    author:
+      name: Tarlogic
+      url: "https://www.tarlogic.com/en/cybersecurity-blog/"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Tarlogic](https://www.tarlogic.com/en/cybersecurity-blog/)."
+  - id: tricks-sql-injection-mysql-error-based-sql-injection-using-exp
+    url: "https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf"
+    title: MySQL Error Based SQL Injection Using EXP
+    author:
+      name: "@osandamalith"
+      url: "https://twitter.com/osandamalith"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@osandamalith](https://twitter.com/osandamalith)."
+  - id: tricks-sql-injection-sql-injection-and-postgres-an-adventure-to-eventua
+    url: "https://pulsesecurity.co.nz/articles/postgres-sqli"
+    title: SQL INJECTION AND POSTGRES - AN ADVENTURE TO EVENTUAL RCE
+    author:
+      name: "@denandz"
+      url: "https://github.com/denandz"
+    category: tricks-sql-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@denandz](https://github.com/denandz)."

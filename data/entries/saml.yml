@@ -1,0 +1,68 @@
+# Entries for section: Security Assertion Markup Language (SAML)
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: saml-how-to-hunt-bugs-in-saml-a-methodology-part-i
+    url: "https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology/"
+    title: How to Hunt Bugs in SAML; a Methodology - Part I
+    author:
+      name: epi
+      url: "https://epi052.gitlab.io/notes-to-self/"
+    category: saml
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [epi](https://epi052.gitlab.io/notes-to-self/)."
+  - id: saml-how-to-hunt-bugs-in-saml-a-methodology-part-ii
+    url: "https://epi052.gitlab.io/notes-to-self/blog/2019-03-13-how-to-test-saml-a-methodology-part-two/"
+    title: How to Hunt Bugs in SAML; a Methodology - Part II
+    author:
+      name: epi
+      url: "https://epi052.gitlab.io/notes-to-self/"
+    category: saml
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [epi](https://epi052.gitlab.io/notes-to-self/)."
+  - id: saml-how-to-hunt-bugs-in-saml-a-methodology-part-iii
+    url: "https://epi052.gitlab.io/notes-to-self/blog/2019-03-16-how-to-test-saml-a-methodology-part-three/"
+    title: How to Hunt Bugs in SAML; a Methodology - Part III
+    author:
+      name: epi
+      url: "https://epi052.gitlab.io/notes-to-self/"
+    category: saml
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [epi](https://epi052.gitlab.io/notes-to-self/)."
+  - id: saml-payloadsallthethings-saml-injection
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SAML%20Injection"
+    title: PayloadsAllTheThings - SAML Injection
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: saml
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
