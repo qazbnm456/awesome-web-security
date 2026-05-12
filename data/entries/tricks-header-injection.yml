@@ -1,0 +1,20 @@
+# Entries for section: Header Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-header-injection-java-python-ftp-injections-allow-for-firewall-bypa
+    url: "http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html"
+    title: Java/Python FTP Injections Allow for Firewall Bypass
+    author:
+      name: Timothy Morgan
+      url: "https://plus.google.com/105917618099766831589"
+    category: tricks-header-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Timothy Morgan](https://plus.google.com/105917618099766831589)."

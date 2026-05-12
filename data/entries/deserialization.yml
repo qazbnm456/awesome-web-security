@@ -1,0 +1,116 @@
+# Entries for section: Deserialization
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: deserialization-asp-net-resource-files-resx-and-deserialisation-is
+    url: "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/"
+    title: ASP.NET resource files (.RESX) and deserialisation issues
+    author:
+      name: "@irsdl"
+      url: "https://twitter.com/irsdl"
+    category: deserialization
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@irsdl](https://twitter.com/irsdl)."
+  - id: deserialization-what-do-weblogic-websphere-jboss-jenkins-opennms-a
+    url: "https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/"
+    title: "What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability."
+    author:
+      name: "@breenmachine"
+      url: "https://twitter.com/breenmachine"
+    category: deserialization
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@breenmachine](https://twitter.com/breenmachine)."
+  - id: deserialization-net-roulette-exploiting-insecure-deserialization-i
+    url: "https://www.youtube.com/watch?v=--6PiuvBGAU"
+    title: ".NET Roulette: Exploiting Insecure Deserialization in Telerik UI"
+    author:
+      name: "@noperator"
+      url: "https://twitter.com/noperator"
+    category: deserialization
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@noperator](https://twitter.com/noperator)."
+  - id: deserialization-attacking-net-deserialization
+    url: "https://www.youtube.com/watch?v=eDfGpu3iE4Q"
+    title: Attacking .NET deserialization
+    author:
+      name: "@pwntester"
+      url: "https://twitter.com/pwntester"
+    category: deserialization
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@pwntester](https://twitter.com/pwntester)."
+  - id: deserialization-net
+    url: "https://github.com/Ivan1ee/NET-Deserialize"
+    title: 总结了十篇.Net反序列化文章，持续更新
+    author:
+      name: "@Ivan1ee"
+      url: "https://github.com/Ivan1ee"
+    category: deserialization
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@Ivan1ee](https://github.com/Ivan1ee)."
+  - id: deserialization-how-to-exploit-the-dotnetnuke-cookie-deserializati
+    url: "https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization/"
+    title: How to exploit the DotNetNuke Cookie Deserialization
+    author:
+      name: CRISTIAN CORNEA
+      url: "https://pentest-tools.com/blog/author/pentest-cristian/"
+    category: deserialization
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-06-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [CRISTIAN CORNEA](https://pentest-tools.com/blog/author/pentest-cristian/)."
+  - id: deserialization-how-to-exploit-liferay-cve-2020-7961-quick-journey
+    url: "https://www.synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html"
+    title: "HOW TO EXPLOIT LIFERAY CVE-2020-7961 : QUICK JOURNEY TO POC"
+    author:
+      name: "@synacktiv"
+      url: "https://twitter.com/synacktiv"
+    category: deserialization
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-08-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@synacktiv](https://twitter.com/synacktiv)."

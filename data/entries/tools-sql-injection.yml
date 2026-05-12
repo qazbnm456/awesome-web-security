@@ -1,0 +1,20 @@
+# Entries for section: SQL Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-sql-injection-sqlmap
+    url: "https://github.com/sqlmapproject/sqlmap"
+    title: sqlmap
+    author:
+      name: Automatic SQL injection and database takeover tool
+      url: null
+    category: tools-sql-injection
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Automatic SQL injection and database takeover tool.

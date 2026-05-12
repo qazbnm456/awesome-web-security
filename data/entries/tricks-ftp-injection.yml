@@ -1,0 +1,36 @@
+# Entries for section: FTP Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-ftp-injection-xml-out-of-band-data-retrieval
+    url: "https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf"
+    title: XML Out-Of-Band Data Retrieval
+    author:
+      name: "@a66at"
+      url: "https://twitter.com/a66at"
+    category: tricks-ftp-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov."
+  - id: tricks-ftp-injection-xxe-oob-exploitation-at-java-1-7
+    url: "http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html"
+    title: XXE OOB exploitation at Java 1.7+
+    author:
+      name: Ivan Novikov
+      url: "http://lab.onsec.ru/"
+    category: tricks-ftp-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ivan Novikov](http://lab.onsec.ru/)."

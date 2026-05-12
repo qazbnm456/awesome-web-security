@@ -1,0 +1,84 @@
+# Entries for section: Preventing
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-preventing-js-xss
+    url: "https://github.com/leizongmin/js-xss"
+    title: js-xss
+    author:
+      name: "@leizongmin"
+      url: "https://github.com/leizongmin"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by [@leizongmin](https://github.com/leizongmin)."
+  - id: tools-preventing-acra
+    url: "https://github.com/cossacklabs/acra"
+    title: Acra
+    author:
+      name: "@cossacklabs"
+      url: "https://www.cossacklabs.com/"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Client-side encryption engine for SQL databases, with strong selective encryption, SQL injections prevention and intrusion detection by [@cossacklabs](https://www.cossacklabs.com/)."
+  - id: tools-preventing-dompurify
+    url: "https://github.com/cure53/DOMPurify"
+    title: DOMPurify
+    author:
+      name: Cure53
+      url: "https://cure53.de/"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG by [Cure53](https://cure53.de/)."
+  - id: tools-preventing-csper
+    url: "https://csper.io"
+    title: Csper
+    author:
+      name: Csper
+      url: "https://csper.io"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A set of tools for building/evaluating/monitoring content-security-policy to prevent/detect cross site scripting by [Csper](https://csper.io)."
+  - id: tools-preventing-uusec-waf
+    url: "https://github.com/Safe3/uusec-waf/"
+    title: UUSEC WAF
+    author:
+      name: UUCORP
+      url: "https://github.com/Safe3/"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh]
+    difficulty: intro
+    date_added: "2026-05-11"
+    archive_url: "https://web.archive.org/web/20260511190003/https://github.com/Safe3/uusec-waf/"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "An open-source web application firewall and API security gateway maintained by [UUCORP](https://github.com/Safe3/)."

@@ -1,0 +1,68 @@
+# Entries for section: Web Cache Poisoning
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: web-cache-poisoning-bypassing-web-cache-poisoning-countermeasures
+    url: "https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures"
+    title: Bypassing Web Cache Poisoning Countermeasures
+    author:
+      name: "@albinowax"
+      url: "https://twitter.com/albinowax"
+    category: web-cache-poisoning
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@albinowax](https://twitter.com/albinowax)."
+  - id: web-cache-poisoning-cache-poisoning-and-other-dirty-tricks
+    url: "https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f"
+    title: Cache poisoning and other dirty tricks
+    author:
+      name: Wallarm
+      url: "https://wallarm.com/"
+    category: web-cache-poisoning
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Wallarm](https://wallarm.com/)."
+  - id: web-cache-poisoning-practical-web-cache-poisoning
+    url: "https://portswigger.net/blog/practical-web-cache-poisoning"
+    title: Practical Web Cache Poisoning
+    author:
+      name: "@albinowax"
+      url: "https://twitter.com/albinowax"
+    category: web-cache-poisoning
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@albinowax](https://twitter.com/albinowax)."
+  - id: web-cache-poisoning-payloadsallthethings-web-cache-deception
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Web%20Cache%20Deception"
+    title: PayloadsAllTheThings - Web Cache Deception
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: web-cache-poisoning
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
