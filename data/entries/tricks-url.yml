@@ -1,0 +1,84 @@
+# Entries for section: URL
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-url-phishing-with-unicode-domains
+    url: "https://www.xudongz.com/blog/2017/idn-phishing/"
+    title: Phishing with Unicode Domains
+    author:
+      name: Xudong Zheng
+      url: "https://www.xudongz.com/"
+    category: tricks-url
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Xudong Zheng](https://www.xudongz.com/)."
+  - id: tricks-url-some-problems-of-urls
+    url: "https://noncombatant.org/2017/11/07/problems-of-urls/"
+    title: Some Problems Of URLs
+    author:
+      name: Chris Palmer
+      url: "https://noncombatant.org/about/"
+    category: tricks-url
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Chris Palmer](https://noncombatant.org/about/)."
+  - id: tricks-url-url-hacking
+    url: "http://php.ph/wydrops/drops/URL%20Hacking%20-%20前端猥琐流.pdf"
+    title: URL Hacking - 前端猥琐流
+    author:
+      name: "0x_Jin"
+      url: "http://xssec.lofter.com/"
+    category: tricks-url
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [0x_Jin](http://xssec.lofter.com/)."
+  - id: tricks-url-unicode-domains-are-bad-and-you-should-feel-bad-fo
+    url: "https://www.vgrsec.com/post20170219.html"
+    title: Unicode Domains are bad and you should feel bad for supporting them
+    author:
+      name: VRGSEC
+      url: "https://www.vgrsec.com/"
+    category: tricks-url
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [VRGSEC](https://www.vgrsec.com/)."
+  - id: tricks-url-dev-twitter-com-xss
+    url: "http://blog.blackfan.ru/2017/09/devtwittercom-xss.html"
+    title: "[dev.twitter.com] XSS"
+    author:
+      name: Sergey Bobrov
+      url: "http://blog.blackfan.ru/"
+    category: tricks-url
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Sergey Bobrov](http://blog.blackfan.ru/)."

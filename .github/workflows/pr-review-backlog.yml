@@ -1,0 +1,82 @@
+name: PR auto-review (backlog dry-run)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max number of open PRs to review'
+        required: false
+        default: '20'
+
+permissions:
+  contents: read
+  pull-requests: read
+  models: read
+
+jobs:
+  backlog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Hardening: copy trusted scripts to a location outside the worktree
+      # BEFORE we start checking out PR refs. The script we execute later
+      # always comes from the base branch, never from an attacker-controlled
+      # PR head. The PR's data/ is read via git show; we never run its code.
+      - name: Stash trusted scripts and data
+        run: |
+          mkdir -p /tmp/awsec-trusted
+          cp -R scripts /tmp/awsec-trusted/scripts
+          cp -R data /tmp/awsec-trusted/data
+          echo "TRUSTED_ROOT=/tmp/awsec-trusted" >> "$GITHUB_ENV"
+
+      - name: Review open PRs as artifacts (no posting)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BASE_REF: ${{ github.event.repository.default_branch }}
+          REVIEW_MODE: dryrun
+          GITHUB_OUTPUT_DIR: ${{ github.workspace }}/dryrun-out
+          LIMIT: ${{ github.event.inputs.limit || '20' }}
+        run: |
+          set -u
+          mkdir -p "$GITHUB_OUTPUT_DIR"
+
+          # gh pr list emits one JSON object per line under -q '.[]'
+          gh pr list --state open --limit "$LIMIT" \
+            --json number,headRefOid -q '.[]' > /tmp/awsec-prs.jsonl
+
+          while IFS= read -r pr_json; do
+            num=$(printf '%s' "$pr_json" | python3 -c 'import sys,json; print(json.load(sys.stdin)["number"])')
+            head_sha=$(printf '%s' "$pr_json" | python3 -c 'import sys,json; print(json.load(sys.stdin)["headRefOid"])')
+
+            # Validate inputs are well-formed (defense-in-depth against
+            # surprising JSON output)
+            case "$num" in
+              ''|*[!0-9]*) echo "skipping malformed PR number: $num"; continue ;;
+            esac
+            case "$head_sha" in
+              ''|*[!0-9a-f]*) echo "skipping malformed head sha: $head_sha"; continue ;;
+            esac
+
+            echo "=== PR #$num (head $head_sha) ==="
+            git fetch origin "pull/${num}/head:pr-${num}" --depth=50 || continue
+            git checkout "pr-${num}"
+
+            # IMPORTANT: run scripts FROM /tmp/awsec-trusted, not the PR's
+            # checkout. This prevents a malicious PR from executing arbitrary
+            # Python with this workflow's tokens (pwn-request pattern).
+            PR_NUMBER=$num python3 "${TRUSTED_ROOT}/scripts/ci/pr_review.py" || true
+
+            git checkout -
+          done < /tmp/awsec-prs.jsonl
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backlog-review
+          path: ${{ github.workspace }}/dryrun-out

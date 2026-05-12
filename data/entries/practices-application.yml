@@ -1,0 +1,84 @@
+# Entries for section: Application
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: practices-application-selinux-game
+    url: "http://selinuxgame.org/"
+    title: SELinux Game
+    author:
+      name: "@selinuxgame"
+      url: "https://twitter.com/selinuxgame"
+    category: practices-application
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Learn SELinux by doing. Solve Puzzles, show skillz - Written by [@selinuxgame](https://twitter.com/selinuxgame)."
+  - id: practices-application-badlibrary
+    url: "https://github.com/SecureSkyTechnology/BadLibrary"
+    title: BadLibrary
+    author:
+      name: "@SecureSkyTechnology"
+      url: "https://github.com/SecureSkyTechnology"
+    category: practices-application
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-04"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology)."
+  - id: practices-application-hackxor
+    url: "http://hackxor.net/"
+    title: Hackxor
+    author:
+      name: "@albinowax"
+      url: "https://twitter.com/albinowax"
+    category: practices-application
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-04"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax)."
+  - id: practices-application-owasp-juice-shop
+    url: "https://github.com/bkimminich/juice-shop"
+    title: OWASP Juice Shop
+    author:
+      name: "@bkimminich"
+      url: "https://github.com/bkimminich"
+    category: practices-application
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-04"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Probably the most modern and sophisticated insecure web application - Written by [@bkimminich](https://github.com/bkimminich) and the [@owasp_juiceshop](https://twitter.com/owasp_juiceshop) team."
+  - id: practices-application-portswigger-web-security-academy
+    url: "https://portswigger.net/web-security"
+    title: Portswigger Web Security Academy
+    author:
+      name: PortSwigger
+      url: "https://portswigger.net/"
+    category: practices-application
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-04"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free trainings and labs - Written by [PortSwigger](https://portswigger.net/)."

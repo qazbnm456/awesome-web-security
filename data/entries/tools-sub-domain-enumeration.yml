@@ -1,0 +1,148 @@
+# Entries for section: Sub Domain Enumeration
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-sub-domain-enumeration-aquatone
+    url: "https://github.com/michenriksen/aquatone"
+    title: AQUATONE
+    author:
+      name: "@michenriksen"
+      url: "https://github.com/michenriksen"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Tool for Domain Flyovers by [@michenriksen](https://github.com/michenriksen)."
+  - id: tools-sub-domain-enumeration-certificate-search
+    url: "https://crt.sh/"
+    title: Certificate Search
+    author:
+      name: "@crtsh"
+      url: "https://github.com/crtsh"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Enter an Identity (Domain Name, Organization Name, etc), a Certificate Fingerprint (SHA-1 or SHA-256) or a crt.sh ID to search certificate(s) by [@crtsh](https://github.com/crtsh)."
+  - id: tools-sub-domain-enumeration-certificate-transparency
+    url: "https://github.com/google/certificate-transparency"
+    title: Certificate Transparency
+    author:
+      name: "@google"
+      url: "https://github.com/google"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Google's Certificate Transparency project fixes several structural flaws in the SSL certificate system by [@google](https://github.com/google)."
+  - id: tools-sub-domain-enumeration-eyewitness
+    url: "https://github.com/ChrisTruncer/EyeWitness"
+    title: EyeWitness
+    author:
+      name: "@ChrisTruncer"
+      url: "https://github.com/ChrisTruncer"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible by [@ChrisTruncer](https://github.com/ChrisTruncer)."
+  - id: tools-sub-domain-enumeration-gsdf
+    url: "https://github.com/We5ter/GSDF"
+    title: GSDF
+    author:
+      name: "@We5ter"
+      url: "https://github.com/We5ter"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Domain searcher named GoogleSSLdomainFinder by [@We5ter](https://github.com/We5ter)."
+  - id: tools-sub-domain-enumeration-virustotal-domain-information
+    url: "https://www.virustotal.com/en/documentation/searching/#getting-domain-information"
+    title: VirusTotal domain information
+    author:
+      name: VirusTotal
+      url: "https://www.virustotal.com/"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Searching for domain information by [VirusTotal](https://www.virustotal.com/)."
+  - id: tools-sub-domain-enumeration-domain-analyzer
+    url: "https://github.com/eldraco/domain_analyzer"
+    title: domain_analyzer
+    author:
+      name: "@eldraco"
+      url: "https://github.com/eldraco"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Analyze the security of any domain by finding all the information possible by [@eldraco](https://github.com/eldraco)."
+  - id: tools-sub-domain-enumeration-subdomainsbrute
+    url: "https://github.com/lijiejie/subDomainsBrute"
+    title: subDomainsBrute
+    author:
+      name: "@lijiejie"
+      url: "https://github.com/lijiejie"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A simple and fast sub domain brute tool for pentesters by [@lijiejie](https://github.com/lijiejie)."
+  - id: tools-sub-domain-enumeration-sublist3r
+    url: "https://github.com/aboul3la/Sublist3r"
+    title: Sublist3r
+    author:
+      name: "@aboul3la"
+      url: "https://github.com/aboul3la"
+    category: tools-sub-domain-enumeration
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Sublist3r is a multi-threaded sub-domain enumeration tool for penetration testers by [@aboul3la](https://github.com/aboul3la)."

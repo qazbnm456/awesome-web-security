@@ -1,0 +1,20 @@
+# Entries for section: Server-Side Request Forgery
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-ssrf-open-redirect-ssrf-payload-generator
+    url: "https://tools.intigriti.io/redirector/"
+    title: Open redirect/SSRF payload generator
+    author:
+      name: intigriti
+      url: "https://www.intigriti.com/"
+    category: tools-ssrf
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/)."

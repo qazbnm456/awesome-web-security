@@ -1,0 +1,100 @@
+# Entries for section: AWS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: aws-flaws
+    url: "http://flaws.cloud/"
+    title: FLAWS
+    author:
+      name: "@0xdabbad00"
+      url: "https://twitter.com/0xdabbad00"
+    category: aws
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00)."
+  - id: aws-penetration-testing-aws-storage-kicking-the-s3-buc
+    url: "https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/"
+    title: "PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET"
+    author:
+      name: Rhino Security Labs
+      url: "https://rhinosecuritylabs.com/"
+    category: aws
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: "https://web.archive.org/web/20260511143339/https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by Dwight Hohnstein from [Rhino Security Labs](https://rhinosecuritylabs.com/)."
+  - id: aws-aws-penetration-testing-part-1-s3-buckets
+    url: "https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/"
+    title: AWS PENETRATION TESTING PART 1. S3 BUCKETS
+    author:
+      name: VirtueSecurity
+      url: "https://www.virtuesecurity.com/"
+    category: aws
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [VirtueSecurity](https://www.virtuesecurity.com/)."
+  - id: aws-aws-penetration-testing-part-2-s3-iam-ec2
+    url: "https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/"
+    title: "AWS PENETRATION TESTING PART 2. S3, IAM, EC2"
+    author:
+      name: VirtueSecurity
+      url: "https://www.virtuesecurity.com/"
+    category: aws
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [VirtueSecurity](https://www.virtuesecurity.com/)."
+  - id: aws-cloudgoat
+    url: "https://github.com/RhinoSecurityLabs/cloudgoat"
+    title: CloudGoat
+    author:
+      name: "@RhinoSecurityLabs"
+      url: "https://github.com/RhinoSecurityLabs"
+    category: aws
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Rhino Security Labs' \"Vulnerable by Design\" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs)."
+  - id: aws-misadventures-in-aws
+    url: "https://labs.f-secure.com/blog/misadventures-in-aws"
+    title: Misadventures in AWS
+    author:
+      name: Christian Demko
+      url: null
+    category: aws
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by Christian Demko

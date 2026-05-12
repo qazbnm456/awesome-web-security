@@ -1,0 +1,114 @@
+# Entries for section: XXE - XML eXternal Entity
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: xxe-xml
+    url: "http://www.freebuf.com/video/49961.html"
+    title: XML实体攻击 - 从内网探测到命令执行步步惊心
+    author:
+      name: 张天琪
+      url: null
+    category: xxe
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by 张天琪.
+  - id: xxe-xxe
+    url: "https://phonexicum.github.io/infosec/xxe.html"
+    title: XXE
+    author:
+      name: "@phonexicum"
+      url: "https://twitter.com/phonexicum"
+    category: xxe
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@phonexicum](https://twitter.com/phonexicum)."
+  - id: xxe-xxe-2
+    url: "https://b1ngz.github.io/XXE-learning-note/"
+    title: XXE漏洞的简单理解和测试
+    author:
+      name: "@b1ngz"
+      url: "https://b1ngz.github.io/"
+    category: xxe
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@b1ngz](https://b1ngz.github.io/)."
+  - id: xxe-payloadsallthethings-xxe-injection
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection"
+    title: PayloadsAllTheThings - XXE Injection
+    author: null
+    category: xxe
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by various contributors.
+  - id: xxe-xml-schema-dtd-and-entity-attacks
+    url: "https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf"
+    title: "XML Schema, DTD, and Entity Attacks"
+    author:
+      name: Timothy D. Morgan
+      url: "https://twitter.com/ecbftw"
+    category: xxe
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim."
+  - id: xxe-xml-external-entity-xxe-injection
+    url: "https://portswigger.net/web-security/xxe"
+    title: XML external entity (XXE) injection
+    author:
+      name: portswigger
+      url: "https://portswigger.net/"
+    category: xxe
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [portswigger](https://portswigger.net/)."
+  - id: xxe-payloadbox-xxe-injection-payload-list
+    url: "https://github.com/payloadbox/xxe-injection-payload-list"
+    title: payloadbox/xxe-injection-payload-list
+    author:
+      name: "@payloadbox"
+      url: "https://github.com/payloadbox"
+    category: xxe
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)"

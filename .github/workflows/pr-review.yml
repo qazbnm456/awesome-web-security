@@ -1,0 +1,52 @@
+name: PR auto-review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'data/**'
+      - 'scripts/generate.py'
+      - 'scripts/verify_*.py'
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+  models: read
+
+concurrency:
+  group: pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify schema + anchors
+        run: |
+          python3 scripts/verify_schema.py
+          python3 scripts/verify_anchors.py
+
+      - name: Verify generator round-trips cleanly
+        run: |
+          python3 scripts/generate.py
+          if ! git diff --quiet README.md README-zh.md README-jp.md data/index.json; then
+            echo "::warning::generator output differs from committed README; rebase needed?"
+            git diff --stat README.md README-zh.md README-jp.md data/index.json
+          fi
+
+      - name: Auto-review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BASE_REF: ${{ github.base_ref }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEW_MODE: post
+        run: python3 scripts/ci/pr_review.py

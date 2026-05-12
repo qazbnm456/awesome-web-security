@@ -1,0 +1,52 @@
+# Entries for section: Relative Path Overwrite
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: relative-path-overwrite-large-scale-analysis-of-style-injection-by-relativ
+    url: "https://blog.acolyer.org/2018/05/28/large-scale-analysis-of-style-injection-by-relative-path-overwrite/"
+    title: Large-scale analysis of style injection by relative path overwrite
+    author:
+      name: The Morning Paper
+      url: "https://blog.acolyer.org/"
+    category: relative-path-overwrite
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [The Morning Paper](https://blog.acolyer.org/)."
+  - id: relative-path-overwrite-mbsd-technical-whitepaper-a-few-rpo-exploitation-t
+    url: "https://www.mbsd.jp/Whitepaper/rpo.pdf"
+    title: MBSD Technical Whitepaper - A few RPO exploitation techniques
+    author:
+      name: "Mitsui Bussan Secure Directions, Inc."
+      url: "https://www.mbsd.jp/"
+    category: relative-path-overwrite
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mitsui Bussan Secure Directions, Inc.](https://www.mbsd.jp/)."
+  - id: relative-path-overwrite-rpo
+    url: "https://www.freebuf.com/articles/web/166731.html"
+    title: RPO攻击方式的探究
+    author:
+      name: K0rz3n
+      url: "https://www.freebuf.com/author/K0rz3n"
+    category: relative-path-overwrite
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [K0rz3n](https://www.freebuf.com/author/K0rz3n)."
