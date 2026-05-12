@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T18:53:45Z",
+  "generated_at": "2026-05-12T18:54:48Z",
   "categories": [
     {
       "key": "digests",
@@ -6760,7 +6760,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260512125842/https://github.com/aleff-github/wayparam",
       "last_checked": null,
       "status": "active"
     },
