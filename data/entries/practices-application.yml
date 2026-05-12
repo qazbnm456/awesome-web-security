@@ -82,3 +82,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free trainings and labs - Written by [PortSwigger](https://portswigger.net/)."
+  - id: practices-application-oopssec-store
+    url: "https://github.com/kOaDT/oss-oopssec-store"
+    title: OopsSec Store
+    author:
+      name: "@kOaDT"
+      url: "https://github.com/kOaDT"
+    category: practices-application
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT)."

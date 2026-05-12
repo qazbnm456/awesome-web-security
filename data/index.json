@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T18:54:48Z",
+  "generated_at": "2026-05-12T18:58:57Z",
   "categories": [
     {
       "key": "digests",
@@ -5166,6 +5166,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-04",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-oopssec-store",
+      "url": "https://github.com/kOaDT/oss-oopssec-store",
+      "title": "OopsSec Store",
+      "author": {
+        "name": "@kOaDT",
+        "url": "https://github.com/kOaDT"
+      },
+      "category": "practices-application",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
