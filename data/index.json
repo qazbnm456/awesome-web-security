@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T02:11:36Z",
+  "generated_at": "2026-05-12T07:37:26Z",
   "categories": [
     {
       "key": "digests",
@@ -7650,6 +7650,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-11",
       "archive_url": "https://web.archive.org/web/20260511190003/https://github.com/Safe3/uusec-waf/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-bunkerweb",
+      "url": "https://www.bunkerweb.io",
+      "title": "BunkerWeb",
+      "author": {
+        "name": "Bunkerity",
+        "url": "https://github.com/bunkerity"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

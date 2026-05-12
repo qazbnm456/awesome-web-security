@@ -82,3 +82,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "An open-source web application firewall and API security gateway maintained by [UUCORP](https://github.com/Safe3/)."
+  - id: tools-preventing-bunkerweb
+    url: "https://www.bunkerweb.io"
+    title: BunkerWeb
+    author:
+      name: Bunkerity
+      url: "https://github.com/bunkerity"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A next-generation open-source Web Application Firewall built on nginx, maintained by [Bunkerity](https://github.com/bunkerity)."
