@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T09:37:30Z",
+  "generated_at": "2026-05-12T12:56:20Z",
   "categories": [
     {
       "key": "digests",
@@ -6739,6 +6739,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-fuzzing-wayparam",
+      "url": "https://github.com/aleff-github/wayparam",
+      "title": "wayparam",
+      "author": {
+        "name": "@aleff-github",
+        "url": "https://github.com/aleff-github"
+      },
+      "category": "tools-fuzzing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

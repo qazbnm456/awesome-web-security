@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Potentially dangerous files by [@Bo0oM](https://github.com/Bo0oM)."
+  - id: tools-fuzzing-wayparam
+    url: "https://github.com/aleff-github/wayparam"
+    title: wayparam
+    author:
+      name: "@aleff-github"
+      url: "https://github.com/aleff-github"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Cross-platform Python CLI that fetches historical URLs from the Wayback CDX API and outputs normalized parameterized URLs for fuzzing, by [@aleff-github](https://github.com/aleff-github)."
