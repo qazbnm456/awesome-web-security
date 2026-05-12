@@ -610,3 +610,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@cj.fairhead](https://medium.com/@cj.fairhead)."
+  - id: miscellaneous-grokking-web-application-security
+    url: "https://www.manning.com/books/grokking-web-application-security"
+    title: Grokking Web Application Security
+    author:
+      name: Malcolm McDonald
+      url: null
+    category: miscellaneous
+    type: book
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning)."

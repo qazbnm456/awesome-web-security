@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T08:14:04Z",
+  "generated_at": "2026-05-12T08:47:57Z",
   "categories": [
     {
       "key": "digests",
@@ -4583,6 +4583,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-06-19",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "miscellaneous-grokking-web-application-security",
+      "url": "https://www.manning.com/books/grokking-web-application-security",
+      "title": "Grokking Web Application Security",
+      "author": {
+        "name": "Malcolm McDonald",
+        "url": null
+      },
+      "category": "miscellaneous",
+      "type": "book",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
