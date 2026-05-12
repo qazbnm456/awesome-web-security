@@ -1,0 +1,84 @@
+# Entries for section: CSRF
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-csrf-exploiting-csrf-on-json-endpoints-with-flash-and-r
+    url: "https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b"
+    title: Exploiting CSRF on JSON endpoints with Flash and redirects
+    author:
+      name: "@riyazwalikar"
+      url: "https://blog.appsecco.com/@riyazwalikar"
+    category: tricks-csrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar)."
+  - id: tricks-csrf-neat-tricks-to-bypass-csrf-protection
+    url: "https://zhuanlan.zhihu.com/p/32716181"
+    title: Neat tricks to bypass CSRF-protection
+    author:
+      name: Twosecurity
+      url: "https://twosecurity.io/"
+    category: tricks-csrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Twosecurity](https://twosecurity.io/)."
+  - id: tricks-csrf-stealing-csrf-tokens-with-css-injection-without-if
+    url: "https://github.com/dxa4481/cssInjection"
+    title: Stealing CSRF tokens with CSS injection (without iFrames)
+    author:
+      name: "@dxa4481"
+      url: "https://github.com/dxa4481"
+    category: tricks-csrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@dxa4481](https://github.com/dxa4481)."
+  - id: tricks-csrf-cracking-java-s-rng-for-csrf-javax-faces-and-why-c
+    url: "https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2"
+    title: Cracking Java’s RNG for CSRF - Javax Faces and Why CSRF Token Randomness Matters
+    author:
+      name: "@rramgattie"
+      url: "https://blog.securityevaluators.com/@rramgattie"
+    category: tricks-csrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@rramgattie](https://blog.securityevaluators.com/@rramgattie)."
+  - id: tricks-csrf-if-httponly-you-could-still-csrf-of-cors-you-can
+    url: "https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443"
+    title: "If HttpOnly You Could Still CSRF… Of CORS you can!"
+    author:
+      name: "@GraphX"
+      url: "https://twitter.com/GraphX"
+    category: tricks-csrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@GraphX](https://twitter.com/GraphX)."

@@ -1,0 +1,36 @@
+# Entries for section: Web Shell
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: web-shell-hacking-with-jsp-shells
+    url: "https://blog.netspi.com/hacking-with-jsp-shells/"
+    title: Hacking with JSP Shells
+    author:
+      name: "@_nullbind"
+      url: "https://twitter.com/_nullbind"
+    category: web-shell
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@_nullbind](https://twitter.com/_nullbind)."
+  - id: web-shell-hunting-for-web-shells
+    url: "https://www.tenable.com/blog/hunting-for-web-shells"
+    title: Hunting for Web Shells
+    author:
+      name: Jacob Baines
+      url: "https://www.tenable.com/profile/jacob-baines"
+    category: web-shell
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Jacob Baines](https://www.tenable.com/profile/jacob-baines)."

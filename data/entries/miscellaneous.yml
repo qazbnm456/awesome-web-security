@@ -1,0 +1,628 @@
+# Entries for section: Miscellaneous
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: miscellaneous-1000php
+    url: "https://github.com/Xyntax/1000php"
+    title: "1000php"
+    author:
+      name: "@Xyntax"
+      url: "https://github.com/Xyntax"
+    category: miscellaneous
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "1000个PHP代码审计案例(2016.7以前乌云公开漏洞) by [@Xyntax](https://github.com/Xyntax)."
+  - id: miscellaneous-a-glimpse-into-githubs-bug-bounty-workflow
+    url: "https://githubengineering.com/githubs-bug-bounty-workflow/"
+    title: "A glimpse into GitHub's Bug Bounty workflow"
+    author:
+      name: "@gregose"
+      url: "https://github.com/gregose"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@gregose](https://github.com/gregose)."
+  - id: miscellaneous-brute-forcing-your-facebook-email-and-phone-number
+    url: "http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html"
+    title: Brute Forcing Your Facebook Email and Phone Number
+    author:
+      name: PwnDizzle
+      url: "http://pwndizzle.blogspot.jp/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [PwnDizzle](http://pwndizzle.blogspot.jp/)."
+  - id: miscellaneous-cybersecurity-campaign-playbook
+    url: "https://www.belfercenter.org/CyberPlaybook"
+    title: Cybersecurity Campaign Playbook
+    author:
+      name: Belfer Center for Science and International Affairs
+      url: "https://www.belfercenter.org/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Belfer Center for Science and International Affairs](https://www.belfercenter.org/)."
+  - id: miscellaneous-eqgrp
+    url: "https://github.com/x0rz/EQGRP"
+    title: EQGRP
+    author:
+      name: "@x0rz"
+      url: "https://github.com/x0rz"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz)."
+  - id: miscellaneous-google-vrp-and-unicorns
+    url: "https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns"
+    title: Google VRP and Unicorns
+    author:
+      name: Daniel Stelter-Gliese
+      url: "https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Daniel Stelter-Gliese](https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/)."
+  - id: miscellaneous-infosec-reference
+    url: "https://github.com/rmusser01/Infosec_Reference"
+    title: Infosec_Reference
+    author:
+      name: "@rmusser01"
+      url: "https://github.com/rmusser01"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Information Security Reference That Doesn't Suck by [@rmusser01](https://github.com/rmusser01)."
+  - id: miscellaneous-internet-of-things-scanner
+    url: "http://iotscanner.bullguard.com/"
+    title: Internet of Things Scanner
+    author:
+      name: BullGuard
+      url: "https://www.bullguard.com/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/)."
+  - id: miscellaneous-pentest-exploit-dev-cheatsheet-wallpaper
+    url: "http://i.imgur.com/Mr9pvq9.jpg"
+    title: Pentest + Exploit dev Cheatsheet wallpaper
+    author:
+      name: Penetration Testing and Exploit Dev CheatSheet
+      url: null
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Penetration Testing and Exploit Dev CheatSheet.
+  - id: miscellaneous-the-definitive-security-data-science-and-machine-l
+    url: "http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/"
+    title: The Definitive Security Data Science and Machine Learning Guide
+    author:
+      name: JASON TROS
+      url: null
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by JASON TROS.
+  - id: miscellaneous-awesome-bug-bounty
+    url: "https://github.com/djadmin/awesome-bug-bounty"
+    title: awesome-bug-bounty
+    author:
+      name: "@djadmin"
+      url: "https://github.com/djadmin"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Comprehensive curated list of available Bug Bounty & Disclosure Programs and write-ups by [@djadmin](https://github.com/djadmin)."
+  - id: miscellaneous-bug-bounty-reference
+    url: "https://github.com/ngalongc/bug-bounty-reference"
+    title: bug-bounty-reference
+    author:
+      name: "@ngalongc"
+      url: "https://github.com/ngalongc"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "List of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc)."
+  - id: miscellaneous-notes
+    url: "https://github.com/ChALkeR/notes"
+    title: notes
+    author:
+      name: "@ChALkeR"
+      url: "https://github.com/ChALkeR"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Some public notes by [@ChALkeR](https://github.com/ChALkeR)."
+  - id: miscellaneous-ip
+    url: "http://devco.re/blog/2014/06/19/client-ip-detection/"
+    title: 如何正確的取得使用者 IP ？
+    author:
+      name: Allen Own
+      url: "http://devco.re/blog/author/allenown"
+    category: miscellaneous
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Allen Own](http://devco.re/blog/author/allenown)."
+  - id: miscellaneous-dark-web-report-eyewitness-torghost-docker
+    url: "http://www.mottoin.com/106687.html"
+    title: 暗网系列之：利用Dark Web Report + EyeWitness+ TorGhost +Docker，自动化获取暗网站点的信息
+    author:
+      name: 鹰小编
+      url: "http://www.mottoin.com/user/ying/"
+    category: miscellaneous
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [鹰小编](http://www.mottoin.com/user/ying/)."
+  - id: miscellaneous-7-5k-google-services-mix-up
+    url: "https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up"
+    title: $7.5k Google services mix-up
+    author:
+      name: Ezequiel Pereira
+      url: "https://sites.google.com/site/testsitehacking/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/)."
+  - id: miscellaneous-the-bug-hunters-methodology-v2-1
+    url: "https://docs.google.com/presentation/d/1VpRT8dFyTaFpQa9jhehtmGaC7TqQniMSYbUdlHN6VrY/edit?usp=sharing"
+    title: The Bug Hunters Methodology v2.1
+    author:
+      name: "@jhaddix"
+      url: "https://twitter.com/jhaddix"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@jhaddix](https://twitter.com/jhaddix)."
+  - id: miscellaneous-how-i-exploited-acme-tls-sni-01-issuing-lets-encry
+    url: "https://labs.detectify.com/2018/01/12/how-i-exploited-acme-tls-sni-01-issuing-lets-encrypt-ssl-certs-for-any-domain-using-shared-hosting/"
+    title: "How I exploited ACME TLS-SNI-01 issuing Let's Encrypt SSL-certs for any domain using shared hosting"
+    author:
+      name: "@fransrosen"
+      url: "https://twitter.com/fransrosen"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@fransrosen](https://twitter.com/fransrosen)."
+  - id: miscellaneous-tl-dr-vpn-leaks-users-ips-via-webrtc-i-ve-tested-s
+    url: "https://voidsec.com/vpn-leak/"
+    title: "TL:DR: VPN leaks users’ IPs via WebRTC. I’ve tested seventy VPN providers and 16 of them leaks users’ IPs via WebRTC (23%)"
+    author:
+      name: voidsec
+      url: "https://voidsec.com/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [voidsec](https://voidsec.com/)."
+  - id: miscellaneous-be-careful-what-you-copy-invisibly-inserting-usern
+    url: "https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66"
+    title: "Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters"
+    author:
+      name: "@umpox"
+      url: "https://medium.com/@umpox"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@umpox](https://medium.com/@umpox)."
+  - id: miscellaneous-escape-and-evasion-egressing-restricted-networks
+    url: "https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks"
+    title: Escape and Evasion Egressing Restricted Networks
+    author:
+      name: "Chris Patten, Tom Steele"
+      url: "mailto:info@optiv.com"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Chris Patten, Tom Steele](mailto:info@optiv.com)."
+  - id: miscellaneous-domato-fuzzers-generation-engine-internals
+    url: "https://www.sigpwn.io/blog/2018/4/14/domato-fuzzers-generation-engine-internals"
+    title: "Domato Fuzzer's Generation Engine Internals"
+    author:
+      name: sigpwn
+      url: "https://www.sigpwn.io/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [sigpwn](https://www.sigpwn.io/)."
+  - id: miscellaneous-css-is-so-overpowered-it-can-deanonymize-facebook
+    url: "https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/"
+    title: CSS Is So Overpowered It Can Deanonymize Facebook Users
+    author:
+      name: Ruslan Habalov
+      url: "https://www.evonide.com/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ruslan Habalov](https://www.evonide.com/)."
+  - id: miscellaneous-introduction-to-web-application-security
+    url: "https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018"
+    title: Introduction to Web Application Security
+    author:
+      name: "@itsC0rg1"
+      url: "https://twitter.com/itsC0rg1"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-13"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@itsC0rg1](https://twitter.com/itsC0rg1), [@jmkeads](https://twitter.com/jmkeads) and [@matir](https://twitter.com/matir)."
+  - id: miscellaneous-finding-the-real-origin-ips-hiding-behind-cloudfla
+    url: "https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/"
+    title: Finding The Real Origin IPs Hiding Behind CloudFlare or TOR
+    author:
+      name: Paul Dannewitz
+      url: "https://www.secjuice.com/author/paul-dannewitz/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Paul Dannewitz](https://www.secjuice.com/author/paul-dannewitz/)."
+  - id: miscellaneous-how-i-could-have-stolen-your-photos-from-google-my
+    url: "https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/"
+    title: How I could have stolen your photos from Google - my first 3 bug bounty writeups
+    author:
+      name: "@gergoturcsanyi"
+      url: "https://twitter.com/gergoturcsanyi"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-12-17"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi)."
+  - id: miscellaneous-an-example-why-nat-is-not-security
+    url: "https://0day.work/an-example-why-nat-is-not-security/"
+    title: An example why NAT is NOT security
+    author:
+      name: "@0daywork"
+      url: "https://twitter.com/@0daywork"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@0daywork](https://twitter.com/@0daywork)."
+  - id: miscellaneous-alexa-top-1-million-security-hacking-the-big-ones
+    url: "https://slashcrypto.org/data/itsecx2018.pdf"
+    title: Alexa Top 1 Million Security - Hacking the Big Ones
+    author:
+      name: "@slashcrypto"
+      url: "https://twitter.com/slashcrypto"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@slashcrypto](https://twitter.com/slashcrypto)."
+  - id: miscellaneous-hacking-with-a-heads-up-display
+    url: "https://segment.com/blog/hacking-with-a-heads-up-display/"
+    title: Hacking with a Heads Up Display
+    author:
+      name: David Scrobonia
+      url: "https://segment.com/blog/authors/david-scrobonia/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/)."
+  - id: miscellaneous-web-application-penetration-testing-notes
+    url: "https://techvomit.net/web-application-penetration-testing-notes/"
+    title: WEB APPLICATION PENETRATION TESTING NOTES
+    author:
+      name: Jayson
+      url: "https://techvomit.net/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Jayson](https://techvomit.net/)."
+  - id: miscellaneous-list-of-bug-bounty-writeups
+    url: "https://pentester.land/list-of-bug-bounty-writeups.html"
+    title: List of bug bounty writeups
+    author:
+      name: Mariem
+      url: "https://pentester.land/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mariem](https://pentester.land/)."
+  - id: miscellaneous-the-bug-bounty-program-that-changed-my-life
+    url: "http://10degres.net/the-bug-bounty-program-that-changed-my-life/"
+    title: The bug bounty program that changed my life
+    author:
+      name: Gwen
+      url: "http://10degres.net/"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Gwen](http://10degres.net/)."
+  - id: miscellaneous-why-facebooks-api-starts-with-a-for-loop
+    url: "https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob"
+    title: "Why Facebook's api starts with a for loop"
+    author:
+      name: "@AntoGarand"
+      url: "https://twitter.com/AntoGarand"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-03-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@AntoGarand](https://twitter.com/AntoGarand)."
+  - id: miscellaneous-implications-of-loading-net-assemblies
+    url: "https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html"
+    title: Implications of Loading .NET Assemblies
+    author:
+      name: Brian Wallace
+      url: "https://threatvector.cylance.com/en_us/contributors/brian-wallace.html"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html)."
+  - id: miscellaneous-wctf2019-gyotaku-the-flag
+    url: "https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf"
+    title: "WCTF2019: Gyotaku The Flag"
+    author:
+      name: "@t0nk42"
+      url: "https://twitter.com/t0nk42"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@t0nk42](https://twitter.com/t0nk42)."
+  - id: miscellaneous-how-we-abused-slacks-turn-servers-to-gain-access-t
+    url: "https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/"
+    title: "How we abused Slack's TURN servers to gain access to internal services"
+    author:
+      name: "@sandrogauci"
+      url: "https://twitter.com/sandrogauci"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-11"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@sandrogauci](https://twitter.com/sandrogauci)."
+  - id: miscellaneous-dos-file-path-magic-tricks
+    url: "https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa"
+    title: DOS File Path Magic Tricks
+    author:
+      name: "@clr2of8"
+      url: "https://medium.com/@clr2of8"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-06-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@clr2of8](https://medium.com/@clr2of8)."
+  - id: miscellaneous-how-i-got-my-first-big-bounty-payout-with-tesla
+    url: "https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d"
+    title: How I got my first big bounty payout with Tesla
+    author:
+      name: "@cj.fairhead"
+      url: "https://medium.com/@cj.fairhead"
+    category: miscellaneous
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2020-06-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@cj.fairhead](https://medium.com/@cj.fairhead)."
+  - id: miscellaneous-grokking-web-application-security
+    url: "https://www.manning.com/books/grokking-web-application-security"
+    title: Grokking Web Application Security
+    author:
+      name: Malcolm McDonald
+      url: null
+    category: miscellaneous
+    type: book
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning)."

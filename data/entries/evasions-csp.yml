@@ -1,0 +1,132 @@
+# Entries for section: CSP
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: evasions-csp-csp-bypassing-form-action-with-reflected-xss
+    url: "https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/"
+    title: "CSP: bypassing form-action with reflected XSS"
+    author:
+      name: Detectify Labs
+      url: "https://labs.detectify.com/"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Detectify Labs](https://labs.detectify.com/)."
+  - id: evasions-csp-twitter-xss-csp-bypass
+    url: "http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html"
+    title: TWITTER XSS + CSP BYPASS
+    author:
+      name: Paulos Yibelo
+      url: "http://www.paulosyibelo.com/"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Paulos Yibelo](http://www.paulosyibelo.com/)."
+  - id: evasions-csp-neatly-bypassing-csp
+    url: "https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa"
+    title: Neatly bypassing CSP
+    author:
+      name: Wallarm
+      url: "https://wallarm.com/"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-13"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Wallarm](https://wallarm.com/)."
+  - id: evasions-csp-evading-csp-with-dom-based-dangling-markup
+    url: "https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup"
+    title: Evading CSP with DOM-based dangling markup
+    author:
+      name: portswigger
+      url: "https://portswigger.net/"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [portswigger](https://portswigger.net/)."
+  - id: evasions-csp-githubs-csp-journey
+    url: "https://githubengineering.com/githubs-csp-journey/"
+    title: "GitHub's CSP journey"
+    author:
+      name: "@ptoomey3"
+      url: "https://github.com/ptoomey3"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-01"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@ptoomey3](https://github.com/ptoomey3)."
+  - id: evasions-csp-githubs-post-csp-journey
+    url: "https://githubengineering.com/githubs-post-csp-journey/"
+    title: "GitHub's post-CSP journey"
+    author:
+      name: "@ptoomey3"
+      url: "https://github.com/ptoomey3"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-01"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@ptoomey3](https://github.com/ptoomey3)."
+  - id: evasions-csp-csp
+    url: "http://heartsky.info/2017/03/03/那些年我们绕过的CSP"
+    title: 那些年我们绕过的CSP
+    author:
+      name: HeartSky
+      url: "http://heartsky.info/"
+    category: evasions-csp
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-08-01"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [HeartSky](http://heartsky.info/)."
+  - id: evasions-csp-any-protection-against-dynamic-module-import
+    url: "https://github.com/w3c/webappsec-csp/issues/243"
+    title: "Any protection against dynamic module import?"
+    author:
+      name: "@shhnjk"
+      url: "https://twitter.com/@shhnjk"
+    category: evasions-csp
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@shhnjk](https://twitter.com/@shhnjk)."

@@ -1,0 +1,20 @@
+# Entries for section: OAuth
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-oauth-facebook-oauth-framework-vulnerability
+    url: "https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/"
+    title: Facebook OAuth Framework Vulnerability
+    author:
+      name: "@AmolBaikar"
+      url: "https://twitter.com/AmolBaikar"
+    category: tricks-oauth
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@AmolBaikar](https://twitter.com/AmolBaikar)."
