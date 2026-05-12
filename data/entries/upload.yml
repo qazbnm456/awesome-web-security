@@ -1,0 +1,36 @@
+# Entries for section: Upload
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: upload-file-upload-restrictions-bypass
+    url: "https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf"
+    title: File Upload Restrictions Bypass
+    author:
+      name: Haboob Team
+      url: "https://www.exploit-db.com/author/?a=9381"
+    category: upload
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Haboob Team](https://www.exploit-db.com/author/?a=9381)."
+  - id: upload-payloadsallthethings-upload-insecure-files
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files"
+    title: PayloadsAllTheThings - Upload Insecure Files
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: upload
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."

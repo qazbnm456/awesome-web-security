@@ -1,0 +1,84 @@
+# Entries for section: Others
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-others-cyberchef
+    url: "https://github.com/gchq/CyberChef"
+    title: CyberChef
+    author:
+      name: "@GCHQ"
+      url: "https://github.com/gchq"
+    category: tools-others
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by [@GCHQ](https://github.com/gchq)."
+  - id: tools-others-dnslogger
+    url: "https://wiki.skullsecurity.org/index.php?title=Dnslogger"
+    title: Dnslogger
+    author:
+      name: "@iagox86"
+      url: "https://github.com/iagox86"
+    category: tools-others
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "DNS Logger by [@iagox86](https://github.com/iagox86)."
+  - id: tools-others-cefdebug
+    url: "https://github.com/taviso/cefdebug"
+    title: cefdebug
+    author:
+      name: "@taviso"
+      url: "https://github.com/taviso"
+    category: tools-others
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso)."
+  - id: tools-others-ctftool
+    url: "https://github.com/taviso/ctftool"
+    title: ctftool
+    author:
+      name: "@taviso"
+      url: "https://github.com/taviso"
+    category: tools-others
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso)."
+  - id: tools-others-ntlm-challenger
+    url: "https://github.com/b17zr/ntlm_challenger"
+    title: ntlm_challenger
+    author:
+      name: "@b17zr"
+      url: "https://github.com/b17zr"
+    category: tools-others
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr)."

@@ -1,0 +1,132 @@
+# Entries for section: Fuzzing
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-fuzzing-ipobfuscator
+    url: "https://github.com/OsandaMalith/IPObfuscator"
+    title: IPObfuscator
+    author:
+      name: "@OsandaMalith"
+      url: "https://github.com/OsandaMalith"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Simple tool to convert the IP to a DWORD IP by [@OsandaMalith](https://github.com/OsandaMalith)."
+  - id: tools-fuzzing-charsetinspect
+    url: "https://github.com/hack-all-the-things/charsetinspect"
+    title: charsetinspect
+    author:
+      name: "@hack-all-the-things"
+      url: "https://github.com/hack-all-the-things"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Script that inspects multi-byte character sets looking for characters with specific user-defined properties by [@hack-all-the-things](https://github.com/hack-all-the-things)."
+  - id: tools-fuzzing-wfuzz
+    url: "https://github.com/xmendez/wfuzz"
+    title: wfuzz
+    author:
+      name: "@xmendez"
+      url: "https://github.com/xmendez"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Web application bruteforcer by [@xmendez](https://github.com/xmendez)."
+  - id: tools-fuzzing-domato
+    url: "https://github.com/google/domato"
+    title: domato
+    author:
+      name: "@google"
+      url: "https://github.com/google"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "DOM fuzzer by [@google](https://github.com/google)."
+  - id: tools-fuzzing-fuzzdb
+    url: "https://github.com/fuzzdb-project/fuzzdb"
+    title: FuzzDB
+    author:
+      name: Dictionary of attack patterns and primitives for black-box application fault inj
+      url: null
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-01"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
+  - id: tools-fuzzing-dirhunt
+    url: "https://github.com/Nekmo/dirhunt"
+    title: dirhunt
+    author:
+      name: "@nekmo"
+      url: "https://github.com/Nekmo"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Web crawler optimized for searching and analyzing the directory structure of a site by [@nekmo](https://github.com/Nekmo)."
+  - id: tools-fuzzing-ssltest
+    url: "https://www.ssllabs.com/ssltest/"
+    title: ssltest
+    author:
+      name: Qualys SSL Labs
+      url: "https://www.ssllabs.com"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Online service that performs a deep analysis of the configuration of any SSL web server on the public internet. Provided by [Qualys SSL Labs](https://www.ssllabs.com)."
+  - id: tools-fuzzing-fuzz-txt
+    url: "https://github.com/Bo0oM/fuzz.txt"
+    title: fuzz.txt
+    author:
+      name: "@Bo0oM"
+      url: "https://github.com/Bo0oM"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Potentially dangerous files by [@Bo0oM](https://github.com/Bo0oM)."

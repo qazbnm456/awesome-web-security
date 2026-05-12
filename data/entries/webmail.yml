@@ -1,0 +1,36 @@
+# Entries for section: Webmail
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: webmail-webmail-hacking
+    url: "https://github.com/mottoin/SecPaper/blob/master/Webmail-Hacking.pdf"
+    title: Webmail-Hacking
+    author:
+      name: 千域千寻
+      url: "http://blog.csdn.net/f1n4lly/"
+    category: webmail
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [千域千寻](http://blog.csdn.net/f1n4lly/)."
+  - id: webmail-why-mail-is-dangerous-in-php
+    url: "https://blog.ripstech.com/2017/why-mail-is-dangerous-in-php/"
+    title: Why mail() is dangerous in PHP
+    author:
+      name: Robin Peraglie
+      url: "https://www.ripstech.com/"
+    category: webmail
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-18"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Robin Peraglie](https://www.ripstech.com/)."

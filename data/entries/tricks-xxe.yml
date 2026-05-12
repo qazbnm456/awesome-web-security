@@ -1,0 +1,164 @@
+# Entries for section: XXE
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-xxe-evil-xml-with-two-encodings
+    url: "https://mohemiv.com/all/evil-xml/"
+    title: Evil XML with two encodings
+    author:
+      name: Arseniy Sharoglazov
+      url: "https://mohemiv.com/"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Arseniy Sharoglazov](https://mohemiv.com/)."
+  - id: tricks-xxe-automating-local-dtd-discovery-for-xxe-exploitatio
+    url: "https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation"
+    title: Automating local DTD discovery for XXE exploitation
+    author:
+      name: Philippe Arteau
+      url: "https://twitter.com/h3xstream"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Philippe Arteau](https://twitter.com/h3xstream)."
+  - id: tricks-xxe-exploiting-xxe-with-local-dtd-files
+    url: "https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/"
+    title: Exploiting XXE with local DTD files
+    author:
+      name: Arseniy Sharoglazov
+      url: "https://twitter.com/_mohemiv"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Arseniy Sharoglazov](https://twitter.com/_mohemiv)."
+  - id: tricks-xxe-forcing-xxe-reflection-through-server-error-messag
+    url: "https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/"
+    title: Forcing XXE Reflection through Server Error Messages
+    author:
+      name: Antti Rantasaari
+      url: "https://blog.netspi.com/author/antti-rantasaari/"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Antti Rantasaari](https://blog.netspi.com/author/antti-rantasaari/)."
+  - id: tricks-xxe-pre-authentication-xxe-vulnerability-in-the-servic
+    url: "https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf"
+    title: Pre-authentication XXE vulnerability in the Services Drupal module
+    author:
+      name: Renaud Dubourguais
+      url: "https://twitter.com/_m0bius"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Renaud Dubourguais](https://twitter.com/_m0bius)."
+  - id: tricks-xxe-what-you-didnt-know-about-xml-external-entities-at
+    url: "https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf"
+    title: "What You Didn't Know About XML External Entities Attacks"
+    author:
+      name: Timothy D. Morgan
+      url: "https://twitter.com/ecbftw"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Timothy D. Morgan](https://twitter.com/ecbftw)."
+  - id: tricks-xxe-xml-out-of-band-data-retrieval
+    url: "https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf"
+    title: XML Out-Of-Band Data Retrieval
+    author:
+      name: Timur Yunusov and Alexey Osipov
+      url: null
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by Timur Yunusov and Alexey Osipov.
+  - id: tricks-xxe-xxe-oob-exploitation-at-java-1-7-2014
+    url: "http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html"
+    title: XXE OOB exploitation at Java 1.7+ (2014)
+    author:
+      name: Ivan Novikov
+      url: "https://twitter.com/d0znpp/"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/)."
+  - id: tricks-xxe-xxe-oob-extracting-via-http-ftp-using-single-opene
+    url: "https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/"
+    title: XXE OOB extracting via HTTP+FTP using single opened port
+    author:
+      name: skavans
+      url: "https://skavans.ru/"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [skavans](https://skavans.ru/)."
+  - id: tricks-xxe-xxe-in-wechat-pay-sdk-wechat-leave-a-backdoor-on-m
+    url: "http://seclists.org/fulldisclosure/2018/Jul/3"
+    title: XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)
+    author:
+      name: Rose Jackcode
+      url: "https://twitter.com/codeshtool"
+    category: tricks-xxe
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Rose Jackcode](https://twitter.com/codeshtool)."
