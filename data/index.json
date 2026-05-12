@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T07:48:27Z",
+  "generated_at": "2026-05-12T08:11:14Z",
   "categories": [
     {
       "key": "digests",
@@ -7345,6 +7345,24 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-osint-openbuckets",
+      "url": "https://openbuckets.io/",
+      "title": "OpenBuckets",
+      "author": null,
+      "category": "tools-osint",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

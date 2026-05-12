@@ -644,6 +644,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [espi0n/Dockerfiles](https://github.com/espi0n/Dockerfiles) - Dockerfiles for various OSINT tools by [@espi0n](https://github.com/espi0n).
 - [Raccoon](https://github.com/evyatarmeged/Raccoon) - High performance offensive security tool for reconnaissance and vulnerability scanning by [@evyatarmeged](https://github.com/evyatarmeged).
 - [Social Mapper](https://github.com/SpiderLabs/social_mapper) - Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by [@SpiderLabs](https://github.com/SpiderLabs).
+- [OpenBuckets](https://openbuckets.io/) - Search engine for misconfigured public cloud storage buckets across any provider.
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
