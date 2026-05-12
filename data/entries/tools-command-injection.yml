@@ -1,0 +1,20 @@
+# Entries for section: Command Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-command-injection-commix
+    url: "https://github.com/commixproject/commix"
+    title: commix
+    author:
+      name: "@commixproject"
+      url: "https://github.com/commixproject"
+    category: tools-command-injection
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Automated All-in-One OS command injection and exploitation tool by [@commixproject](https://github.com/commixproject)."

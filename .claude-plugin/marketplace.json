@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "awesome-web-security",
+  "description": "Curated, always-fresh web security learning resources for AI agents and security researchers.",
+  "owner": {
+    "name": "qazbnm456",
+    "email": "qazbnm456@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "awesome-web-security",
+      "description": "Looks up curated web security learning resources (XSS, SQLi, CSRF, SSRF, OAuth/JWT, recon, evasion, tools, CTF). Filters by topic, difficulty, language, and resource type. Returns top references with archive fallbacks. Defensive use only; refuses unauthorized targeting.",
+      "version": "1.0.0",
+      "category": "development",
+      "source": "./",
+      "homepage": "https://github.com/qazbnm456/awesome-web-security",
+      "skills": ["./skills/awesome-web-security"],
+      "strict": false
+    }
+  ]
+}

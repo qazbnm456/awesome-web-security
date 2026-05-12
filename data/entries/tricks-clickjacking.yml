@@ -1,0 +1,20 @@
+# Entries for section: Clickjacking
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-clickjacking-clickjackings-in-google-worth-14981-7
+    url: "https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a"
+    title: Clickjackings in Google worth 14981.7$
+    author:
+      name: "@raushanraj_65039"
+      url: "https://medium.com/@raushanraj_65039"
+    category: tricks-clickjacking
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@raushanraj_65039](https://medium.com/@raushanraj_65039)."
