@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T12:21:39Z",
+  "generated_at": "2026-05-13T18:27:14Z",
   "categories": [
     {
       "key": "digests",
@@ -7792,6 +7792,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512074343/https://www.bunkerweb.io/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-fcaptcha",
+      "url": "https://github.com/WebDecoy/FCaptcha",
+      "title": "FCaptcha",
+      "author": {
+        "name": "WebDecoy",
+        "url": "https://github.com/WebDecoy"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

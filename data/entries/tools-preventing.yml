@@ -98,3 +98,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "A next-generation open-source Web Application Firewall built on nginx, maintained by [Bunkerity](https://github.com/bunkerity)."
+  - id: tools-preventing-fcaptcha
+    url: "https://github.com/WebDecoy/FCaptcha"
+    title: FCaptcha
+    author:
+      name: WebDecoy
+      url: "https://github.com/WebDecoy"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Self-hosted CAPTCHA with behavioral analysis, vision-AI agent detection, headless-browser fingerprinting, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy)."
