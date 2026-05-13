@@ -1,0 +1,228 @@
+# Entries for section: Blogs
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: blogs-brett-buerhaus
+    url: "https://buer.haus/"
+    title: BRETT BUERHAUS
+    author:
+      name: Vulnerability disclosures and rambles on application security
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Vulnerability disclosures and rambles on application security.
+  - id: blogs-broken-browser
+    url: "https://www.brokenbrowser.com/"
+    title: Broken Browser
+    author:
+      name: Fun with Browser Vulnerabilities
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Fun with Browser Vulnerabilities.
+  - id: blogs-james-kettle
+    url: "http://albinowax.skeletonscribe.net/"
+    title: James Kettle
+    author:
+      name: PortSwigger Web Security
+      url: "https://portswigger.net/"
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Head of Research at [PortSwigger Web Security](https://portswigger.net/)."
+  - id: blogs-lorexxar
+    url: "https://lorexxar.cn/"
+    title: LoRexxar
+    author:
+      name: 带着对技术的敬畏之心成长，不安于一隅
+      url: null
+    category: blogs
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: 带着对技术的敬畏之心成长，不安于一隅...
+  - id: blogs-opnsec
+    url: "https://opnsec.com/"
+    title: OpnSec
+    author:
+      name: "Open Mind Security!"
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open Mind Security!"
+  - id: blogs-orange
+    url: "http://blog.orange.tw/"
+    title: Orange
+    author:
+      name: "Taiwan's talented web penetrator"
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Taiwan's talented web penetrator."
+  - id: blogs-scrutiny
+    url: "https://datarift.blogspot.tw/"
+    title: Scrutiny
+    author:
+      name: Dhiraj Mishra
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Internet Security through Web Browsers by Dhiraj Mishra.
+  - id: blogs-leavesongs
+    url: "https://www.leavesongs.com/"
+    title: leavesongs
+    author:
+      name: "China's talented web penetrator"
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "China's talented web penetrator."
+  - id: blogs-n0tr00t
+    url: "https://www.n0tr00t.com/"
+    title: n0tr00t
+    author:
+      name: "~# n0tr00t Security Team"
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "~# n0tr00t Security Team."
+  - id: blogs-rips-technologies
+    url: "https://blog.ripstech.com/tags/security/"
+    title: RIPS Technologies
+    author:
+      name: Write-ups for PHP vulnerabilities
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-18"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Write-ups for PHP vulnerabilities.
+  - id: blogs-0day-labs
+    url: "http://blog.0daylabs.com/"
+    title: "0Day Labs"
+    author:
+      name: Awesome bug-bounty and challenges writeups
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Awesome bug-bounty and challenges writeups.
+  - id: blogs-blog-of-osanda
+    url: "https://osandamalith.com/"
+    title: Blog of Osanda
+    author:
+      name: Security Researching and Reverse Engineering
+      url: null
+    category: blogs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Security Researching and Reverse Engineering.
+  - id: blogs-what-is-security
+    url: "https://kingx.me/"
+    title: "What is Security?"
+    author:
+      name: Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offens
+      url: null
+    category: blogs
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-02-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Focus on Penetration Testing / Frontend Security / JavaScript Magic / APT Offense & Defense / Java Security."
+  - id: blogs-l1nk3rs-blog
+    url: "http://www.lmxspace.com/"
+    title: "l1nk3r's blog"
+    author:
+      name: Web security
+      url: null
+    category: blogs
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-02-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Web security.

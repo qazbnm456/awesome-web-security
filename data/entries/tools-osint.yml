@@ -1,0 +1,385 @@
+# Entries for section: OSINT - Open-Source Intelligence
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-osint-censys
+    url: "https://censys.io/"
+    title: Censys
+    author:
+      name: University of Michigan
+      url: "https://umich.edu/"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by [University of Michigan](https://umich.edu/)."
+  - id: tools-osint-foca
+    url: "https://github.com/ElevenPaths/FOCA"
+    title: FOCA
+    author:
+      name: ElevenPaths
+      url: "https://www.elevenpaths.com/index.html"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "FOCA (Fingerprinting Organizations with Collected Archives) is a tool used mainly to find metadata and hidden information in the documents its scans by [ElevenPaths](https://www.elevenpaths.com/index.html)."
+  - id: tools-osint-fofa
+    url: "https://fofa.so/?locale=en"
+    title: FOFA
+    author:
+      name: BAIMAOHUI
+      url: "http://baimaohui.net/"
+    category: tools-osint
+    type: tool
+    languages: [en, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Cyberspace Search Engine by [BAIMAOHUI](http://baimaohui.net/)."
+  - id: tools-osint-fofa-2
+    url: "https://fofa.so/"
+    title: FOFA
+    author:
+      name: 白帽汇
+      url: "http://baimaohui.net/"
+    category: tools-osint
+    type: tool
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "网络空间资产搜索引擎 by [白帽汇](http://baimaohui.net/)."
+  - id: tools-osint-gsil
+    url: "https://github.com/FeeiCN/GSIL"
+    title: GSIL
+    author:
+      name: "@FeeiCN"
+      url: "https://github.com/FeeiCN"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Github Sensitive Information Leakage（Github敏感信息泄露）by [@FeeiCN](https://github.com/FeeiCN)."
+  - id: tools-osint-nsfocus
+    url: "https://nti.nsfocus.com/"
+    title: NSFOCUS
+    author:
+      name: NSFOCUS GLOBAL
+      url: null
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: THREAT INTELLIGENCE PORTAL by NSFOCUS GLOBAL.
+  - id: tools-osint-shodan
+    url: "https://www.shodan.io/"
+    title: Shodan
+    author:
+      name: "@shodanhq"
+      url: "https://twitter.com/shodanhq"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq)."
+  - id: tools-osint-spiderfoot
+    url: "http://www.spiderfoot.net/"
+    title: SpiderFoot
+    author:
+      name: "@binarypool"
+      url: "https://twitter.com/binarypool"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open source footprinting and intelligence-gathering tool by [@binarypool](https://twitter.com/binarypool)."
+  - id: tools-osint-zoomeye
+    url: "https://www.zoomeye.org/"
+    title: ZoomEye
+    author:
+      name: "@zoomeye_team"
+      url: "https://twitter.com/zoomeye_team"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Cyberspace Search Engine by [@zoomeye_team](https://twitter.com/zoomeye_team)."
+  - id: tools-osint-gitrob
+    url: "https://github.com/michenriksen/Gitrob"
+    title: gitrob
+    author:
+      name: "@michenriksen"
+      url: "https://github.com/michenriksen"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Reconnaissance tool for GitHub organizations by [@michenriksen](https://github.com/michenriksen)."
+  - id: tools-osint-raven
+    url: "https://github.com/0x09AL/raven"
+    title: raven
+    author:
+      name: "@0x09AL"
+      url: "https://github.com/0x09AL"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin by [@0x09AL](https://github.com/0x09AL)."
+  - id: tools-osint-urlscan-io
+    url: "https://urlscan.io/"
+    title: urlscan.io
+    author:
+      name: "@heipei"
+      url: "https://twitter.com/heipei"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Service which analyses websites and the resources they request by [@heipei](https://twitter.com/heipei)."
+  - id: tools-osint-xray
+    url: "https://github.com/evilsocket/xray"
+    title: xray
+    author:
+      name: "@evilsocket"
+      url: "https://github.com/evilsocket"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "XRay is a tool for recon, mapping and OSINT gathering from public networks by [@evilsocket](https://github.com/evilsocket)."
+  - id: tools-osint-entry
+    url: "https://www.oshadan.com/"
+    title: 傻蛋联网设备搜索
+    author:
+      name: "@傻蛋搜索"
+      url: "http://weibo.com/shadansou"
+    category: tools-osint
+    type: tool
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "监测互联网基础设施安全威胁 by [@傻蛋搜索](http://weibo.com/shadansou)."
+  - id: tools-osint-databases-start-me
+    url: "https://start.me/p/QRENnO/databases"
+    title: Databases - start.me
+    author:
+      name: "@technisette"
+      url: "https://twitter.com/technisette"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-28"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Various databases which you can use for your OSINT research by [@technisette](https://twitter.com/technisette)."
+  - id: tools-osint-peoplefindthor
+    url: "https://peoplefindthor.dk/"
+    title: peoplefindThor
+    author:
+      name: postkassen
+      url: "mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk%20comments"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "the easy way to find people on Facebook by [postkassen](mailto:postkassen@oejvind.dk?subject=peoplefindthor.dk%20comments)."
+  - id: tools-osint-tinfoleak
+    url: "https://github.com/vaguileradiaz/tinfoleak"
+    title: tinfoleak
+    author:
+      name: "@vaguileradiaz"
+      url: "https://github.com/vaguileradiaz"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The most complete open-source tool for Twitter intelligence analysis by [@vaguileradiaz](https://github.com/vaguileradiaz)."
+  - id: tools-osint-photon
+    url: "https://github.com/s0md3v/Photon"
+    title: Photon
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Incredibly fast crawler designed for OSINT by [@s0md3v](https://github.com/s0md3v)."
+  - id: tools-osint-recondog
+    url: "https://github.com/s0md3v/ReconDog"
+    title: ReconDog
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Reconnaissance Swiss Army Knife by [@s0md3v](https://github.com/s0md3v)."
+  - id: tools-osint-raccoon
+    url: "https://github.com/evyatarmeged/Raccoon"
+    title: Raccoon
+    author:
+      name: "@evyatarmeged"
+      url: "https://github.com/evyatarmeged"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "High performance offensive security tool for reconnaissance and vulnerability scanning by [@evyatarmeged](https://github.com/evyatarmeged)."
+  - id: tools-osint-social-mapper
+    url: "https://github.com/SpiderLabs/social_mapper"
+    title: Social Mapper
+    author:
+      name: "@SpiderLabs"
+      url: "https://github.com/SpiderLabs"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by [@SpiderLabs](https://github.com/SpiderLabs)."
+  - id: tools-osint-espi0n-dockerfiles
+    url: "https://github.com/espi0n/Dockerfiles"
+    title: espi0n/Dockerfiles
+    author:
+      name: "@espi0n"
+      url: "https://github.com/espi0n"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Dockerfiles for various OSINT tools by [@espi0n](https://github.com/espi0n)."
+  - id: tools-osint-openbuckets
+    url: "https://openbuckets.io/"
+    title: OpenBuckets
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: "https://web.archive.org/web/20260512081152/https://www.openbuckets.io/"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Search engine for misconfigured public cloud storage buckets across any provider."
+  - id: tools-osint-marshall-extensions
+    url: "https://github.com/bad-antics/marshall-extensions"
+    title: Marshall Extensions
+    author:
+      name: "@bad-antics"
+      url: "https://github.com/bad-antics"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: "https://web.archive.org/web/20260513061543/https://github.com/bad-antics/marshall-extensions"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "OSINT and security extensions for the Marshall privacy browser, providing reconnaissance and security-testing plugins by [@bad-antics](https://github.com/bad-antics)."

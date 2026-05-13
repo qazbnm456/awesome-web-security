@@ -1,0 +1,58 @@
+name: Post-merge Wayback archive
+
+# Triggered when a merge to master adds/edits entries. Submits any entry
+# whose `archive_url` is still null (and that hasn't opted out) to the
+# Wayback Machine, then commits the resulting archive_url back to the YAML
+# and regenerates data/index.json. The commit is tagged `[skip ci]` so it
+# doesn't re-trigger health-link-check.
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'data/entries/**'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post-merge-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    # Skip our own bot commits so we don't loop on the [skip ci] commit
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # we need write access for the bot commit
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Submit eligible entries to Wayback Machine
+        env:
+          ARCHIVE_MAX_PER_RUN: '5'
+          ARCHIVE_TIMEOUT: '90'
+        run: python3 scripts/ci/archive.py
+
+      - name: Regenerate index.json + READMEs
+        run: python3 scripts/generate.py
+
+      - name: Commit back if anything changed
+        run: |
+          if git diff --quiet data/entries/ data/index.json README.md README-zh.md README-jp.md; then
+            echo "no archive_url updates this run"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/entries/ data/index.json README.md README-zh.md README-jp.md
+          git commit -m "chore(archive): backfill archive_url from Wayback [skip ci]"
+          git push origin master

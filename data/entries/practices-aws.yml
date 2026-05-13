@@ -1,0 +1,36 @@
+# Entries for section: AWS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: practices-aws-flaws
+    url: "http://flaws.cloud/"
+    title: FLAWS
+    author:
+      name: "@0xdabbad00"
+      url: "https://twitter.com/0xdabbad00"
+    category: practices-aws
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00)."
+  - id: practices-aws-cloudgoat
+    url: "https://github.com/RhinoSecurityLabs/cloudgoat"
+    title: CloudGoat
+    author:
+      name: "@RhinoSecurityLabs"
+      url: "https://github.com/RhinoSecurityLabs"
+    category: practices-aws
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Rhino Security Labs' \"Vulnerable by Design\" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs)."
