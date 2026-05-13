@@ -1,0 +1,52 @@
+# Entries for section: Disassembler
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-disassembler-iait
+    url: "https://github.com/hteso/iaito"
+    title: Iaitō
+    author:
+      name: "@hteso"
+      url: "https://github.com/hteso"
+    category: tools-disassembler
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Qt and C++ GUI for radare2 reverse engineering framework by [@hteso](https://github.com/hteso)."
+  - id: tools-disassembler-plasma
+    url: "https://github.com/plasma-disassembler/plasma"
+    title: plasma
+    author:
+      name: "@plasma-disassembler"
+      url: "https://github.com/plasma-disassembler"
+    category: tools-disassembler
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Plasma is an interactive disassembler for x86/ARM/MIPS by [@plasma-disassembler](https://github.com/plasma-disassembler)."
+  - id: tools-disassembler-radare2
+    url: "https://github.com/radare/radare2"
+    title: radare2
+    author:
+      name: "@radare"
+      url: "https://github.com/radare"
+    category: tools-disassembler
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Unix-like reverse engineering framework and commandline tools by [@radare](https://github.com/radare)."
