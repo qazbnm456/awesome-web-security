@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T18:29:02Z",
+  "generated_at": "2026-05-13T18:38:53Z",
   "categories": [
     {
       "key": "digests",
@@ -7799,6 +7799,27 @@
       "id": "tools-preventing-fcaptcha",
       "url": "https://github.com/WebDecoy/FCaptcha",
       "title": "FCaptcha",
+      "author": {
+        "name": "WebDecoy",
+        "url": "https://github.com/WebDecoy"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-webdecoy",
+      "url": "https://github.com/WebDecoy/wordpress-plugin",
+      "title": "WebDecoy",
       "author": {
         "name": "WebDecoy",
         "url": "https://github.com/WebDecoy"

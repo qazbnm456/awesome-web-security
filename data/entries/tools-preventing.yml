@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Self-hosted CAPTCHA with behavioral analysis, vision-AI agent detection, headless-browser fingerprinting, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy)."
+  - id: tools-preventing-webdecoy
+    url: "https://github.com/WebDecoy/wordpress-plugin"
+    title: WebDecoy
+    author:
+      name: WebDecoy
+      url: "https://github.com/WebDecoy"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Zero-configuration WordPress bot-detection plugin combining WebDriver detection, headless-browser fingerprinting, behavioral analysis, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy)."
