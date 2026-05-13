@@ -1,0 +1,100 @@
+# Entries for section: Database
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: pocs-database-some-poc-or-exp
+    url: "https://github.com/coffeehb/Some-PoC-oR-ExP"
+    title: Some-PoC-oR-ExP
+    author:
+      name: "@coffeehb"
+      url: "https://github.com/coffeehb"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "各种漏洞poc、Exp的收集或编写 by [@coffeehb](https://github.com/coffeehb)."
+  - id: pocs-database-awesome-cve-poc
+    url: "https://github.com/qazbnm456/awesome-cve-poc"
+    title: awesome-cve-poc
+    author:
+      name: "@qazbnm456"
+      url: "https://github.com/qazbnm456"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Curated list of CVE PoCs by [@qazbnm456](https://github.com/qazbnm456)."
+  - id: pocs-database-js-vuln-db
+    url: "https://github.com/tunz/js-vuln-db"
+    title: js-vuln-db
+    author:
+      name: "@tunz"
+      url: "https://github.com/tunz"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Collection of JavaScript engine CVEs with PoCs by [@tunz](https://github.com/tunz)."
+  - id: pocs-database-uxss-db
+    url: "https://github.com/Metnew/uxss-db"
+    title: uxss-db
+    author:
+      name: "@Metnew"
+      url: "https://github.com/Metnew"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-05-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Collection of UXSS CVEs with PoCs by [@Metnew](https://github.com/Metnew)."
+  - id: pocs-database-sploitus
+    url: "https://sploitus.com/"
+    title: SPLOITUS
+    author:
+      name: "@i_bo0om"
+      url: "https://twitter.com/i_bo0om"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-09-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Exploits & Tools Search Engine by [@i_bo0om](https://twitter.com/i_bo0om)."
+  - id: pocs-database-exploit-database
+    url: "https://www.exploit-db.com/"
+    title: Exploit Database
+    author:
+      name: Offensive Security
+      url: "https://www.offensive-security.com/"
+    category: pocs-database
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "ultimate archive of Exploits, Shellcode, and Security Papers by [Offensive Security](https://www.offensive-security.com/)."

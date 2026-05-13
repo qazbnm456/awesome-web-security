@@ -1,0 +1,20 @@
+# Entries for section: ModSecurity / OWASP ModSecurity Core Rule Set
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: practices-modsecurity-modsecurity-owasp-modsecurity-core-rule-set
+    url: "https://www.netnea.com/cms/apache-tutorials/"
+    title: ModSecurity / OWASP ModSecurity Core Rule Set
+    author:
+      name: "@ChrFolini"
+      url: "https://twitter.com/ChrFolini"
+    category: practices-modsecurity
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Series of tutorials to install, configure and tune ModSecurity and the Core Rule Set - Written by [@ChrFolini](https://twitter.com/ChrFolini)."

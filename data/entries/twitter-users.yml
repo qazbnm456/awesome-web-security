@@ -1,0 +1,148 @@
+# Entries for section: Twitter Users
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: twitter-users-hackwithgithub
+    url: "https://twitter.com/HackwithGithub"
+    title: "@HackwithGitHub"
+    author:
+      name: Initiative to showcase open source hacking tools for hackers and pentesters
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Initiative to showcase open source hacking tools for hackers and pentesters
+  - id: twitter-users-xsspayloads
+    url: "https://twitter.com/XssPayloads"
+    title: "@XssPayloads"
+    author:
+      name: "The wonderland of JavaScript unexpected usages, and more"
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The wonderland of JavaScript unexpected usages, and more."
+  - id: twitter-users-cure53berlin
+    url: "https://twitter.com/cure53berlin"
+    title: "@cure53berlin"
+    author:
+      name: Cure53
+      url: "https://cure53.de/"
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "[Cure53](https://cure53.de/) is a German cybersecurity firm."
+  - id: twitter-users-filedescriptor
+    url: "https://twitter.com/filedescriptor"
+    title: "@filedescriptor"
+    author:
+      name: Active penetrator often tweets and writes useful articles
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Active penetrator often tweets and writes useful articles
+  - id: twitter-users-garethheyes
+    url: "https://twitter.com/garethheyes"
+    title: "@garethheyes"
+    author:
+      name: English web penetrator
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: English web penetrator.
+  - id: twitter-users-h3xstream
+    url: "https://twitter.com/h3xstream/"
+    title: "@h3xstream"
+    author:
+      name: "Security Researcher, interested in web security, crypto, pentest, static analysi"
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero."
+  - id: twitter-users-hasegawayosuke
+    url: "https://twitter.com/hasegawayosuke"
+    title: "@hasegawayosuke"
+    author:
+      name: Japanese javascript security researcher
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Japanese javascript security researcher.
+  - id: twitter-users-kinugawamasato
+    url: "https://twitter.com/kinugawamasato"
+    title: "@kinugawamasato"
+    author:
+      name: Japanese web penetrator
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Japanese web penetrator.
+  - id: twitter-users-shhnjk
+    url: "https://twitter.com/shhnjk"
+    title: "@shhnjk"
+    author:
+      name: Web and Browsers Security Researcher
+      url: null
+    category: twitter-users
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Web and Browsers Security Researcher.

@@ -1,0 +1,84 @@
+# Entries for section: Rails
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: rails-rails-security-first-part
+    url: "https://hackmd.io/s/SkuTVw5O-"
+    title: Rails Security - First part
+    author:
+      name: "@qazbnm456"
+      url: "https://github.com/qazbnm456"
+    category: rails
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@qazbnm456](https://github.com/qazbnm456)."
+  - id: rails-rails
+    url: "http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/"
+    title: Rails 動態樣板路徑的風險
+    author:
+      name: Shaolin
+      url: "http://devco.re/blog/author/shaolin/"
+    category: rails
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Shaolin](http://devco.re/blog/author/shaolin/)."
+  - id: rails-official-rails-security-guide
+    url: "http://guides.rubyonrails.org/security.html"
+    title: Official Rails Security Guide
+    author:
+      name: Rails team
+      url: "https://rubyonrails.org/"
+    category: rails
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Rails team](https://rubyonrails.org/)."
+  - id: rails-rails-sql-injection
+    url: "https://rails-sqli.org"
+    title: Rails SQL Injection
+    author:
+      name: "@presidentbeef"
+      url: "https://github.com/presidentbeef"
+    category: rails
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@presidentbeef](https://github.com/presidentbeef)."
+  - id: rails-zen-rails-security-checklist
+    url: "https://github.com/brunofacca/zen-rails-security-checklist"
+    title: Zen Rails Security Checklist
+    author:
+      name: "@brunofacca"
+      url: "https://github.com/brunofacca"
+    category: rails
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@brunofacca](https://github.com/brunofacca)."

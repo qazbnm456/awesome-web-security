@@ -1,0 +1,36 @@
+# Entries for section: AngularJS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: angularjs-dom-based-angular-sandbox-escapes
+    url: "http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html"
+    title: DOM based Angular sandbox escapes
+    author:
+      name: "@garethheyes"
+      url: "https://twitter.com/garethheyes"
+    category: angularjs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: "https://web.archive.org/web/20260511143006/https://portswigger.net/research/dom-based-angularjs-sandbox-escapes"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@garethheyes](https://twitter.com/garethheyes)"
+  - id: angularjs-xss-without-html-client-side-template-injection-wi
+    url: "http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html"
+    title: "XSS without HTML: Client-Side Template Injection with AngularJS"
+    author:
+      name: Gareth Heyes
+      url: "https://www.blogger.com/profile/10856178524811553475"
+    category: angularjs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475)."

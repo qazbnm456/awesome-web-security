@@ -1,0 +1,32 @@
+# Entries for section: Community
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: community-reddit
+    url: "https://www.reddit.com/r/websecurity/"
+    title: Reddit
+    author: null
+    category: community
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: null
+  - id: community-stack-overflow
+    url: "http://stackoverflow.com/questions/tagged/security"
+    title: Stack Overflow
+    author: null
+    category: community
+    type: community
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: null

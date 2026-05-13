@@ -1,0 +1,84 @@
+# Entries for section: Penetration Testing
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-penetration-testing-burp-suite
+    url: "https://portswigger.net/burp/"
+    title: Burp Suite
+    author:
+      name: portswigger
+      url: "https://portswigger.net/"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Burp Suite is an integrated platform for performing security testing of web applications by [portswigger](https://portswigger.net/)."
+  - id: tools-penetration-testing-astra
+    url: "https://github.com/flipkart-incubator/astra"
+    title: Astra
+    author:
+      name: "@flipkart-incubator"
+      url: "https://github.com/flipkart-incubator"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Automated Security Testing For REST API's by [@flipkart-incubator](https://github.com/flipkart-incubator)."
+  - id: tools-penetration-testing-aws-pwn
+    url: "https://github.com/dagrz/aws_pwn"
+    title: aws_pwn
+    author:
+      name: "@dagrz"
+      url: "https://github.com/dagrz"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-04-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A collection of AWS penetration testing junk by [@dagrz](https://github.com/dagrz)."
+  - id: tools-penetration-testing-tidos-framework
+    url: "https://github.com/theInfectedDrake/TIDoS-Framework"
+    title: TIDoS-Framework
+    author:
+      name: "@_tID"
+      url: "https://github.com/theInfectedDrake"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A comprehensive web application audit framework to cover up everything from Reconnaissance and OSINT to Vulnerability Analysis by [@_tID](https://github.com/theInfectedDrake)."
+  - id: tools-penetration-testing-grayhatwarfare
+    url: "https://buckets.grayhatwarfare.com/"
+    title: grayhatwarfare
+    author:
+      name: grayhatwarfare
+      url: "http://www.grayhatwarfare.com/"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/)."
