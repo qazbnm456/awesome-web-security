@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T18:27:14Z",
+  "generated_at": "2026-05-13T18:29:02Z",
   "categories": [
     {
       "key": "digests",
@@ -8001,7 +8001,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260513122221/https://github.com/sattyamjjain/zerotrust",
       "last_checked": null,
       "status": "active"
     },
