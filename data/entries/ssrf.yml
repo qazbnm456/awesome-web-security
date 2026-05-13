@@ -1,0 +1,36 @@
+# Entries for section: SSRF - Server-Side Request Forgery
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: ssrf-ssrf-bible-cheatsheet
+    url: "https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit"
+    title: SSRF bible. Cheatsheet
+    author:
+      name: Wallarm
+      url: "https://wallarm.com/"
+    category: ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-13"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Wallarm](https://wallarm.com/)."
+  - id: ssrf-payloadsallthethings-server-side-request-forgery
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery"
+    title: PayloadsAllTheThings - Server-Side Request Forgery
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."

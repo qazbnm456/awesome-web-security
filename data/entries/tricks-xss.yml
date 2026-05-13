@@ -1,0 +1,324 @@
+# Entries for section: XSS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-xss-5-javascript
+    url: "https://speakerdeck.com/masatokinugawa/shibuya-dot-xss-techtalk-number-10"
+    title: "5文字で書くJavaScript"
+    author:
+      name: Masato Kinugawa
+      url: "https://twitter.com/kinugawamasato"
+    category: tricks-xss
+    type: article
+    languages: [jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shibuya.XSS techtalk #10 by [Masato Kinugawa](https://twitter.com/kinugawamasato)."
+  - id: tricks-xss-dont-trust-the-dom-bypassing-xss-mitigations-via-s
+    url: "https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf"
+    title: "DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS"
+    author:
+      name: Sebastian Lekies
+      url: "https://twitter.com/slekies"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Sebastian Lekies](https://twitter.com/slekies), [Krzysztof Kotowicz](https://twitter.com/kkotowicz), and [Eduardo Vela](https://twitter.com/sirdarckcat)."
+  - id: tricks-xss-ecmascript-6-from-an-attackers-perspective-breakin
+    url: "http://www.slideshare.net/x00mario/es6-en"
+    title: "ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else"
+    author:
+      name: Mario Heiderich
+      url: "http://www.slideshare.net/x00mario"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mario Heiderich](http://www.slideshare.net/x00mario)."
+  - id: tricks-xss-how-i-found-a-5-000-google-maps-xss-by-fiddling-wi
+    url: "https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas"
+    title: "How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)"
+    author:
+      name: "@marin_m"
+      url: "https://medium.com/@marin_m"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@marin_m](https://medium.com/@marin_m)."
+  - id: tricks-xss-query-parameter-reordering-causes-redirect-page-to
+    url: "https://hackerone.com/reports/293689"
+    title: Query parameter reordering causes redirect page to render unsafe URL
+    author:
+      name: kenziy
+      url: "https://hackerone.com/kenziy"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [kenziy](https://hackerone.com/kenziy)."
+  - id: tricks-xss-uber-xss-via-cookie
+    url: "http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/"
+    title: Uber XSS via Cookie
+    author:
+      name: zhchbin
+      url: "http://zhchbin.github.io/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [zhchbin](http://zhchbin.github.io/)."
+  - id: tricks-xss-xss-challenges
+    url: "http://xss-quiz.int21h.jp/"
+    title: XSS Challenges
+    author:
+      name: yamagata21
+      url: null
+    category: tricks-xss
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Series of XSS challenges - Written by yamagata21.
+  - id: tricks-xss-xss-game
+    url: "https://xss-game.appspot.com/"
+    title: XSS game
+    author:
+      name: Google
+      url: null
+    category: tricks-xss
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Google XSS Challenge - Written by Google.
+  - id: tricks-xss-alert-1-to-win
+    url: "https://alf.nu/alert1"
+    title: alert(1) to win
+    author:
+      name: "@steike"
+      url: "https://twitter.com/steike"
+    category: tricks-xss
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Series of XSS challenges - Written by [@steike](https://twitter.com/steike)."
+  - id: tricks-xss-prompt-1-to-win
+    url: "http://prompt.ml/"
+    title: prompt(1) to win
+    author:
+      name: "@cure53"
+      url: "https://github.com/cure53"
+    category: tricks-xss
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53)."
+  - id: tricks-xss-stored-xss-on-facebook
+    url: "https://opnsec.com/2018/03/stored-xss-on-facebook/"
+    title: Stored XSS on Facebook
+    author:
+      name: Enguerran Gillier
+      url: "https://opnsec.com/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Enguerran Gillier](https://opnsec.com/)."
+  - id: tricks-xss-dom-xss-auth-uber-com
+    url: "http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html"
+    title: DOM XSS – auth.uber.com
+    author:
+      name: StamOne_
+      url: "http://stamone-bug-bounty.blogspot.tw/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [StamOne_](http://stamone-bug-bounty.blogspot.tw/)."
+  - id: tricks-xss-another-xss-in-google-colaboratory
+    url: "https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html"
+    title: Another XSS in Google Colaboratory
+    author:
+      name: Michał Bentkowski
+      url: "https://blog.bentkowski.info/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Michał Bentkowski](https://blog.bentkowski.info/)."
+  - id: tricks-xss-xss-in-google-colaboratory-csp-bypass
+    url: "https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html"
+    title: XSS in Google Colaboratory + CSP bypass
+    author:
+      name: Michał Bentkowski
+      url: "https://blog.bentkowski.info/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Michał Bentkowski](https://blog.bentkowski.info/)."
+  - id: tricks-xss-script-is-filtered
+    url: "https://twitter.com/strukt93/status/931586377665331200"
+    title: "</script> is filtered ?"
+    author:
+      name: "@strukt93"
+      url: "https://twitter.com/strukt93"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@strukt93](https://twitter.com/strukt93)."
+  - id: tricks-xss-xss-auditor-the-protector-of-unprotected-and-the-d
+    url: "https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b"
+    title: XSS-Auditor — the protector of unprotected and the deceiver of protected.
+    author:
+      name: "@terjanq"
+      url: "https://medium.com/@terjanq"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@terjanq](https://medium.com/@terjanq)."
+  - id: tricks-xss-xss-without-parentheses-and-semi-colons
+    url: "https://portswigger.net/blog/xss-without-parentheses-and-semi-colons"
+    title: XSS without parentheses and semi-colons
+    author:
+      name: "@garethheyes"
+      url: "https://twitter.com/garethheyes"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@garethheyes](https://twitter.com/garethheyes)."
+  - id: tricks-xss-upgrade-self-xss-to-exploitable-xss-an-3-ways-tech
+    url: "https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html"
+    title: Upgrade self XSS to Exploitable XSS an 3 Ways Technic
+    author:
+      name: HAHWUL
+      url: "https://www.hahwul.com/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [HAHWUL](https://www.hahwul.com/)."
+  - id: tricks-xss-exploiting-xss-with-20-characters-limitation
+    url: "https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html"
+    title: Exploiting XSS with 20 characters limitation
+    author:
+      name: Jorge Lajara
+      url: "https://jlajara.gitlab.io/"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Jorge Lajara](https://jlajara.gitlab.io/)."
+  - id: tricks-xss-20000-facebook-dom-xss
+    url: "https://vinothkumar.me/20000-facebook-dom-xss/"
+    title: $20000 Facebook DOM XSS
+    author:
+      name: "@vinodsparrow"
+      url: "https://twitter.com/vinodsparrow"
+    category: tricks-xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-11"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@vinodsparrow](https://twitter.com/vinodsparrow)."

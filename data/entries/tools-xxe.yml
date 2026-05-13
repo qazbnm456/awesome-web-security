@@ -1,0 +1,20 @@
+# Entries for section: XXE
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-xxe-dtd-finder
+    url: "https://github.com/GoSecure/dtd-finder"
+    title: dtd-finder
+    author:
+      name: "@GoSecure"
+      url: "https://github.com/GoSecure"
+    category: tools-xxe
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "List DTDs and generate XXE payloads using those local DTDs by [@GoSecure](https://github.com/GoSecure)."

@@ -1,0 +1,36 @@
+# Entries for section: Web Cache Poisoning
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-web-cache-poisoning-bypassing-web-cache-poisoning-countermeasures
+    url: "https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures"
+    title: Bypassing Web Cache Poisoning Countermeasures
+    author:
+      name: "@albinowax"
+      url: "https://twitter.com/albinowax"
+    category: tricks-web-cache-poisoning
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@albinowax](https://twitter.com/albinowax)."
+  - id: tricks-web-cache-poisoning-cache-poisoning-and-other-dirty-tricks
+    url: "https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f"
+    title: Cache poisoning and other dirty tricks
+    author:
+      name: Wallarm
+      url: "https://wallarm.com/"
+    category: tricks-web-cache-poisoning
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Wallarm](https://wallarm.com/)."
