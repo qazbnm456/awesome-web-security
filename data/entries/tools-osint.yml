@@ -367,3 +367,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Search engine for misconfigured public cloud storage buckets across any provider."
+  - id: tools-osint-marshall-extensions
+    url: "https://github.com/bad-antics/marshall-extensions"
+    title: Marshall Extensions
+    author:
+      name: "@bad-antics"
+      url: "https://github.com/bad-antics"
+    category: tools-osint
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "OSINT and security extensions for the Marshall privacy browser, providing reconnaissance and security-testing plugins by [@bad-antics](https://github.com/bad-antics)."

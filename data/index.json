@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-12T18:59:49Z",
+  "generated_at": "2026-05-13T06:13:55Z",
   "categories": [
     {
       "key": "digests",
@@ -7446,6 +7446,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512081152/https://www.openbuckets.io/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-osint-marshall-extensions",
+      "url": "https://github.com/bad-antics/marshall-extensions",
+      "title": "Marshall Extensions",
+      "author": {
+        "name": "@bad-antics",
+        "url": "https://github.com/bad-antics"
+      },
+      "category": "tools-osint",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
