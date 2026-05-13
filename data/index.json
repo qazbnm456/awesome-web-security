@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T06:14:49Z",
+  "generated_at": "2026-05-13T12:20:43Z",
   "categories": [
     {
       "key": "digests",
@@ -7960,6 +7960,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512185529/https://github.com/undeadlist/trust-scan",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-zerotrust",
+      "url": "https://github.com/sattyamjjain/zerotrust",
+      "title": "ZeroTrust",
+      "author": {
+        "name": "@sattyamjjain",
+        "url": "https://github.com/sattyamjjain"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

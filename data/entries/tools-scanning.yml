@@ -98,3 +98,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "URL security scanner combining threat intelligence (URLhaus, PhishTank, Spamhaus) with 40+ scam and phishing pattern detection by [@undeadlist](https://github.com/undeadlist)."
+  - id: tools-scanning-zerotrust
+    url: "https://github.com/sattyamjjain/zerotrust"
+    title: ZeroTrust
+    author:
+      name: "@sattyamjjain"
+      url: "https://github.com/sattyamjjain"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain)."
