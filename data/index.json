@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T06:13:55Z",
+  "generated_at": "2026-05-13T06:14:49Z",
   "categories": [
     {
       "key": "digests",
@@ -5187,7 +5187,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260512185924/https://github.com/kOaDT/oss-oopssec-store",
       "last_checked": null,
       "status": "active"
     },
