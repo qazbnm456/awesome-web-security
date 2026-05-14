@@ -1,0 +1,148 @@
+# Entries for section: Detecting
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-detecting-bxss
+    url: "https://github.com/LewisArdern/bXSS"
+    title: bXSS
+    author:
+      name: cure53.de/m
+      url: "https://cure53.de/m"
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "bXSS is a simple Blind XSS application adapted from [cure53.de/m](https://cure53.de/m) by [@LewisArdern](https://github.com/LewisArdern)."
+  - id: tools-detecting-malware-jail
+    url: "https://github.com/HynekPetrak/malware-jail"
+    title: malware-jail
+    author:
+      name: "@HynekPetrak"
+      url: "https://github.com/HynekPetrak"
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by [@HynekPetrak](https://github.com/HynekPetrak)."
+  - id: tools-detecting-repo-supervisor
+    url: "https://github.com/auth0/repo-supervisor"
+    title: repo-supervisor
+    author:
+      name: "Scan your code for security misconfiguration, search for passwords and secrets"
+      url: null
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Scan your code for security misconfiguration, search for passwords and secrets."
+  - id: tools-detecting-retire-js
+    url: "https://github.com/RetireJS/retire.js"
+    title: retire.js
+    author:
+      name: "@RetireJS"
+      url: "https://github.com/RetireJS"
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Scanner detecting the use of JavaScript libraries with known vulnerabilities by [@RetireJS](https://github.com/RetireJS)."
+  - id: tools-detecting-sqlchop
+    url: "https://sqlchop.chaitin.cn/"
+    title: sqlchop
+    author:
+      name: chaitin
+      url: "http://chaitin.com"
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "SQL injection detection engine by [chaitin](http://chaitin.com)."
+  - id: tools-detecting-xsschop
+    url: "https://xsschop.chaitin.cn/"
+    title: xsschop
+    author:
+      name: chaitin
+      url: "http://chaitin.com"
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "XSS detection engine by [chaitin](http://chaitin.com)."
+  - id: tools-detecting-entry
+    url: "http://0day.websaas.com.cn/"
+    title: 重大漏洞在线检测系统
+    author:
+      name: 杭州安恒信息技术有限公司
+      url: "http://www.dbappsecurity.com.cn/"
+    category: tools-detecting
+    type: tool
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-04-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "重大漏洞在线检测系统 by [杭州安恒信息技术有限公司](http://www.dbappsecurity.com.cn/)."
+  - id: tools-detecting-openrasp
+    url: "https://github.com/baidu/openrasp"
+    title: OpenRASP
+    author:
+      name: Baidu Inc. With context-aware detection algorithm the project achieved nearly no
+      url: null
+    category: tools-detecting
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-05-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "An open source RASP solution actively maintained by Baidu Inc. With context-aware detection algorithm the project achieved nearly no false positives. And less than 3% performance reduction is observed under heavy server load."
+  - id: tools-detecting-guardrails
+    url: "https://github.com/apps/guardrails"
+    title: GuardRails
+    author:
+      name: A GitHub App that provides security feedback in Pull Requests
+      url: null
+    category: tools-detecting
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-12-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: A GitHub App that provides security feedback in Pull Requests.

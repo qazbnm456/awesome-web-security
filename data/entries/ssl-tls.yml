@@ -1,0 +1,36 @@
+# Entries for section: SSL/TLS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: ssl-tls-ssl-tls-penetration-testing
+    url: "https://www.aptive.co.uk/blog/tls-ssl-security-testing/"
+    title: "SSL & TLS Penetration Testing"
+    author:
+      name: APTIVE
+      url: "https://www.aptive.co.uk/"
+    category: ssl-tls
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [APTIVE](https://www.aptive.co.uk/)."
+  - id: ssl-tls-practical-introduction-to-ssl-tls
+    url: "https://github.com/Hakky54/mutual-tls-ssl"
+    title: Practical introduction to SSL/TLS
+    author:
+      name: "@Hakky54"
+      url: "https://github.com/Hakky54"
+    category: ssl-tls
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@Hakky54](https://github.com/Hakky54)."

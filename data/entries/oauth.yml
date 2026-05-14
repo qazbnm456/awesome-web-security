@@ -1,0 +1,68 @@
+# Entries for section: OAuth
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: oauth-facebook-oauth-framework-vulnerability
+    url: "https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/"
+    title: Facebook OAuth Framework Vulnerability
+    author:
+      name: "@AmolBaikar"
+      url: "https://twitter.com/AmolBaikar"
+    category: oauth
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@AmolBaikar](https://twitter.com/AmolBaikar)."
+  - id: oauth-what-is-going-on-with-oauth-2-0-and-why-you-should
+    url: "https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611"
+    title: "What is going on with OAuth 2.0? And why you should not use it for authentication."
+    author:
+      name: "@damianrusinek"
+      url: "https://medium.com/@damianrusinek"
+    category: oauth
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@damianrusinek](https://medium.com/@damianrusinek)."
+  - id: oauth-oauth-2-0-facebook
+    url: "https://medium.com/@justinlee_78563/%E9%97%9C%E6%96%BCoauth-2-0-%E4%BB%A5facebook%E7%82%BA%E4%BE%8B-6f78a4a55f52"
+    title: 關於OAuth 2.0-以Facebook為例
+    author:
+      name: "@justinlee_78563"
+      url: "https://medium.com/@justinlee_78563"
+    category: oauth
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@justinlee_78563](https://medium.com/@justinlee_78563)."
+  - id: oauth-introduction-to-oauth-2-0-and-openid-connect
+    url: "https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html"
+    title: Introduction to OAuth 2.0 and OpenID Connect
+    author:
+      name: "@PhilippeDeRyck"
+      url: "https://twitter.com/PhilippeDeRyck"
+    category: oauth
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck)."

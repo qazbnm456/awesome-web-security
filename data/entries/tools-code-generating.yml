@@ -1,0 +1,20 @@
+# Entries for section: Code Generating
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-code-generating-vwgen
+    url: "https://github.com/qazbnm456/VWGen"
+    title: VWGen
+    author:
+      name: "@qazbnm456"
+      url: "https://github.com/qazbnm456"
+    category: tools-code-generating
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Vulnerable Web applications Generator by [@qazbnm456](https://github.com/qazbnm456)."

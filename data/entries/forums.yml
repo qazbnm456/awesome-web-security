@@ -1,0 +1,242 @@
+# Entries for section: Forums
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: forums-dark-reading
+    url: "https://www.darkreading.com/Default.asp"
+    title: Dark Reading
+    author:
+      name: Connecting The Information Security Community
+      url: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Connecting The Information Security Community.
+  - id: forums-drops-backup
+    url: "https://drops.secquan.org/"
+    title: Drops (backup)
+    author:
+      name: Drops was known as a famous knowledge base for hacking technology
+      url: null
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Drops was known as a famous knowledge base for hacking technology.
+  - id: forums-freebuf
+    url: "http://www.freebuf.com/"
+    title: Freebuf
+    author:
+      name: Freebuf is the most popular forum in China for exchanging and sharing hacking te
+      url: null
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
+  - id: forums-hackdig
+    url: "http://en.hackdig.com/"
+    title: HackDig
+    author:
+      name: Dig high-quality web security articles for hacker
+      url: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Dig high-quality web security articles for hacker.
+  - id: forums-paper
+    url: "http://paper.seebug.org/"
+    title: Paper - 安全技术精粹
+    author:
+      name: knownsec
+      url: "https://www.knownsec.com/"
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Knowledge base for hacking technology built by 404 Team from [knownsec](https://www.knownsec.com/)."
+  - id: forums-phrack-magazine
+    url: "http://www.phrack.org/"
+    title: Phrack Magazine
+    author: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Ezine written by and for hackers.
+  - id: forums-security-weekly
+    url: "https://securityweekly.com/"
+    title: Security Weekly
+    author:
+      name: The security podcast network
+      url: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: The security podcast network.
+  - id: forums-t00ls
+    url: "https://www.t00ls.net/"
+    title: T00LS
+    author:
+      name: T00LS - 低调求发展 - 潜心习安全
+      url: null
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: T00LS - 低调求发展 - 潜心习安全.
+  - id: forums-the-hacker-news
+    url: "https://thehackernews.com/"
+    title: The Hacker News
+    author:
+      name: Security in a serious way
+      url: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Security in a serious way.
+  - id: forums-the-register
+    url: "http://www.theregister.co.uk/"
+    title: The Register
+    author:
+      name: Biting the hand that feeds IT
+      url: null
+    category: forums
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Biting the hand that feeds IT.
+  - id: forums-entry
+    url: "https://www.anquanke.com/"
+    title: 安全客
+    author:
+      name: "360网络攻防实验室"
+      url: "https://weibo.com/360adlab"
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "有思想的安全新媒体 by [360网络攻防实验室](https://weibo.com/360adlab)."
+  - id: forums-entry-2
+    url: "https://www.secpulse.com/"
+    title: 安全脉搏
+    author:
+      name: Blog for Security things
+      url: null
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Blog for Security things.
+  - id: forums-entry-3
+    url: "https://www.secfree.com/"
+    title: 指尖安全
+    author:
+      name: 指尖安全
+      url: null
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "垂直互联网安全媒体."
+  - id: forums-beta
+    url: "https://pockr.org/"
+    title: 破壳（Beta）
+    author:
+      name: SOBUG漏洞悬赏平台
+      url: "https://sobug.com/"
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "能看漏洞报告的安全社区 by [SOBUG漏洞悬赏平台](https://sobug.com/)."
+  - id: forums-entry-4
+    url: "https://zhuanlan.zhihu.com/chaitin-tech"
+    title: 长亭技术专栏
+    author:
+      name: 长亭科技
+      url: "https://www.chaitin.cn/zh/"
+    category: forums
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-12-17"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "安全攻防技术分享 by [长亭科技](https://www.chaitin.cn/zh/)."
