@@ -1,0 +1,180 @@
+# Entries for section: SSRF
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-ssrf-a-new-era-of-ssrf-exploiting-url-parser-in-trendin
+    url: "https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf"
+    title: "A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!"
+    author:
+      name: Orange
+      url: "http://blog.orange.tw/"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+  - id: tricks-ssrf-ssrf-tips
+    url: "http://blog.safebuff.com/2016/07/03/SSRF-Tips/"
+    title: SSRF Tips
+    author:
+      name: xl7dev
+      url: "http://blog.safebuff.com/"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [xl7dev](http://blog.safebuff.com/)."
+  - id: tricks-ssrf-ssrf-in-https-imgur-com-vidgif-url
+    url: "https://hackerone.com/reports/115748"
+    title: "SSRF in https://imgur.com/vidgif/url"
+    author:
+      name: aesteral
+      url: "https://hackerone.com/aesteral"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [aesteral](https://hackerone.com/aesteral)."
+  - id: tricks-ssrf-ssrf-ip
+    url: "http://www.freebuf.com/articles/web/135342.html"
+    title: SSRF漏洞中绕过IP限制的几种方法总结
+    author:
+      name: arkteam
+      url: "http://www.freebuf.com/author/arkteam"
+    category: tricks-ssrf
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [arkteam](http://www.freebuf.com/author/arkteam)."
+  - id: tricks-ssrf-php-ssrf-techniques
+    url: "https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51"
+    title: PHP SSRF Techniques
+    author:
+      name: "@themiddleblue"
+      url: "https://medium.com/@themiddleblue"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@themiddleblue](https://medium.com/@themiddleblue)."
+  - id: tricks-ssrf-ssrf-in-exchange-leads-to-root-access-in-all-insta
+    url: "https://hackerone.com/reports/341876"
+    title: SSRF in Exchange leads to ROOT access in all instances
+    author:
+      name: "@0xacb"
+      url: "https://twitter.com/0xacb"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@0xacb](https://twitter.com/0xacb)."
+  - id: tricks-ssrf-into-the-borg-ssrf-inside-google-production-networ
+    url: "https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/"
+    title: Into the Borg – SSRF inside Google production network
+    author:
+      name: opnsec
+      url: "https://opnsec.com/"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-09-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [opnsec](https://opnsec.com/)."
+  - id: tricks-ssrf-piercing-the-veil-server-side-request-forgery-to-n
+    url: "https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a"
+    title: "Piercing the Veil: Server Side Request Forgery to NIPRNet access"
+    author:
+      name: Alyssa Herrera
+      url: "https://medium.com/@alyssa.o.herrera"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Alyssa Herrera](https://medium.com/@alyssa.o.herrera)."
+  - id: tricks-ssrf-ipv6-tips
+    url: "https://www.tttang.com/archive/1293/"
+    title: IPv6 三个访问本地地址的小Tips
+    author:
+      name: phith0n
+      url: "https://www.tttang.com/user/phith0n"
+    category: tricks-ssrf
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phith0n](https://www.tttang.com/user/phith0n)."
+  - id: tricks-ssrf-aws-takeover-through-ssrf-in-javascript
+    url: "http://10degres.net/aws-takeover-through-ssrf-in-javascript/"
+    title: AWS takeover through SSRF in JavaScript
+    author:
+      name: Gwen
+      url: "http://10degres.net/"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Gwen](http://10degres.net/)."
+  - id: tricks-ssrf-all-you-need-to-know-about-ssrf-and-how-may-we-wri
+    url: "https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html"
+    title: All you need to know about SSRF and how may we write tools to do auto-detect
+    author:
+      name: "@Auxy233"
+      url: "https://twitter.com/Auxy233"
+    category: tricks-ssrf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@Auxy233](https://twitter.com/Auxy233)."

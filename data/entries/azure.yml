@@ -1,0 +1,36 @@
+# Entries for section: Azure
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: azure-cloud-security-risks-part-1-azure-csv-injection-vu
+    url: "https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability/"
+    title: "Cloud Security Risks (Part 1): Azure CSV Injection Vulnerability"
+    author:
+      name: "@spengietz"
+      url: "https://twitter.com/spengietz"
+    category: azure
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@spengietz](https://twitter.com/spengietz)."
+  - id: azure-common-azure-security-vulnerabilities-and-misconfi
+    url: "https://rhinosecuritylabs.com/cloud-security/common-azure-security-vulnerabilities/"
+    title: Common Azure Security Vulnerabilities and Misconfigurations
+    author:
+      name: "@rhinobenjamin"
+      url: "https://twitter.com/rhinobenjamin"
+    category: azure
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@rhinobenjamin](https://twitter.com/rhinobenjamin)."

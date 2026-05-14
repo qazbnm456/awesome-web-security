@@ -1,0 +1,68 @@
+# Entries for section: OSINT
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: osint-hacking-cryptocurrency-miners-with-osint-technique
+    url: "https://medium.com/@s3yfullah/hacking-cryptocurrency-miners-with-osint-techniques-677bbb3e0157"
+    title: Hacking Cryptocurrency Miners with OSINT Techniques
+    author:
+      name: "@s3yfullah"
+      url: "https://medium.com/@s3yfullah"
+    category: osint
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@s3yfullah](https://medium.com/@s3yfullah)."
+  - id: osint-osint-x-uccu-workshop-on-open-source-intelligence
+    url: "https://www.slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence"
+    title: OSINT x UCCU Workshop on Open Source Intelligence
+    author:
+      name: Philippe Lin
+      url: "https://www.slideshare.net/miaoski"
+    category: osint
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Philippe Lin](https://www.slideshare.net/miaoski)."
+  - id: osint-102-deep-dive-in-the-dark-web-osint-style-kirby-pl
+    url: "https://www.youtube.com/watch?v=fzd3zkAI_o4"
+    title: "102 Deep Dive in the Dark Web OSINT Style Kirby Plessas"
+    author:
+      name: "@kirbstr"
+      url: "https://twitter.com/kirbstr"
+    category: osint
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-28"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Presented by [@kirbstr](https://twitter.com/kirbstr)."
+  - id: osint-the-most-complete-guide-to-finding-anyone-s-email
+    url: "https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email"
+    title: The most complete guide to finding anyone’s email
+    author:
+      name: Timur Daudpota
+      url: "https://www.blurbiz.io/"
+    category: osint
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Timur Daudpota](https://www.blurbiz.io/)."
