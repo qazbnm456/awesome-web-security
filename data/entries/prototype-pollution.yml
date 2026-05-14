@@ -1,0 +1,68 @@
+# Entries for section: Prototype Pollution
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: prototype-pollution-prototype-pollution-attack-in-nodejs-application
+    url: "https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf"
+    title: Prototype pollution attack in NodeJS application
+    author:
+      name: "@HoLyVieR"
+      url: "https://github.com/HoLyVieR"
+    category: prototype-pollution
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@HoLyVieR](https://github.com/HoLyVieR)."
+  - id: prototype-pollution-javascript-prototype
+    url: "https://www.leavesongs.com/PENETRATION/javascript-prototype-pollution-attack.html"
+    title: 深入理解 JavaScript Prototype 污染攻击
+    author:
+      name: phithon
+      url: "https://www.leavesongs.com/"
+    category: prototype-pollution
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phithon](https://www.leavesongs.com/)."
+  - id: prototype-pollution-real-world-js-1
+    url: "https://blog.p6.is/Real-World-JS-1/"
+    title: Real-world JS - 1
+    author:
+      name: "@po6ix"
+      url: "https://twitter.com/po6ix"
+    category: prototype-pollution
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-07-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@po6ix](https://twitter.com/po6ix)."
+  - id: prototype-pollution-exploiting-prototype-pollution-rce-in-kibana-cve-2
+    url: "https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/"
+    title: Exploiting prototype pollution – RCE in Kibana (CVE-2019-7609)
+    author:
+      name: "@securitymb"
+      url: "https://twitter.com/securitymb"
+    category: prototype-pollution
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-08-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@securitymb](https://twitter.com/securitymb)."

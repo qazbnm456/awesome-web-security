@@ -1,0 +1,132 @@
+# Entries for section: Scanning
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-scanning-joomlascan
+    url: "https://github.com/drego85/JoomlaScan"
+    title: JoomlaScan
+    author:
+      name: "@drego85"
+      url: "https://github.com/drego85"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85)."
+  - id: tools-scanning-wpscan
+    url: "https://github.com/wpscanteam/wpscan"
+    title: wpscan
+    author:
+      name: "@wpscanteam"
+      url: "https://github.com/wpscanteam"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam)."
+  - id: tools-scanning-wascan
+    url: "https://github.com/m4ll0k/WAScan"
+    title: WAScan
+    author:
+      name: "@m4ll0k"
+      url: "https://github.com/m4ll0k"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Is an open source web application security scanner that uses \"black-box\" method, created by [@m4ll0k](https://github.com/m4ll0k)."
+  - id: tools-scanning-nuclei
+    url: "https://github.com/projectdiscovery/nuclei"
+    title: Nuclei
+    author:
+      name: "@projectdiscovery"
+      url: "https://github.com/projectdiscovery"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-10-05"
+    archive_url: "https://web.archive.org/web/20260511153720/https://github.com/projectdiscovery/nuclei"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use by [@projectdiscovery](https://github.com/projectdiscovery)."
+  - id: tools-scanning-zap
+    url: "https://zaproxy.org"
+    title: ZAP by Checkmarx
+    author:
+      name: ZAP Core Team
+      url: "https://www.zaproxy.org/docs/team/"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-11"
+    archive_url: "https://web.archive.org/web/20260511151417/https://www.zaproxy.org/"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open-source web application security scanner maintained by the ZAP Core Team."
+  - id: tools-scanning-trust-scan
+    url: "https://github.com/undeadlist/trust-scan"
+    title: Trust Scan
+    author:
+      name: "@undeadlist"
+      url: "https://github.com/undeadlist"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: "https://web.archive.org/web/20260512185529/https://github.com/undeadlist/trust-scan"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "URL security scanner combining threat intelligence (URLhaus, PhishTank, Spamhaus) with 40+ scam and phishing pattern detection by [@undeadlist](https://github.com/undeadlist)."
+  - id: tools-scanning-zerotrust
+    url: "https://github.com/sattyamjjain/zerotrust"
+    title: ZeroTrust
+    author:
+      name: "@sattyamjjain"
+      url: "https://github.com/sattyamjjain"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-12"
+    archive_url: "https://web.archive.org/web/20260513122221/https://github.com/sattyamjjain/zerotrust"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain)."
+  - id: tools-scanning-fray
+    url: "https://github.com/dalisecurity/fray"
+    title: Fray
+    author:
+      name: "@dalisecurity"
+      url: "https://github.com/dalisecurity"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open-source WAF bypass and security-testing toolkit with 6,300+ payloads across OWASP categories, AI-assisted evasion engine, 27-check reconnaissance pipeline, and OWASP hardening audit, by [@dalisecurity](https://github.com/dalisecurity)."

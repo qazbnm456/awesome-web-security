@@ -1,0 +1,164 @@
+# Entries for section: XSS - Cross-Site Scripting
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: xss-a-talk-about-xss-thousand-knocks
+    url: "https://speakerdeck.com/yagihashoo/a-talk-about-xss-thousand-knocks-shibuya-dot-xss-techtalk-number-10"
+    title: A talk about XSS thousand knocks
+    author:
+      name: Yu Yagihashi
+      url: "https://speakerdeck.com/yagihashoo"
+    category: xss
+    type: article
+    languages: [jp]
+    difficulty: intermediate
+    date_added: "2018-06-08"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Yu Yagihashi](https://speakerdeck.com/yagihashoo)."
+  - id: xss-c-xss-guide
+    url: "https://excess-xss.com/"
+    title: C.XSS Guide
+    author:
+      name: "@JakobKallin"
+      url: "https://github.com/JakobKallin"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-08"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@JakobKallin](https://github.com/JakobKallin) and [Irene Lobo Valbuena](https://www.linkedin.com/in/irenelobovalbuena/)."
+  - id: xss-cross-site-scripting-application-security-google
+    url: "https://www.google.com/intl/sw/about/appsecurity/learning/xss/"
+    title: Cross-Site Scripting – Application Security – Google
+    author:
+      name: Google
+      url: "https://www.google.com/"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-08"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Google](https://www.google.com/)."
+  - id: xss-h5sc
+    url: "https://github.com/cure53/H5SC"
+    title: H5SC
+    author:
+      name: "@cure53"
+      url: "https://github.com/cure53"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-08"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@cure53](https://github.com/cure53)."
+  - id: xss-the-big-bad-wolf-xss-and-maintaining-access
+    url: "http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html"
+    title: THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS
+    author:
+      name: Paulos Yibelo
+      url: "http://www.paulosyibelo.com/"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-06-08"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Paulos Yibelo](http://www.paulosyibelo.com/)."
+  - id: xss-entry
+    url: "https://blogs.mcafee.jp/cross-site-scripting-overview"
+    title: クロスサイトスクリプティングの仕組みと攻撃を回避する７つの対策
+    author:
+      name: McAfee Blog
+      url: "https://blogs.mcafee.jp/"
+    category: xss
+    type: article
+    languages: [jp]
+    difficulty: intermediate
+    date_added: "2018-06-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [McAfee Blog](https://blogs.mcafee.jp/)."
+  - id: xss-awesomexss
+    url: "https://github.com/s0md3v/AwesomeXSS"
+    title: AwesomeXSS
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@s0md3v](https://github.com/s0md3v)."
+  - id: xss-xss-png
+    url: "https://github.com/LucaBongiorni/XSS.png"
+    title: XSS.png
+    author:
+      name: jackmasa
+      url: null
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by @jackmasa."
+  - id: xss-payloadsallthethings-xss-injection
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection"
+    title: PayloadsAllTheThings - XSS Injection
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
+  - id: xss-payloadbox-xss-payload-list
+    url: "https://github.com/payloadbox/xss-payload-list"
+    title: payloadbox/xss-payload-list
+    author:
+      name: "@payloadbox"
+      url: "https://github.com/payloadbox"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."
