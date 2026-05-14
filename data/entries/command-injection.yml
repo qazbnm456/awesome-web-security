@@ -1,0 +1,84 @@
+# Entries for section: Command Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: command-injection-potential-command-injection-in-resolv-rb
+    url: "https://github.com/ruby/ruby/pull/1777"
+    title: Potential command injection in resolv.rb
+    author:
+      name: "@drigg3r"
+      url: "https://github.com/drigg3r"
+    category: command-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@drigg3r](https://github.com/drigg3r)."
+  - id: command-injection-ruby-open
+    url: "http://www.lanches.co.jp/blog/5996"
+    title: rubyでopenコマンドを使用するときに気をつけること
+    author:
+      name: 金子 将範
+      url: "http://www.lanches.co.jp/author/rubyist"
+    category: command-injection
+    type: article
+    languages: [jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [金子 将範](http://www.lanches.co.jp/author/rubyist)."
+  - id: command-injection-commix
+    url: "https://github.com/commixproject/commix"
+    title: commix
+    author:
+      name: "@commixproject"
+      url: "https://github.com/commixproject"
+    category: command-injection
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Automated All-in-One OS command injection and exploitation tool by [@commixproject](https://github.com/commixproject)."
+  - id: command-injection-payloadsallthethings-command-injection
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection"
+    title: PayloadsAllTheThings - Command Injection
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: command-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
+  - id: command-injection-payloadbox-command-injection-payload-list
+    url: "https://github.com/payloadbox/command-injection-payload-list"
+    title: payloadbox/command-injection-payload-list
+    author:
+      name: "@payloadbox"
+      url: "https://github.com/payloadbox"
+    category: command-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."

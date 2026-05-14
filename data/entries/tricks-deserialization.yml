@@ -1,0 +1,20 @@
+# Entries for section: Deserialization
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-deserialization-asp-net-resource-files-resx-and-deserialisation-is
+    url: "https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/"
+    title: ASP.NET resource files (.RESX) and deserialisation issues
+    author:
+      name: "@irsdl"
+      url: "https://twitter.com/irsdl"
+    category: tricks-deserialization
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@irsdl](https://twitter.com/irsdl)."

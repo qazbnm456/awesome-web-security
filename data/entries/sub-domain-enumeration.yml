@@ -1,0 +1,36 @@
+# Entries for section: Sub Domain Enumeration
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: sub-domain-enumeration-a-penetration-tester-s-guide-to-sub-domain-enumera
+    url: "https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6"
+    title: A penetration tester’s guide to sub-domain enumeration
+    author:
+      name: Bharath
+      url: "https://blog.appsecco.com/@yamakira_"
+    category: sub-domain-enumeration
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Bharath](https://blog.appsecco.com/@yamakira_)."
+  - id: sub-domain-enumeration-the-art-of-subdomain-enumeration
+    url: "https://blog.sweepatic.com/art-of-subdomain-enumeration/"
+    title: The Art of Subdomain Enumeration
+    author:
+      name: Patrik Hudak
+      url: "https://blog.sweepatic.com/author/patrik/"
+    category: sub-domain-enumeration
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/)."

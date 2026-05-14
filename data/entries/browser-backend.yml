@@ -1,0 +1,196 @@
+# Entries for section: Backend (core of Browser implementation, and often refers to C or C++ part)
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: browser-backend-attacking-javascript-engines-a-case-study-of-javas
+    url: "http://www.phrack.org/papers/attacking_javascript_engines.html"
+    title: Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622
+    author:
+      name: "phrack@saelo.net"
+      url: "mailto:phrack@saelo.net"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phrack@saelo.net](mailto:phrack@saelo.net)."
+  - id: browser-backend-exploiting-a-v8-oob-write
+    url: "https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/"
+    title: Exploiting a V8 OOB write.
+    author:
+      name: "@halbecaf"
+      url: "https://twitter.com/halbecaf"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@halbecaf](https://twitter.com/halbecaf)."
+  - id: browser-backend-ssd-advisory-chrome-turbofan-remote-code-execution
+    url: "https://blogs.securiteam.com/index.php/archives/3379"
+    title: SSD Advisory – Chrome Turbofan Remote Code Execution
+    author:
+      name: SecuriTeam Secure Disclosure (SSD)
+      url: "https://blogs.securiteam.com/"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/)."
+  - id: browser-backend-look-mom-i-dont-use-shellcode-browser-exploitation
+    url: "https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf"
+    title: "Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11"
+    author:
+      name: "@moritzj"
+      url: "http://twitter.com/moritzj"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-20"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@moritzj](http://twitter.com/moritzj)."
+  - id: browser-backend-pushing-webkits-buttons-with-a-mobile-pwn2own-expl
+    url: "https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit"
+    title: "PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT"
+    author:
+      name: "@wanderingglitch"
+      url: "https://twitter.com/wanderingglitch"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@wanderingglitch](https://twitter.com/wanderingglitch)."
+  - id: browser-backend-a-methodical-approach-to-browser-exploitation
+    url: "https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/"
+    title: A Methodical Approach to Browser Exploitation
+    author:
+      name: "RET2 SYSTEMS, INC"
+      url: "https://blog.ret2.io/"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-08-01"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [RET2 SYSTEMS, INC](https://blog.ret2.io/)."
+  - id: browser-backend-cve-2017-2446-or-jsc-jsglobalobject-ishavingabadti
+    url: "https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/"
+    title: "CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime."
+    author:
+      name: Diary of a reverse-engineer
+      url: "https://doar-e.github.io/"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Diary of a reverse-engineer](https://doar-e.github.io/)."
+  - id: browser-backend-breaking-uc-browser
+    url: "https://habr.com/en/company/drweb/blog/452076/"
+    title: Breaking UC Browser
+    author:
+      name: Доктор Веб
+      url: "https://www.drweb.ru/"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Доктор Веб](https://www.drweb.ru/)."
+  - id: browser-backend-three-roads-lead-to-rome
+    url: "http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/"
+    title: Three roads lead to Rome
+    author:
+      name: "@holynop"
+      url: "https://twitter.com/holynop"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@holynop](https://twitter.com/holynop)."
+  - id: browser-backend-ctf-v8
+    url: "https://www.freebuf.com/vuls/203721.html"
+    title: 从一道CTF题零基础学V8漏洞利用
+    author:
+      name: walkerfuz
+      url: "https://www.freebuf.com/author/walkerfuz"
+    category: browser-backend
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [walkerfuz](https://www.freebuf.com/author/walkerfuz)."
+  - id: browser-backend-cleanly-escaping-the-chrome-sandbox
+    url: "https://theori.io/research/escaping-chrome-sandbox"
+    title: CLEANLY ESCAPING THE CHROME SANDBOX
+    author:
+      name: "@tjbecker_"
+      url: "https://twitter.com/tjbecker_"
+    category: browser-backend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@tjbecker_](https://twitter.com/tjbecker_)."
+  - id: browser-backend-how-i-got-my-first-big-bounty-payout-with-tesla
+    url: "https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d"
+    title: How I got my first big bounty payout with Tesla
+    author:
+      name: "@cj.fairhead"
+      url: "https://medium.com/@cj.fairhead"
+    category: browser-backend
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2020-06-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@cj.fairhead](https://medium.com/@cj.fairhead)."
