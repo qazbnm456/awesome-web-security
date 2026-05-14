@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T04:54:39Z",
+  "generated_at": "2026-05-14T05:18:35Z",
   "categories": [
     {
       "key": "digests",
@@ -6970,6 +6970,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-leaking-keyfinder",
+      "url": "https://github.com/momenbasel/keyFinder",
+      "title": "keyFinder",
+      "author": {
+        "name": "@momenbasel",
+        "url": "https://github.com/momenbasel"
+      },
+      "category": "tools-leaking",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-14",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
