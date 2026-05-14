@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T05:23:59Z",
+  "generated_at": "2026-05-14T06:45:46Z",
   "categories": [
     {
       "key": "digests",
@@ -7943,6 +7943,27 @@
       "status": "active"
     },
     {
+      "id": "tools-preventing-laravel-csp-generator",
+      "url": "https://csp-generator.shakiltech.com",
+      "title": "Laravel CSP Generator",
+      "author": {
+        "name": "@itxshakil",
+        "url": "https://github.com/itxshakil"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-14",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "tools-proxy-charles",
       "url": "https://www.charlesproxy.com/",
       "title": "Charles",
@@ -11208,6 +11229,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "xss-laravel-content-security-policy-implementation-guide",
+      "url": "https://blog.shakiltech.com/laravel-content-security-policy-guide/",
+      "title": "Laravel Content Security Policy: Complete Implementation Guide",
+      "author": {
+        "name": "@itxshakil",
+        "url": "https://github.com/itxshakil"
+      },
+      "category": "xss",
+      "type": "article",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-14",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

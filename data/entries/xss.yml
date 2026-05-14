@@ -162,3 +162,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."
+  - id: xss-laravel-content-security-policy-implementation-guide
+    url: "https://blog.shakiltech.com/laravel-content-security-policy-guide/"
+    title: "Laravel Content Security Policy: Complete Implementation Guide"
+    author:
+      name: "@itxshakil"
+      url: "https://github.com/itxshakil"
+    category: xss
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Hands-on guide to implementing Content Security Policy in Laravel — nonce lifecycle, Vite and Livewire integration, violation reporting, and a pre-enforcement checklist, by [@itxshakil](https://github.com/itxshakil)."

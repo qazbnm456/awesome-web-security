@@ -162,3 +162,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks, by [@hamzaydia](https://github.com/hamzaydia)."
+  - id: tools-preventing-laravel-csp-generator
+    url: "https://csp-generator.shakiltech.com"
+    title: Laravel CSP Generator
+    author:
+      name: "@itxshakil"
+      url: "https://github.com/itxshakil"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Interactive Content Security Policy builder for Laravel that outputs ready-to-use PHP middleware with nonce support and violation reporting, by [@itxshakil](https://github.com/itxshakil)."
