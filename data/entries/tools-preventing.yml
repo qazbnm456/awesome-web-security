@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "In-process file-upload security middleware for Node.js that scans untrusted uploads before storage to detect malware, MIME spoofing, and risky archives, maintained by [pompelmi](https://github.com/pompelmi)."
+  - id: tools-preventing-verifyfetch
+    url: "https://github.com/hamzaydia/verifyfetch"
+    title: verifyfetch
+    author:
+      name: "@hamzaydia"
+      url: "https://github.com/hamzaydia"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-05-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks, by [@hamzaydia](https://github.com/hamzaydia)."

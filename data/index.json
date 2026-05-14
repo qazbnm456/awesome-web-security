@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T03:51:47Z",
+  "generated_at": "2026-05-14T04:24:49Z",
   "categories": [
     {
       "key": "digests",
@@ -7854,6 +7854,27 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-verifyfetch",
+      "url": "https://github.com/hamzaydia/verifyfetch",
+      "title": "verifyfetch",
+      "author": {
+        "name": "@hamzaydia",
+        "url": "https://github.com/hamzaydia"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-14",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
