@@ -1,0 +1,20 @@
+# Entries for section: Decompiler
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-decompiler-cfr
+    url: "http://www.benf.org/other/cfr/"
+    title: CFR
+    author:
+      name: "@LeeAtBenf"
+      url: "https://twitter.com/LeeAtBenf"
+    category: tools-decompiler
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf)."

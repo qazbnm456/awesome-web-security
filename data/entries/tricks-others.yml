@@ -1,0 +1,212 @@
+# Entries for section: Others
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tricks-others-cyberchef
+    url: "https://github.com/gchq/CyberChef"
+    title: CyberChef
+    author:
+      name: "@GCHQ"
+      url: "https://github.com/gchq"
+    category: tricks-others
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by [@GCHQ](https://github.com/gchq)."
+  - id: tricks-others-dnslogger
+    url: "https://wiki.skullsecurity.org/index.php?title=Dnslogger"
+    title: Dnslogger
+    author:
+      name: "@iagox86"
+      url: "https://github.com/iagox86"
+    category: tricks-others
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "DNS Logger by [@iagox86](https://github.com/iagox86)."
+  - id: tricks-others-inducing-dns-leaks-in-onion-web-services
+    url: "https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md"
+    title: Inducing DNS Leaks in Onion Web Services
+    author:
+      name: "@epidemics-scepticism"
+      url: "https://github.com/epidemics-scepticism"
+    category: tricks-others
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@epidemics-scepticism](https://github.com/epidemics-scepticism)."
+  - id: tricks-others-domain-fronting
+    url: "https://evi1cg.me/archives/Domain_Fronting.html"
+    title: 隱匿的攻擊之-Domain Fronting
+    author:
+      name: Evi1cg
+      url: "https://evi1cg.me/"
+    category: tricks-others
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Evi1cg](https://evi1cg.me/)."
+  - id: tricks-others-web
+    url: "https://www.jianshu.com/p/735e8f1746f0"
+    title: web狗要懂的内网端口转发
+    author:
+      name: "\\_阿烨_"
+      url: "https://www.jianshu.com/u/121bf0f6b3d2"
+    category: tricks-others
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-03-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [\\_阿烨_](https://www.jianshu.com/u/121bf0f6b3d2)."
+  - id: tricks-others-stored-xss-and-ssrf-in-google-using-the-dataset-pu
+    url: "https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html"
+    title: "Stored XSS, and SSRF in Google using the Dataset Publishing Language"
+    author:
+      name: "@signalchaos"
+      url: "https://twitter.com/signalchaos"
+    category: tricks-others
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-03-16"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@signalchaos](https://twitter.com/signalchaos)."
+  - id: tricks-others-php-tips
+    url: "http://zeroyu.xyz/2018/10/13/php-audit-tips/"
+    title: PHP代码审计中的一些Tips
+    author:
+      name: z3r0yu
+      url: "http://zeroyu.xyz/"
+    category: tricks-others
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-10-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [z3r0yu](http://zeroyu.xyz/)."
+  - id: tricks-others-cefdebug
+    url: "https://github.com/taviso/cefdebug"
+    title: cefdebug
+    author:
+      name: "@taviso"
+      url: "https://github.com/taviso"
+    category: tricks-others
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Minimal code to connect to a CEF debugger by [@taviso](https://github.com/taviso)."
+  - id: tricks-others-ctftool
+    url: "https://github.com/taviso/ctftool"
+    title: ctftool
+    author:
+      name: "@taviso"
+      url: "https://github.com/taviso"
+    category: tricks-others
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Interactive CTF Exploration Tool by [@taviso](https://github.com/taviso)."
+  - id: tricks-others-ntlm-challenger
+    url: "https://github.com/b17zr/ntlm_challenger"
+    title: ntlm_challenger
+    author:
+      name: "@b17zr"
+      url: "https://github.com/b17zr"
+    category: tricks-others
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Parse NTLM over HTTP challenge messages by [@b17zr](https://github.com/b17zr)."
+  - id: tricks-others-how-i-hacked-google-s-bug-tracking-system-itself-f
+    url: "https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5"
+    title: "How I hacked Google’s bug tracking system itself for $15,600 in bounties"
+    author:
+      name: "@alex.birsan"
+      url: "https://medium.com/@alex.birsan"
+    category: tricks-others
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@alex.birsan](https://medium.com/@alex.birsan)."
+  - id: tricks-others-ctf-tricks
+    url: "https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065"
+    title: "CTF比赛总是输？你还差点Tricks!"
+    author:
+      name: phithon
+      url: "https://www.leavesongs.com/"
+    category: tricks-others
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phithon](https://www.leavesongs.com/)."
+  - id: tricks-others-some-tricks-from-my-secret-group
+    url: "https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html"
+    title: Some Tricks From My Secret Group
+    author:
+      name: phithon
+      url: "https://www.leavesongs.com/"
+    category: tricks-others
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [phithon](https://www.leavesongs.com/)."

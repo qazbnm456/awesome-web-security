@@ -1,0 +1,20 @@
+# Entries for section: NFS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: nfs-nfs-penetration-testing-academy
+    url: "https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&cn=ZmxleGlibGVfcmVjc18y&refsrc=email&iid=b34422ce15164e99a193fea0ccc7a02f&uid=1959680352&nid=244+289476616"
+    title: "NFS | PENETRATION TESTING ACADEMY"
+    author:
+      name: PENETRATION ACADEMY
+      url: "https://pentestacademy.wordpress.com/"
+    category: nfs
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [PENETRATION ACADEMY](https://pentestacademy.wordpress.com/)."
