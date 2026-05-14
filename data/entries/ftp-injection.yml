@@ -1,0 +1,68 @@
+# Entries for section: FTP Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: ftp-injection-advisory-java-python-ftp-injections-allow-for-fire
+    url: "http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html"
+    title: "Advisory: Java/Python FTP Injections Allow for Firewall Bypass"
+    author:
+      name: Timothy Morgan
+      url: "https://plus.google.com/105917618099766831589"
+    category: ftp-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Timothy Morgan](https://plus.google.com/105917618099766831589)."
+  - id: ftp-injection-smtp-over-xxe-how-to-send-emails-using-javas-xml-p
+    url: "https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/"
+    title: "SMTP over XXE − how to send emails using Java's XML parser"
+    author:
+      name: Alexander Klink
+      url: "https://shiftordie.de/"
+    category: ftp-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Alexander Klink](https://shiftordie.de/)."
+  - id: ftp-injection-xml-out-of-band-data-retrieval
+    url: "https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf"
+    title: XML Out-Of-Band Data Retrieval
+    author:
+      name: "@a66at"
+      url: "https://twitter.com/a66at"
+    category: ftp-injection
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov."
+  - id: ftp-injection-xxe-oob-exploitation-at-java-1-7
+    url: "http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html"
+    title: XXE OOB exploitation at Java 1.7+
+    author:
+      name: Ivan Novikov
+      url: "http://lab.onsec.ru/"
+    category: ftp-injection
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Ivan Novikov](http://lab.onsec.ru/)."

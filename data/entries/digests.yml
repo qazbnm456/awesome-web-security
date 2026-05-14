@@ -1,0 +1,196 @@
+# Entries for section: Digests
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: digests-ctf-field-guide
+    url: "https://trailofbits.github.io/ctf/"
+    title: CTF Field Guide
+    author:
+      name: Trail of Bits
+      url: "https://www.trailofbits.com/"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Trail of Bits](https://www.trailofbits.com/)."
+  - id: digests-got-your-pw
+    url: "https://gotyour.pw/"
+    title: Got Your PW
+    author:
+      name: "@s3131212"
+      url: "https://github.com/s3131212"
+    category: digests
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@s3131212](https://github.com/s3131212)."
+  - id: digests-hacker101
+    url: "https://www.hacker101.com/"
+    title: Hacker101
+    author:
+      name: hackerone
+      url: "https://www.hackerone.com/start-hacking"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [hackerone](https://www.hackerone.com/start-hacking)."
+  - id: digests-infosec-newbie
+    url: "https://www.sneakymonkey.net/2017/04/23/infosec-newbie/"
+    title: Infosec Newbie
+    author:
+      name: Mark Robinson
+      url: "https://www.sneakymonkey.net/"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mark Robinson](https://www.sneakymonkey.net/)."
+  - id: digests-payloadsallthethings
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/"
+    title: PayloadsAllTheThings
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
+  - id: digests-the-daily-swig-web-security-digest
+    url: "https://portswigger.net/daily-swig"
+    title: The Daily Swig - Web security digest
+    author:
+      name: PortSwigger
+      url: "https://portswigger.net/"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [PortSwigger](https://portswigger.net/)."
+  - id: digests-the-magic-of-learning
+    url: "https://bitvijays.github.io/"
+    title: The Magic of Learning
+    author:
+      name: "@bitvijays"
+      url: "https://bitvijays.github.io/aboutme.html"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@bitvijays](https://bitvijays.github.io/aboutme.html)."
+  - id: digests-web-application-security-zone-by-netsparker
+    url: "https://www.netsparker.com/blog/web-security/"
+    title: Web Application Security Zone by Netsparker
+    author:
+      name: Netsparker
+      url: "https://www.netsparker.com/"
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Netsparker](https://www.netsparker.com/)."
+  - id: digests-phith0n-mind-map
+    url: "https://github.com/phith0n/Mind-Map"
+    title: phith0n/Mind-Map
+    author:
+      name: "@phith0n"
+      url: "https://github.com/phith0n"
+    category: digests
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@phith0n](https://github.com/phith0n)."
+  - id: digests-entry
+    url: "https://tricking.io/"
+    title: 梧桐百科 - 碎片化知识学习
+    author:
+      name: "@phith0n"
+      url: "https://github.com/phith0n"
+    category: digests
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@phith0n](https://github.com/phith0n)."
+  - id: digests-entry-2
+    url: "https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html"
+    title: 腾讯玄武实验室安全动态推送
+    author:
+      name: 腾讯玄武实验室
+      url: "http://xlab.tencent.com/cn/"
+    category: digests
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2020-05-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/)."
+  - id: digests-tl-dr-sec
+    url: "https://tldrsec.com/"
+    title: tl;dr sec
+    author:
+      name: "Weekly summary of top security tools, blog posts, and security research"
+      url: null
+    category: digests
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-07-28"
+    archive_url: "https://web.archive.org/web/20260512014633/https://tldrsec.com/"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Weekly summary of top security tools, blog posts, and security research."

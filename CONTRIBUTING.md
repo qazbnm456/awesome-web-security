@@ -4,81 +4,129 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 # Table of Contents
 
-- [Awesome Web Security contribution guidelines](#contribution-guidelines)
-- [Quality Standard](#quality-standard)
-- [Adding to this list](#adding-to-this-list)
-- [Adding something to an awesome list](#adding-something-to-an-awesome-list)
-- [Updating your Pull Request](#updating-your-pull-request)
+- [How contributions are reviewed](#how-contributions-are-reviewed)
+- [Two ways to contribute](#two-ways-to-contribute)
+- [Editing the data](#editing-the-data)
+- [Quality standard](#quality-standard)
+- [Pull request guidelines](#pull-request-guidelines)
+- [Maintainer notes](#maintainer-notes)
 
-# Contribution Guidelines
+# How contributions are reviewed
+
+Every PR is graded by the auto-review bot against [RUBRIC.md](RUBRIC.md): a
+five-dimension score covering reachability, format conformance, content depth,
+category fit, and dedup risk. The bot's score is advisory — the maintainer
+makes the final merge decision. Disagree with the bot? Reply on the PR and
+tag `@qazbnm456`.
+
+# Two ways to contribute
+
+> **Note:** this repo migrated to a YAML-first data model in early 2026.
+> Direct `README.md` edits no longer land cleanly — CI checks that the
+> generated READMEs match the YAML source. If you have a pre-migration
+> PR open, no action needed: we'll port your entry on your branch when
+> the backlog reaches it, so your PR can still merge with full
+> attribution intact.
+
+**1. Open an issue with the proposal form.**
+Faster for one-off suggestions. Use the
+[Propose a Resource](../../issues/new?template=propose-resource.yml) form;
+the maintainer (or an AI agent) can turn it into a PR.
+
+**2. Open a pull request directly.**
+Edit `data/entries/<category>.yml` to add or modify an entry. The README files
+are auto-generated from those YAML files; do not edit them by hand.
 
 (your commit message will be a tweet, keep that in mind :)
 
-- **To add to the list:** Submit a pull request
-- **To remove from the list:** Submit a pull request
-- want to change something: Submit a pull request
-- want to try something else: Submit a pull request
-- don't know what to do: Submit a pull request or open an issue, let us know what's going on.
+# Editing the data
 
-`awesome-web-security` is a hand-crafted list for high-quality information about web security and its resources. It would be nice if it is related or compatible with web security in some way. But if it's awesome, let's us know why and you're on!
+The three language READMEs (`README.md`, `README-zh.md`, `README-jp.md`) are
+**generated** from `data/categories.yml` and `data/entries/*.yml`. Edit only
+the YAML; the generator writes the Markdown.
 
-- Each item should be limited to one link, no duplicates, no redirection (careful with `http` vs `https`!)
-- The link should be the name of the slide or project or website
-- Description should be clear and concise (read it out loud to be sure)
-- Description should follow the link, on the same line
-- if you want to add more than one link, please don't do all PR on the exact same line, it usually results in conflicts and your PR cannot be automatically merged...
+Each entry looks like:
 
-Please contribute links to slides/projects you have used or are familiar with. This will help ensure high-quality entries.
+```yaml
+- id: xss-google-app-security
+  url: https://www.google.com/intl/sw/about/appsecurity/learning/xss/
+  title: Cross-Site Scripting – Application Security – Google
+  author:
+    name: Google
+    url: https://www.google.com/
+  category: xss
+  type: article          # article | tool | cheatsheet | video | book | community | payload-list
+  languages: [en]        # en | zh | jp | tr | universal
+  difficulty: intro      # intro | intermediate | advanced
+  date_added: 2017-01-29
+  status: active         # active | dead | archived-only | quarantined
+```
+
+Run `python3 scripts/generate.py` locally to regenerate the READMEs from your
+changes, and `python3 scripts/verify_schema.py` to validate. CI runs both
+automatically.
 
 # Quality standard
 
-Note that we can help you achieve those standards, just try your best, be brave.
-We'll guide you to the best of our abilities.
+Entries on this list should:
 
-To be on the list, it would be *nice* if entries adhere to these quality standards:
+- Be reachable (2xx, HTTPS preferred, no redirect chain).
+- Solve a real problem or teach a real technique. Marketing pages, lead-gen,
+  and paywalled stubs are out.
+- Carry non-trivial depth: original research, reproducible PoC, hands-on
+  examples, or a comprehensive payload list.
+- Fit the category they claim.
+- Not duplicate an existing entry. Search first.
 
-- Generally useful to the community
-- Clearly stating "what is it for": mention the problem it solves. Just try your best, make it clear for the next person.
-- Solves a real problem (even a small one)
-- if it is a **WIP** (work in progress, not safe for production), mention it.
+Read [RUBRIC.md](RUBRIC.md) for the exact scoring criteria the bot applies.
 
-If your PR is not merged, we will tell you why so that you may be able to improve it.
+# Pull request guidelines
 
-# Awesome Related Contribution Guidelines
+- Make a separate PR for each resource. Don't bundle.
+- Use a clear PR title (the commit message will be a tweet).
+- The PR body should explain *why* — what gap does this entry fill, what
+  angle does it bring that existing entries don't.
+- If you want to propose without writing YAML, use the issue form instead.
+- Trailing whitespace, mixed line endings, and broken anchors are rejected by
+  CI; please run `python3 scripts/verify_anchors.py` if you change category
+  structure.
 
-## Adding to this list
+# Maintainer notes
 
-Please ensure your pull request adheres to the following guidelines:
+## Porting a legacy README-shape PR
 
-- Search previous suggestions before making a new one, as yours may be a duplicate.
-- Make sure the list is useful before submitting. That implies it has enough content and every item has a good succinct description.
-- Make an individual pull request for each suggestion.
-- Use [title-casing](http://titlecapitalization.com) (AP style).
-- Use the following format: `[List Name](link)`
-- Link additions should be added to the bottom of the relevant category.
-- New categories or improvements to the existing categorization are welcome.
-- Check your spelling and grammar.
-- Make sure your text editor is set to remove trailing whitespace.
-- The pull request and commit should have a useful title.
-- The body of your commit message should contain a link to the repository.
+Some PRs predate the YAML migration and edit `README.md` directly. To
+merge those while preserving the contributor's authorship signal:
 
-Thank you for your suggestions!
+1. `gh pr checkout <N>` — fetches the contributor's fork branch.
+2. `python3 scripts/ci/port_legacy_pr.py <N>` — extracts title / URL /
+   description from the diff and emits a YAML entry stub. The script
+   also prints a `Co-authored-by:` trailer with the contributor's
+   numeric GitHub ID, ready for the squash-merge body.
+3. `git merge master --no-edit` — brings the YAML data model into the
+   branch. Resolve the inevitable `README.md` conflict by taking
+   `master`'s version: `git checkout --ours README.md && git add
+   README.md && git commit --no-edit`. The contributor's hand-edited
+   line is implicitly superseded because the README is now generated.
+4. Add the new entry to `data/entries/<category>.yml` using the script's
+   stub, then run `python3 scripts/generate.py` and the verify scripts.
+5. Commit the port and push to the contributor's fork:
+   `git push <fork-url> <branch>:<branch>`.
+6. Once CI is green, squash-merge via `gh pr merge <N> --squash` with
+   an explicit `--subject` and a `--body` that ends with the
+   `Co-authored-by:` trailer.
 
-## Adding something to an awesome list
+GitHub's squash-merge picks the first commit's author (the contributor)
+as the squash commit's primary author, so the contributor keeps their
+**Merged PRs** counter, the **merged** badge on the PR, and primary
+authorship of the merge commit on `master`. The `Co-authored-by:`
+trailer is belt-and-braces credit.
 
-If you have something awesome to contribute to an awesome list, this is how you do it.
+Note: the PR auto-review bot does not post comments on PRs from forks
+— GitHub silently downgrades `GITHUB_TOKEN` to read-only for
+`pull_request` events from forks, and this repo intentionally does not
+use `pull_request_target` (security-sensitive). The bot still grades
+internally for the workflow log; the maintainer's manual review during
+port covers the same rubric dimensions.
 
-You'll need a [GitHub account](https://github.com/join)!
-
-1. Access the awesome list's GitHub page. For example: https://github.com/sindresorhus/awesome
-2. Click on the `readme.md` file: ![Step 2 Click on Readme.md](https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png)
-3. Now click on the edit icon. ![Step 3 - Click on Edit](https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png)
-4. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png)
-5. Say why you're proposing the changes, and then click on "Propose file change". ![Step 5 - Propose Changes](https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png)
-6. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
-
-## Updating your Pull Request
-
-Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
-
-[Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
+Thanks for contributing!

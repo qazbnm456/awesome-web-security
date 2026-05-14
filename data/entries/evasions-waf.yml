@@ -1,0 +1,84 @@
+# Entries for section: WAF
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: evasions-waf-airbnb-when-bypassing-json-encoding-xss-filter-waf
+    url: "https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/"
+    title: "Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities"
+    author:
+      name: "@Brett Buerhaus"
+      url: "https://twitter.com/bbuerhaus"
+    category: evasions-waf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@Brett Buerhaus](https://twitter.com/bbuerhaus)."
+  - id: evasions-waf-how-to-bypass-libinjection-in-many-waf-ngwaf
+    url: "https://medium.com/@d0znpp/how-to-bypass-libinjection-in-many-waf-ngwaf-1e2513453c0f"
+    title: How to bypass libinjection in many WAF/NGWAF
+    author:
+      name: "@d0znpp"
+      url: "https://medium.com/@d0znpp"
+    category: evasions-waf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@d0znpp](https://medium.com/@d0znpp)."
+  - id: evasions-waf-web-application-firewall-waf-evasion-techniques
+    url: "https://medium.com/secjuice/waf-evasion-techniques-718026d693d8"
+    title: Web Application Firewall (WAF) Evasion Techniques
+    author:
+      name: "@secjuice"
+      url: "https://twitter.com/secjuice"
+    category: evasions-waf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@secjuice](https://twitter.com/secjuice)."
+  - id: evasions-waf-web-application-firewall-waf-evasion-techniques-2
+    url: "https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0"
+    title: "Web Application Firewall (WAF) Evasion Techniques #2"
+    author:
+      name: "@secjuice"
+      url: "https://twitter.com/secjuice"
+    category: evasions-waf
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@secjuice](https://twitter.com/secjuice)."
+  - id: evasions-waf-json-waf
+    url: "https://xianzhi.aliyun.com/forum/read/553.html"
+    title: 浅谈json参数解析对waf绕过的影响
+    author:
+      name: doggy
+      url: "https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437"
+    category: evasions-waf
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [doggy](https://xianzhi.aliyun.com/forum/u.php?uid=1723895737531437)."

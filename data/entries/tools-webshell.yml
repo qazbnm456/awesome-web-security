@@ -1,0 +1,132 @@
+# Entries for section: Webshell
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-webshell-linux
+    url: "https://www.secpulse.com/archives/59674.html"
+    title: Linux后门整理合集（脉搏推荐）
+    author:
+      name: armyzer0
+      url: "https://www.secpulse.com/archives/author/armyzer0"
+    category: tools-webshell
+    type: tool
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [armyzer0](https://www.secpulse.com/archives/author/armyzer0)."
+  - id: tools-webshell-reverse-shell-manager
+    url: "https://github.com/WangYihang/Reverse-Shell-Manager"
+    title: Reverse-Shell-Manager
+    author:
+      name: "@WangYihang"
+      url: "https://github.com/WangYihang"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Reverse Shell Manager via Terminal [@WangYihang](https://github.com/WangYihang)."
+  - id: tools-webshell-webshell-sniper
+    url: "https://github.com/WangYihang/Webshell-Sniper"
+    title: Webshell-Sniper
+    author:
+      name: "@WangYihang"
+      url: "https://github.com/WangYihang"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Manage your website via terminal by [@WangYihang](https://github.com/WangYihang)."
+  - id: tools-webshell-weevely
+    url: "https://github.com/epinna/weevely3"
+    title: Weevely
+    author:
+      name: "@epinna"
+      url: "https://github.com/epinna"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Weaponized web shell by [@epinna](https://github.com/epinna)."
+  - id: tools-webshell-reverse-shell
+    url: "https://github.com/lukechilds/reverse-shell"
+    title: reverse-shell
+    author:
+      name: "@lukechilds"
+      url: "https://github.com/lukechilds"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Reverse Shell as a Service by [@lukechilds](https://github.com/lukechilds)."
+  - id: tools-webshell-webshell
+    url: "https://github.com/tennc/webshell"
+    title: webshell
+    author:
+      name: "@tennc"
+      url: "https://github.com/tennc"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "This is a webshell open source project by [@tennc](https://github.com/tennc)."
+  - id: tools-webshell-nano
+    url: "https://github.com/s0md3v/nano"
+    title: nano
+    author:
+      name: "@s0md3v"
+      url: "https://github.com/s0md3v"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Family of code golfed PHP shells by [@s0md3v](https://github.com/s0md3v)."
+  - id: tools-webshell-phpsploit
+    url: "https://github.com/nil0x42/phpsploit"
+    title: PhpSploit
+    author:
+      name: "@nil0x42"
+      url: "https://github.com/nil0x42"
+    category: tools-webshell
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-08-26"
+    archive_url: "https://web.archive.org/web/20260511151914/https://github.com/nil0x42/phpsploit"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42)."

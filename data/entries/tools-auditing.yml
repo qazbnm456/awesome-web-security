@@ -1,0 +1,52 @@
+# Entries for section: Auditing
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-auditing-a2sv
+    url: "https://github.com/hahwul/a2sv"
+    title: A2SV
+    author:
+      name: "@hahwul"
+      url: "https://github.com/hahwul"
+    category: tools-auditing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul)."
+  - id: tools-auditing-prowler
+    url: "https://github.com/Alfresco/prowler"
+    title: prowler
+    author:
+      name: "@Alfresco"
+      url: "https://github.com/Alfresco"
+    category: tools-auditing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco)."
+  - id: tools-auditing-slurp
+    url: "https://github.com/hehnope/slurp"
+    title: slurp
+    author:
+      name: "@hehnope"
+      url: "https://github.com/hehnope"
+    category: tools-auditing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope)."

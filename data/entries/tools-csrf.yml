@@ -1,0 +1,20 @@
+# Entries for section: Cross Site Request Forgery
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: tools-csrf-xsrfprobe
+    url: "https://github.com/0xInfection/XSRFProbe"
+    title: XSRFProbe
+    author:
+      name: "@0xInfection"
+      url: "https://github.com/0xinfection"
+    category: tools-csrf
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-12-31"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "The Prime CSRF Audit & Exploitation Toolkit by [@0xInfection](https://github.com/0xinfection)."

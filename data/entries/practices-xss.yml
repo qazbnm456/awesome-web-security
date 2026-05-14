@@ -1,0 +1,68 @@
+# Entries for section: XSS
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: practices-xss-xss-challenges
+    url: "http://xss-quiz.int21h.jp/"
+    title: XSS Challenges
+    author:
+      name: yamagata21
+      url: null
+    category: practices-xss
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Series of XSS challenges - Written by yamagata21.
+  - id: practices-xss-xss-game
+    url: "https://xss-game.appspot.com/"
+    title: XSS game
+    author:
+      name: Google
+      url: null
+    category: practices-xss
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Google XSS Challenge - Written by Google.
+  - id: practices-xss-alert-1-to-win
+    url: "https://alf.nu/alert1"
+    title: alert(1) to win
+    author:
+      name: "@steike"
+      url: "https://twitter.com/steike"
+    category: practices-xss
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Series of XSS challenges - Written by [@steike](https://twitter.com/steike)."
+  - id: practices-xss-prompt-1-to-win
+    url: "http://prompt.ml/"
+    title: prompt(1) to win
+    author:
+      name: "@cure53"
+      url: "https://github.com/cure53"
+    category: practices-xss
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53)."
