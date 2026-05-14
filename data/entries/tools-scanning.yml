@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain)."
+  - id: tools-scanning-fray
+    url: "https://github.com/dalisecurity/fray"
+    title: Fray
+    author:
+      name: "@dalisecurity"
+      url: "https://github.com/dalisecurity"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open-source WAF bypass and security-testing toolkit with 6,300+ payloads across OWASP categories, AI-assisted evasion engine, 27-check reconnaissance pipeline, and OWASP hardening audit, by [@dalisecurity](https://github.com/dalisecurity)."

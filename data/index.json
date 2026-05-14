@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-13T18:39:44Z",
+  "generated_at": "2026-05-14T03:39:28Z",
   "categories": [
     {
       "key": "digests",
@@ -8023,6 +8023,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260513122221/https://github.com/sattyamjjain/zerotrust",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-fray",
+      "url": "https://github.com/dalisecurity/fray",
+      "title": "Fray",
+      "author": {
+        "name": "@dalisecurity",
+        "url": "https://github.com/dalisecurity"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
