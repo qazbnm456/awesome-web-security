@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T05:18:35Z",
+  "generated_at": "2026-05-14T05:23:59Z",
   "categories": [
     {
       "key": "digests",
@@ -4603,6 +4603,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512090417/https://www.manning.com/books/grokking-web-application-security",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "miscellaneous-htb-writeups",
+      "url": "https://github.com/momenbasel/htb-writeups",
+      "title": "htb-writeups",
+      "author": {
+        "name": "@momenbasel",
+        "url": "https://github.com/momenbasel"
+      },
+      "category": "miscellaneous",
+      "type": "article",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-14",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

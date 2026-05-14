@@ -626,3 +626,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning)."
+  - id: miscellaneous-htb-writeups
+    url: "https://github.com/momenbasel/htb-writeups"
+    title: htb-writeups
+    author:
+      name: "@momenbasel"
+      url: "https://github.com/momenbasel"
+    category: miscellaneous
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Comprehensive Hack The Box writeup collection covering 75+ web challenges including XSS, SQLi, SSTI, SSRF, and deserialization, by [@momenbasel](https://github.com/momenbasel)."

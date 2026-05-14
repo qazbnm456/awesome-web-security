@@ -928,6 +928,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
 - [How I got my first big bounty payout with Tesla](https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d) - Written by [@cj.fairhead](https://medium.com/@cj.fairhead).
 - [Grokking Web Application Security](https://www.manning.com/books/grokking-web-application-security) - Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning).
+- [htb-writeups](https://github.com/momenbasel/htb-writeups) - Comprehensive Hack The Box writeup collection covering 75+ web challenges including XSS, SQLi, SSTI, SSRF, and deserialization, by [@momenbasel](https://github.com/momenbasel).
 
 ## Code of Conduct
 
