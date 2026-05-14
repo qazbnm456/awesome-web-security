@@ -1,0 +1,52 @@
+# Entries for section: CSV Injection
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: csv-injection-csv-injection-meterpreter-on-pornhub
+    url: "https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf"
+    title: "CSV Injection -> Meterpreter on Pornhub"
+    author:
+      name: Andy
+      url: "https://blog.zsec.uk/"
+    category: csv-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Andy](https://blog.zsec.uk/)."
+  - id: csv-injection-the-absurdly-underestimated-dangers-of-csv-injecti
+    url: "http://georgemauer.net/2017/10/07/csv-injection.html"
+    title: The Absurdly Underestimated Dangers of CSV Injection
+    author:
+      name: George Mauer
+      url: "http://georgemauer.net/"
+    category: csv-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [George Mauer](http://georgemauer.net/)."
+  - id: csv-injection-payloadsallthethings-csv-injection
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection"
+    title: PayloadsAllTheThings - CSV Injection
+    author:
+      name: "@swisskyrepo"
+      url: "https://github.com/swisskyrepo"
+    category: csv-injection
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-11-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."

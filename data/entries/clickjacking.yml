@@ -1,0 +1,84 @@
+# Entries for section: Clickjacking
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: clickjacking-bug-bounty
+    url: "https://speakerdeck.com/p8361/bug-bounty-jiang-jin-lie-ren-gan-ku-tan-na-xie-nian-wo-hui-bao-guo-de-lou-dong"
+    title: Bug Bounty 獎金獵人甘苦談 - 那些年我回報過的漏洞
+    author:
+      name: Orange
+      url: "http://blog.orange.tw/"
+    category: clickjacking
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+  - id: clickjacking-clickjacking
+    url: "https://www.imperva.com/learn/application-security/clickjacking/"
+    title: Clickjacking
+    author:
+      name: Imperva
+      url: "https://www.imperva.com/"
+    category: clickjacking
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Imperva](https://www.imperva.com/)."
+  - id: clickjacking-clickjackings-in-google-worth-14981-7
+    url: "https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a"
+    title: Clickjackings in Google worth 14981.7$
+    author:
+      name: "@raushanraj_65039"
+      url: "https://medium.com/@raushanraj_65039"
+    category: clickjacking
+    type: article
+    languages: [zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@raushanraj_65039](https://medium.com/@raushanraj_65039)."
+  - id: clickjacking-x-frame-options-all-about-clickjacking
+    url: "https://github.com/cure53/Publications/blob/master/xfo-clickjacking.pdf?raw=true"
+    title: "X-Frame-Options: All about Clickjacking?"
+    author:
+      name: Mario Heiderich
+      url: "http://www.slideshare.net/x00mario"
+    category: clickjacking
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Mario Heiderich](http://www.slideshare.net/x00mario)."
+  - id: clickjacking-clickjacking-frame-attack
+    url: "https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/"
+    title: 新增幾項設定來防範 Clickjacking Frame Attack
+    author:
+      name: M157q
+      url: "https://blog.m157q.tw/"
+    category: clickjacking
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2019-08-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [M157q](https://blog.m157q.tw/)."

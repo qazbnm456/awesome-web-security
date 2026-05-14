@@ -1,0 +1,260 @@
+# Entries for section: Frontend (like SOP bypass, URL spoofing, and something like that)
+# Auto-migrated by scripts/migrate.py. Edit individual fields freely.
+
+entries:
+  - id: browser-frontend-browser-ui-security
+    url: "http://xlab.tencent.com/cn/wp-content/uploads/2017/10/browser-ui-security-whitepaper.pdf"
+    title: Browser UI Security 技术白皮书
+    author:
+      name: 腾讯玄武实验室
+      url: "http://xlab.tencent.com/"
+    category: browser-frontend
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [腾讯玄武实验室](http://xlab.tencent.com/)."
+  - id: browser-frontend-ie11-information-disclosure-local-file-detection
+    url: "https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater"
+    title: IE11 Information disclosure - local file detection
+    author:
+      name: James Lee
+      url: null
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: Written by James Lee.
+  - id: browser-frontend-json-hijacking-for-the-modern-web
+    url: "http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html"
+    title: JSON hijacking for the modern web
+    author:
+      name: portswigger
+      url: "https://portswigger.net/"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [portswigger](https://portswigger.net/)."
+  - id: browser-frontend-sop-bypass-uxss-stealing-credentials-pretty-fast-e
+    url: "https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/"
+    title: SOP bypass / UXSS – Stealing Credentials Pretty Fast (Edge)
+    author:
+      name: Manuel
+      url: "https://twitter.com/magicmac2000"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Manuel](https://twitter.com/magicmac2000)."
+  - id: browser-frontend-safari-client-side
+    url: "https://bo0om.ru/safari-client-side"
+    title: Особенности Safari в client-side атаках
+    author:
+      name: Bo0oM
+      url: "https://bo0om.ru/author/admin"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Bo0oM](https://bo0om.ru/author/admin)."
+  - id: browser-frontend-entry
+    url: "https://speakerdeck.com/nishimunea/burauzafalsecui-ruo-xing-tosofalseinpakuto"
+    title: ブラウザの脆弱性とそのインパクト
+    author:
+      name: Muneaki Nishimura
+      url: "https://speakerdeck.com/nishimunea"
+    category: browser-frontend
+    type: article
+    languages: [jp]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Muneaki Nishimura](https://speakerdeck.com/nishimunea) and [Masato Kinugawa](https://twitter.com/kinugawamasato)."
+  - id: browser-frontend-entry-2
+    url: "https://zhuanlan.zhihu.com/p/28719766"
+    title: 浏览器漏洞挖掘思路
+    author:
+      name: Twosecurity
+      url: "https://twosecurity.io/"
+    category: browser-frontend
+    type: article
+    languages: [zh]
+    difficulty: intermediate
+    date_added: "2018-02-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Twosecurity](https://twosecurity.io/)."
+  - id: browser-frontend-how-do-we-stop-spilling-the-beans-across-origins
+    url: "https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/"
+    title: "How do we Stop Spilling the Beans Across Origins?"
+    author:
+      name: aaj at google.com
+      url: "mailto:aaj@google.com"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-07-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [aaj at google.com](mailto:aaj@google.com) and [mkwst at google.com](mailto:mkwst@google.com)."
+  - id: browser-frontend-setting-arbitrary-request-headers-in-chromium-via
+    url: "https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html"
+    title: Setting arbitrary request headers in Chromium via CRLF injection
+    author:
+      name: Michał Bentkowski
+      url: "https://blog.bentkowski.info/"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [Michał Bentkowski](https://blog.bentkowski.info/)."
+  - id: browser-frontend-i-m-harvesting-credit-card-numbers-and-passwords-f
+    url: "https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5"
+    title: I’m harvesting credit card numbers and passwords from your site. Here’s how.
+    author:
+      name: David Gilbertson
+      url: "https://hackernoon.com/@david.gilbertson"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2018-10-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [David Gilbertson](https://hackernoon.com/@david.gilbertson)."
+  - id: browser-frontend-the-inception-bar-a-new-phishing-method
+    url: "https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/"
+    title: "The inception bar: a new phishing method"
+    author:
+      name: jameshfisher
+      url: "https://jameshfisher.com/"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-05-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [jameshfisher](https://jameshfisher.com/)."
+  - id: browser-frontend-bypassing-mobile-browser-security-for-fun-and-prof
+    url: "https://www.blackhat.com/docs/asia-16/materials/asia-16-Baloch-Bypassing-Browser-Security-Policies-For-Fun-And-Profit-wp.pdf"
+    title: Bypassing Mobile Browser Security For Fun And Profit
+    author:
+      name: "@rafaybaloch"
+      url: "https://twitter.com/@rafaybaloch"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-06-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@rafaybaloch](https://twitter.com/@rafaybaloch)."
+  - id: browser-frontend-the-cookie-monster-in-your-browsers
+    url: "https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers"
+    title: The Cookie Monster in Your Browsers
+    author:
+      name: "@filedescriptor"
+      url: "https://twitter.com/filedescriptor"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@filedescriptor](https://twitter.com/filedescriptor)."
+  - id: browser-frontend-the-world-of-site-isolation-and-compromised-render
+    url: "https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer"
+    title: The world of Site Isolation and compromised renderer
+    author:
+      name: "@shhnjk"
+      url: "https://twitter.com/shhnjk"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2019-12-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@shhnjk](https://twitter.com/shhnjk)."
+  - id: browser-frontend-sending-arbitrary-ipc-messages-via-overriding-func
+    url: "https://hackerone.com/reports/188086"
+    title: Sending arbitrary IPC messages via overriding Function.prototype.apply
+    author:
+      name: "@kinugawamasato"
+      url: "https://twitter.com/kinugawamasato"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@kinugawamasato](https://twitter.com/kinugawamasato)."
+  - id: browser-frontend-take-advantage-of-out-of-scope-domains-in-bug-boun
+    url: "https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/"
+    title: Take Advantage of Out-of-Scope Domains in Bug Bounty Programs
+    author:
+      name: "@Abdulahhusam"
+      url: "https://twitter.com/Abdulahhusam"
+    category: browser-frontend
+    type: article
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2020-05-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Written by [@Abdulahhusam](https://twitter.com/Abdulahhusam)."
