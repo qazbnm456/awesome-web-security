@@ -830,6 +830,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [UUSEC WAF](https://github.com/Safe3/uusec-waf/) - An open-source web application firewall and API security gateway maintained by [UUCORP](https://github.com/Safe3/).
 - [BunkerWeb](https://www.bunkerweb.io) - A next-generation open-source Web Application Firewall built on nginx, maintained by [Bunkerity](https://github.com/bunkerity).
 - [FCaptcha](https://github.com/WebDecoy/FCaptcha) - Self-hosted CAPTCHA with behavioral analysis, vision-AI agent detection, headless-browser fingerprinting, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy).
+- [Pompelmi](https://github.com/pompelmi/pompelmi) - In-process file-upload security middleware for Node.js that scans untrusted uploads before storage to detect malware, MIME spoofing, and risky archives, maintained by [pompelmi](https://github.com/pompelmi).
 - [WebDecoy](https://github.com/WebDecoy/wordpress-plugin) - Zero-configuration WordPress bot-detection plugin combining WebDriver detection, headless-browser fingerprinting, behavioral analysis, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy).
 
 <a name="tools-proxy"></a>

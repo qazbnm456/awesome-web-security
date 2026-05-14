@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T03:40:44Z",
+  "generated_at": "2026-05-14T03:43:48Z",
   "categories": [
     {
       "key": "digests",
@@ -7823,6 +7823,27 @@
       "author": {
         "name": "WebDecoy",
         "url": "https://github.com/WebDecoy"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-05-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-pompelmi",
+      "url": "https://github.com/pompelmi/pompelmi",
+      "title": "Pompelmi",
+      "author": {
+        "name": "pompelmi",
+        "url": "https://github.com/pompelmi"
       },
       "category": "tools-preventing",
       "type": "tool",
