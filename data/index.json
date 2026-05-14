@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-14T04:38:44Z",
+  "generated_at": "2026-05-14T04:54:39Z",
   "categories": [
     {
       "key": "digests",
@@ -7666,6 +7666,27 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-penetration-testing-numasec",
+      "url": "https://github.com/FrancescoStabile/numasec",
+      "title": "numasec",
+      "author": {
+        "name": "@FrancescoStabile",
+        "url": "https://github.com/FrancescoStabile"
+      },
+      "category": "tools-penetration-testing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-14",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
