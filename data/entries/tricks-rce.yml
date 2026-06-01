@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: "Written by [OpSecX](https://opsecx.com/index.php/author/ajinabraham/)."
   - id: tricks-rce-github-enterprise-remote-code-execution
-    url: "http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html"
+    url: "https://bounty.github.com/researchers/iblue.html"
     title: GitHub Enterprise Remote Code Execution
     author:
       name: "@iblue"

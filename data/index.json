@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-05-28T07:03:52Z",
+  "generated_at": "2026-06-01T14:35:30Z",
   "categories": [
     {
       "key": "digests",
@@ -9307,7 +9307,7 @@
     },
     {
       "id": "tricks-rce-github-enterprise-remote-code-execution",
-      "url": "http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html",
+      "url": "https://bounty.github.com/researchers/iblue.html",
       "title": "GitHub Enterprise Remote Code Execution",
       "author": {
         "name": "@iblue",
