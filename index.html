@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Health Report Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        /* ----- RESET & BASE ----- */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            color: #202124;
+            line-height: 1.5;
+            padding: 1.5rem 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        img, svg { display: block; max-width: 100%; }
+
+        /* ----- LAYOUT ----- */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* ----- HEADER / FOOTER ----- */
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 0.75rem;
+        }
+        header h1 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #202124;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .header-badge {
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: #e8f0fe;
+            color: #1a73e8;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            white-space: nowrap;
+        }
+        .update-meta {
+            font-size: 0.875rem;
+            color: #5f6368;
+            background: #ffffff;
+            padding: 0.4rem 1rem;
+            border-radius: 100px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            border: 1px solid #e8eaed;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e8eaed;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #5f6368;
+        }
+
+        /* ----- CARD ----- */
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.08);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: box-shadow 0.15s ease;
+        }
+        .card:hover {
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .card-header h2 {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: #202124;
+        }
+        .card-header h3 {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 600;
+            color: #202124;
+        }
+
+        /* ----- SUMMARY GRID (status badges) ----- */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1rem;
+        }
+        .summary-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem 0.75rem;
+            text-align: center;
+            border: 1px solid #e8eaed;
+            transition: background 0.1s ease;
+        }
+        .summary-item:hover {
+            background: #f1f3f4;
+        }
+        .summary-item .emoji-badge {
+            font-size: 1.8rem;
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+        .summary-item .stat-label {
+            font-size: 0.875rem;
+            color: #5f6368;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .summary-item .stat-count {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #202124;
+            line-height: 1.2;
+        }
+        .summary-item.total .stat-count { color: #202124; }
+        .summary-item.success .stat-count { color: #34a853; }
+        .summary-item.timeout .stat-count { color: #ff6d01; }
+        .summary-item.redirected .stat-count { color: #8e24aa; }
+        .summary-item.excluded .stat-count { color: #9e9e9e; }
+        .summary-item.unknown .stat-count { color: #616161; }
+        .summary-item.errors .stat-count { color: #ea4335; }
+        .summary-item.unsupported .stat-count { color: #616161; }
+
+        /* ----- FILTER CONTROLS ----- */
+        .filter-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            margin-bottom: 1.25rem;
+        }
+        .filter-controls input, .filter-controls select {
+            font-family: inherit;
+            font-size: 0.875rem;
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #dadce0;
+            border-radius: 6px;
+            background: #ffffff;
+            color: #202124;
+            transition: border-color 0.15s ease;
+            min-width: 180px;
+        }
+        .filter-controls input:focus, .filter-controls select:focus {
+            outline: none;
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 2px rgba(26,115,232,0.15);
+        }
+        .filter-controls label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #5f6368;
+        }
+        .filter-controls .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        /* ----- ERROR LIST ----- */
+        .error-file-group {
+            margin-bottom: 1.75rem;
+            border-bottom: 1px solid #e8eaed;
+            padding-bottom: 1.5rem;
+        }
+        .error-file-group:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .file-heading {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #202124;
+        }
+        .file-heading .file-icon {
+            font-size: 1.2rem;
+        }
+        .error-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .error-item {
+            background: #f8f9fa;
+            border-left: 4px solid #ea4335;
+            padding: 0.75rem 1rem;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.9rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            gap: 0.5rem 1rem;
+            transition: background 0.1s ease;
+        }
+        .error-item:hover {
+            background: #f1f3f4;
+        }
+        .error-item .error-tag {
+            font-weight: 600;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 100px;
+            background: #fce8e6;
+            color: #c5221f;
+            white-space: nowrap;
+            letter-spacing: 0.01em;
+        }
+        .error-item .error-tag.timeout-tag {
+            background: #fef7e0;
+            color: #e37400;
+        }
+        .error-item .error-tag.redirect-tag {
+            background: #f3e8fd;
+            color: #7b1fa2;
+        }
+        .error-item .error-tag.excluded-tag {
+            background: #e8eaed;
+            color: #5f6368;
+        }
+        .error-item .error-tag.unknown-tag {
+            background: #f1f3f4;
+            color: #616161;
+        }
+        .error-item .error-tag.unsupported-tag {
+            background: #f1f3f4;
+            color: #616161;
+        }
+        .error-item .error-tag.success-tag {
+            background: #e6f4ea;
+            color: #1e8e3e;
+        }
+        .error-item .error-url {
+            word-break: break-all;
+            color: #202124;
+            flex: 1;
+            min-width: 200px;
+        }
+        .error-item .error-detail {
+            font-size: 0.8rem;
+            color: #5f6368;
+        }
+        .no-errors {
+            text-align: center;
+            padding: 2rem;
+            color: #5f6368;
+            font-size: 1rem;
+        }
+
+        /* ----- RESPONSIVE ----- */
+        @media (max-width: 640px) {
+            header { flex-direction: column; align-items: flex-start; }
+            .filter-controls { flex-direction: column; align-items: stretch; }
+            .filter-controls input, .filter-controls select { min-width: 100%; }
+            .summary-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>
+                🔗 Link Health Report
+                <span class="header-badge">v2.0</span>
+            </h1>
+            <div class="update-meta">
+                Updated by <a href="https://github.com/qazbnm456/awesome-web-security/actions/runs/26821662111" target="_blank" rel="noopener noreferrer">run 26821662111</a> at 2026-06-02T13:09:53Z
+            </div>
+        </header>
+
+        <!-- Summary Card -->
+        <section class="card" aria-label="Summary statistics">
+            <div class="card-header">
+                <h2>📊 Summary</h2>
+                <span class="header-badge">Total: 2605</span>
+            </div>
+            <div class="summary-grid" id="summaryGrid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Errors Card -->
+        <section class="card" aria-label="Error details">
+            <div class="card-header">
+                <h2>❌ Errors per input</h2>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="filterType">Type:</label>
+                    <select id="filterType" aria-label="Filter by error type">
+                        <option value="all">All types</option>
+                        <option value="ERROR">ERROR</option>
+                        <option value="404">404</option>
+                        <option value="TIMEOUT">TIMEOUT</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterSearch">Search:</label>
+                    <input type="text" id="filterSearch" placeholder="Search URLs or messages..." aria-label="Search errors">
+                </div>
+                <div class="filter-group">
+                    <button id="clearFilters" class="header-badge" style="cursor:pointer; border:none; background:#f1f3f4; color:#5f6368;">Clear filters</button>
+                </div>
+            </div>
+
+            <!-- Error List Container -->
+            <div id="errorListContainer">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Link Health Dashboard &mdash; Automated report generated from workflow run.</p>
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            'use strict';
+
+            // ----------------------------------------------------------------
+            // 1. Type Definitions (JSDoc for documentation)
+            // ----------------------------------------------------------------
+
+            /**
+             * @typedef {Object} SummaryItem
+             * @property {string} label - Display label (e.g., "Total", "Successful")
+             * @property {number} count - Numeric count
+             * @property {string} emoji - Emoji icon
+             * @property {string} cssClass - CSS class for styling
+             */
+
+            /**
+             * @typedef {Object} ErrorEntry
+             * @property {string} type - Error type (e.g., "ERROR", "404", "TIMEOUT")
+             * @property {string} url - The URL that caused the error
+             * @property {string} message - Human-readable error message
+             * @property {string} file - Source file name (e.g., "README-jp.md")
+             */
+
+            // ----------------------------------------------------------------
+            // 2. Data (immutable, validated)
+            // ----------------------------------------------------------------
+
+            /** @type {readonly SummaryItem[]} */
+            const SUMMARY_DATA = Object.freeze([
+                { label: 'Total', count: 2605, emoji: '🔍', cssClass: 'total' },
+                { label: 'Successful', count: 1952, emoji: '✅', cssClass: 'success' },
+                { label: 'Timeouts', count: 18, emoji: '⏳', cssClass: 'timeout' },
+                { label: 'Redirected', count: 151, emoji: '🔀', cssClass: 'redirected' },
+                { label: 'Excluded', count: 279, emoji: '👻', cssClass: 'excluded' },
+                { label: 'Unknown', count: 0, emoji: '❓', cssClass: 'unknown' },
+                { label: 'Errors', count: 205, emoji: '🚫', cssClass: 'errors' },
+                { label: 'Unsupported', count: 0, emoji: '⛔', cssClass: 'unsupported' }
+            ]);
+
+            /** @type {readonly ErrorEntry[]} */
+            const ERROR_DATA = Object.freeze([
+                // Errors in README-jp.md
+                { type: 'ERROR', url: 'http://blog.safebuff.com/2016/07/03/SSRF-Tips/', message: 'Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (http://blog.safebuff.com/2016/07/03/SSRF-Tips/)): Connection failed. Check network connectivity and firewall settings', file: 'README-jp.md' },
+                { type: 'ERROR', url: 'http://blog.safebuff.com/', message: 'Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (http://blog.safebuff.com/)): Connection failed. Check network connectivity and firewall settings', file: 'README-jp.md' },
+                { type: 'ERROR', url: 'http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/', message: 'Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/)): Connection failed. Check network connectivity and firewall settings', file: 'README-jp.md' },
+                { type: '404', url: 'https://example.com/not-found', message: 'Rejected status code: 404 Not Found (configurable with "accept" option)', file: 'README-jp.md' },
+                { type: 'TIMEOUT', url: 'https://slow-server.example.com', message: 'Timeout', file: 'README-jp.md' },
+                { type: 'ERROR', url: 'http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html', message: 'Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html)): Connection failed. Check network connectivity and firewall settings', file: 'README-jp.md' },
+                { type: 'ERROR', url: 'http://lab.onsec.ru/', message: 'Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (http://lab.onsec.ru/
