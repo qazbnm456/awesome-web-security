@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-06-01T14:35:30Z",
+  "generated_at": "2026-06-02T08:03:39Z",
   "categories": [
     {
       "key": "digests",
@@ -5153,7 +5153,7 @@
     },
     {
       "id": "practices-application-owasp-juice-shop",
-      "url": "https://github.com/bkimminich/juice-shop",
+      "url": "https://github.com/juice-shop/juice-shop",
       "title": "OWASP Juice Shop",
       "author": {
         "name": "@bkimminich",

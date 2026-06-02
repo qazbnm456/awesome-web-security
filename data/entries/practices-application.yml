@@ -51,7 +51,7 @@ entries:
     status: active
     raw_rest: "Realistic web application hacking game - Written by [@albinowax](https://twitter.com/albinowax)."
   - id: practices-application-owasp-juice-shop
-    url: "https://github.com/bkimminich/juice-shop"
+    url: "https://github.com/juice-shop/juice-shop"
     title: OWASP Juice Shop
     author:
       name: "@bkimminich"
