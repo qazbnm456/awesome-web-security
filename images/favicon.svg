@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style>
+      .chain-link {
+        fill: none;
+        stroke: #1a73e8;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <!-- Left link -->
+  <path class="chain-link" d="M20 44 L20 28 C20 22 24 18 30 18 L34 18"/>
+  <!-- Right link -->
+  <path class="chain-link" d="M44 20 L44 36 C44 42 40 46 34 46 L30 46"/>
+  <!-- Center connecting links -->
+  <path class="chain-link" d="M28 32 L36 32"/>
+  <path class="chain-link" d="M32 28 L32 36"/>
+</svg>
