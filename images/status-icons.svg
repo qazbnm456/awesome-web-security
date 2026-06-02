@@ -1,0 +1,45 @@
+svg
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" role="img">
+  <defs>
+    <!-- Success Icon -->
+    <g id="icon-success">
+      <circle cx="12" cy="12" r="12" fill="#34a853"/>
+      <path d="M6 12l3 3 6-6" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+
+    <!-- Error Icon -->
+    <g id="icon-error">
+      <circle cx="12" cy="12" r="12" fill="#ea4335"/>
+      <path d="M8 8l8 8M16 8l-8 8" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+
+    <!-- Timeout Icon -->
+    <g id="icon-timeout">
+      <circle cx="12" cy="12" r="12" fill="#ff6d01"/>
+      <path d="M12 6v6l4 2" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <circle cx="12" cy="12" r="7" stroke="#ffffff" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Redirect Icon -->
+    <g id="icon-redirect">
+      <circle cx="12" cy="12" r="12" fill="#8e24aa"/>
+      <path d="M6 14l4-4 4 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M10 10v8" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <path d="M14 8l4 4-4 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+
+    <!-- Excluded Icon -->
+    <g id="icon-excluded">
+      <circle cx="12" cy="12" r="12" fill="#9e9e9e"/>
+      <circle cx="12" cy="12" r="4" fill="#ffffff"/>
+      <path d="M8 8l8 8" stroke="#9e9e9e" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Unknown Icon -->
+    <g id="icon-unknown">
+      <circle cx="12" cy="12" r="12" fill="#616161"/>
+      <path d="M12 8c-1.1 0-2 .9-2 2s.9 2 2 2 2 .9 2 2-.9 2-2 2" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <circle cx="12" cy="16.5" r="1" fill="#ffffff"/>
+    </g>
+  </defs>
+</svg>
