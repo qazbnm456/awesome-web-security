@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-06-03T16:11:57Z",
+  "generated_at": "2026-06-17T15:33:11Z",
   "categories": [
     {
       "key": "digests",
@@ -7732,6 +7732,27 @@
       "difficulty": "intermediate",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260514052501/https://github.com/FrancescoStabile/numasec",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-penetration-testing-rqwstr",
+      "url": "https://github.com/Kjopstad-IT/rqwstr-mcp",
+      "title": "rqwstr",
+      "author": {
+        "name": "Kjøpstad IT",
+        "url": "https://rqwstr.com"
+      },
+      "category": "tools-penetration-testing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-06-17",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

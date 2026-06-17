@@ -701,6 +701,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [grayhatwarfare](https://buckets.grayhatwarfare.com/) - Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/).
 - [TIDoS-Framework](https://github.com/theInfectedDrake/TIDoS-Framework) - A comprehensive web application audit framework to cover up everything from Reconnaissance and OSINT to Vulnerability Analysis by [@_tID](https://github.com/theInfectedDrake).
 - [numasec](https://github.com/FrancescoStabile/numasec) - AI-driven penetration-testing platform that coordinates 10 agents and 38 vulnerability scanners covering OWASP Top 10, by [@FrancescoStabile](https://github.com/FrancescoStabile).
+- [rqwstr](https://github.com/Kjopstad-IT/rqwstr-mcp) - AI-native HTTP security testing toolkit (MCP server) with low-level control over HTTP/1.1 + HTTP/2 (raw framing, connection pinning) by [Kjøpstad IT](https://rqwstr.com).
 
 <a name="tools-offensive"></a>
 ### Offensive
