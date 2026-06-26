@@ -82,6 +82,22 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Open-source web application security scanner maintained by the ZAP Core Team."
+  - id: tools-scanning-vigolium
+    url: "https://github.com/vigolium/vigolium"
+    title: Vigolium
+    author:
+      name: "@j3ssie"
+      url: "https://github.com/j3ssie"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-05-11"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision, maintained by [@j3ssie](https://github.com/j3ssie)."
   - id: tools-scanning-trust-scan
     url: "https://github.com/undeadlist/trust-scan"
     title: Trust Scan
