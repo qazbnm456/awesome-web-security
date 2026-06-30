@@ -98,3 +98,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "AI-driven penetration-testing platform that coordinates 10 agents and 38 vulnerability scanners covering OWASP Top 10, by [@FrancescoStabile](https://github.com/FrancescoStabile)."
+  - id: tools-penetration-testing-penetrify
+    url: "https://www.penetrify.cloud/"
+    title: Penetrify
+    author:
+      name: Penetrify
+      url: "https://www.penetrify.cloud/"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-06-30"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Autonomous AI penetration testing platform that exploits and chains vulnerabilities in web applications and APIs, with CI/CD integration, by [Penetrify](https://www.penetrify.cloud/)."
