@@ -383,3 +383,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "OSINT and security extensions for the Marshall privacy browser, providing reconnaissance and security-testing plugins by [@bad-antics](https://github.com/bad-antics)."
+  - id: tools-osint-osint-projects
+    url: "https://osintprojects.com"
+    title: OSINT Projects
+    author:
+      name: OSINT Projects
+      url: "https://osintprojects.com"
+    category: tools-osint
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free web toolkit for WHOIS/RDAP, DNS, IP geolocation, SSL certificate inspection and Certificate Transparency subdomain discovery."

@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-06-26T16:46:36Z",
+  "generated_at": "2026-07-09T05:23:07Z",
   "categories": [
     {
       "key": "digests",
@@ -7511,6 +7511,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260513061543/https://github.com/bad-antics/marshall-extensions",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-osint-osint-projects",
+      "url": "https://osintprojects.com",
+      "title": "OSINT Projects",
+      "author": {
+        "name": "OSINT Projects",
+        "url": "https://osintprojects.com"
+      },
+      "category": "tools-osint",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-09",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
