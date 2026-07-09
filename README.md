@@ -146,6 +146,9 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 * [Violin](https://github.com/Strategic-Automation/violin) - AI-native pentest framework and Hermes agent profile/plugin for autonomous, human-in-the-loop offensive security (IDOR/SSRF/XSS triage, multi-stage agentic testing).
 
 
+* [Violin](https://github.com/Strategic-Automation/violin) - AI-native pentest framework and Hermes agent profile/plugin for autonomous, human-in-the-loop offensive security (IDOR/SSRF/XSS triage, multi-stage agentic testing).
+
+
 - [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
 - [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
 - [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
