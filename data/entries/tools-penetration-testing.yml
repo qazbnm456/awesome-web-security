@@ -98,3 +98,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "AI-driven penetration-testing platform that coordinates 10 agents and 38 vulnerability scanners covering OWASP Top 10, by [@FrancescoStabile](https://github.com/FrancescoStabile)."
+  - id: tools-penetration-testing-darkmoon
+    url: "https://github.com/ASCIT31/Dark-Moon"
+    title: Darkmoon
+    author:
+      name: "@ASCIT31"
+      url: "https://github.com/ASCIT31"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-07-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks and MCP across web, cloud, Active Directory and Kubernetes, with an evidence trail per finding by [@ASCIT31](https://github.com/ASCIT31)."

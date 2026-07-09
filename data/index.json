@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-06-26T16:46:36Z",
+  "generated_at": "2026-07-09T05:20:21Z",
   "categories": [
     {
       "key": "digests",
@@ -7732,6 +7732,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260514052501/https://github.com/FrancescoStabile/numasec",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-penetration-testing-darkmoon",
+      "url": "https://github.com/ASCIT31/Dark-Moon",
+      "title": "Darkmoon",
+      "author": {
+        "name": "@ASCIT31",
+        "url": "https://github.com/ASCIT31"
+      },
+      "category": "tools-penetration-testing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-07-09",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
