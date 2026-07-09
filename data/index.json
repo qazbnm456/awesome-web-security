@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-06-03T16:11:57Z",
+  "generated_at": "2026-06-26T16:46:36Z",
   "categories": [
     {
       "key": "digests",
@@ -8130,6 +8130,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-11",
       "archive_url": "https://web.archive.org/web/20260511151417/https://www.zaproxy.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-vigolium",
+      "url": "https://github.com/vigolium/vigolium",
+      "title": "Vigolium",
+      "author": {
+        "name": "@j3ssie",
+        "url": "https://github.com/j3ssie"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-05-11",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
