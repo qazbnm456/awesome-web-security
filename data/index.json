@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-09T06:30:25Z",
+  "generated_at": "2026-07-09T10:58:41Z",
   "categories": [
     {
       "key": "digests",
@@ -7769,6 +7769,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-07-09",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-penetration-testing-ars3nal",
+      "url": "https://github.com/inflictx/Arsenal",
+      "title": "ARS3NAL",
+      "author": {
+        "name": "@inflictx",
+        "url": "https://github.com/inflictx"
+      },
+      "category": "tools-penetration-testing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-06-24",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

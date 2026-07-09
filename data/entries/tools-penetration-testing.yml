@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks and MCP across web, cloud, Active Directory and Kubernetes, with an evidence trail per finding by [@ASCIT31](https://github.com/ASCIT31)."
+  - id: tools-penetration-testing-ars3nal
+    url: "https://github.com/inflictx/Arsenal"
+    title: ARS3NAL
+    author:
+      name: "@inflictx"
+      url: "https://github.com/inflictx"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-06-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx)."
