@@ -162,3 +162,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+  - id: tools-scanning-securemonk
+    url: "https://securemonk.io"
+    title: SecureMonk
+    author:
+      name: "SecureMonk"
+      url: "https://securemonk.io"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free scanner for TLS/SSL configuration and HTTP security headers in one report, with CVE-based vulnerability detection and an AI security assistant grounded in NVD/CISA-KEV/OWASP data. No signup."
