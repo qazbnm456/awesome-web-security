@@ -789,6 +789,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Charles](https://www.charlesproxy.com/) - HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+- [Ogma](https://github.com/KaijinLab/ogma) - Open-source HTTPS/WebSocket intercepting proxy for web security testing by [@KaijinLab](https://github.com/KaijinLab)
 
 <a name="tools-webshell"></a>
 ### Webshell
