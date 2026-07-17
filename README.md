@@ -384,6 +384,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### JWT
 
 - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
+- [jwt-auditor](https://github.com/mohelobeid/jwt-auditor) - Offline CLI that decodes and audits JSON Web Tokens for the alg:none downgrade, weak HMAC secrets, and the RS256 to HS256 confusion attack. Written by [@mohelobeid](https://github.com/mohelobeid).
 
 ## Evasions
 
