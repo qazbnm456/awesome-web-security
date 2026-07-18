@@ -3,11 +3,11 @@
 
 entries:
   - id: tricks-nosql-injection-graphql-nosql-injection-through-json-types
-    url: "http://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/"
+    url: "https://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/"
     title: GraphQL NoSQL Injection Through JSON Types
     author:
       name: Pete
-      url: "http://www.petecorey.com/work/"
+      url: "https://www.petecorey.com/work/"
     category: tricks-nosql-injection
     type: article
     languages: [en, zh, jp]
@@ -17,4 +17,4 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Pete](http://www.petecorey.com/work/)."
+    raw_rest: "Written by [Pete](https://www.petecorey.com/work/)."

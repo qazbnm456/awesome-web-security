@@ -3,7 +3,7 @@
 
 entries:
   - id: tools-decompiler-cfr
-    url: "http://www.benf.org/other/cfr/"
+    url: "https://www.benf.org/other/cfr/"
     title: CFR
     author:
       name: "@LeeAtBenf"

@@ -7,7 +7,7 @@ entries:
     title: "A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!"
     author:
       name: Orange
-      url: "http://blog.orange.tw/"
+      url: "https://blog.orange.tw/"
     category: tricks-ssrf
     type: article
     languages: [en, zh, jp]
@@ -17,7 +17,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+    raw_rest: "Written by [Orange](https://blog.orange.tw/)."
   - id: tricks-ssrf-ssrf-tips
     url: "http://blog.safebuff.com/2016/07/03/SSRF-Tips/"
     title: SSRF Tips
@@ -51,11 +51,11 @@ entries:
     status: active
     raw_rest: "Written by [aesteral](https://hackerone.com/aesteral)."
   - id: tricks-ssrf-ssrf-ip
-    url: "http://www.freebuf.com/articles/web/135342.html"
+    url: "https://www.freebuf.com/articles/web/135342.html"
     title: SSRF漏洞中绕过IP限制的几种方法总结
     author:
       name: arkteam
-      url: "http://www.freebuf.com/author/arkteam"
+      url: "https://www.freebuf.com/author/arkteam"
     category: tricks-ssrf
     type: article
     languages: [zh]
@@ -65,7 +65,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [arkteam](http://www.freebuf.com/author/arkteam)."
+    raw_rest: "Written by [arkteam](https://www.freebuf.com/author/arkteam)."
   - id: tricks-ssrf-php-ssrf-techniques
     url: "https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51"
     title: PHP SSRF Techniques
@@ -147,11 +147,11 @@ entries:
     status: active
     raw_rest: "Written by [phith0n](https://www.tttang.com/user/phith0n)."
   - id: tricks-ssrf-aws-takeover-through-ssrf-in-javascript
-    url: "http://10degres.net/aws-takeover-through-ssrf-in-javascript/"
+    url: "https://10degres.net/aws-takeover-through-ssrf-in-javascript/"
     title: AWS takeover through SSRF in JavaScript
     author:
       name: Gwen
-      url: "http://10degres.net/"
+      url: "https://10degres.net/"
     category: tricks-ssrf
     type: article
     languages: [en, zh, jp]
@@ -161,7 +161,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Gwen](http://10degres.net/)."
+    raw_rest: "Written by [Gwen](https://10degres.net/)."
   - id: tricks-ssrf-all-you-need-to-know-about-ssrf-and-how-may-we-wri
     url: "https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html"
     title: All you need to know about SSRF and how may we write tools to do auto-detect

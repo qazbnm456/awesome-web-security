@@ -3,11 +3,11 @@
 
 entries:
   - id: tricks-sql-injection-github-enterprise-sql-injection
-    url: "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
+    url: "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
     title: GitHub Enterprise SQL Injection
     author:
       name: Orange
-      url: "http://blog.orange.tw/"
+      url: "https://blog.orange.tw/"
     category: tricks-sql-injection
     type: article
     languages: [en]
@@ -17,13 +17,13 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+    raw_rest: "Written by [Orange](https://blog.orange.tw/)."
   - id: tricks-sql-injection-sql-injection-in-an-update-query-a-bug-bounty-stor
     url: "http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html"
     title: "SQL injection in an UPDATE query - a bug bounty story!"
     author:
       name: Zombiehelp54
-      url: "http://zombiehelp54.blogspot.jp/"
+      url: "https://zombiehelp54.blogspot.jp/"
     category: tricks-sql-injection
     type: article
     languages: [en]
@@ -33,7 +33,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/)."
+    raw_rest: "Written by [Zombiehelp54](https://zombiehelp54.blogspot.jp/)."
   - id: tricks-sql-injection-making-a-blind-sql-injection-a-little-less-blind
     url: "https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8"
     title: Making a Blind SQL Injection a little less blind

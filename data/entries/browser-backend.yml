@@ -3,7 +3,7 @@
 
 entries:
   - id: browser-backend-attacking-javascript-engines-a-case-study-of-javas
-    url: "http://www.phrack.org/papers/attacking_javascript_engines.html"
+    url: "https://www.phrack.org/papers/attacking_javascript_engines.html"
     title: Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622
     author:
       name: "phrack@saelo.net"
@@ -55,7 +55,7 @@ entries:
     title: "Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11"
     author:
       name: "@moritzj"
-      url: "http://twitter.com/moritzj"
+      url: "https://twitter.com/moritzj"
     category: browser-backend
     type: article
     languages: [en, zh, jp]
@@ -65,7 +65,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [@moritzj](http://twitter.com/moritzj)."
+    raw_rest: "Written by [@moritzj](https://twitter.com/moritzj)."
   - id: browser-backend-pushing-webkits-buttons-with-a-mobile-pwn2own-expl
     url: "https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit"
     title: "PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT"

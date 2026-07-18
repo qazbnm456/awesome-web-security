@@ -3,11 +3,11 @@
 
 entries:
   - id: evasions-jsmvc-javascript-mvc-and-templating-frameworks
-    url: "http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks"
+    url: "https://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks"
     title: JavaScript MVC and Templating Frameworks
     author:
       name: Mario Heiderich
-      url: "http://www.slideshare.net/x00mario"
+      url: "https://www.slideshare.net/x00mario"
     category: evasions-jsmvc
     type: article
     languages: [en, zh, jp]
@@ -17,4 +17,4 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Mario Heiderich](http://www.slideshare.net/x00mario)."
+    raw_rest: "Written by [Mario Heiderich](https://www.slideshare.net/x00mario)."

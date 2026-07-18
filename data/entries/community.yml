@@ -17,7 +17,7 @@ entries:
     status: active
     raw_rest: null
   - id: community-stack-overflow
-    url: "http://stackoverflow.com/questions/tagged/security"
+    url: "https://stackoverflow.com/questions/tagged/security"
     title: Stack Overflow
     author: null
     category: community

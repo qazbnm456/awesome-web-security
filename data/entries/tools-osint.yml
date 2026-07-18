@@ -39,7 +39,7 @@ entries:
     title: FOFA
     author:
       name: BAIMAOHUI
-      url: "http://baimaohui.net/"
+      url: "https://baimaohui.net/"
     category: tools-osint
     type: tool
     languages: [en, jp]
@@ -49,13 +49,13 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Cyberspace Search Engine by [BAIMAOHUI](http://baimaohui.net/)."
+    raw_rest: "Cyberspace Search Engine by [BAIMAOHUI](https://baimaohui.net/)."
   - id: tools-osint-fofa-2
     url: "https://fofa.so/"
     title: FOFA
     author:
       name: 白帽汇
-      url: "http://baimaohui.net/"
+      url: "https://baimaohui.net/"
     category: tools-osint
     type: tool
     languages: [zh]
@@ -65,7 +65,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "网络空间资产搜索引擎 by [白帽汇](http://baimaohui.net/)."
+    raw_rest: "网络空间资产搜索引擎 by [白帽汇](https://baimaohui.net/)."
   - id: tools-osint-gsil
     url: "https://github.com/FeeiCN/GSIL"
     title: GSIL
@@ -115,7 +115,7 @@ entries:
     status: active
     raw_rest: "Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq)."
   - id: tools-osint-spiderfoot
-    url: "http://www.spiderfoot.net/"
+    url: "https://www.spiderfoot.net/"
     title: SpiderFoot
     author:
       name: "@binarypool"
@@ -215,7 +215,7 @@ entries:
     title: 傻蛋联网设备搜索
     author:
       name: "@傻蛋搜索"
-      url: "http://weibo.com/shadansou"
+      url: "https://weibo.com/shadansou"
     category: tools-osint
     type: tool
     languages: [zh]
@@ -225,7 +225,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "监测互联网基础设施安全威胁 by [@傻蛋搜索](http://weibo.com/shadansou)."
+    raw_rest: "监测互联网基础设施安全威胁 by [@傻蛋搜索](https://weibo.com/shadansou)."
   - id: tools-osint-databases-start-me
     url: "https://start.me/p/QRENnO/databases"
     title: Databases - start.me

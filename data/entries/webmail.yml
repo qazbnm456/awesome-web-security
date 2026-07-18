@@ -7,7 +7,7 @@ entries:
     title: Webmail-Hacking
     author:
       name: 千域千寻
-      url: "http://blog.csdn.net/f1n4lly/"
+      url: "https://blog.csdn.net/f1n4lly/"
     category: webmail
     type: article
     languages: [zh]
@@ -17,7 +17,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [千域千寻](http://blog.csdn.net/f1n4lly/)."
+    raw_rest: "Written by [千域千寻](https://blog.csdn.net/f1n4lly/)."
   - id: webmail-why-mail-is-dangerous-in-php
     url: "https://blog.ripstech.com/2017/why-mail-is-dangerous-in-php/"
     title: Why mail() is dangerous in PHP

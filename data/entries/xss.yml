@@ -67,11 +67,11 @@ entries:
     status: active
     raw_rest: "Written by [@cure53](https://github.com/cure53)."
   - id: xss-the-big-bad-wolf-xss-and-maintaining-access
-    url: "http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html"
+    url: "https://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html"
     title: THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS
     author:
       name: Paulos Yibelo
-      url: "http://www.paulosyibelo.com/"
+      url: "https://www.paulosyibelo.com/"
     category: xss
     type: article
     languages: [en, zh, jp]
@@ -81,7 +81,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Paulos Yibelo](http://www.paulosyibelo.com/)."
+    raw_rest: "Written by [Paulos Yibelo](https://www.paulosyibelo.com/)."
   - id: xss-entry
     url: "https://blogs.mcafee.jp/cross-site-scripting-overview"
     title: クロスサイトスクリプティングの仕組みと攻撃を回避する７つの対策

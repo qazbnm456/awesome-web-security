@@ -51,11 +51,11 @@ entries:
     status: active
     raw_rest: "Written by [@iblue](https://github.com/iblue)."
   - id: tricks-rce-how-i-chained-4-vulnerabilities-on-github-enterpri
-    url: "http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html"
+    url: "https://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html"
     title: "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!"
     author:
       name: Orange
-      url: "http://blog.orange.tw/"
+      url: "https://blog.orange.tw/"
     category: tricks-rce
     type: article
     languages: [en, zh, jp]
@@ -65,7 +65,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+    raw_rest: "Written by [Orange](https://blog.orange.tw/)."
   - id: tricks-rce-how-we-exploited-a-remote-code-execution-vulnerabi
     url: "https://capacitorset.github.io/mathjs/"
     title: How we exploited a remote code execution vulnerability in math.js
@@ -83,11 +83,11 @@ entries:
     status: active
     raw_rest: "Written by [@capacitorset](https://github.com/capacitorset)."
   - id: tricks-rce-php-uaf
-    url: "http://www.freebuf.com/vuls/122938.html"
+    url: "https://www.freebuf.com/vuls/122938.html"
     title: PHP垃圾回收机制UAF漏洞分析
     author:
       name: ph1re
-      url: "http://www.freebuf.com/author/ph1re"
+      url: "https://www.freebuf.com/author/ph1re"
     category: tricks-rce
     type: article
     languages: [zh]
@@ -97,7 +97,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [ph1re](http://www.freebuf.com/author/ph1re)."
+    raw_rest: "Written by [ph1re](https://www.freebuf.com/author/ph1re)."
   - id: tricks-rce-36k-google-app-engine-rce
     url: "https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce"
     title: $36k Google App Engine RCE

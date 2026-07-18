@@ -167,7 +167,7 @@ entries:
     title: 腾讯玄武实验室安全动态推送
     author:
       name: 腾讯玄武实验室
-      url: "http://xlab.tencent.com/cn/"
+      url: "https://xlab.tencent.com/cn/"
     category: digests
     type: article
     languages: [zh]
@@ -177,7 +177,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [腾讯玄武实验室](http://xlab.tencent.com/cn/)."
+    raw_rest: "Written by [腾讯玄武实验室](https://xlab.tencent.com/cn/)."
   - id: digests-tl-dr-sec
     url: "https://tldrsec.com/"
     title: tl;dr sec

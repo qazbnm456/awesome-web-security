@@ -147,7 +147,7 @@ entries:
     status: active
     raw_rest: "Written by [skavans](https://skavans.ru/)."
   - id: tricks-xxe-xxe-in-wechat-pay-sdk-wechat-leave-a-backdoor-on-m
-    url: "http://seclists.org/fulldisclosure/2018/Jul/3"
+    url: "https://seclists.org/fulldisclosure/2018/Jul/3"
     title: XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)
     author:
       name: Rose Jackcode

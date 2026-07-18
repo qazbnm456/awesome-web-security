@@ -71,7 +71,7 @@ entries:
     title: grayhatwarfare
     author:
       name: grayhatwarfare
-      url: "http://www.grayhatwarfare.com/"
+      url: "https://www.grayhatwarfare.com/"
     category: tools-penetration-testing
     type: tool
     languages: [en, zh, jp]
@@ -81,7 +81,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Public buckets by [grayhatwarfare](http://www.grayhatwarfare.com/)."
+    raw_rest: "Public buckets by [grayhatwarfare](https://www.grayhatwarfare.com/)."
   - id: tools-penetration-testing-numasec
     url: "https://github.com/FrancescoStabile/numasec"
     title: numasec

@@ -19,11 +19,11 @@ entries:
     status: active
     raw_rest: "Written by [Andy](https://blog.zsec.uk/)."
   - id: csv-injection-the-absurdly-underestimated-dangers-of-csv-injecti
-    url: "http://georgemauer.net/2017/10/07/csv-injection.html"
+    url: "https://georgemauer.net/2017/10/07/csv-injection.html"
     title: The Absurdly Underestimated Dangers of CSV Injection
     author:
       name: George Mauer
-      url: "http://georgemauer.net/"
+      url: "https://georgemauer.net/"
     category: csv-injection
     type: article
     languages: [en, zh, jp]
@@ -33,7 +33,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [George Mauer](http://georgemauer.net/)."
+    raw_rest: "Written by [George Mauer](https://georgemauer.net/)."
   - id: csv-injection-payloadsallthethings-csv-injection
     url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection"
     title: PayloadsAllTheThings - CSV Injection

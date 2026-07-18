@@ -3,11 +3,11 @@
 
 entries:
   - id: fingerprint-web
-    url: "http://www.freebuf.com/articles/web/127266.html"
+    url: "https://www.freebuf.com/articles/web/127266.html"
     title: 浅谈Web客户端追踪
     author:
       name: arkteam
-      url: "http://www.freebuf.com/author/arkteam"
+      url: "https://www.freebuf.com/author/arkteam"
     category: fingerprint
     type: article
     languages: [zh]
@@ -17,4 +17,4 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [arkteam](http://www.freebuf.com/author/arkteam)."
+    raw_rest: "Written by [arkteam](https://www.freebuf.com/author/arkteam)."

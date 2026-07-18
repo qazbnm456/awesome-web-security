@@ -71,7 +71,7 @@ entries:
     title: sqlchop
     author:
       name: chaitin
-      url: "http://chaitin.com"
+      url: "https://chaitin.com"
     category: tools-detecting
     type: tool
     languages: [en, zh, jp]
@@ -81,13 +81,13 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "SQL injection detection engine by [chaitin](http://chaitin.com)."
+    raw_rest: "SQL injection detection engine by [chaitin](https://chaitin.com)."
   - id: tools-detecting-xsschop
     url: "https://xsschop.chaitin.cn/"
     title: xsschop
     author:
       name: chaitin
-      url: "http://chaitin.com"
+      url: "https://chaitin.com"
     category: tools-detecting
     type: tool
     languages: [en, zh, jp]
@@ -97,13 +97,13 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "XSS detection engine by [chaitin](http://chaitin.com)."
+    raw_rest: "XSS detection engine by [chaitin](https://chaitin.com)."
   - id: tools-detecting-entry
     url: "http://0day.websaas.com.cn/"
     title: 重大漏洞在线检测系统
     author:
       name: 杭州安恒信息技术有限公司
-      url: "http://www.dbappsecurity.com.cn/"
+      url: "https://www.dbappsecurity.com.cn/"
     category: tools-detecting
     type: tool
     languages: [zh]
@@ -113,7 +113,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "重大漏洞在线检测系统 by [杭州安恒信息技术有限公司](http://www.dbappsecurity.com.cn/)."
+    raw_rest: "重大漏洞在线检测系统 by [杭州安恒信息技术有限公司](https://www.dbappsecurity.com.cn/)."
   - id: tools-detecting-openrasp
     url: "https://github.com/baidu/openrasp"
     title: OpenRASP

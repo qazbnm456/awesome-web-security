@@ -3,7 +3,7 @@
 
 entries:
   - id: practices-application-selinux-game
-    url: "http://selinuxgame.org/"
+    url: "https://selinuxgame.org/"
     title: SELinux Game
     author:
       name: "@selinuxgame"
@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: "Vulnerable web application for training - Written by [@SecureSkyTechnology](https://github.com/SecureSkyTechnology)."
   - id: practices-application-hackxor
-    url: "http://hackxor.net/"
+    url: "https://hackxor.net/"
     title: Hackxor
     author:
       name: "@albinowax"

@@ -7,7 +7,7 @@ entries:
     title: Browser UI Security 技术白皮书
     author:
       name: 腾讯玄武实验室
-      url: "http://xlab.tencent.com/"
+      url: "https://xlab.tencent.com/"
     category: browser-frontend
     type: article
     languages: [zh]
@@ -17,7 +17,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [腾讯玄武实验室](http://xlab.tencent.com/)."
+    raw_rest: "Written by [腾讯玄武实验室](https://xlab.tencent.com/)."
   - id: browser-frontend-ie11-information-disclosure-local-file-detection
     url: "https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater"
     title: IE11 Information disclosure - local file detection
@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: Written by James Lee.
   - id: browser-frontend-json-hijacking-for-the-modern-web
-    url: "http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html"
+    url: "https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html"
     title: JSON hijacking for the modern web
     author:
       name: portswigger

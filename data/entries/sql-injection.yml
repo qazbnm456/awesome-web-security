@@ -3,11 +3,11 @@
 
 entries:
   - id: sql-injection-github-enterprise-sql-injection
-    url: "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
+    url: "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
     title: GitHub Enterprise SQL Injection
     author:
       name: Orange
-      url: "http://blog.orange.tw/"
+      url: "https://blog.orange.tw/"
     category: sql-injection
     type: article
     languages: [zh, jp]
@@ -17,7 +17,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+    raw_rest: "Written by [Orange](https://blog.orange.tw/)."
   - id: sql-injection-sql-injection-cheat-sheet
     url: "https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/"
     title: SQL Injection Cheat Sheet
@@ -71,7 +71,7 @@ entries:
     title: "SQL injection in an UPDATE query - a bug bounty story!"
     author:
       name: Zombiehelp54
-      url: "http://zombiehelp54.blogspot.jp/"
+      url: "https://zombiehelp54.blogspot.jp/"
     category: sql-injection
     type: article
     languages: [zh, jp]
@@ -81,7 +81,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Zombiehelp54](http://zombiehelp54.blogspot.jp/)."
+    raw_rest: "Written by [Zombiehelp54](https://zombiehelp54.blogspot.jp/)."
   - id: sql-injection-mysql
     url: "http://www.jinglingshu.org/?p=2220"
     title: 屌智硬之mysql不用逗号注入
@@ -99,11 +99,11 @@ entries:
     status: active
     raw_rest: "Written by [jinglingshu](http://www.jinglingshu.org/?p=2220)."
   - id: sql-injection-waf-sql
-    url: "http://www.freebuf.com/articles/web/36683.html"
+    url: "https://www.freebuf.com/articles/web/36683.html"
     title: 见招拆招：绕过WAF继续SQL注入常用方法
     author:
       name: mikey
-      url: "http://www.freebuf.com/author/mikey"
+      url: "https://www.freebuf.com/author/mikey"
     category: sql-injection
     type: article
     languages: [zh]
@@ -113,13 +113,13 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [mikey](http://www.freebuf.com/author/mikey)."
+    raw_rest: "Written by [mikey](https://www.freebuf.com/author/mikey)."
   - id: sql-injection-error-based-sql-injection-mysql
-    url: "http://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/"
+    url: "https://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/"
     title: Error Based SQL Injection - MySQL
     author:
       name: DogeWatch
-      url: "http://dogewatch.github.io/"
+      url: "https://dogewatch.github.io/"
     category: sql-injection
     type: article
     languages: [zh]
@@ -129,7 +129,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [DogeWatch](http://dogewatch.github.io/)."
+    raw_rest: "Written by [DogeWatch](https://dogewatch.github.io/)."
   - id: sql-injection-making-a-blind-sql-injection-a-little-less-blind
     url: "https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8"
     title: Making a Blind SQL Injection a little less blind

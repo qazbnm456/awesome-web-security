@@ -35,11 +35,11 @@ entries:
     status: active
     raw_rest: "Written by [@gregose](https://github.com/gregose)."
   - id: miscellaneous-brute-forcing-your-facebook-email-and-phone-number
-    url: "http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html"
+    url: "https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html"
     title: Brute Forcing Your Facebook Email and Phone Number
     author:
       name: PwnDizzle
-      url: "http://pwndizzle.blogspot.jp/"
+      url: "https://pwndizzle.blogspot.jp/"
     category: miscellaneous
     type: article
     languages: [en, zh, jp]
@@ -49,7 +49,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [PwnDizzle](http://pwndizzle.blogspot.jp/)."
+    raw_rest: "Written by [PwnDizzle](https://pwndizzle.blogspot.jp/)."
   - id: miscellaneous-cybersecurity-campaign-playbook
     url: "https://www.belfercenter.org/publication/cybersecurity-campaign-playbook"
     title: Cybersecurity Campaign Playbook
@@ -131,7 +131,7 @@ entries:
     status: active
     raw_rest: "Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/)."
   - id: miscellaneous-pentest-exploit-dev-cheatsheet-wallpaper
-    url: "http://i.imgur.com/Mr9pvq9.jpg"
+    url: "https://i.imgur.com/Mr9pvq9.jpg"
     title: Pentest + Exploit dev Cheatsheet wallpaper
     author:
       name: Penetration Testing and Exploit Dev CheatSheet
@@ -147,7 +147,7 @@ entries:
     status: active
     raw_rest: Penetration Testing and Exploit Dev CheatSheet.
   - id: miscellaneous-the-definitive-security-data-science-and-machine-l
-    url: "http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/"
+    url: "https://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/"
     title: The Definitive Security Data Science and Machine Learning Guide
     author:
       name: JASON TROS
@@ -211,11 +211,11 @@ entries:
     status: active
     raw_rest: "Some public notes by [@ChALkeR](https://github.com/ChALkeR)."
   - id: miscellaneous-ip
-    url: "http://devco.re/blog/2014/06/19/client-ip-detection/"
+    url: "https://devco.re/blog/2014/06/19/client-ip-detection/"
     title: 如何正確的取得使用者 IP ？
     author:
       name: Allen Own
-      url: "http://devco.re/blog/author/allenown"
+      url: "https://devco.re/blog/author/allenown"
     category: miscellaneous
     type: article
     languages: [zh]
@@ -225,7 +225,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Allen Own](http://devco.re/blog/author/allenown)."
+    raw_rest: "Written by [Allen Own](https://devco.re/blog/author/allenown)."
   - id: miscellaneous-dark-web-report-eyewitness-torghost-docker
     url: "http://www.mottoin.com/106687.html"
     title: 暗网系列之：利用Dark Web Report + EyeWitness+ TorGhost +Docker，自动化获取暗网站点的信息
@@ -499,11 +499,11 @@ entries:
     status: active
     raw_rest: "Written by [Mariem](https://pentester.land/)."
   - id: miscellaneous-the-bug-bounty-program-that-changed-my-life
-    url: "http://10degres.net/the-bug-bounty-program-that-changed-my-life/"
+    url: "https://10degres.net/the-bug-bounty-program-that-changed-my-life/"
     title: The bug bounty program that changed my life
     author:
       name: Gwen
-      url: "http://10degres.net/"
+      url: "https://10degres.net/"
     category: miscellaneous
     type: article
     languages: [en, zh, jp]
@@ -513,7 +513,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Gwen](http://10degres.net/)."
+    raw_rest: "Written by [Gwen](https://10degres.net/)."
   - id: miscellaneous-why-facebooks-api-starts-with-a-for-loop
     url: "https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob"
     title: "Why Facebook's api starts with a for loop"

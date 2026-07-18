@@ -35,11 +35,11 @@ entries:
     status: active
     raw_rest: "Written by [Sebastian Lekies](https://twitter.com/slekies), [Krzysztof Kotowicz](https://twitter.com/kkotowicz), and [Eduardo Vela](https://twitter.com/sirdarckcat)."
   - id: tricks-xss-ecmascript-6-from-an-attackers-perspective-breakin
-    url: "http://www.slideshare.net/x00mario/es6-en"
+    url: "https://www.slideshare.net/x00mario/es6-en"
     title: "ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else"
     author:
       name: Mario Heiderich
-      url: "http://www.slideshare.net/x00mario"
+      url: "https://www.slideshare.net/x00mario"
     category: tricks-xss
     type: article
     languages: [en, zh, jp]
@@ -49,7 +49,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Mario Heiderich](http://www.slideshare.net/x00mario)."
+    raw_rest: "Written by [Mario Heiderich](https://www.slideshare.net/x00mario)."
   - id: tricks-xss-how-i-found-a-5-000-google-maps-xss-by-fiddling-wi
     url: "https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas"
     title: "How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)"
@@ -83,11 +83,11 @@ entries:
     status: active
     raw_rest: "Written by [kenziy](https://hackerone.com/kenziy)."
   - id: tricks-xss-uber-xss-via-cookie
-    url: "http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/"
+    url: "https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/"
     title: Uber XSS via Cookie
     author:
       name: zhchbin
-      url: "http://zhchbin.github.io/"
+      url: "https://zhchbin.github.io/"
     category: tricks-xss
     type: article
     languages: [en, zh, jp]
@@ -97,7 +97,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [zhchbin](http://zhchbin.github.io/)."
+    raw_rest: "Written by [zhchbin](https://zhchbin.github.io/)."
   - id: tricks-xss-xss-challenges
     url: "http://xss-quiz.int21h.jp/"
     title: XSS Challenges
@@ -183,7 +183,7 @@ entries:
     title: DOM XSS – auth.uber.com
     author:
       name: StamOne_
-      url: "http://stamone-bug-bounty.blogspot.tw/"
+      url: "https://stamone-bug-bounty.blogspot.tw/"
     category: tricks-xss
     type: article
     languages: [en, zh, jp]
@@ -193,7 +193,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [StamOne_](http://stamone-bug-bounty.blogspot.tw/)."
+    raw_rest: "Written by [StamOne_](https://stamone-bug-bounty.blogspot.tw/)."
   - id: tricks-xss-another-xss-in-google-colaboratory
     url: "https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html"
     title: Another XSS in Google Colaboratory

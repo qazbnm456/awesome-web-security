@@ -83,7 +83,7 @@ entries:
     status: active
     raw_rest: "Open Mind Security!"
   - id: blogs-orange
-    url: "http://blog.orange.tw/"
+    url: "https://blog.orange.tw/"
     title: Orange
     author:
       name: "Taiwan's talented web penetrator"
@@ -163,7 +163,7 @@ entries:
     status: active
     raw_rest: Write-ups for PHP vulnerabilities.
   - id: blogs-0day-labs
-    url: "http://blog.0daylabs.com/"
+    url: "https://blog.0daylabs.com/"
     title: "0Day Labs"
     author:
       name: Awesome bug-bounty and challenges writeups

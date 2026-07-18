@@ -19,11 +19,11 @@ entries:
     status: active
     raw_rest: "Written by [@qazbnm456](https://github.com/qazbnm456)."
   - id: rails-rails
-    url: "http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/"
+    url: "https://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/"
     title: Rails 動態樣板路徑的風險
     author:
       name: Shaolin
-      url: "http://devco.re/blog/author/shaolin/"
+      url: "https://devco.re/blog/author/shaolin/"
     category: rails
     type: article
     languages: [zh]
@@ -33,9 +33,9 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Shaolin](http://devco.re/blog/author/shaolin/)."
+    raw_rest: "Written by [Shaolin](https://devco.re/blog/author/shaolin/)."
   - id: rails-official-rails-security-guide
-    url: "http://guides.rubyonrails.org/security.html"
+    url: "https://guides.rubyonrails.org/security.html"
     title: Official Rails Security Guide
     author:
       name: Rails team

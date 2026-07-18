@@ -3,7 +3,7 @@
 
 entries:
   - id: xxe-xml
-    url: "http://www.freebuf.com/video/49961.html"
+    url: "https://www.freebuf.com/video/49961.html"
     title: XML实体攻击 - 从内网探测到命令执行步步惊心
     author:
       name: 张天琪

@@ -19,11 +19,11 @@ entries:
     status: active
     raw_rest: "Written by [@drigg3r](https://github.com/drigg3r)."
   - id: command-injection-ruby-open
-    url: "http://www.lanches.co.jp/blog/5996"
+    url: "https://www.lanches.co.jp/blog/5996"
     title: rubyでopenコマンドを使用するときに気をつけること
     author:
       name: 金子 将範
-      url: "http://www.lanches.co.jp/author/rubyist"
+      url: "https://www.lanches.co.jp/author/rubyist"
     category: command-injection
     type: article
     languages: [jp]
@@ -33,7 +33,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [金子 将範](http://www.lanches.co.jp/author/rubyist)."
+    raw_rest: "Written by [金子 将範](https://www.lanches.co.jp/author/rubyist)."
   - id: command-injection-commix
     url: "https://github.com/commixproject/commix"
     title: commix

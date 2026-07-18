@@ -39,7 +39,7 @@ entries:
     title: URL Hacking - 前端猥琐流
     author:
       name: "0x_Jin"
-      url: "http://xssec.lofter.com/"
+      url: "https://xssec.lofter.com/"
     category: tricks-url
     type: article
     languages: [zh]
@@ -49,7 +49,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [0x_Jin](http://xssec.lofter.com/)."
+    raw_rest: "Written by [0x_Jin](https://xssec.lofter.com/)."
   - id: tricks-url-unicode-domains-are-bad-and-you-should-feel-bad-fo
     url: "https://www.vgrsec.com/post20170219.html"
     title: Unicode Domains are bad and you should feel bad for supporting them
@@ -67,11 +67,11 @@ entries:
     status: active
     raw_rest: "Written by [VRGSEC](https://www.vgrsec.com/)."
   - id: tricks-url-dev-twitter-com-xss
-    url: "http://blog.blackfan.ru/2017/09/devtwittercom-xss.html"
+    url: "https://blog.blackfan.ru/2017/09/devtwittercom-xss.html"
     title: "[dev.twitter.com] XSS"
     author:
       name: Sergey Bobrov
-      url: "http://blog.blackfan.ru/"
+      url: "https://blog.blackfan.ru/"
     category: tricks-url
     type: article
     languages: [en, zh, jp]
@@ -81,4 +81,4 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Sergey Bobrov](http://blog.blackfan.ru/)."
+    raw_rest: "Written by [Sergey Bobrov](https://blog.blackfan.ru/)."

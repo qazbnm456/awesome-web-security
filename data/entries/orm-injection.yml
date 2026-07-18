@@ -19,7 +19,7 @@ entries:
     status: active
     raw_rest: "Written by [@_m0bius](https://twitter.com/_m0bius)."
   - id: orm-injection-hql-for-pentesters
-    url: "http://blog.h3xstream.com/2014/02/hql-for-pentesters.html"
+    url: "https://blog.h3xstream.com/2014/02/hql-for-pentesters.html"
     title: HQL for pentesters
     author:
       name: "@h3xstream"

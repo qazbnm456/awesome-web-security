@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: Drops was known as a famous knowledge base for hacking technology.
   - id: forums-freebuf
-    url: "http://www.freebuf.com/"
+    url: "https://www.freebuf.com/"
     title: Freebuf
     author:
       name: Freebuf is the most popular forum in China for exchanging and sharing hacking te
@@ -83,7 +83,7 @@ entries:
     status: active
     raw_rest: "Knowledge base for hacking technology built by 404 Team from [knownsec](https://www.knownsec.com/)."
   - id: forums-phrack-magazine
-    url: "http://www.phrack.org/"
+    url: "https://www.phrack.org/"
     title: Phrack Magazine
     author: null
     category: forums
@@ -145,7 +145,7 @@ entries:
     status: active
     raw_rest: Security in a serious way.
   - id: forums-the-register
-    url: "http://www.theregister.co.uk/"
+    url: "https://www.theregister.co.uk/"
     title: The Register
     author:
       name: Biting the hand that feeds IT

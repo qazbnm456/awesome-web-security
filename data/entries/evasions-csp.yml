@@ -19,11 +19,11 @@ entries:
     status: active
     raw_rest: "Written by [Detectify Labs](https://labs.detectify.com/)."
   - id: evasions-csp-twitter-xss-csp-bypass
-    url: "http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html"
+    url: "https://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html"
     title: TWITTER XSS + CSP BYPASS
     author:
       name: Paulos Yibelo
-      url: "http://www.paulosyibelo.com/"
+      url: "https://www.paulosyibelo.com/"
     category: evasions-csp
     type: article
     languages: [en, zh, jp]
@@ -33,7 +33,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Paulos Yibelo](http://www.paulosyibelo.com/)."
+    raw_rest: "Written by [Paulos Yibelo](https://www.paulosyibelo.com/)."
   - id: evasions-csp-neatly-bypassing-csp
     url: "https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa"
     title: Neatly bypassing CSP

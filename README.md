@@ -155,7 +155,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ## Forums
 
 - [Dark Reading](https://www.darkreading.com/Default.asp) - Connecting The Information Security Community.
-- [HackDig](https://en.hackdig.com/) - Dig high-quality web security articles for hacker.
+- [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 - [Phrack Magazine](https://www.phrack.org/) - Ezine written by and for hackers.
 - [Security Weekly](https://securityweekly.com/) - The security podcast network.
 - [The Hacker News](https://thehackernews.com/) - Security in a serious way.
@@ -218,7 +218,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="ftp-injection"></a>
 ### FTP Injection
 
-- [Advisory: Java/Python FTP Injections Allow for Firewall Bypass](https://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+- [Advisory: Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 - [SMTP over XXE − how to send emails using Java's XML parser](https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/) - Written by [Alexander Klink](https://shiftordie.de/).
 
 <a name="xxe"></a>
@@ -298,7 +298,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="reactjs"></a>
 ### ReactJS
 
-- [XSS via a spoofed React element](https://danlec.com/blog/xss-via-a-spoofed-react-element) - Written by [Daniel LeCheminant](https://danlec.com/).
+- [XSS via a spoofed React element](http://danlec.com/blog/xss-via-a-spoofed-react-element) - Written by [Daniel LeCheminant](http://danlec.com/).
 
 <a name="ssl-tls"></a>
 ### SSL/TLS
@@ -462,7 +462,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Query parameter reordering causes redirect page to render unsafe URL](https://hackerone.com/reports/293689) - Written by [kenziy](https://hackerone.com/kenziy).
 - [Uber XSS via Cookie](https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/) - Written by [zhchbin](https://zhchbin.github.io/).
 - [Stored XSS on Facebook](https://opnsec.com/2018/03/stored-xss-on-facebook/) - Written by [Enguerran Gillier](https://opnsec.com/).
-- [DOM XSS – auth.uber.com](https://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html) - Written by [StamOne_](https://stamone-bug-bounty.blogspot.tw/).
+- [DOM XSS – auth.uber.com](http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html) - Written by [StamOne_](https://stamone-bug-bounty.blogspot.tw/).
 - [Another XSS in Google Colaboratory](https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
 - [XSS in Google Colaboratory + CSP bypass](https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html) - Written by [Michał Bentkowski](https://blog.bentkowski.info/).
 - [</script> is filtered ?](https://twitter.com/strukt93/status/931586377665331200) - Written by [@strukt93](https://twitter.com/strukt93).
@@ -476,7 +476,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### SQL Injection
 
 - [GitHub Enterprise SQL Injection](https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html) - Written by [Orange](https://blog.orange.tw/).
-- [SQL injection in an UPDATE query - a bug bounty story!](https://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html) - Written by [Zombiehelp54](https://zombiehelp54.blogspot.jp/).
+- [SQL injection in an UPDATE query - a bug bounty story!](http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html) - Written by [Zombiehelp54](https://zombiehelp54.blogspot.jp/).
 - [Making a Blind SQL Injection a little less blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8) - Written by [TomNomNom](https://twitter.com/TomNomNom).
 - [Red Team Tales 0x01: From MSSQL to RCE](https://www.tarlogic.com/en/blog/red-team-tales-0x01/) - Written by [Tarlogic](https://www.tarlogic.com/en/cybersecurity-blog/).
 - [MySQL Error Based SQL Injection Using EXP](https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf) - Written by [@osandamalith](https://twitter.com/osandamalith).
@@ -491,7 +491,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### FTP Injection
 
 - [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by [@a66at](https://twitter.com/a66at) and Alexey Osipov.
-- [XXE OOB exploitation at Java 1.7+](https://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Written by [Ivan Novikov](https://lab.onsec.ru/).
+- [XXE OOB exploitation at Java 1.7+](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Written by [Ivan Novikov](http://lab.onsec.ru/).
 
 <a name="tricks-xxe"></a>
 ### XXE
@@ -504,7 +504,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [What You Didn't Know About XML External Entities Attacks](https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw).
 - [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by Timur Yunusov and Alexey Osipov.
 - [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](https://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](https://twitter.com/codeshtool).
-- [XXE OOB exploitation at Java 1.7+ (2014)](https://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/).
+- [XXE OOB exploitation at Java 1.7+ (2014)](http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html) - Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/).
 - [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
 
 <a name="tricks-ssrf"></a>
@@ -512,7 +512,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) - Written by [Orange](https://blog.orange.tw/).
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
-- [SSRF Tips](https://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](https://blog.safebuff.com/).
+- [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](http://blog.safebuff.com/).
 - [PHP SSRF Techniques](https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51) - Written by [@themiddleblue](https://medium.com/@themiddleblue).
 - [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) - Written by [@0xacb](https://twitter.com/0xacb).
 - [Into the Borg – SSRF inside Google production network](https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/) - Written by [opnsec](https://opnsec.com/).
@@ -529,7 +529,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="tricks-header-injection"></a>
 ### Header Injection
 
-- [Java/Python FTP Injections Allow for Firewall Bypass](https://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+- [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
 
 <a name="tricks-url"></a>
 ### URL
@@ -585,7 +585,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A Methodical Approach to Browser Exploitation](https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/) - Written by [RET2 SYSTEMS, INC](https://blog.ret2.io/).
 - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/) - Written by [Diary of a reverse-engineer](https://doar-e.github.io/).
 - [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
-- [Three roads lead to Rome](https://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
+- [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
 - [CLEANLY ESCAPING THE CHROME SANDBOX](https://theori.io/research/escaping-chrome-sandbox) - Written by [@tjbecker_](https://twitter.com/tjbecker_).
 
 ## PoCs
@@ -840,7 +840,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [BRETT BUERHAUS](https://buer.haus/) - Vulnerability disclosures and rambles on application security.
 - [Broken Browser](https://www.brokenbrowser.com/) - Fun with Browser Vulnerabilities.
-- [James Kettle](https://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
+- [James Kettle](http://albinowax.skeletonscribe.net/) - Head of Research at [PortSwigger Web Security](https://portswigger.net/).
 - [leavesongs](https://www.leavesongs.com/) - China's talented web penetrator.
 - [n0tr00t](https://www.n0tr00t.com/) - ~# n0tr00t Security Team.
 - [OpnSec](https://opnsec.com/) - Open Mind Security!.
@@ -877,15 +877,15 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="practices-aws"></a>
 ### AWS
 
-- [FLAWS](https://flaws.cloud/) - Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00).
+- [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00).
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs).
 
 <a name="practices-xss"></a>
 ### XSS
 
 - [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
-- [prompt(1) to win](https://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
-- [XSS Challenges](https://xss-quiz.int21h.jp/) - Series of XSS challenges - Written by yamagata21.
+- [prompt(1) to win](http://prompt.ml/) - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53).
+- [XSS Challenges](http://xss-quiz.int21h.jp/) - Series of XSS challenges - Written by yamagata21.
 - [XSS game](https://xss-game.appspot.com/) - Google XSS Challenge - Written by Google.
 
 <a name="practices-modsecurity"></a>
@@ -908,7 +908,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [EQGRP](https://github.com/x0rz/EQGRP) - Decrypted content of eqgrp-auction-file.tar.xz by [@x0rz](https://github.com/x0rz).
 - [Google VRP and Unicorns](https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns) - Written by [Daniel Stelter-Gliese](https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/).
 - [Infosec_Reference](https://github.com/rmusser01/Infosec_Reference) - Information Security Reference That Doesn't Suck by [@rmusser01](https://github.com/rmusser01).
-- [Internet of Things Scanner](https://iotscanner.bullguard.com/) - Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/).
+- [Internet of Things Scanner](http://iotscanner.bullguard.com/) - Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/).
 - [notes](https://github.com/ChALkeR/notes) - Some public notes by [@ChALkeR](https://github.com/ChALkeR).
 - [Pentest + Exploit dev Cheatsheet wallpaper](https://i.imgur.com/Mr9pvq9.jpg) - Penetration Testing and Exploit Dev CheatSheet.
 - [The Definitive Security Data Science and Machine Learning Guide](https://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/) - Written by JASON TROS.

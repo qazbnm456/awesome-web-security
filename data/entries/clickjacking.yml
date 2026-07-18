@@ -7,7 +7,7 @@ entries:
     title: Bug Bounty 獎金獵人甘苦談 - 那些年我回報過的漏洞
     author:
       name: Orange
-      url: "http://blog.orange.tw/"
+      url: "https://blog.orange.tw/"
     category: clickjacking
     type: article
     languages: [zh]
@@ -17,7 +17,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Orange](http://blog.orange.tw/)."
+    raw_rest: "Written by [Orange](https://blog.orange.tw/)."
   - id: clickjacking-clickjacking
     url: "https://www.imperva.com/learn/application-security/clickjacking/"
     title: Clickjacking
@@ -55,7 +55,7 @@ entries:
     title: "X-Frame-Options: All about Clickjacking?"
     author:
       name: Mario Heiderich
-      url: "http://www.slideshare.net/x00mario"
+      url: "https://www.slideshare.net/x00mario"
     category: clickjacking
     type: article
     languages: [en, zh, jp]
@@ -65,7 +65,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [Mario Heiderich](http://www.slideshare.net/x00mario)."
+    raw_rest: "Written by [Mario Heiderich](https://www.slideshare.net/x00mario)."
   - id: clickjacking-clickjacking-frame-attack
     url: "https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/"
     title: 新增幾項設定來防範 Clickjacking Frame Attack

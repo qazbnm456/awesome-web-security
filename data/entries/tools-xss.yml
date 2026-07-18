@@ -71,7 +71,7 @@ entries:
     title: csp evaluator
     author:
       name: Csper
-      url: "http://csper.io"
+      url: "https://csper.io"
     category: tools-xss
     type: tool
     languages: [en, zh, jp]
@@ -81,4 +81,4 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "A tool for evaluating content-security-policies by [Csper](http://csper.io)."
+    raw_rest: "A tool for evaluating content-security-policies by [Csper](https://csper.io)."

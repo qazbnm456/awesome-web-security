@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-17T02:00:00Z",
+  "generated_at": "2026-07-18T15:03:44Z",
   "categories": [
     {
       "key": "digests",
@@ -706,7 +706,7 @@
   "entries": [
     {
       "id": "angularjs-dom-based-angular-sandbox-escapes",
-      "url": "http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html",
+      "url": "https://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html",
       "title": "DOM based Angular sandbox escapes",
       "author": {
         "name": "@garethheyes",
@@ -727,7 +727,7 @@
     },
     {
       "id": "angularjs-xss-without-html-client-side-template-injection-wi",
-      "url": "http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html",
+      "url": "https://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html",
       "title": "XSS without HTML: Client-Side Template Injection with AngularJS",
       "author": {
         "name": "Gareth Heyes",
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "blogs-orange",
-      "url": "http://blog.orange.tw/",
+      "url": "https://blog.orange.tw/",
       "title": "Orange",
       "author": {
         "name": "Taiwan's talented web penetrator",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "blogs-0day-labs",
-      "url": "http://blog.0daylabs.com/",
+      "url": "https://blog.0daylabs.com/",
       "title": "0Day Labs",
       "author": {
         "name": "Awesome bug-bounty and challenges writeups",
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "browser-backend-attacking-javascript-engines-a-case-study-of-javas",
-      "url": "http://www.phrack.org/papers/attacking_javascript_engines.html",
+      "url": "https://www.phrack.org/papers/attacking_javascript_engines.html",
       "title": "Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622",
       "author": {
         "name": "phrack@saelo.net",
@@ -1269,7 +1269,7 @@
       "title": "Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11",
       "author": {
         "name": "@moritzj",
-        "url": "http://twitter.com/moritzj"
+        "url": "https://twitter.com/moritzj"
       },
       "category": "browser-backend",
       "type": "article",
@@ -1455,7 +1455,7 @@
       "title": "Browser UI Security 技术白皮书",
       "author": {
         "name": "腾讯玄武实验室",
-        "url": "http://xlab.tencent.com/"
+        "url": "https://xlab.tencent.com/"
       },
       "category": "browser-frontend",
       "type": "article",
@@ -1491,7 +1491,7 @@
     },
     {
       "id": "browser-frontend-json-hijacking-for-the-modern-web",
-      "url": "http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html",
+      "url": "https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html",
       "title": "JSON hijacking for the modern web",
       "author": {
         "name": "portswigger",
@@ -1941,7 +1941,7 @@
       "title": "Bug Bounty 獎金獵人甘苦談 - 那些年我回報過的漏洞",
       "author": {
         "name": "Orange",
-        "url": "http://blog.orange.tw/"
+        "url": "https://blog.orange.tw/"
       },
       "category": "clickjacking",
       "type": "article",
@@ -2001,7 +2001,7 @@
       "title": "X-Frame-Options: All about Clickjacking?",
       "author": {
         "name": "Mario Heiderich",
-        "url": "http://www.slideshare.net/x00mario"
+        "url": "https://www.slideshare.net/x00mario"
       },
       "category": "clickjacking",
       "type": "article",
@@ -2058,11 +2058,11 @@
     },
     {
       "id": "command-injection-ruby-open",
-      "url": "http://www.lanches.co.jp/blog/5996",
+      "url": "https://www.lanches.co.jp/blog/5996",
       "title": "rubyでopenコマンドを使用するときに気をつけること",
       "author": {
         "name": "金子 将範",
-        "url": "http://www.lanches.co.jp/author/rubyist"
+        "url": "https://www.lanches.co.jp/author/rubyist"
       },
       "category": "command-injection",
       "type": "article",
@@ -2157,7 +2157,7 @@
     },
     {
       "id": "community-stack-overflow",
-      "url": "http://stackoverflow.com/questions/tagged/security",
+      "url": "https://stackoverflow.com/questions/tagged/security",
       "title": "Stack Overflow",
       "author": null,
       "category": "community",
@@ -2238,11 +2238,11 @@
     },
     {
       "id": "csrf-csrf",
-      "url": "http://blog.techbridge.cc/2017/02/25/csrf-introduction/",
+      "url": "https://blog.techbridge.cc/2017/02/25/csrf-introduction/",
       "title": "讓我們來談談 CSRF",
       "author": {
         "name": "TechBridge",
-        "url": "http://blog.techbridge.cc/"
+        "url": "https://blog.techbridge.cc/"
       },
       "category": "csrf",
       "type": "article",
@@ -2299,11 +2299,11 @@
     },
     {
       "id": "csv-injection-the-absurdly-underestimated-dangers-of-csv-injecti",
-      "url": "http://georgemauer.net/2017/10/07/csv-injection.html",
+      "url": "https://georgemauer.net/2017/10/07/csv-injection.html",
       "title": "The Absurdly Underestimated Dangers of CSV Injection",
       "author": {
         "name": "George Mauer",
-        "url": "http://georgemauer.net/"
+        "url": "https://georgemauer.net/"
       },
       "category": "csv-injection",
       "type": "article",
@@ -2693,7 +2693,7 @@
       "title": "腾讯玄武实验室安全动态推送",
       "author": {
         "name": "腾讯玄武实验室",
-        "url": "http://xlab.tencent.com/cn/"
+        "url": "https://xlab.tencent.com/cn/"
       },
       "category": "digests",
       "type": "article",
@@ -2851,7 +2851,7 @@
     },
     {
       "id": "evasions-authentication-trend-micro-threat-discovery-appliance-session-gen",
-      "url": "http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html",
+      "url": "https://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html",
       "title": "Trend Micro Threat Discovery Appliance - Session Generation Authentication Bypass (CVE-2016-8584)",
       "author": {
         "name": "@malerisch",
@@ -2893,11 +2893,11 @@
     },
     {
       "id": "evasions-csp-twitter-xss-csp-bypass",
-      "url": "http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html",
+      "url": "https://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html",
       "title": "TWITTER XSS + CSP BYPASS",
       "author": {
         "name": "Paulos Yibelo",
-        "url": "http://www.paulosyibelo.com/"
+        "url": "https://www.paulosyibelo.com/"
       },
       "category": "evasions-csp",
       "type": "article",
@@ -3038,11 +3038,11 @@
     },
     {
       "id": "evasions-jsmvc-javascript-mvc-and-templating-frameworks",
-      "url": "http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks",
+      "url": "https://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks",
       "title": "JavaScript MVC and Templating Frameworks",
       "author": {
         "name": "Mario Heiderich",
-        "url": "http://www.slideshare.net/x00mario"
+        "url": "https://www.slideshare.net/x00mario"
       },
       "category": "evasions-jsmvc",
       "type": "article",
@@ -3363,7 +3363,7 @@
     },
     {
       "id": "evasions-xxe-xxe-in-wechat-pay-sdk-wechat-leave-a-backdoor-on-m",
-      "url": "http://seclists.org/fulldisclosure/2018/Jul/3",
+      "url": "https://seclists.org/fulldisclosure/2018/Jul/3",
       "title": "XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)",
       "author": {
         "name": "Rose Jackcode",
@@ -3383,11 +3383,11 @@
     },
     {
       "id": "fingerprint-web",
-      "url": "http://www.freebuf.com/articles/web/127266.html",
+      "url": "https://www.freebuf.com/articles/web/127266.html",
       "title": "浅谈Web客户端追踪",
       "author": {
         "name": "arkteam",
-        "url": "http://www.freebuf.com/author/arkteam"
+        "url": "https://www.freebuf.com/author/arkteam"
       },
       "category": "fingerprint",
       "type": "article",
@@ -3442,7 +3442,7 @@
     },
     {
       "id": "forums-freebuf",
-      "url": "http://www.freebuf.com/",
+      "url": "https://www.freebuf.com/",
       "title": "Freebuf",
       "author": {
         "name": "Freebuf is the most popular forum in China for exchanging and sharing hacking te",
@@ -3501,7 +3501,7 @@
     },
     {
       "id": "forums-phrack-magazine",
-      "url": "http://www.phrack.org/",
+      "url": "https://www.phrack.org/",
       "title": "Phrack Magazine",
       "author": null,
       "category": "forums",
@@ -3580,7 +3580,7 @@
     },
     {
       "id": "forums-the-register",
-      "url": "http://www.theregister.co.uk/",
+      "url": "https://www.theregister.co.uk/",
       "title": "The Register",
       "author": {
         "name": "Biting the hand that feeds IT",
@@ -3839,11 +3839,11 @@
     },
     {
       "id": "miscellaneous-brute-forcing-your-facebook-email-and-phone-number",
-      "url": "http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html",
+      "url": "https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html",
       "title": "Brute Forcing Your Facebook Email and Phone Number",
       "author": {
         "name": "PwnDizzle",
-        "url": "http://pwndizzle.blogspot.jp/"
+        "url": "https://pwndizzle.blogspot.jp/"
       },
       "category": "miscellaneous",
       "type": "article",
@@ -3965,7 +3965,7 @@
     },
     {
       "id": "miscellaneous-pentest-exploit-dev-cheatsheet-wallpaper",
-      "url": "http://i.imgur.com/Mr9pvq9.jpg",
+      "url": "https://i.imgur.com/Mr9pvq9.jpg",
       "title": "Pentest + Exploit dev Cheatsheet wallpaper",
       "author": {
         "name": "Penetration Testing and Exploit Dev CheatSheet",
@@ -3986,7 +3986,7 @@
     },
     {
       "id": "miscellaneous-the-definitive-security-data-science-and-machine-l",
-      "url": "http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/",
+      "url": "https://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/",
       "title": "The Definitive Security Data Science and Machine Learning Guide",
       "author": {
         "name": "JASON TROS",
@@ -4070,11 +4070,11 @@
     },
     {
       "id": "miscellaneous-ip",
-      "url": "http://devco.re/blog/2014/06/19/client-ip-detection/",
+      "url": "https://devco.re/blog/2014/06/19/client-ip-detection/",
       "title": "如何正確的取得使用者 IP ？",
       "author": {
         "name": "Allen Own",
-        "url": "http://devco.re/blog/author/allenown"
+        "url": "https://devco.re/blog/author/allenown"
       },
       "category": "miscellaneous",
       "type": "article",
@@ -4444,11 +4444,11 @@
     },
     {
       "id": "miscellaneous-the-bug-bounty-program-that-changed-my-life",
-      "url": "http://10degres.net/the-bug-bounty-program-that-changed-my-life/",
+      "url": "https://10degres.net/the-bug-bounty-program-that-changed-my-life/",
       "title": "The bug bounty program that changed my life",
       "author": {
         "name": "Gwen",
-        "url": "http://10degres.net/"
+        "url": "https://10degres.net/"
       },
       "category": "miscellaneous",
       "type": "article",
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "orm-injection-hql-for-pentesters",
-      "url": "http://blog.h3xstream.com/2014/02/hql-for-pentesters.html",
+      "url": "https://blog.h3xstream.com/2014/02/hql-for-pentesters.html",
       "title": "HQL for pentesters",
       "author": {
         "name": "@h3xstream",
@@ -5090,7 +5090,7 @@
     },
     {
       "id": "practices-application-selinux-game",
-      "url": "http://selinuxgame.org/",
+      "url": "https://selinuxgame.org/",
       "title": "SELinux Game",
       "author": {
         "name": "@selinuxgame",
@@ -5132,7 +5132,7 @@
     },
     {
       "id": "practices-application-hackxor",
-      "url": "http://hackxor.net/",
+      "url": "https://hackxor.net/",
       "title": "Hackxor",
       "author": {
         "name": "@albinowax",
@@ -5454,11 +5454,11 @@
     },
     {
       "id": "rails-rails",
-      "url": "http://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/",
+      "url": "https://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/",
       "title": "Rails 動態樣板路徑的風險",
       "author": {
         "name": "Shaolin",
-        "url": "http://devco.re/blog/author/shaolin/"
+        "url": "https://devco.re/blog/author/shaolin/"
       },
       "category": "rails",
       "type": "article",
@@ -5473,7 +5473,7 @@
     },
     {
       "id": "rails-official-rails-security-guide",
-      "url": "http://guides.rubyonrails.org/security.html",
+      "url": "https://guides.rubyonrails.org/security.html",
       "title": "Official Rails Security Guide",
       "author": {
         "name": "Rails team",
@@ -5744,11 +5744,11 @@
     },
     {
       "id": "sql-injection-github-enterprise-sql-injection",
-      "url": "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "url": "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
       "title": "GitHub Enterprise SQL Injection",
       "author": {
         "name": "Orange",
-        "url": "http://blog.orange.tw/"
+        "url": "https://blog.orange.tw/"
       },
       "category": "sql-injection",
       "type": "article",
@@ -5831,7 +5831,7 @@
       "title": "SQL injection in an UPDATE query - a bug bounty story!",
       "author": {
         "name": "Zombiehelp54",
-        "url": "http://zombiehelp54.blogspot.jp/"
+        "url": "https://zombiehelp54.blogspot.jp/"
       },
       "category": "sql-injection",
       "type": "article",
@@ -5866,11 +5866,11 @@
     },
     {
       "id": "sql-injection-waf-sql",
-      "url": "http://www.freebuf.com/articles/web/36683.html",
+      "url": "https://www.freebuf.com/articles/web/36683.html",
       "title": "见招拆招：绕过WAF继续SQL注入常用方法",
       "author": {
         "name": "mikey",
-        "url": "http://www.freebuf.com/author/mikey"
+        "url": "https://www.freebuf.com/author/mikey"
       },
       "category": "sql-injection",
       "type": "article",
@@ -5885,11 +5885,11 @@
     },
     {
       "id": "sql-injection-error-based-sql-injection-mysql",
-      "url": "http://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/",
+      "url": "https://dogewatch.github.io/2017/02/27/mysql-Error-Based-Injection/",
       "title": "Error Based SQL Injection - MySQL",
       "author": {
         "name": "DogeWatch",
-        "url": "http://dogewatch.github.io/"
+        "url": "https://dogewatch.github.io/"
       },
       "category": "sql-injection",
       "type": "article",
@@ -6276,7 +6276,7 @@
     },
     {
       "id": "tools-decompiler-cfr",
-      "url": "http://www.benf.org/other/cfr/",
+      "url": "https://www.benf.org/other/cfr/",
       "title": "CFR",
       "author": {
         "name": "@LeeAtBenf",
@@ -6385,7 +6385,7 @@
       "title": "sqlchop",
       "author": {
         "name": "chaitin",
-        "url": "http://chaitin.com"
+        "url": "https://chaitin.com"
       },
       "category": "tools-detecting",
       "type": "tool",
@@ -6406,7 +6406,7 @@
       "title": "xsschop",
       "author": {
         "name": "chaitin",
-        "url": "http://chaitin.com"
+        "url": "https://chaitin.com"
       },
       "category": "tools-detecting",
       "type": "tool",
@@ -6427,7 +6427,7 @@
       "title": "重大漏洞在线检测系统",
       "author": {
         "name": "杭州安恒信息技术有限公司",
-        "url": "http://www.dbappsecurity.com.cn/"
+        "url": "https://www.dbappsecurity.com.cn/"
       },
       "category": "tools-detecting",
       "type": "tool",
@@ -7066,7 +7066,7 @@
       "title": "FOFA",
       "author": {
         "name": "BAIMAOHUI",
-        "url": "http://baimaohui.net/"
+        "url": "https://baimaohui.net/"
       },
       "category": "tools-osint",
       "type": "tool",
@@ -7086,7 +7086,7 @@
       "title": "FOFA",
       "author": {
         "name": "白帽汇",
-        "url": "http://baimaohui.net/"
+        "url": "https://baimaohui.net/"
       },
       "category": "tools-osint",
       "type": "tool",
@@ -7164,7 +7164,7 @@
     },
     {
       "id": "tools-osint-spiderfoot",
-      "url": "http://www.spiderfoot.net/",
+      "url": "https://www.spiderfoot.net/",
       "title": "SpiderFoot",
       "author": {
         "name": "@binarypool",
@@ -7294,7 +7294,7 @@
       "title": "傻蛋联网设备搜索",
       "author": {
         "name": "@傻蛋搜索",
-        "url": "http://weibo.com/shadansou"
+        "url": "https://weibo.com/shadansou"
       },
       "category": "tools-osint",
       "type": "tool",
@@ -7718,7 +7718,7 @@
       "title": "grayhatwarfare",
       "author": {
         "name": "grayhatwarfare",
-        "url": "http://www.grayhatwarfare.com/"
+        "url": "https://www.grayhatwarfare.com/"
       },
       "category": "tools-penetration-testing",
       "type": "tool",
@@ -8803,7 +8803,7 @@
       "title": "csp evaluator",
       "author": {
         "name": "Csper",
-        "url": "http://csper.io"
+        "url": "https://csper.io"
       },
       "category": "tools-xss",
       "type": "tool",
@@ -9043,11 +9043,11 @@
     },
     {
       "id": "tricks-nosql-injection-graphql-nosql-injection-through-json-types",
-      "url": "http://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/",
+      "url": "https://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/",
       "title": "GraphQL NoSQL Injection Through JSON Types",
       "author": {
         "name": "Pete",
-        "url": "http://www.petecorey.com/work/"
+        "url": "https://www.petecorey.com/work/"
       },
       "category": "tricks-nosql-injection",
       "type": "article",
@@ -9406,11 +9406,11 @@
     },
     {
       "id": "tricks-rce-how-i-chained-4-vulnerabilities-on-github-enterpri",
-      "url": "http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
+      "url": "https://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
       "title": "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!",
       "author": {
         "name": "Orange",
-        "url": "http://blog.orange.tw/"
+        "url": "https://blog.orange.tw/"
       },
       "category": "tricks-rce",
       "type": "article",
@@ -9448,11 +9448,11 @@
     },
     {
       "id": "tricks-rce-php-uaf",
-      "url": "http://www.freebuf.com/vuls/122938.html",
+      "url": "https://www.freebuf.com/vuls/122938.html",
       "title": "PHP垃圾回收机制UAF漏洞分析",
       "author": {
         "name": "ph1re",
-        "url": "http://www.freebuf.com/author/ph1re"
+        "url": "https://www.freebuf.com/author/ph1re"
       },
       "category": "tricks-rce",
       "type": "article",
@@ -9670,11 +9670,11 @@
     },
     {
       "id": "tricks-sql-injection-github-enterprise-sql-injection",
-      "url": "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "url": "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
       "title": "GitHub Enterprise SQL Injection",
       "author": {
         "name": "Orange",
-        "url": "http://blog.orange.tw/"
+        "url": "https://blog.orange.tw/"
       },
       "category": "tricks-sql-injection",
       "type": "article",
@@ -9693,7 +9693,7 @@
       "title": "SQL injection in an UPDATE query - a bug bounty story!",
       "author": {
         "name": "Zombiehelp54",
-        "url": "http://zombiehelp54.blogspot.jp/"
+        "url": "https://zombiehelp54.blogspot.jp/"
       },
       "category": "tricks-sql-injection",
       "type": "article",
@@ -9788,7 +9788,7 @@
       "title": "A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!",
       "author": {
         "name": "Orange",
-        "url": "http://blog.orange.tw/"
+        "url": "https://blog.orange.tw/"
       },
       "category": "tricks-ssrf",
       "type": "article",
@@ -9847,11 +9847,11 @@
     },
     {
       "id": "tricks-ssrf-ssrf-ip",
-      "url": "http://www.freebuf.com/articles/web/135342.html",
+      "url": "https://www.freebuf.com/articles/web/135342.html",
       "title": "SSRF漏洞中绕过IP限制的几种方法总结",
       "author": {
         "name": "arkteam",
-        "url": "http://www.freebuf.com/author/arkteam"
+        "url": "https://www.freebuf.com/author/arkteam"
       },
       "category": "tricks-ssrf",
       "type": "article",
@@ -9969,11 +9969,11 @@
     },
     {
       "id": "tricks-ssrf-aws-takeover-through-ssrf-in-javascript",
-      "url": "http://10degres.net/aws-takeover-through-ssrf-in-javascript/",
+      "url": "https://10degres.net/aws-takeover-through-ssrf-in-javascript/",
       "title": "AWS takeover through SSRF in JavaScript",
       "author": {
         "name": "Gwen",
-        "url": "http://10degres.net/"
+        "url": "https://10degres.net/"
       },
       "category": "tricks-ssrf",
       "type": "article",
@@ -10057,7 +10057,7 @@
       "title": "URL Hacking - 前端猥琐流",
       "author": {
         "name": "0x_Jin",
-        "url": "http://xssec.lofter.com/"
+        "url": "https://xssec.lofter.com/"
       },
       "category": "tricks-url",
       "type": "article",
@@ -10093,11 +10093,11 @@
     },
     {
       "id": "tricks-url-dev-twitter-com-xss",
-      "url": "http://blog.blackfan.ru/2017/09/devtwittercom-xss.html",
+      "url": "https://blog.blackfan.ru/2017/09/devtwittercom-xss.html",
       "title": "[dev.twitter.com] XSS",
       "author": {
         "name": "Sergey Bobrov",
-        "url": "http://blog.blackfan.ru/"
+        "url": "https://blog.blackfan.ru/"
       },
       "category": "tricks-url",
       "type": "article",
@@ -10192,11 +10192,11 @@
     },
     {
       "id": "tricks-xss-ecmascript-6-from-an-attackers-perspective-breakin",
-      "url": "http://www.slideshare.net/x00mario/es6-en",
+      "url": "https://www.slideshare.net/x00mario/es6-en",
       "title": "ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else",
       "author": {
         "name": "Mario Heiderich",
-        "url": "http://www.slideshare.net/x00mario"
+        "url": "https://www.slideshare.net/x00mario"
       },
       "category": "tricks-xss",
       "type": "article",
@@ -10255,11 +10255,11 @@
     },
     {
       "id": "tricks-xss-uber-xss-via-cookie",
-      "url": "http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/",
+      "url": "https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/",
       "title": "Uber XSS via Cookie",
       "author": {
         "name": "zhchbin",
-        "url": "http://zhchbin.github.io/"
+        "url": "https://zhchbin.github.io/"
       },
       "category": "tricks-xss",
       "type": "article",
@@ -10381,7 +10381,7 @@
       "title": "DOM XSS – auth.uber.com",
       "author": {
         "name": "StamOne_",
-        "url": "http://stamone-bug-bounty.blogspot.tw/"
+        "url": "https://stamone-bug-bounty.blogspot.tw/"
       },
       "category": "tricks-xss",
       "type": "article",
@@ -10737,7 +10737,7 @@
     },
     {
       "id": "tricks-xxe-xxe-in-wechat-pay-sdk-wechat-leave-a-backdoor-on-m",
-      "url": "http://seclists.org/fulldisclosure/2018/Jul/3",
+      "url": "https://seclists.org/fulldisclosure/2018/Jul/3",
       "title": "XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)",
       "author": {
         "name": "Rose Jackcode",
@@ -11115,7 +11115,7 @@
       "title": "Webmail-Hacking",
       "author": {
         "name": "千域千寻",
-        "url": "http://blog.csdn.net/f1n4lly/"
+        "url": "https://blog.csdn.net/f1n4lly/"
       },
       "category": "webmail",
       "type": "article",
@@ -11233,11 +11233,11 @@
     },
     {
       "id": "xss-the-big-bad-wolf-xss-and-maintaining-access",
-      "url": "http://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html",
+      "url": "https://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html",
       "title": "THE BIG BAD WOLF - XSS AND MAINTAINING ACCESS",
       "author": {
         "name": "Paulos Yibelo",
-        "url": "http://www.paulosyibelo.com/"
+        "url": "https://www.paulosyibelo.com/"
       },
       "category": "xss",
       "type": "article",
@@ -11378,7 +11378,7 @@
     },
     {
       "id": "xxe-xml",
-      "url": "http://www.freebuf.com/video/49961.html",
+      "url": "https://www.freebuf.com/video/49961.html",
       "title": "XML实体攻击 - 从内网探测到命令执行步步惊心",
       "author": {
         "name": "张天琪",
