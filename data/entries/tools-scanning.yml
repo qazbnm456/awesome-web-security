@@ -34,6 +34,22 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam)."
+  - id: tools-scanning-wp2shell-detect
+    url: "https://github.com/own2pwn-fr/wp2shell-detect"
+    title: wp2shell-detect
+    author:
+      name: "@own2pwn-fr"
+      url: "https://github.com/own2pwn-fr"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Blackbox, non-intrusive detector for the wp2shell pre-auth RCE chain in WordPress core (CVE-2026-63030 / CVE-2026-60137); fingerprints the core version from public sources and flags vulnerable ranges without ever exploiting the flaw."
   - id: tools-scanning-wascan
     url: "https://github.com/m4ll0k/WAScan"
     title: WAScan
