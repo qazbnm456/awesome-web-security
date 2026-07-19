@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-18T15:08:54Z",
+  "generated_at": "2026-07-19T16:52:05Z",
   "categories": [
     {
       "key": "digests",
@@ -4727,6 +4727,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "oauth-verification-path-map",
+      "url": "https://mordiaky.github.io/oauth-preflight/",
+      "title": "OAuth Verification Path Map",
+      "author": {
+        "name": "mordiaky",
+        "url": "https://github.com/mordiaky"
+      },
+      "category": "oauth",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-19",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

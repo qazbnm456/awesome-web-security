@@ -379,6 +379,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [What is going on with OAuth 2.0? And why you should not use it for authentication.](https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611) - Written by [@damianrusinek](https://medium.com/@damianrusinek).
 - [Introduction to OAuth 2.0 and OpenID Connect](https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html) - Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck).
+- [OAuth Verification Path Map](https://mordiaky.github.io/oauth-preflight/) - A free, static, client-side quiz that classifies which Google OAuth app-verification path an app is likely on (no verification / brand review / restricted-scope CASA security assessment), with a dated official Google or App Defense Alliance source for every rule.
 
 <a name="jwt"></a>
 ### JWT

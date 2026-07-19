@@ -66,3 +66,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck)."
+  - id: oauth-verification-path-map
+    url: "https://mordiaky.github.io/oauth-preflight/"
+    title: OAuth Verification Path Map
+    author:
+      name: "mordiaky"
+      url: "https://github.com/mordiaky"
+    category: oauth
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-19"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A free, static, client-side quiz that classifies which Google OAuth app-verification path an app is likely on (no verification / brand review / restricted-scope CASA security assessment), with a dated official Google or App Defense Alliance source for every rule"
