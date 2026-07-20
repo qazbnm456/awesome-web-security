@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-18T15:08:54Z",
+  "generated_at": "2026-07-20T11:27:24Z",
   "categories": [
     {
       "key": "digests",
@@ -8292,6 +8292,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-admintoolkit-io",
+      "url": "https://admintoolkit.io/",
+      "title": "admintoolkit.io",
+      "author": {
+        "name": "admintoolkit.io",
+        "url": "https://admintoolkit.io/"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-20",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
