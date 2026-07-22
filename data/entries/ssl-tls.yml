@@ -34,3 +34,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@Hakky54](https://github.com/Hakky54)."
+  - id: ssl-tls-state-of-tls-on-the-public-web
+    url: "https://securemonk.io/insights/state-of-tls"
+    title: State of TLS on the public web
+    author:
+      name: SecureMonk
+      url: "https://securemonk.io"
+    category: ssl-tls
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-21"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Live-data research across thousands of scanned hosts: protocol adoption, the TLS-versus-headers maturity gap, ECDSA drawing even with RSA, certificate lifetimes against the CA/B Forum 47-day schedule, and the end of OCSP stapling. Figures recompute from the scan corpus on each load."
