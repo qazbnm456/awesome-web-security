@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-18T15:08:54Z",
+  "generated_at": "2026-07-24T18:00:01Z",
   "categories": [
     {
       "key": "digests",
@@ -8040,6 +8040,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260603160905/https://www.crowdsec.net/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-poszo-nextjs-security-headers",
+      "url": "https://github.com/poszothebuilder/poszo-nextjs-security-headers",
+      "title": "Poszo Next.js Security Headers Starter",
+      "author": {
+        "name": "Poszo",
+        "url": "https://github.com/poszothebuilder"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-24",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
