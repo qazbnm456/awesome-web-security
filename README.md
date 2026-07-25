@@ -784,6 +784,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [CrowdSec](https://www.crowdsec.net/) - Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity).
 - [Laravel CSP Generator](https://csp-generator.shakiltech.com) - Interactive Content Security Policy builder for Laravel that outputs ready-to-use PHP middleware with nonce support and violation reporting, by [@itxshakil](https://github.com/itxshakil).
 - [verifyfetch](https://github.com/hamzaydia/verifyfetch) - Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks, by [@hamzaydia](https://github.com/hamzaydia).
+- [kd-screen-guard](https://github.com/KhvichaDev/kd-screen-guard) - Standalone, zero-dependency, tamper-proof lock screen library with WebAuthn biometrics, WebRTC intruder snapshot, PBKDF2 cryptography, and self-healing DOM protection by [@KhvichaDev](https://github.com/KhvichaDev).
 
 <a name="tools-proxy"></a>
 ### Proxy
