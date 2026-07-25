@@ -194,3 +194,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity)."
+  - id: tools-preventing-kd-screen-guard
+    url: "https://github.com/KhvichaDev/kd-screen-guard"
+    title: kd-screen-guard
+    author:
+      name: "@KhvichaDev"
+      url: "https://github.com/KhvichaDev"
+    category: tools-preventing
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-25"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Standalone, zero-dependency, tamper-proof lock screen library with WebAuthn biometrics, WebRTC intruder snapshot, PBKDF2 cryptography, and self-healing DOM protection, by [@KhvichaDev](https://github.com/KhvichaDev)."
