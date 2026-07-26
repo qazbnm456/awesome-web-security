@@ -305,6 +305,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
 - [Practical introduction to SSL/TLS](https://github.com/Hakky54/mutual-tls-ssl) - Written by [@Hakky54](https://github.com/Hakky54).
+- [State of TLS on the public web](https://securemonk.io/insights/state-of-tls) - Live-data research across thousands of scanned hosts: protocol adoption, the TLS-versus-headers maturity gap, ECDSA drawing even with RSA, certificate lifetimes against the CA/B Forum 47-day schedule, and the end of OCSP stapling. Figures recompute from the scan corpus on each load.
 
 <a name="webmail"></a>
 ### Webmail

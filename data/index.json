@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T07:16:41Z",
+  "generated_at": "2026-07-26T07:17:22Z",
   "categories": [
     {
       "key": "digests",
@@ -6081,6 +6081,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-05",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "ssl-tls-state-of-tls-on-the-public-web",
+      "url": "https://securemonk.io/insights/state-of-tls",
+      "title": "State of TLS on the public web",
+      "author": {
+        "name": "SecureMonk",
+        "url": "https://securemonk.io"
+      },
+      "category": "ssl-tls",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-21",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
