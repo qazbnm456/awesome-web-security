@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-18T15:08:54Z",
+  "generated_at": "2026-07-26T07:14:08Z",
   "categories": [
     {
       "key": "digests",
@@ -2480,6 +2480,25 @@
       "difficulty": "intermediate",
       "date_added": "2020-08-09",
       "archive_url": "https://web.archive.org/web/20260512014343/https://www.synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "deserialization-altus-ix-developer-xaml-deserialization-rce",
+      "url": "https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce",
+      "title": "Altus iX Developer XAML Deserialization RCE",
+      "author": {
+        "name": "0day Rubbish",
+        "url": "https://github.com/Exploit-Garbage/0day-Rubbish"
+      },
+      "category": "deserialization",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "advanced",
+      "date_added": "2026-07-22",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
