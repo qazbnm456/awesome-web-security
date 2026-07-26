@@ -98,3 +98,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT)."
+  - id: practices-application-nextjs-security-headers-pitfall
+    url: "https://poszo.com/security/nextjs-headers-pitfall"
+    title: The Next.js security-headers pitfall
+    author:
+      name: Poszo
+      url: "https://poszo.com"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-07-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow."

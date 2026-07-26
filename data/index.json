@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T07:27:28Z",
+  "generated_at": "2026-07-26T08:09:10Z",
   "categories": [
     {
       "key": "digests",
@@ -5230,6 +5230,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512185924/https://github.com/kOaDT/oss-oopssec-store",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-nextjs-security-headers-pitfall",
+      "url": "https://poszo.com/security/nextjs-headers-pitfall",
+      "title": "The Next.js security-headers pitfall",
+      "author": {
+        "name": "Poszo",
+        "url": "https://poszo.com"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-07-26",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
