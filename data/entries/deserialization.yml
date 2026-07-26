@@ -125,7 +125,7 @@ entries:
     languages: [en]
     difficulty: advanced
     date_added: "2026-07-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260726071539/https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce"
     last_checked: null
     fingerprint: null
     status: active

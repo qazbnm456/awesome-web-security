@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T07:17:22Z",
+  "generated_at": "2026-07-26T07:27:28Z",
   "categories": [
     {
       "key": "digests",
@@ -2498,7 +2498,7 @@
       ],
       "difficulty": "advanced",
       "date_added": "2026-07-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726071539/https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce",
       "last_checked": null,
       "status": "active"
     },
@@ -7972,7 +7972,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726072711/https://github.com/WebDecoy/FCaptcha",
       "last_checked": null,
       "status": "active"
     },
@@ -11410,7 +11410,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-05-14",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726072631/https://blog.shakiltech.com/laravel-content-security-policy-guide/",
       "last_checked": null,
       "status": "active"
     },

@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2026-05-14"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260726072631/https://blog.shakiltech.com/laravel-content-security-policy-guide/"
     last_checked: null
     fingerprint: null
     status: active
