@@ -875,6 +875,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [OWASP Juice Shop](https://github.com/juice-shop/juice-shop) - Probably the most modern and sophisticated insecure web application - Written by [@bkimminich](https://github.com/bkimminich) and the [@owasp_juiceshop](https://twitter.com/owasp_juiceshop) team.
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
 - [OopsSec Store](https://github.com/kOaDT/oss-oopssec-store) - Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT).
+- [The Next.js security-headers pitfall](https://poszo.com/security/nextjs-headers-pitfall) - Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow.
 
 <a name="practices-aws"></a>
 ### AWS
