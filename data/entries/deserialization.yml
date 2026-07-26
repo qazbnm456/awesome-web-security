@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@synacktiv](https://twitter.com/synacktiv)."
+  - id: deserialization-altus-ix-developer-xaml-deserialization-rce
+    url: "https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce"
+    title: Altus iX Developer XAML Deserialization RCE
+    author:
+      name: 0day Rubbish
+      url: "https://github.com/Exploit-Garbage/0day-Rubbish"
+    category: deserialization
+    type: article
+    languages: [en]
+    difficulty: advanced
+    date_added: "2026-07-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Root-cause analysis and reproducible PoC for a XAML deserialization RCE (CVSS 7.3) in a SCADA HMI engineering IDE, including affected versions and a self-contained exploit script, published by [0day Rubbish](https://github.com/Exploit-Garbage/0day-Rubbish)."
