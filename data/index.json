@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-18T15:08:54Z",
+  "generated_at": "2026-07-26T07:16:41Z",
   "categories": [
     {
       "key": "digests",
@@ -2484,6 +2484,25 @@
       "status": "active"
     },
     {
+      "id": "deserialization-altus-ix-developer-xaml-deserialization-rce",
+      "url": "https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce",
+      "title": "Altus iX Developer XAML Deserialization RCE",
+      "author": {
+        "name": "0day Rubbish",
+        "url": "https://github.com/Exploit-Garbage/0day-Rubbish"
+      },
+      "category": "deserialization",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "advanced",
+      "date_added": "2026-07-22",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "digests-ctf-field-guide",
       "url": "https://trailofbits.github.io/ctf/",
       "title": "CTF Field Guide",
@@ -2529,7 +2548,7 @@
       "title": "Hacker101",
       "author": {
         "name": "hackerone",
-        "url": "https://www.hackerone.com/start-hacking"
+        "url": "http://web.archive.org/web/20200630164946/https://www.hackerone.com/start-hacking"
       },
       "category": "digests",
       "type": "article",
@@ -2613,7 +2632,7 @@
       "title": "The Magic of Learning",
       "author": {
         "name": "@bitvijays",
-        "url": "https://bitvijays.github.io/aboutme.html"
+        "url": "http://web.archive.org/web/20230519134723/https://bitvijays.github.io/aboutme.html"
       },
       "category": "digests",
       "type": "article",

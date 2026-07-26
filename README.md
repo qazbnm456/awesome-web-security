@@ -144,11 +144,11 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ## Digests
 
 - [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
-- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](https://www.hackerone.com/start-hacking).
+- [Hacker101](https://www.hacker101.com/) - Written by [hackerone](http://web.archive.org/web/20200630164946/https://www.hackerone.com/start-hacking).
 - [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 - [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
-- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](https://bitvijays.github.io/aboutme.html).
+- [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](http://web.archive.org/web/20230519134723/https://bitvijays.github.io/aboutme.html).
 - [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
 - [tl;dr sec](https://tldrsec.com/) - Weekly summary of top security tools, blog posts, and security research.
 
@@ -373,6 +373,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Attacking .NET deserialization](https://www.youtube.com/watch?v=eDfGpu3iE4Q) - Written by [@pwntester](https://twitter.com/pwntester).
 - [How to exploit the DotNetNuke Cookie Deserialization](https://pentest-tools.com/blog/exploit-dotnetnuke-cookie-deserialization/) - Written by [CRISTIAN CORNEA](https://pentest-tools.com/blog/author/pentest-cristian/).
 - [HOW TO EXPLOIT LIFERAY CVE-2020-7961 : QUICK JOURNEY TO POC](https://www.synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html) - Written by [@synacktiv](https://twitter.com/synacktiv).
+- [Altus iX Developer XAML Deserialization RCE](https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce) - Root-cause analysis and reproducible PoC for a XAML deserialization RCE (CVSS 7.3) in a SCADA HMI engineering IDE, including affected versions and a self-contained exploit script, published by [0day Rubbish](https://github.com/Exploit-Garbage/0day-Rubbish).
 
 <a name="oauth"></a>
 ### OAuth
