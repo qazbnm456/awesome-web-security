@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intro
     date_added: "2026-05-12"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260726072148/https://github.com/WebDecoy/wordpress-plugin"
     last_checked: null
     fingerprint: null
     status: active

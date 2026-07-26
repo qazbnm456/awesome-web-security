@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:09:10Z",
+  "generated_at": "2026-07-26T08:35:04Z",
   "categories": [
     {
       "key": "digests",
@@ -5248,7 +5248,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-07-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726083016/https://poszo.com/security/nextjs-headers-pitfall",
       "last_checked": null,
       "status": "active"
     },
@@ -6119,7 +6119,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-07-21",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726072233/https://securemonk.io/insights/state-of-tls",
       "last_checked": null,
       "status": "active"
     },
@@ -8012,7 +8012,7 @@
       ],
       "difficulty": "intro",
       "date_added": "2026-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260726072148/https://github.com/WebDecoy/wordpress-plugin",
       "last_checked": null,
       "status": "active"
     },
