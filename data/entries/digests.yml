@@ -39,7 +39,7 @@ entries:
     title: Hacker101
     author:
       name: hackerone
-      url: "https://www.hackerone.com/start-hacking"
+      url: "http://web.archive.org/web/20200630164946/https://www.hackerone.com/start-hacking"
     category: digests
     type: article
     languages: [en, zh, jp]
@@ -49,7 +49,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [hackerone](https://www.hackerone.com/start-hacking)."
+    raw_rest: "Written by [hackerone](http://web.archive.org/web/20200630164946/https://www.hackerone.com/start-hacking)."
   - id: digests-infosec-newbie
     url: "https://www.sneakymonkey.net/2017/04/23/infosec-newbie/"
     title: Infosec Newbie
@@ -103,7 +103,7 @@ entries:
     title: The Magic of Learning
     author:
       name: "@bitvijays"
-      url: "https://bitvijays.github.io/aboutme.html"
+      url: "http://web.archive.org/web/20230519134723/https://bitvijays.github.io/aboutme.html"
     category: digests
     type: article
     languages: [en, zh, jp]
@@ -113,7 +113,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Written by [@bitvijays](https://bitvijays.github.io/aboutme.html)."
+    raw_rest: "Written by [@bitvijays](http://web.archive.org/web/20230519134723/https://bitvijays.github.io/aboutme.html)."
   - id: digests-web-application-security-zone-by-netsparker
     url: "https://www.netsparker.com/blog/web-security/"
     title: Web Application Security Zone by Netsparker
