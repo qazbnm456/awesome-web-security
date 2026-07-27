@@ -162,3 +162,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+  - id: tools-scanning-onus
+    url: "https://github.com/maverickaayush/ONUS"
+    title: ONUS
+    author:
+      name: "@maverickaayush"
+      url: "https://github.com/maverickaayush"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-07-27"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Web vulnerability assessment platform that orchestrates multiple security scanners, normalizes findings, applies deterministic CVSS v3.1 scoring, and uses a local LLM to generate plain-English, step-by-step remediation guidance, by [@maverickaayush](https://github.com/maverickaayush)."
