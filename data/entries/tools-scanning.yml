@@ -162,3 +162,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+  - id: tools-scanning-hunterx
+    url: "https://github.com/nullc0d30/HunterX"
+    title: HunterX
+    author:
+      name: "@nullc0d30"
+      url: "https://github.com/nullc0d30"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-07-31"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Web application and API vulnerability scanner with optional AI-assisted analysis by [@nullc0d30](https://github.com/nullc0d30)."

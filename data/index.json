@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-07-31T04:27:12Z",
   "categories": [
     {
       "key": "digests",
@@ -8349,6 +8349,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-hunterx",
+      "url": "https://github.com/nullc0d30/HunterX",
+      "title": "HunterX",
+      "author": {
+        "name": "@nullc0d30",
+        "url": "https://github.com/nullc0d30"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-07-31",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
