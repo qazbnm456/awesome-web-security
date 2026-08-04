@@ -24,8 +24,14 @@ concurrency:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    # Skip our own bot commits so we don't loop on the [skip ci] commit
-    if: github.actor != 'github-actions[bot]'
+    # TWO independent gates, both required:
+    #   1. Fork guard — every fork inherits this `push: master` trigger, and the job has real side
+    #      effects outside its own repo (it submits URLs to the Wayback Machine) plus a bot commit and
+    #      a push. Mirrors the guard on health-link-check.yml; see its comment for the inbox story.
+    #   2. Skip our own bot commits so we don't loop on the [skip ci] commit.
+    if: >-
+      github.repository == 'qazbnm456/awesome-web-security'
+      && github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
         with:
