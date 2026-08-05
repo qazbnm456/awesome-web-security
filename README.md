@@ -176,6 +176,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [PayloadsAllTheThings - XSS Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 - [payloadbox/xss-payload-list](https://github.com/payloadbox/xss-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [Laravel Content Security Policy: Complete Implementation Guide](https://blog.shakiltech.com/laravel-content-security-policy-guide/) - Hands-on guide to implementing Content Security Policy in Laravel — nonce lifecycle, Vite and Livewire integration, violation reporting, and a pre-enforcement checklist, by [@itxshakil](https://github.com/itxshakil).
+- [Cross-Site Scripting (XSS) Testing Guide](https://qapractices.com/documentation/cross-site-scripting-xss-testing-guide/) - Practical guide to testing web applications for XSS vulnerabilities with real-world examples and checklists.
 
 <a name="prototype-pollution"></a>
 ### Prototype Pollution

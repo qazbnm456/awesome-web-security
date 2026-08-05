@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Hands-on guide to implementing Content Security Policy in Laravel — nonce lifecycle, Vite and Livewire integration, violation reporting, and a pre-enforcement checklist, by [@itxshakil](https://github.com/itxshakil)."
+  - id: qapractices-cross-site-scripting-xss-testing-guide
+    url: "https://qapractices.com/documentation/cross-site-scripting-xss-testing-guide/"
+    title: Cross-Site Scripting (XSS) Testing Guide
+    author:
+      name: QAPractices
+      url: "https://qapractices.com/"
+    category: xss
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-08-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Practical guide to testing web applications for XSS vulnerabilities with real-world examples and checklists."

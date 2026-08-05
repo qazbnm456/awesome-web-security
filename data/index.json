@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-08-05T11:41:24Z",
   "categories": [
     {
       "key": "digests",
@@ -11430,6 +11430,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260726072631/https://blog.shakiltech.com/laravel-content-security-policy-guide/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "qapractices-cross-site-scripting-xss-testing-guide",
+      "url": "https://qapractices.com/documentation/cross-site-scripting-xss-testing-guide/",
+      "title": "Cross-Site Scripting (XSS) Testing Guide",
+      "author": {
+        "name": "QAPractices",
+        "url": "https://qapractices.com/"
+      },
+      "category": "xss",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-08-05",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
