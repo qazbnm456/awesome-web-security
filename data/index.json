@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-08-05T11:53:34Z",
   "categories": [
     {
       "key": "digests",
@@ -4645,6 +4645,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260514053737/https://github.com/momenbasel/htb-writeups",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "qapractices-security-testing",
+      "url": "https://qapractices.com/topics/security-testing/",
+      "title": "Security Testing",
+      "author": {
+        "name": "QAPractices",
+        "url": "https://qapractices.com/"
+      },
+      "category": "miscellaneous",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-08-05",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
