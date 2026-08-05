@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-08-05T11:47:22Z",
   "categories": [
     {
       "key": "digests",
@@ -6058,6 +6058,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "qapractices-sql-injection-testing-guide",
+      "url": "https://qapractices.com/documentation/sql-injection-testing-guide/",
+      "title": "SQL Injection Testing Guide",
+      "author": {
+        "name": "QAPractices",
+        "url": "https://qapractices.com/"
+      },
+      "category": "sql-injection",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-08-05",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

@@ -199,6 +199,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [SQL Injection Wiki](https://sqlwiki.netspi.com/) - Written by [NETSPI](https://www.netspi.com/).
 - [PayloadsAllTheThings - SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 - [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
+- [SQL Injection Testing Guide](https://qapractices.com/documentation/sql-injection-testing-guide/) - Practical guide to testing web applications for SQL injection vulnerabilities with real-world examples and checklists.
 
 <a name="command-injection"></a>
 ### Command Injection

@@ -226,3 +226,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@denandz](https://github.com/denandz)."
+  - id: qapractices-sql-injection-testing-guide
+    url: "https://qapractices.com/documentation/sql-injection-testing-guide/"
+    title: SQL Injection Testing Guide
+    author:
+      name: QAPractices
+      url: "https://qapractices.com/"
+    category: sql-injection
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-08-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Practical guide to testing web applications for SQL injection vulnerabilities with real-world examples and checklists."
