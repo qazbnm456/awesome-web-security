@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow."
+  - id: qapractices-penetration-testing-guide
+    url: "https://qapractices.com/documentation/penetration-testing/"
+    title: Penetration Testing Guide
+    author:
+      name: QAPractices
+      url: "https://qapractices.com/"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-08-05"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Practical guide to web application penetration testing with real-world examples and checklists."

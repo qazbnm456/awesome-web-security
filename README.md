@@ -876,6 +876,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Portswigger Web Security Academy](https://portswigger.net/web-security) - Free trainings and labs - Written by [PortSwigger](https://portswigger.net/).
 - [OopsSec Store](https://github.com/kOaDT/oss-oopssec-store) - Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT).
 - [The Next.js security-headers pitfall](https://poszo.com/security/nextjs-headers-pitfall) - Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow.
+- [Penetration Testing Guide](https://qapractices.com/documentation/penetration-testing/) - Practical guide to web application penetration testing with real-world examples and checklists.
 
 <a name="practices-aws"></a>
 ### AWS
