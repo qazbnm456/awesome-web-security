@@ -785,6 +785,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [WebDecoy](https://github.com/WebDecoy/wordpress-plugin) - Zero-configuration WordPress bot-detection plugin combining WebDriver detection, headless-browser fingerprinting, behavioral analysis, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy).
 - [CrowdSec](https://www.crowdsec.net/) - Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity).
 - [Laravel CSP Generator](https://csp-generator.shakiltech.com) - Interactive Content Security Policy builder for Laravel that outputs ready-to-use PHP middleware with nonce support and violation reporting, by [@itxshakil](https://github.com/itxshakil).
+- [Nutilz CSP Generator](https://nutilz.com/csp-generator) - Free browser-based Content Security Policy builder: pick directives (script-src, style-src, frame-ancestors, etc.), apply presets like Strict Baseline or Next.js/React, and export a ready-to-use enforce or Report-Only header string. No signup required.
 - [verifyfetch](https://github.com/hamzaydia/verifyfetch) - Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks, by [@hamzaydia](https://github.com/hamzaydia).
 
 <a name="tools-proxy"></a>
