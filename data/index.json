@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-08-14T20:53:09Z",
   "categories": [
     {
       "key": "digests",
@@ -7428,6 +7428,25 @@
       "status": "active"
     },
     {
+      "id": "tools-osint-xquik",
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "title": "Xquik",
+      "author": {
+        "name": "Xquik",
+        "url": "https://github.com/Xquik-dev"
+      },
+      "category": "tools-osint",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-08-14",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "tools-osint-photon",
       "url": "https://github.com/s0md3v/Photon",
       "title": "Photon",
@@ -7492,11 +7511,11 @@
     },
     {
       "id": "tools-osint-social-mapper",
-      "url": "https://github.com/SpiderLabs/social_mapper",
+      "url": "https://github.com/Greenwolf/social_mapper",
       "title": "Social Mapper",
       "author": {
-        "name": "@SpiderLabs",
-        "url": "https://github.com/SpiderLabs"
+        "name": "Greenwolf",
+        "url": "https://github.com/Greenwolf"
       },
       "category": "tools-osint",
       "type": "tool",
