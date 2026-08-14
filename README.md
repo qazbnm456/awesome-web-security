@@ -615,6 +615,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
+- [supabase-rls-leak-demo](https://github.com/cekuu35/supabase-rls-leak-demo) - Read-only Postgres/Supabase Row-Level-Security audit (nine SELECT-only catalog queries) that flags RLS-off tables, permissive `USING(true)` policies and cross-tenant read/write leaks, plus a minimal reproducible leak-and-fix demo by [@cekuu35](https://github.com/cekuu35).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
