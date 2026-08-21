@@ -29,7 +29,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: qazbnm456/diff-sentry@v0.4.1
+      - uses: qazbnm456/diff-sentry@v0.4.2
         with:
           # `high` and above fail the check; `medium` and below are reported
           # in the job summary without gating the PR.
