@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-07-26T08:35:04Z",
+  "generated_at": "2026-08-21T05:20:38Z",
   "categories": [
     {
       "key": "digests",
@@ -8138,6 +8138,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-proxy-proxelar",
+      "url": "https://github.com/emanuele-em/proxelar",
+      "title": "Proxelar",
+      "author": {
+        "name": "@emanuele-em",
+        "url": "https://github.com/emanuele-em"
+      },
+      "category": "tools-proxy",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-07-30",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
