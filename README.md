@@ -792,6 +792,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Charles](https://www.charlesproxy.com/) - HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+- [Proxelar](https://github.com/emanuele-em/proxelar) - Single-binary intercepting proxy for HTTP, HTTPS, and WebSocket traffic that pauses and edits requests in flight, replays them, rewrites traffic with Lua hooks, and exports captures as HAR, curl, or raw HTTP, available as a terminal UI, web GUI, or headless REST API, by [@emanuele-em](https://github.com/emanuele-em).
 
 <a name="tools-webshell"></a>
 ### Webshell
