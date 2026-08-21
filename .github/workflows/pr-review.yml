@@ -42,7 +42,13 @@ jobs:
             git diff --stat README.md README-zh.md README-jp.md data/index.json
           fi
 
+      # Fork guard on THIS STEP ONLY, not the whole job. The verify steps above are pure/local and a
+      # fork owner benefits from them, so forks keep running those. This step is the one with side
+      # effects that escape the repo: it posts a review (pull-requests/issues: write) and spends the
+      # repo owner's GitHub Models quota (models: read). On an upstream PR — including one from a fork —
+      # `github.repository` is the BASE repo, so the intended path is unaffected.
       - name: Auto-review
+        if: github.repository == 'qazbnm456/awesome-web-security'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
