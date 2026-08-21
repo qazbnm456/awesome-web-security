@@ -1,25 +1,39 @@
 name: PR auto-review
 
+# Produces the review; never posts it. Publishing is done by
+# pr-review-publish.yml on a `workflow_run` trigger, which is the only way a
+# fork PR can be commented on without handing a write token to a workflow
+# that has checked out attacker-controlled code (`pull_request_target`).
+#
+# Before this split, fork PRs were graded into the void: GitHub downgrades
+# GITHUB_TOKEN to read-only for `pull_request` events from forks, so the
+# post/label calls returned 403 and the result only existed in the run log.
+# PR #219's broken link was caught that way and sat invisible for two weeks.
+
 on:
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
       - 'data/**'
+      - 'README.md'
+      - 'README-zh.md'
+      - 'README-jp.md'
       - 'scripts/generate.py'
       - 'scripts/verify_*.py'
 
 permissions:
   contents: read
-  pull-requests: write
-  issues: write
-  models: read
 
 concurrency:
   group: pr-review-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  review:
+  # Runs the PR's own code (generate.py, verify_*.py). Kept in a separate job
+  # from `grade` on purpose: this one executes whatever the contributor wrote,
+  # so it must not share a filesystem with the job whose artifact a privileged
+  # workflow later consumes.
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,21 +52,60 @@ jobs:
         run: |
           python3 scripts/generate.py
           if ! git diff --quiet README.md README-zh.md README-jp.md data/index.json; then
-            echo "::warning::generator output differs from committed README; rebase needed?"
+            echo "::warning::generator output differs from committed README; run scripts/generate.py"
             git diff --stat README.md README-zh.md README-jp.md data/index.json
           fi
 
-      # Fork guard on THIS STEP ONLY, not the whole job. The verify steps above are pure/local and a
-      # fork owner benefits from them, so forks keep running those. This step is the one with side
-      # effects that escape the repo: it posts a review (pull-requests/issues: write) and spends the
-      # repo owner's GitHub Models quota (models: read). On an upstream PR — including one from a fork —
-      # `github.repository` is the BASE repo, so the intended path is unaffected.
-      - name: Auto-review
-        if: github.repository == 'qazbnm456/awesome-web-security'
+  # Never executes code from the PR. Checks out the BASE branch, stashes the
+  # trusted scripts outside the worktree, and only then puts the PR's files on
+  # disk — where they are read as data, never run. Same pattern as
+  # pr-review-backlog.yml.
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Stash trusted scripts
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/awsec-trusted
+          cp -R scripts /tmp/awsec-trusted/scripts
+
+      - name: Check out the PR head as data
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          case "$PR_NUMBER" in
+            ''|*[!0-9]*) echo "malformed PR number"; exit 1 ;;
+          esac
+          git fetch origin "pull/${PR_NUMBER}/head:pr-head" --depth=50
+          git checkout pr-head
+
+      - name: Grade entries
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_BASE_REF: ${{ github.base_ref }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          REVIEW_MODE: post
-        run: python3 scripts/ci/pr_review.py
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          REVIEW_MODE: dryrun
+          GITHUB_OUTPUT_DIR: ${{ runner.temp }}/review-out
+        run: |
+          set -euo pipefail
+          rm -rf "$GITHUB_OUTPUT_DIR"
+          mkdir -p "$GITHUB_OUTPUT_DIR"
+          python3 /tmp/awsec-trusted/scripts/ci/pr_review.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr-review
+          path: ${{ runner.temp }}/review-out
+          if-no-files-found: ignore
+          retention-days: 3

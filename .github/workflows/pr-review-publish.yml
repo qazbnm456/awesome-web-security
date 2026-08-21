@@ -1,0 +1,56 @@
+name: PR auto-review (publish)
+
+# Posts what pr-review.yml graded. Runs on `workflow_run`, so it executes in
+# the BASE repo context with a write token even when the PR came from a fork —
+# the case `pull_request` cannot serve and `pull_request_target` would only
+# serve by handing that token to a workflow holding attacker-controlled code.
+#
+# The safety of this pattern rests on two rules, both enforced below:
+#   1. This workflow never checks out the PR. It reads one artifact and the
+#      base branch's own scripts, nothing else.
+#   2. The artifact is untrusted input. publish_review.py binds it to this
+#      run's head SHA, filters labels against an allowlist, and caps the body.
+
+on:
+  workflow_run:
+    workflows: ["PR auto-review"]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  publish:
+    # Forks inherit this workflow; without the repository guard a fork's own
+    # runs would try to comment on this repo's PRs. Also skips cancelled and
+    # failed producer runs, which have nothing to publish.
+    if: >-
+      github.repository == 'qazbnm456/awesome-web-security' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download the review artifact
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: pr-review
+          path: ${{ runner.temp }}/review
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          REVIEW_ARTIFACT_DIR: ${{ runner.temp }}/review
+          WORKFLOW_RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: python3 scripts/ci/publish_review.py

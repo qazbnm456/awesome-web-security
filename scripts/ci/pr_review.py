@@ -5,9 +5,13 @@ Runs in GitHub Actions on pull_request events that touch data/**.
 Grades each newly-added or modified YAML entry against RUBRIC.md, posts a
 single structured comment on the PR, and applies advisory labels.
 
-LLM inference goes through GitHub Models (free for public repos via
-`permissions: models: read`). When inference fails or quota is exhausted,
-falls back to deterministic format/reachability checks only.
+LLM inference went through GitHub Models, which GitHub retired entirely on
+2026-07-30: `models.github.ai` is gone and `permissions: models: read` no
+longer grants anything. Every call now fails and the bot runs on its
+deterministic path (reachability + format + local dedup), which is why the
+Depth and Fit dimensions report "skipped". Picking a replacement backend is
+tracked separately; the call sites below are left intact so that migration is
+a one-function change.
 
 Environment:
   GITHUB_TOKEN         provided by Actions; used for both Models + REST
@@ -15,6 +19,8 @@ Environment:
   PR_NUMBER            target pull request
   GITHUB_EVENT_PATH    JSON event payload (for diff context)
   REVIEW_MODE          "post" (default) | "dryrun" (artifact only, no PR comment)
+  PR_HEAD_SHA          head commit of the PR; binds a dryrun artifact to its run
+  GITHUB_OUTPUT_DIR    where dryrun writes review-<PR>.{md,json}
 """
 from __future__ import annotations
 
@@ -129,6 +135,42 @@ def added_entries_in_pr() -> list[dict]:
             if eid not in base_ids:
                 results.append(entry)
     return results
+
+
+# Added markdown list item in a generated README, e.g.
+#   +- [Title](https://example.com) - One-line description.
+LEGACY_LINK_RE = re.compile(r"^\+\s*-\s*\[([^\]]+)\]\(([^)\s]+)")
+
+GENERATED_READMES = ("README.md", "README-zh.md", "README-jp.md")
+
+
+def legacy_readme_links() -> list[tuple[str, str]]:
+    """(title, url) pairs added straight into a generated README by this PR.
+
+    The READMEs are build output, so an entry that only appears there is lost
+    on the next `generate.py` run. Grading these keeps README-shape PRs from
+    getting silence, which is what they got before: pr-review.yml did not even
+    trigger on README paths.
+    """
+    base = os.environ.get("GITHUB_BASE_REF") or "master"
+    subprocess.run(["git", "fetch", "origin", base], cwd=WORKDIR,
+                   capture_output=True, check=False)
+    out = subprocess.run(
+        ["git", "diff", f"origin/{base}...HEAD", "--", *GENERATED_READMES],
+        cwd=WORKDIR, capture_output=True, text=True, check=False,
+    ).stdout
+    seen: set[str] = set()
+    found: list[tuple[str, str]] = []
+    for line in out.splitlines():
+        m = LEGACY_LINK_RE.match(line)
+        if not m:
+            continue
+        title, url = m.group(1).strip(), m.group(2).strip()
+        if url in seen:
+            continue
+        seen.add(url)
+        found.append((title, url))
+    return found
 
 
 # ---------------------------------------------------------------------------
@@ -413,6 +455,14 @@ def clamp_dim(value) -> int:
     return max(0, min(3, n))
 
 
+def code_span(text) -> str:
+    """Wrap untrusted text in a code span it cannot escape."""
+    s = re.sub(r"\s+", " ", str(text or "")).replace("`", "").strip()
+    if len(s) > 200:
+        s = s[:197] + "..."
+    return f"`{s}`"
+
+
 def sanitize_reason(text) -> str:
     """Neutralize markdown / table-cell injection from LLM-laundered PR content.
 
@@ -524,6 +574,56 @@ def render_comment(scored: dict, target_lang: str, deterministic_fallback: bool)
 # Driver
 # ---------------------------------------------------------------------------
 
+_LEGACY_NOTICE = {
+    "en": (
+        "#### Direct README edit\n\n"
+        "`README.md`, `README-zh.md` and `README-jp.md` are **generated** from "
+        "`data/entries/*.yml` by `scripts/generate.py`. A line added straight to a "
+        "README is overwritten the next time the generator runs, so this PR cannot "
+        "land as-is. Move the entry into the YAML file for its section, run "
+        "`python3 scripts/generate.py`, and commit the regenerated output — "
+        "CONTRIBUTING.md has the schema.\n\n"
+        "Reachability of the link(s) added here, checked just now:\n\n{links}"
+    ),
+    "zh": (
+        "#### 直接修改了 README\n\n"
+        "`README.md`、`README-zh.md` 和 `README-jp.md` 是由 `scripts/generate.py` "
+        "從 `data/entries/*.yml` **產生**的。直接加在 README 的那一行會在下次重新產生時被覆蓋，"
+        "所以這個 PR 無法照現在的形式合併。請把條目加進對應章節的 YAML 檔，執行 "
+        "`python3 scripts/generate.py`，再把重新產生的檔案一起提交——schema 在 CONTRIBUTING.md。\n\n"
+        "剛剛檢查了這裡新增連結的可達性：\n\n{links}"
+    ),
+    "jp": (
+        "#### README の直接編集\n\n"
+        "`README.md`、`README-zh.md`、`README-jp.md` は `scripts/generate.py` が "
+        "`data/entries/*.yml` から**生成**しています。README に直接追加した行は次回の生成時に"
+        "上書きされるため、この PR はこのままではマージできません。該当セクションの YAML "
+        "ファイルにエントリを追加し、`python3 scripts/generate.py` を実行して、生成物も"
+        "コミットしてください。スキーマは CONTRIBUTING.md にあります。\n\n"
+        "追加されたリンクの到達性をいま確認しました：\n\n{links}"
+    ),
+}
+
+
+def render_legacy_notice(links: list[tuple[str, str]], target_lang: str) -> tuple[str, str]:
+    """Comment block for a PR that only touched the generated READMEs."""
+    rows = []
+    worst = 3
+    for title, url in links[:10]:
+        score, reason = check_reachability(url)
+        worst = min(worst, score)
+        mark = "✅" if score >= 2 else ("⚠️" if score == 1 else "❌")
+        # Both fields come from the PR diff. Code spans keep them from forming
+        # links, closing table cells, or pinging accounts with a bare @handle.
+        rows.append(f"- {mark} {code_span(url)} {code_span(title)} — {sanitize_reason(reason)}")
+    if len(links) > 10:
+        rows.append(f"- …and {len(links) - 10} more, not checked")
+
+    template = _LEGACY_NOTICE.get(pick_template_lang(target_lang), _LEGACY_NOTICE["en"])
+    body = template.format(links="\n".join(rows))
+    return body, ("auto/link-broken" if worst == 0 else "auto/needs-format-fix")
+
+
 def pr_body() -> str:
     try:
         event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text(encoding="utf-8"))
@@ -595,8 +695,12 @@ def main() -> int:
 
     cats = categories_set()
     entries = added_entries_in_pr()
-    if not entries:
-        print("no entry changes in data/entries; skipping LLM grading")
+    # A PR that only touched the generated READMEs still gets graded — that is
+    # the legacy submission shape, and silence on it is what let README-only
+    # PRs sit unreviewed.
+    legacy = [] if entries else legacy_readme_links()
+    if not entries and not legacy:
+        print("nothing to review: no new data/entries and no README list items added")
         return 0
 
     pr = pr_body()
@@ -635,19 +739,33 @@ def main() -> int:
         body = f"#### Entry: `{entry.get('id')}`\n\n" + body
         summaries.append((body, label))
 
+    if legacy:
+        summaries.append(render_legacy_notice(legacy, target_lang))
+        print(f"README-only PR: graded {len(legacy)} added link(s)")
+
     final = "\n\n---\n\n".join(b for b, _ in summaries)
+    labels = sorted({label for _, label in summaries})
 
     if REVIEW_MODE == "dryrun":
-        out = Path(os.environ.get("GITHUB_OUTPUT_DIR", "/tmp")) / f"review-{PR_NUMBER}.md"
-        out.write_text(final, encoding="utf-8")
-        print(f"dryrun: wrote {out}")
+        outdir = Path(os.environ.get("GITHUB_OUTPUT_DIR", "/tmp"))
+        outdir.mkdir(parents=True, exist_ok=True)
+        (outdir / f"review-{PR_NUMBER}.md").write_text(final, encoding="utf-8")
+        # Structured payload for pr-review-publish.yml. head_sha is what binds
+        # this artifact to the run that produced it; the publisher refuses a
+        # payload whose SHA does not match the PR it claims to be about.
+        (outdir / f"review-{PR_NUMBER}.json").write_text(json.dumps({
+            "pr_number": PR_NUMBER,
+            "head_sha": os.environ.get("PR_HEAD_SHA", ""),
+            "labels": labels,
+            "body": final,
+        }, ensure_ascii=False), encoding="utf-8")
+        print(f"dryrun: wrote review-{PR_NUMBER}.json ({len(summaries)} block(s), labels={labels})")
         return 0
 
     post_comment(final)
-    labels_to_apply = {label for _, label in summaries}
-    for lab in labels_to_apply:
+    for lab in labels:
         apply_label(lab)
-    print(f"posted review with {len(summaries)} entry block(s); labels={labels_to_apply}")
+    print(f"posted review with {len(summaries)} entry block(s); labels={set(labels)}")
     return 0
 
 

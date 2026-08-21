@@ -1,0 +1,36 @@
+name: Diff Sentry
+
+# Scans the PR diff for malicious-change patterns before a human reads it:
+# obfuscated payloads, pipe-to-shell, secrets reaching network sinks, bidi /
+# zero-width diff evasion, forged bot identities, prompt injection, and
+# workflow misconfigurations. No API key, no model, no network egress.
+#
+# Deliberately unguarded against forks: the job holds `contents: read`, no
+# secrets and no side effects, so a fork running it on its own PRs costs
+# nothing and helps them. The fork guard in the other workflows is there
+# because those escape the repo (comments, labels, pushes).
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: diff-sentry-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: qazbnm456/diff-sentry@v0.4.0
+        with:
+          # `high` and above fail the check; `medium` and below are reported
+          # in the job summary without gating the PR.
+          fail-on: high
