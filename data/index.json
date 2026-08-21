@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:36:37Z",
+  "generated_at": "2026-08-21T05:43:36Z",
   "categories": [
     {
       "key": "digests",
@@ -6880,7 +6880,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-08-06",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821053727/https://github.com/spidersuite/SpiderSuite",
       "last_checked": null,
       "status": "active"
     },
@@ -7864,7 +7864,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-06-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821053548/https://github.com/inflictx/Arsenal",
       "last_checked": null,
       "status": "active"
     },
