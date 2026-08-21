@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:20:38Z",
+  "generated_at": "2026-08-21T05:36:37Z",
   "categories": [
     {
       "key": "digests",
@@ -6862,6 +6862,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-12",
       "archive_url": "https://web.archive.org/web/20260512125842/https://github.com/aleff-github/wayparam",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-fuzzing-spidersuite",
+      "url": "https://github.com/spidersuite/SpiderSuite",
+      "title": "SpiderSuite",
+      "author": {
+        "name": "@3nock",
+        "url": "https://github.com/3nock"
+      },
+      "category": "tools-fuzzing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-08-06",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
