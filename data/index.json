@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:46:46Z",
+  "generated_at": "2026-08-21T05:53:43Z",
   "categories": [
     {
       "key": "digests",
@@ -8176,7 +8176,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-07-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821053518/https://github.com/emanuele-em/proxelar",
       "last_checked": null,
       "status": "active"
     },
@@ -8302,7 +8302,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-05-11",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821055153/https://github.com/vigolium/vigolium",
       "last_checked": null,
       "status": "active"
     },
