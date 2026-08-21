@@ -33,7 +33,12 @@ jobs:
       github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      # Explicitly the base repo's default branch — never the PR. On a
+      # workflow_run event this is also actions/checkout's default; naming it
+      # keeps the intent from resting on a default.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -52,5 +57,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           REVIEW_ARTIFACT_DIR: ${{ runner.temp }}/review
-          WORKFLOW_RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          # The run id, not its head SHA: publish_review.py resolves the SHA
+          # from the API, so every fact it validates against comes from one
+          # authenticated source. It also keeps this file free of any
+          # `workflow_run.head_sha` reference, which static scanners rightly
+          # treat as the fingerprint of a pwn-request checkout.
+          WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
         run: python3 scripts/ci/publish_review.py

@@ -17,7 +17,8 @@ Environment:
   GITHUB_TOKEN           write-scoped token from the base repo
   GITHUB_REPOSITORY      owner/repo
   REVIEW_ARTIFACT_DIR    directory holding review-<PR>.json
-  WORKFLOW_RUN_HEAD_SHA  head SHA of the producing workflow_run
+  WORKFLOW_RUN_ID        id of the producing workflow_run; its head SHA is
+                         resolved from the API rather than passed in
 """
 from __future__ import annotations
 
@@ -33,7 +34,7 @@ GH_API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 ARTIFACT_DIR = Path(os.environ.get("REVIEW_ARTIFACT_DIR", "/tmp/review"))
-RUN_HEAD_SHA = os.environ.get("WORKFLOW_RUN_HEAD_SHA", "")
+RUN_ID = os.environ.get("WORKFLOW_RUN_ID", "")
 
 # Every label the bot is allowed to apply. RUBRIC.md documents the first five;
 # auto/review-failed is the fallback path's own marker.
@@ -99,6 +100,24 @@ def load_payload() -> dict | None:
     return payload if isinstance(payload, dict) else None
 
 
+def producing_run_head_sha() -> str:
+    """Head SHA of the workflow_run that produced the artifact, from the API.
+
+    Deliberately not taken from the event payload: resolving it here keeps
+    every fact this script checks on one authenticated path, and keeps the
+    calling workflow free of a `workflow_run.head_sha` reference — the token
+    that static analysis reasonably reads as a pwn-request checkout.
+    """
+    if not RUN_ID.isdigit():
+        print(f"refusing: malformed run id {RUN_ID!r}", file=sys.stderr)
+        return ""
+    status, run = gh_api(f"repos/{REPO}/actions/runs/{RUN_ID}")
+    if status != 200 or not isinstance(run, dict):
+        print(f"refusing: cannot read run {RUN_ID} ({status})", file=sys.stderr)
+        return ""
+    return str(run.get("head_sha") or "")
+
+
 def validate(payload: dict) -> tuple[str, str, list[str]] | None:
     """Return (pr_number, body, labels) if the payload is safe to act on."""
     pr_number = str(payload.get("pr_number", ""))
@@ -120,8 +139,11 @@ def validate(payload: dict) -> tuple[str, str, list[str]] | None:
         return None
 
     # The payload must describe the run that carried it...
-    if RUN_HEAD_SHA and head_sha != RUN_HEAD_SHA:
-        print(f"refusing: payload head {head_sha[:12]} != run head {RUN_HEAD_SHA[:12]}",
+    run_head = producing_run_head_sha()
+    if not run_head:
+        return None
+    if head_sha != run_head:
+        print(f"refusing: payload head {head_sha[:12]} != run head {run_head[:12]}",
               file=sys.stderr)
         return None
 
