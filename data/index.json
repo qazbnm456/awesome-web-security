@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-14T20:53:09Z",
+  "generated_at": "2026-08-21T05:25:38Z",
   "categories": [
     {
       "key": "digests",
@@ -7423,25 +7423,6 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-23",
-      "archive_url": null,
-      "last_checked": null,
-      "status": "active"
-    },
-    {
-      "id": "tools-osint-xquik",
-      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
-      "title": "Xquik",
-      "author": {
-        "name": "Xquik",
-        "url": "https://github.com/Xquik-dev"
-      },
-      "category": "tools-osint",
-      "type": "tool",
-      "languages": [
-        "en"
-      ],
-      "difficulty": "intro",
-      "date_added": "2026-08-14",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
