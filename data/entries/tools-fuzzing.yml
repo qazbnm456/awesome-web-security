@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Cross-platform Python CLI that fetches historical URLs from the Wayback CDX API and outputs normalized parameterized URLs for fuzzing, by [@aleff-github](https://github.com/aleff-github)."
+  - id: tools-fuzzing-spidersuite
+    url: "https://github.com/spidersuite/SpiderSuite"
+    title: SpiderSuite
+    author:
+      name: "3nock"
+      url: "https://github.com/3nock"
+    category: tools-fuzzing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-08-06"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Cross-platform web security crawler supporting standard, headless, interactive, brute-force, and archive crawling modes."
