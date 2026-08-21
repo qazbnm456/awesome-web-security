@@ -29,13 +29,29 @@ YAML data, Python tooling, or Markdown docs.
 - `scripts/verify_anchors.py` — ensures no anchor used by external links is
   removed; CI gate.
 - `scripts/verify_skill.sh` — lints `marketplace.json` and `SKILL.md`.
-- `scripts/ci/pr_review.py` — auto-review bot. Default LLM is
-  `openai/gpt-4.1-mini` via GitHub Models; override via the `REVIEW_MODEL`
-  env var in the workflow. Contributor language is detected
+- `scripts/ci/pr_review.py` — auto-review bot. **The LLM half is currently
+  dead**: it called GitHub Models, which GitHub retired on 2026-07-30, so the
+  bot has been running deterministic-only (reachability + format + local
+  dedup) and reports Depth/Fit as "skipped". Choosing a replacement backend
+  is deliberately deferred. Contributor language is detected
   deterministically (Han / Kana regex on PR body) and passed to the LLM
   as a directive; the LLM never owns language detection.
+- `scripts/ci/publish_review.py` — the privileged half of the review pair.
+  Reads the artifact `pr_review.py` produced, validates it (head SHA must
+  match both the producing run and the PR's current head, labels filtered
+  against an allowlist, body capped) and upserts one marked comment.
 - `scripts/ci/templates/comment.{en,zh,jp}.md` — localized review comments.
-- `.github/workflows/pr-review.yml` — runs the bot on every PR.
+- `.github/workflows/pr-review.yml` — grades a PR; never posts. Two jobs:
+  `verify` runs the PR's own code, `grade` runs the trusted base-branch
+  scripts over the PR's files as data and uploads the result as an artifact.
+- `.github/workflows/pr-review-publish.yml` — posts that artifact from
+  `workflow_run` (base-repo context, write token, never checks out the PR).
+  This split exists because fork PRs get a read-only `GITHUB_TOKEN`, so the
+  old single-workflow bot silently 403'd on every fork PR — which is nearly
+  all of them.
+- `.github/workflows/diff-sentry.yml` — `qazbnm456/diff-sentry` scan of the PR
+  diff for obfuscated payloads, exfiltration sinks, bidi/zero-width evasion
+  and workflow misconfigurations. Fails on `high` and above.
 - `.github/workflows/pr-review-backlog.yml` — dry-run over open PRs (manual,
   workflow_dispatch). Stashes trusted scripts to `/tmp/awsec-trusted/` before
   iterating PR refs, so `pr_review.py` always runs from the base branch even
@@ -226,15 +242,21 @@ number, and the co-author identity per case.
 
 ## CI behavior
 
-On every PR touching `data/**` or generator scripts, the workflow:
+On every PR touching `data/**`, a generated README, or the generator
+scripts:
 
 1. Runs `verify_schema.py` and `verify_anchors.py`.
 2. Re-runs `generate.py` and warns if the working tree diverges from the
    generated output (contributor forgot to regenerate).
-3. Invokes the auto-review bot, which grades each new entry against
-   RUBRIC.md using GitHub Models, posts a single structured comment, and
-   applies advisory labels. LLM failure falls back to deterministic
-   reachability + format checks; labelled `auto/review-failed`.
+3. Grades each new entry against RUBRIC.md and writes the verdict to an
+   artifact. A PR that only edited a generated README is graded too: the bot
+   reports link reachability plus the YAML-first explanation, in the
+   contributor's language.
+4. `pr-review-publish.yml` picks that artifact up on `workflow_run` and posts
+   a single structured comment, replacing its own previous one, then syncs
+   the advisory labels.
+
+Every PR, path-filtered or not, is also scanned by diff-sentry.
 
 The bot never auto-merges and never auto-rejects.
 
