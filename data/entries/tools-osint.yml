@@ -323,11 +323,11 @@ entries:
     status: active
     raw_rest: "High performance offensive security tool for reconnaissance and vulnerability scanning by [@evyatarmeged](https://github.com/evyatarmeged)."
   - id: tools-osint-social-mapper
-    url: "https://github.com/SpiderLabs/social_mapper"
+    url: "https://github.com/Greenwolf/social_mapper"
     title: Social Mapper
     author:
-      name: "@SpiderLabs"
-      url: "https://github.com/SpiderLabs"
+      name: Greenwolf
+      url: "https://github.com/Greenwolf"
     category: tools-osint
     type: tool
     languages: [en, zh, jp]
@@ -337,7 +337,7 @@ entries:
     last_checked: null
     fingerprint: null
     status: active
-    raw_rest: "Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by [@SpiderLabs](https://github.com/SpiderLabs)."
+    raw_rest: "Social Media Enumeration & Correlation Tool by [Jacob Wilkin (Greenwolf)](https://github.com/Greenwolf)."
   - id: tools-osint-espi0n-dockerfiles
     url: "https://github.com/espi0n/Dockerfiles"
     title: espi0n/Dockerfiles

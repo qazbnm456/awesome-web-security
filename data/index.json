@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:43:36Z",
+  "generated_at": "2026-08-21T05:46:46Z",
   "categories": [
     {
       "key": "digests",
@@ -7511,11 +7511,11 @@
     },
     {
       "id": "tools-osint-social-mapper",
-      "url": "https://github.com/SpiderLabs/social_mapper",
+      "url": "https://github.com/Greenwolf/social_mapper",
       "title": "Social Mapper",
       "author": {
-        "name": "@SpiderLabs",
-        "url": "https://github.com/SpiderLabs"
+        "name": "Greenwolf",
+        "url": "https://github.com/Greenwolf"
       },
       "category": "tools-osint",
       "type": "tool",
