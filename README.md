@@ -681,6 +681,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [ssltest](https://www.ssllabs.com/ssltest/) - Online service that performs a deep analysis of the configuration of any SSL web server on the public internet. Provided by [Qualys SSL Labs](https://www.ssllabs.com).
 - [fuzz.txt](https://github.com/Bo0oM/fuzz.txt) - Potentially dangerous files by [@Bo0oM](https://github.com/Bo0oM).
 - [wayparam](https://github.com/aleff-github/wayparam) - Cross-platform Python CLI that fetches historical URLs from the Wayback CDX API and outputs normalized parameterized URLs for fuzzing, by [@aleff-github](https://github.com/aleff-github).
+- [SpiderSuite](https://github.com/spidersuite/SpiderSuite) - Cross-platform web security crawler supporting standard, headless, interactive, brute-force, and archive crawling modes, for attack-surface mapping and endpoint discovery, by [@3nock](https://github.com/3nock).
 
 <a name="tools-scanning"></a>
 ### Scanning
@@ -792,6 +793,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Charles](https://www.charlesproxy.com/) - HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by [@mitmproxy](https://github.com/mitmproxy).
+- [Proxelar](https://github.com/emanuele-em/proxelar) - Single-binary intercepting proxy for HTTP, HTTPS, and WebSocket traffic that pauses and edits requests in flight, replays them, rewrites traffic with Lua hooks, and exports captures as HAR, curl, or raw HTTP, available as a terminal UI, web GUI, or headless REST API, by [@emanuele-em](https://github.com/emanuele-em).
 
 <a name="tools-webshell"></a>
 ### Webshell

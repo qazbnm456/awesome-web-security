@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:25:38Z",
+  "generated_at": "2026-08-21T05:46:46Z",
   "categories": [
     {
       "key": "digests",
@@ -6866,6 +6866,25 @@
       "status": "active"
     },
     {
+      "id": "tools-fuzzing-spidersuite",
+      "url": "https://github.com/spidersuite/SpiderSuite",
+      "title": "SpiderSuite",
+      "author": {
+        "name": "@3nock",
+        "url": "https://github.com/3nock"
+      },
+      "category": "tools-fuzzing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-08-06",
+      "archive_url": "https://web.archive.org/web/20260821053727/https://github.com/spidersuite/SpiderSuite",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "tools-leaking-css-keylogging",
       "url": "https://github.com/maxchehab/CSS-Keylogging",
       "title": "CSS-Keylogging",
@@ -7845,7 +7864,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-06-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821053548/https://github.com/inflictx/Arsenal",
       "last_checked": null,
       "status": "active"
     },
@@ -8138,6 +8157,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-proxy-proxelar",
+      "url": "https://github.com/emanuele-em/proxelar",
+      "title": "Proxelar",
+      "author": {
+        "name": "@emanuele-em",
+        "url": "https://github.com/emanuele-em"
+      },
+      "category": "tools-proxy",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-07-30",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
