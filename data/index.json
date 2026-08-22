@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-21T05:53:43Z",
+  "generated_at": "2026-08-22T12:10:19Z",
   "categories": [
     {
       "key": "digests",
@@ -5249,6 +5249,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-07-26",
       "archive_url": "https://web.archive.org/web/20260726083016/https://poszo.com/security/nextjs-headers-pitfall",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-where-the-llm-stops",
+      "url": "https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline",
+      "title": "Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipeline",
+      "author": {
+        "name": "Aayush Yadav",
+        "url": "https://github.com/maverickaayush"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-08-22",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

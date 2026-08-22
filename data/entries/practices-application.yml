@@ -114,3 +114,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow."
+  - id: practices-application-where-the-llm-stops
+    url: "https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline"
+    title: Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipeline
+    author:
+      name: Aayush Yadav
+      url: "https://github.com/maverickaayush"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-08-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Technical write-up on designing an AI-assisted VAPT pipeline with deterministic CVSS scoring, passive confidence verification, and LLM-generated vulnerability explanations and remediation."
