@@ -805,6 +805,9 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Weevely](https://github.com/epinna/weevely3) - Weaponized web shell by [@epinna](https://github.com/epinna).
 - [nano](https://github.com/s0md3v/nano) - Family of code golfed PHP shells by [@s0md3v](https://github.com/s0md3v).
 - [PhpSploit](https://github.com/nil0x42/phpsploit) - Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42).
+- [crafted-php-deobfuscators](https://github.com/rz-x/crafted-php-deobfuscators) - Targeted deobfuscators for complex PHP webshells and malware loaders by [@rz-x](https://github.com/rz-x).
+- [php-zeura-deobfuscator](https://github.com/rz-x/php-zeura-deobfuscator) - AST-based deobfuscator for the Zeura PHP malware family by [@rz-x](https://github.com/rz-x).
+
 
 <a name="tools-disassembler"></a>
 ### Disassembler
