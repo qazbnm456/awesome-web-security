@@ -29,21 +29,24 @@ jobs:
     strategy:
       fail-fast: false          # one unsupported architecture must not hide the others
       matrix:
+        # Run 2 settled the model question: Ling won on both axes (27s/case
+        # against LFM's 100s, band 8/11 against 5/10), and Ornith was excluded
+        # by measurement at 195s/case. Run 3 asks the remaining question —
+        # how much of the page the model needs to see. `onus-llm-stops` is
+        # the case that motivated it: the model missed the original findings
+        # in a 4,787-word article, and 10k characters may simply have cut the
+        # section that contained them.
         include:
-          - name: lfm2.5-2.6b
-            repo: LiquidAI/LFM2.5-2.6B-GGUF
-            file: LFM2.5-2.6B-Q4_K_M.gguf
-            max_cases: 0        # 0 = the whole fixture set
-          - name: ling-3.0-tiny
+          - name: ling-10k
             repo: inclusionAI/Ling-3.0-tiny-GGUF
             file: Ling-3.0-tiny-Q4_K_M.gguf
             max_cases: 0
-          - name: ornith-1.5-9b
-            repo: ornith-ai/Ornith-1.5-9B-GGUF
-            file: Ornith-1.5-9B-Q4_K_M.gguf
-            max_cases: 4        # dense ~10B on 4 CPU cores: timing probe only,
-                                # one case per Depth band, so the exclusion (if
-                                # it comes) rests on a measurement
+            max_text: 10000
+          - name: ling-24k
+            repo: inclusionAI/Ling-3.0-tiny-GGUF
+            file: Ling-3.0-tiny-Q4_K_M.gguf
+            max_cases: 0
+            max_text: 24000
 
     steps:
       - uses: actions/checkout@v4
@@ -99,6 +102,7 @@ jobs:
             --model-name "${{ matrix.name }}" \
             --server "$SERVER" \
             --max-cases ${{ matrix.max_cases }} \
+            --max-text-chars ${{ matrix.max_text }} \
             --out "bench-${{ matrix.name }}.json" 2>&1 | tee run.log
 
       - name: Summarise

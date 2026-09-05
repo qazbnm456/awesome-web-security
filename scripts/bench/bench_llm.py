@@ -174,7 +174,7 @@ class _TextExtractor(HTMLParser):
             self.parts.append(data.strip())
 
 
-def fetch_text(url: str) -> tuple[str, str, str | None]:
+def fetch_text(url: str, max_chars: int = MAX_TEXT_CHARS) -> tuple[str, str, str | None]:
     """(title, text, error). Never raises."""
     parsed = urlparse(url)
     if parsed.scheme not in ("http", "https"):
@@ -197,7 +197,7 @@ def fetch_text(url: str) -> tuple[str, str, str | None]:
     except Exception as exc:  # noqa: BLE001
         return "", "", f"parse: {type(exc).__name__}"
     text = re.sub(r"\n{3,}", "\n\n", "\n".join(p.parts))
-    return p.title, text[:MAX_TEXT_CHARS], None
+    return p.title, text[:max_chars], None
 
 
 # ---------------------------------------------------------------------------
@@ -304,6 +304,9 @@ def main() -> int:
     ap.add_argument("--fixtures", default="scripts/bench/fixtures.json")
     ap.add_argument("--repeats", type=int, default=3,
                     help="determinism probe: re-run the first case N times")
+    ap.add_argument("--max-text-chars", type=int, default=MAX_TEXT_CHARS,
+                    help="how much page text reaches the model; the truncation "
+                         "point is itself under test")
     ap.add_argument("--max-cases", type=int, default=0,
                     help="cap the fixture set; used to keep a slow model to a timing probe")
     ap.add_argument("--out", default="bench-results.json")
@@ -324,14 +327,14 @@ def main() -> int:
     # the inference numbers.
     fetched = []
     for c in cases:
-        title, text, err = fetch_text(c["url"])
+        title, text, err = fetch_text(c["url"], args.max_text_chars)
         fetched.append({**c, "title": title, "text": text, "fetch_error": err,
                         "text_chars": len(text)})
         print(f"fetch {c['id']:22} {'ERR ' + err if err else str(len(text)) + ' chars'}",
               flush=True)
 
     results = {"model": args.model_name, "model_path": args.model_path,
-               "cases": [], "determinism": None}
+               "max_text_chars": args.max_text_chars, "cases": [], "determinism": None}
 
     with Server(args.server, args.model_path) as srv:
         results["model_load_seconds"] = srv.load_seconds

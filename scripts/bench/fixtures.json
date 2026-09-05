@@ -1,41 +1,113 @@
 {
-  "_doc": "Labelled pages for measuring whether a small local model can produce RUBRIC Depth. Labels are the Depth score the MAINTAINER would give the linked page after reading it — taken from reviews already written on the PRs/issues named in `why`. Deliberately article-shaped only: Depth for a tool's landing page means something different and is out of scope for this first measurement.",
+  "_doc": "Labelled pages for measuring whether a small local model can supply RUBRIC Depth. Each label is the Depth the MAINTAINER assigns to the LINKED PAGE. Labels sourced from reviews already written (the PR/issue is named) or from reading the page on the date given. Deliberately NOT the merge decision: several 2026 holds were about external recognition, which is a different dimension. Band coverage is uneven \u2014 only three cases at Depth 0, because this list does not collect marketing pages and the only ones available are submissions that were rejected.",
   "cases": [
-    {"id": "aivist-200", "expected_depth": 3,
-     "url": "https://aivist.dev/the-200-that-proved-nothing",
-     "why": "#232 merged. Original research: seeded BOLA benchmark, own adversarial fixture, publishes a disagreement between two passes and a rejected fix."},
-    {"id": "onus-llm-stops", "expected_depth": 3,
-     "url": "https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline",
-     "why": "#231 merged. Original measurements, corrects its own report's test count, states what the evidence does not establish."},
-    {"id": "state-of-tls", "expected_depth": 3,
-     "url": "https://securemonk.io/insights/state-of-tls",
-     "why": "#208 merged. Live-data research over a scan corpus with stated methodology and limits."},
-    {"id": "altus-xaml-rce", "expected_depth": 3,
-     "url": "https://0day-rubbish.com/blog/altus-ix-developer-xaml-rce",
-     "why": "#207 merged. Root-cause analysis with a reproducible PoC."},
-    {"id": "nextjs-headers", "expected_depth": 2,
-     "url": "https://poszo.com/security/nextjs-headers-pitfall",
-     "why": "#213 merged. Concrete framework-specific failure mode with a verification workflow; not original research."},
-    {"id": "laravel-csp", "expected_depth": 2,
-     "url": "https://csp-generator.shakiltech.com",
-     "why": "#167 merged. Hands-on builder plus implementation guidance."},
-    {"id": "qapractices-xss", "expected_depth": 1,
-     "url": "https://qapractices.com/documentation/cross-site-scripting-xss-testing-guide/",
-     "why": "#218 held. Competent but introductory restatement of the three XSS types; has example payloads but is not a payload list or original work."},
-    {"id": "qapractices-pentest", "expected_depth": 1,
-     "url": "https://qapractices.com/documentation/penetration-testing/",
-     "why": "#220 held. Methodology overview covering ground the listed Web Security Academy covers in more depth."},
-    {"id": "qapractices-hub", "expected_depth": 1,
-     "url": "https://qapractices.com/topics/security-testing/",
-     "why": "#221 held. Topic index page: overview paragraph plus links."},
-    {"id": "deploypass", "expected_depth": 0,
-     "url": "https://deploypass.com/website-vulnerability-scanner",
-     "why": "#234 closed. Product page for a hosted checker; explains the category, sells the tool."},
-    {"id": "domscan", "expected_depth": 0,
-     "url": "https://domscan.net/tools/security",
-     "why": "#215 closed. API product catalogue page."},
-    {"id": "nutilz-csp", "expected_depth": 0,
-     "url": "https://nutilz.com/csp-generator",
-     "why": "#223 closed. Functional generator UI on an ad-supported tools site; the page teaches almost nothing."}
+    {
+      "id": "aivist-200",
+      "expected_depth": 3,
+      "url": "https://aivist.dev/the-200-that-proved-nothing",
+      "why": "#232 merged. Seeded BOLA benchmark, own adversarial fixture, publishes a disagreement between two passes."
+    },
+    {
+      "id": "onus-llm-stops",
+      "expected_depth": 3,
+      "url": "https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline",
+      "why": "#231 merged. Own measurements; corrects its own report's test count against the live repo."
+    },
+    {
+      "id": "state-of-tls",
+      "expected_depth": 3,
+      "url": "https://securemonk.io/insights/state-of-tls",
+      "why": "#208 merged. Live-data research over a scan corpus with stated methodology and limits."
+    },
+    {
+      "id": "portswigger-cache-poisoning",
+      "expected_depth": 3,
+      "url": "https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures",
+      "why": "Read 2026-09-05: Kettle's own research, including a Cloudflare implementation flaw he reported; reproducible HTTP examples."
+    },
+    {
+      "id": "foxglove-deserialization",
+      "expected_depth": 3,
+      "url": "https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/",
+      "why": "Read 2026-09-05: original vulnerability research across five platforms with working exploits."
+    },
+    {
+      "id": "payloads-ssrf",
+      "expected_depth": 3,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery",
+      "why": "Read 2026-09-05: systematic collection, ~50-70 distinct payloads and bypasses. RUBRIC's payload-list band."
+    },
+    {
+      "id": "excess-xss",
+      "expected_depth": 2,
+      "url": "https://excess-xss.com/",
+      "why": "Read 2026-09-05: 8-10k words, systematic, code snippets illustrative rather than runnable. Established knowledge, not research."
+    },
+    {
+      "id": "aptive-tls",
+      "expected_depth": 2,
+      "url": "https://www.aptive.co.uk/blog/tls-ssl-security-testing/",
+      "why": "Read 2026-09-05: extensive runnable testssl.sh/nmap/openssl commands. Agency blog with service links and a contact form, but the page is not primarily a sales page."
+    },
+    {
+      "id": "laravel-csp",
+      "expected_depth": 2,
+      "url": "https://csp-generator.shakiltech.com",
+      "why": "Re-read 2026-09-05 after the first run disputed it: no pricing, no ads, soft PDF lead-capture only; emits copy-paste header and middleware config."
+    },
+    {
+      "id": "mutual-tls-ssl",
+      "expected_depth": 2,
+      "url": "https://github.com/Hakky54/mutual-tls-ssl",
+      "why": "Read 2026-09-05: 8k+ word progressive hands-on tutorial, copy-paste keytool/curl commands, 40+ client configs."
+    },
+    {
+      "id": "qapractices-xss",
+      "expected_depth": 1,
+      "url": "https://qapractices.com/documentation/cross-site-scripting-xss-testing-guide/",
+      "why": "#218 held. Introductory restatement of the three XSS types; has example payloads but is neither a payload list nor original."
+    },
+    {
+      "id": "qapractices-pentest",
+      "expected_depth": 1,
+      "url": "https://qapractices.com/documentation/penetration-testing/",
+      "why": "#220 held. Methodology overview of ground the Web Security Academy covers in more depth."
+    },
+    {
+      "id": "qapractices-hub",
+      "expected_depth": 1,
+      "url": "https://qapractices.com/topics/security-testing/",
+      "why": "#221 held. Topic index: overview paragraph plus links."
+    },
+    {
+      "id": "techbridge-csrf",
+      "expected_depth": 1,
+      "url": "https://blog.techbridge.cc/2017/02/25/csrf-introduction/",
+      "why": "Read 2026-09-05: 3.5-4k word beginner explainer with illustrative code; explains established knowledge."
+    },
+    {
+      "id": "nextjs-headers",
+      "expected_depth": 1,
+      "url": "https://poszo.com/security/nextjs-headers-pitfall",
+      "why": "RELABELLED 2026-09-05 from 2 after actually reading it: ~1200 words, minimal runnable code, introductory, and 15-20% of the page is product promotion including a $149 offer. The original 2 was set from an entry description."
+    },
+    {
+      "id": "deploypass",
+      "expected_depth": 0,
+      "url": "https://deploypass.com/website-vulnerability-scanner",
+      "why": "#234 closed. Product page for a hosted checker."
+    },
+    {
+      "id": "domscan",
+      "expected_depth": 0,
+      "url": "https://domscan.net/tools/security",
+      "why": "#215 closed. API product catalogue page."
+    },
+    {
+      "id": "nutilz-csp",
+      "expected_depth": 0,
+      "url": "https://nutilz.com/csp-generator",
+      "why": "#223 closed. Generator UI on an ad-supported tools site; teaches almost nothing."
+    }
   ]
 }
