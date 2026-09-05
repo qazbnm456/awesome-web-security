@@ -563,7 +563,7 @@ entries:
     status: active
     raw_rest: "Written by [@t0nk42](https://twitter.com/t0nk42)."
   - id: miscellaneous-how-we-abused-slacks-turn-servers-to-gain-access-t
-    url: "https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/"
+    url: "https://www.enablesecurity.com/blog/slack-webrtc-turn-compromise-and-bug-bounty/"
     title: "How we abused Slack's TURN servers to gain access to internal services"
     author:
       name: "@sandrogauci"

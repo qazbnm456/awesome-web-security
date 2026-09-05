@@ -3,7 +3,7 @@
 
 entries:
   - id: angularjs-dom-based-angular-sandbox-escapes
-    url: "https://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html"
+    url: "https://portswigger.net/research/dom-based-angularjs-sandbox-escapes"
     title: DOM based Angular sandbox escapes
     author:
       name: "@garethheyes"
@@ -19,7 +19,7 @@ entries:
     status: active
     raw_rest: "Written by [@garethheyes](https://twitter.com/garethheyes)"
   - id: angularjs-xss-without-html-client-side-template-injection-wi
-    url: "https://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html"
+    url: "https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs"
     title: "XSS without HTML: Client-Side Template Injection with AngularJS"
     author:
       name: Gareth Heyes

@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: Written by James Lee.
   - id: browser-frontend-json-hijacking-for-the-modern-web
-    url: "https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html"
+    url: "https://portswigger.net/research/json-hijacking-for-the-modern-web"
     title: JSON hijacking for the modern web
     author:
       name: portswigger

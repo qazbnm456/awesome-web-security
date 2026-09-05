@@ -295,8 +295,8 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="angularjs"></a>
 ### AngularJS
 
-- [DOM based Angular sandbox escapes](https://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html) - Written by [@garethheyes](https://twitter.com/garethheyes).
-- [XSS without HTML: Client-Side Template Injection with AngularJS](https://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
+- [DOM based Angular sandbox escapes](https://portswigger.net/research/dom-based-angularjs-sandbox-escapes) - Written by [@garethheyes](https://twitter.com/garethheyes).
+- [XSS without HTML: Client-Side Template Injection with AngularJS](https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs) - Written by [Gareth Heyes](https://www.blogger.com/profile/10856178524811553475).
 
 <a name="reactjs"></a>
 ### ReactJS
@@ -342,7 +342,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Crypto
 
 - [Applied Crypto Hardening](https://bettercrypto.org/) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
-- [What is a Side-Channel Attack ?](https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).
+- [What is a Side-Channel Attack ?](https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).
 
 <a name="web-shell"></a>
 ### Web Shell
@@ -542,7 +542,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Frontend (like SOP bypass, URL spoofing, and something like that)
 
 - [IE11 Information disclosure - local file detection](https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater) - Written by James Lee.
-- [JSON hijacking for the modern web](https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html) - Written by [portswigger](https://portswigger.net/).
+- [JSON hijacking for the modern web](https://portswigger.net/research/json-hijacking-for-the-modern-web) - Written by [portswigger](https://portswigger.net/).
 - [Особенности Safari в client-side атаках](https://bo0om.ru/safari-client-side) - Written by [Bo0oM](https://bo0om.ru/author/admin).
 - [ブラウザの脆弱性とそのインパクト](https://speakerdeck.com/nishimunea/burauzafalsecui-ruo-xing-tosofalseinpakuto) - Written by [Muneaki Nishimura](https://speakerdeck.com/nishimunea) and [Masato Kinugawa](https://twitter.com/kinugawamasato).
 - [How do we Stop Spilling the Beans Across Origins?](https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/) - Written by [aaj at google.com](mailto:aaj@google.com) and [mkwst at google.com](mailto:mkwst@google.com).
@@ -868,7 +868,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [The bug bounty program that changed my life](https://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](https://10degres.net/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
 - [WCTF2019: Gyotaku The Flag](https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf) - Written by [@t0nk42](https://twitter.com/t0nk42).
-- [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
+- [How we abused Slack's TURN servers to gain access to internal services](https://www.enablesecurity.com/blog/slack-webrtc-turn-compromise-and-bug-bounty/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).
 - [Grokking Web Application Security](https://www.manning.com/books/grokking-web-application-security) - Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning).
 - [htb-writeups](https://github.com/momenbasel/htb-writeups) - Comprehensive Hack The Box writeup collection covering 75+ web challenges including XSS, SQLi, SSTI, SSRF, and deserialization, by [@momenbasel](https://github.com/momenbasel).

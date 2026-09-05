@@ -19,7 +19,7 @@ entries:
     status: active
     raw_rest: "Written by [The bettercrypto.org Team](https://bettercrypto.org/)."
   - id: crypto-what-is-a-side-channel-attack
-    url: "https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html"
+    url: "https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html"
     title: "What is a Side-Channel Attack ?"
     author:
       name: J.M Porup

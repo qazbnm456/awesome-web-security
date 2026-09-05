@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T14:31:28Z",
+  "generated_at": "2026-09-05T14:39:29Z",
   "categories": [
     {
       "key": "digests",
@@ -706,7 +706,7 @@
   "entries": [
     {
       "id": "angularjs-dom-based-angular-sandbox-escapes",
-      "url": "https://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html",
+      "url": "https://portswigger.net/research/dom-based-angularjs-sandbox-escapes",
       "title": "DOM based Angular sandbox escapes",
       "author": {
         "name": "@garethheyes",
@@ -727,7 +727,7 @@
     },
     {
       "id": "angularjs-xss-without-html-client-side-template-injection-wi",
-      "url": "https://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html",
+      "url": "https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs",
       "title": "XSS without HTML: Client-Side Template Injection with AngularJS",
       "author": {
         "name": "Gareth Heyes",
@@ -1491,7 +1491,7 @@
     },
     {
       "id": "browser-frontend-json-hijacking-for-the-modern-web",
-      "url": "https://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html",
+      "url": "https://portswigger.net/research/json-hijacking-for-the-modern-web",
       "title": "JSON hijacking for the modern web",
       "author": {
         "name": "portswigger",
@@ -2196,7 +2196,7 @@
     },
     {
       "id": "crypto-what-is-a-side-channel-attack",
-      "url": "https://www.csoonline.com/article/3388647/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html",
+      "url": "https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html",
       "title": "What is a Side-Channel Attack ?",
       "author": {
         "name": "J.M Porup",
@@ -4547,7 +4547,7 @@
     },
     {
       "id": "miscellaneous-how-we-abused-slacks-turn-servers-to-gain-access-t",
-      "url": "https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/",
+      "url": "https://www.enablesecurity.com/blog/slack-webrtc-turn-compromise-and-bug-bounty/",
       "title": "How we abused Slack's TURN servers to gain access to internal services",
       "author": {
         "name": "@sandrogauci",
