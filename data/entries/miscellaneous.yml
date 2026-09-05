@@ -125,10 +125,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20191023230940/https://iotscanner.bullguard.com/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Check if your internet-connected devices at home are public on Shodan by [BullGuard](https://www.bullguard.com/)."
   - id: miscellaneous-pentest-exploit-dev-cheatsheet-wallpaper
     url: "https://i.imgur.com/Mr9pvq9.jpg"

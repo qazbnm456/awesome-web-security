@@ -45,10 +45,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-07-29"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20240928085700/https://blog.p6.is/Real-World-JS-1/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@po6ix](https://twitter.com/po6ix)."
   - id: prototype-pollution-exploiting-prototype-pollution-rce-in-kibana-cve-2
     url: "https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/"

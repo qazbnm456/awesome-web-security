@@ -109,10 +109,10 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-04-15"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20211205111155/http://0day.websaas.com.cn/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "重大漏洞在线检测系统 by [杭州安恒信息技术有限公司](https://www.dbappsecurity.com.cn/)."
   - id: tools-detecting-openrasp
     url: "https://github.com/baidu/openrasp"

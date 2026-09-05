@@ -221,8 +221,8 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2020-02-29"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20220725050307/http://www.lmxspace.com/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: Web security.
