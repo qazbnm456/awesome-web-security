@@ -13,10 +13,10 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2020-05-10"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20241119/https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@AmolBaikar](https://twitter.com/AmolBaikar)."
   - id: oauth-what-is-going-on-with-oauth-2-0-and-why-you-should
     url: "https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611"

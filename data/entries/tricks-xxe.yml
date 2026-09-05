@@ -19,7 +19,7 @@ entries:
     status: active
     raw_rest: "Written by [Arseniy Sharoglazov](https://mohemiv.com/)."
   - id: tricks-xxe-automating-local-dtd-discovery-for-xxe-exploitatio
-    url: "https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation"
+    url: "https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation"
     title: Automating local DTD discovery for XXE exploitation
     author:
       name: Philippe Arteau

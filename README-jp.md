@@ -399,7 +399,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="oauth"></a>
 ### OAuth
 
-- [Facebook OAuth Framework Vulnerability](https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/) - Written by [@AmolBaikar](https://twitter.com/AmolBaikar).
 - [What is going on with OAuth 2.0? And why you should not use it for authentication.](https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611) - Written by [@damianrusinek](https://medium.com/@damianrusinek).
 - [Introduction to OAuth 2.0 and OpenID Connect](https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html) - Written by [@PhilippeDeRyck](https://twitter.com/PhilippeDeRyck).
 
@@ -414,7 +413,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### XXE
 
 - [Evil XML with two encodings](https://mohemiv.com/all/evil-xml/) - Written by [Arseniy Sharoglazov](https://mohemiv.com/).
-- [Automating local DTD discovery for XXE exploitation](https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation) - Written by [Philippe Arteau](https://twitter.com/h3xstream).
+- [Automating local DTD discovery for XXE exploitation](https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation) - Written by [Philippe Arteau](https://twitter.com/h3xstream).
 - [Bypass Fix of OOB XXE Using Different encoding](https://twitter.com/SpiderSec/status/1191375472690528256) - Written by [@SpiderSec](https://twitter.com/SpiderSec).
 - [Exploiting XXE with local DTD files](https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/) - Written by [Arseniy Sharoglazov](https://twitter.com/_mohemiv).
 - [Forcing XXE Reflection through Server Error Messages](https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/) - Written by [Antti Rantasaari](https://blog.netspi.com/author/antti-rantasaari/).
@@ -592,7 +591,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](https://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](mailto:phrack@saelo.net).
-- [Exploiting a V8 OOB write.](https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/) - Written by [@halbecaf](https://twitter.com/halbecaf).
 - [SSD Advisory – Chrome Turbofan Remote Code Execution](https://blogs.securiteam.com/index.php/archives/3379) - Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).
 - [Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11](https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf) - Written by [@moritzj](https://twitter.com/moritzj).
 - [PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT](https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit) - Written by [@wanderingglitch](https://twitter.com/wanderingglitch).
@@ -889,7 +887,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 ## Miscellaneous
 
-- [A glimpse into GitHub's Bug Bounty workflow](https://githubengineering.com/githubs-bug-bounty-workflow/) - Written by [@gregose](https://github.com/gregose).
+- [A glimpse into GitHub's Bug Bounty workflow](https://github.blog/2017-02-22-githubs-bug-bounty-workflow/) - Written by [@gregose](https://github.com/gregose).
 - [awesome-bug-bounty](https://github.com/djadmin/awesome-bug-bounty) - Comprehensive curated list of available Bug Bounty & Disclosure Programs and write-ups by [@djadmin](https://github.com/djadmin).
 - [Brute Forcing Your Facebook Email and Phone Number](https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html) - Written by [PwnDizzle](https://pwndizzle.blogspot.jp/).
 - [bug-bounty-reference](https://github.com/ngalongc/bug-bounty-reference) - List of bug bounty write-up that is categorized by the bug nature by [@ngalongc](https://github.com/ngalongc).

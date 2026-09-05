@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T07:43:04Z",
+  "generated_at": "2026-09-05T09:47:36Z",
   "categories": [
     {
       "key": "digests",
@@ -1238,9 +1238,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20170525002539/https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-backend-ssd-advisory-chrome-turbofan-remote-code-execution",
@@ -3201,7 +3201,7 @@
     },
     {
       "id": "evasions-xxe-automating-local-dtd-discovery-for-xxe-exploitatio",
-      "url": "https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
+      "url": "https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
       "title": "Automating local DTD discovery for XXE exploitation",
       "author": {
         "name": "Philippe Arteau",
@@ -3837,7 +3837,7 @@
     },
     {
       "id": "miscellaneous-a-glimpse-into-githubs-bug-bounty-workflow",
-      "url": "https://githubengineering.com/githubs-bug-bounty-workflow/",
+      "url": "https://github.blog/2017-02-22-githubs-bug-bounty-workflow/",
       "title": "A glimpse into GitHub's Bug Bounty workflow",
       "author": {
         "name": "@gregose",
@@ -4685,9 +4685,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20241119/https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "oauth-what-is-going-on-with-oauth-2-0-and-why-you-should",
@@ -10719,7 +10719,7 @@
     },
     {
       "id": "tricks-xxe-automating-local-dtd-discovery-for-xxe-exploitatio",
-      "url": "https://www.gosecure.net/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
+      "url": "https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
       "title": "Automating local DTD discovery for XXE exploitation",
       "author": {
         "name": "Philippe Arteau",

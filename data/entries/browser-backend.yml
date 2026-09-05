@@ -29,10 +29,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20170525002539/https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@halbecaf](https://twitter.com/halbecaf)."
   - id: browser-backend-ssd-advisory-chrome-turbofan-remote-code-execution
     url: "https://blogs.securiteam.com/index.php/archives/3379"

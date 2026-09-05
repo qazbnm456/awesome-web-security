@@ -19,7 +19,7 @@ entries:
     status: active
     raw_rest: "1000个PHP代码审计案例(2016.7以前乌云公开漏洞) by [@Xyntax](https://github.com/Xyntax)."
   - id: miscellaneous-a-glimpse-into-githubs-bug-bounty-workflow
-    url: "https://githubengineering.com/githubs-bug-bounty-workflow/"
+    url: "https://github.blog/2017-02-22-githubs-bug-bounty-workflow/"
     title: "A glimpse into GitHub's Bug Bounty workflow"
     author:
       name: "@gregose"
