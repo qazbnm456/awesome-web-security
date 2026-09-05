@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:07:52Z",
+  "generated_at": "2026-09-05T10:09:32Z",
   "categories": [
     {
       "key": "digests",
@@ -1445,7 +1445,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-06-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905100816/https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d",
       "last_checked": null,
       "status": "active"
     },
