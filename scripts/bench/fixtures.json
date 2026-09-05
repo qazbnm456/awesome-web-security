@@ -1,5 +1,5 @@
 {
-  "_doc": "Labelled pages for measuring whether a small local model can supply RUBRIC Depth. Each label is the Depth the MAINTAINER assigns to the LINKED PAGE. Labels sourced from reviews already written (the PR/issue is named) or from reading the page on the date given. Deliberately NOT the merge decision: several 2026 holds were about external recognition, which is a different dimension. Band coverage is uneven \u2014 only three cases at Depth 0, because this list does not collect marketing pages and the only ones available are submissions that were rejected.",
+  "_doc": "Labelled pages for measuring whether a small local model can supply RUBRIC Depth. Each label is the Depth the MAINTAINER assigns to the LINKED PAGE. Labels sourced from reviews already written (the PR/issue is named) or from reading the page on the date given. Deliberately NOT the merge decision: several 2026 holds were about external recognition, which is a different dimension. Band coverage is uneven \u2014 only three cases at Depth 0, because this list does not collect marketing pages and the only ones available are submissions that were rejected. The flag under test is `presents_original_findings`, whose ground truth here is expected_depth == 3. Cases marked HARD CASE exist to separate that judgement from surface cues: original research wrapped in product CTAs (positive), and expert analysis of somebody else's discovery (negative).",
   "cases": [
     {
       "id": "aivist-200",
@@ -108,6 +108,66 @@
       "expected_depth": 0,
       "url": "https://nutilz.com/csp-generator",
       "why": "#223 closed. Generator UI on an ad-supported tools site; teaches almost nothing."
+    },
+    {
+      "id": "mohemiv-xxe-dtd",
+      "expected_depth": 3,
+      "url": "https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/",
+      "why": "Read 2026-09-05: original technique \u2014 bruteforce a local DTD on the target and redefine its parameter entities to make a blind XXE output data."
+    },
+    {
+      "id": "ret2-pwn2own",
+      "expected_depth": 3,
+      "url": "https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/",
+      "why": "Read 2026-09-05: the authors' own Pwn2Own vulnerabilities, their distributed JSC fuzzing harness and Frida hooking."
+    },
+    {
+      "id": "synacktiv-liferay",
+      "expected_depth": 3,
+      "url": "https://www.synacktiv.com/en/publications/how-to-exploit-liferay-cve-2020-7961-quick-journey-to-poc.html",
+      "why": "Read 2026-09-05: builds a PoC where none existed, documenting the gadget chains tried and the ones that failed."
+    },
+    {
+      "id": "detectify-csp-formaction",
+      "expected_depth": 3,
+      "url": "https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/",
+      "why": "Read 2026-09-05: HARD CASE. Original form-action bypass, on a page carrying prominent 'start 2-week free trial' CTAs and demo booking."
+    },
+    {
+      "id": "portswigger-dangling-markup",
+      "expected_depth": 3,
+      "url": "https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup",
+      "why": "Read 2026-09-05: the author's own base-tag and form-based CSP evasion techniques, with payloads."
+    },
+    {
+      "id": "orange-chained-4",
+      "expected_depth": 3,
+      "url": "https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on/",
+      "why": "Read 2026-09-05: four vulnerabilities the author found and chained, full exploit published as a Gist."
+    },
+    {
+      "id": "orange-ghe-sqli",
+      "expected_depth": 3,
+      "url": "https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/",
+      "why": "Read 2026-09-05: own discovery in GitHub Enterprise, reproducible curl payloads, disclosure timeline."
+    },
+    {
+      "id": "portswigger-practical-cache",
+      "expected_depth": 3,
+      "url": "https://portswigger.net/research/practical-web-cache-poisoning",
+      "why": "Read 2026-09-05: HARD CASE. Kettle's original research plus the Param Miner release, wrapped in heavy Burp product promotion."
+    },
+    {
+      "id": "zdi-webkit-pwn2own",
+      "expected_depth": 2,
+      "url": "https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit",
+      "why": "Read 2026-09-05: HARD CASE NEGATIVE. Deep technical analysis of a bug the 360 Security team found and demonstrated \u2014 explaining someone else's disclosed exploit, not original findings."
+    },
+    {
+      "id": "wallarm-neatly-bypassing-csp",
+      "expected_depth": 2,
+      "url": "https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa/",
+      "why": "Read 2026-09-05: HARD CASE NEGATIVE. Real payloads, but restating documented CSP bypasses, on a vendor blog with register/demo/webinar CTAs."
     }
   ]
 }

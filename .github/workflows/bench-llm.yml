@@ -29,20 +29,14 @@ jobs:
     strategy:
       fail-fast: false          # one unsupported architecture must not hide the others
       matrix:
-        # Run 2 settled the model question: Ling won on both axes (27s/case
-        # against LFM's 100s, band 8/11 against 5/10), and Ornith was excluded
-        # by measurement at 195s/case. Run 3 asks the remaining question —
-        # how much of the page the model needs to see. `onus-llm-stops` is
-        # the case that motivated it: the model missed the original findings
-        # in a 4,787-word article, and 10k characters may simply have cut the
-        # section that contained them.
+        # Runs 2 and 3 settled the model (Ling: 27s/case against LFM's 100s and
+        # Ornith's 195s) and the truncation point (24k, which fixed two cases
+        # where the cut had removed the evidence). Run 4 asks the only question
+        # left: does `presents_original_findings` hold up on a fixture set with
+        # 14 positives instead of 5, including deliberately hard ones — research
+        # behind product CTAs, and expert analysis of someone else's bug.
         include:
-          - name: ling-10k
-            repo: inclusionAI/Ling-3.0-tiny-GGUF
-            file: Ling-3.0-tiny-Q4_K_M.gguf
-            max_cases: 0
-            max_text: 10000
-          - name: ling-24k
+          - name: ling-24k-v2
             repo: inclusionAI/Ling-3.0-tiny-GGUF
             file: Ling-3.0-tiny-Q4_K_M.gguf
             max_cases: 0
