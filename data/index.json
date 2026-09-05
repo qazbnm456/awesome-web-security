@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:02:58Z",
+  "generated_at": "2026-09-05T10:05:46Z",
   "categories": [
     {
       "key": "digests",
@@ -2133,9 +2133,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251215/https://github.com/payloadbox/command-injection-payload-list",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "community-reddit",
@@ -2257,7 +2257,7 @@
     },
     {
       "id": "csrf-payloadsallthethings-csrf-injection",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection",
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Cross-Site%20Request%20Forgery",
       "title": "PayloadsAllTheThings - CSRF Injection",
       "author": {
         "name": "@swisskyrepo",
@@ -4809,9 +4809,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251215/https://github.com/payloadbox/open-redirect-payload-list",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "orm-injection-hql-hyperinsane-query-language-or-how-to-access-th",
@@ -6077,9 +6077,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251215/https://github.com/payloadbox/sql-injection-payload-list",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "sql-injection-sql-injection-and-postgres-an-adventure-to-eventua",
@@ -8278,9 +8278,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-24",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20210124/https://github.com/m4ll0k/WAScan",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tools-scanning-nuclei",
@@ -8406,7 +8406,7 @@
       "date_added": "2026-05-12",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "tools-scanning-securitool",
@@ -11485,9 +11485,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251215/https://github.com/payloadbox/xss-payload-list",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "xss-laravel-content-security-policy-implementation-guide",
@@ -11646,9 +11646,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251215/https://github.com/payloadbox/xxe-injection-payload-list",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     }
   ]
 }

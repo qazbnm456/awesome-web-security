@@ -72,20 +72,28 @@ STOP = {
 }
 
 
-def _host_is_non_public(host: str) -> bool:
+def _host_check(host: str) -> str | None:
+    """None when the host is safe to fetch, else the reason it is not.
+
+    The first version folded DNS failure into "non-public host", which put a
+    domain that no longer resolves — real decay, worth acting on — in the same
+    bucket as an SSRF guard trip. Nineteen entries landed there and the report
+    could not say which were which."""
     if not host:
-        return True
+        return "no host"
     try:
         infos = socket.getaddrinfo(host, None)
+    except socket.gaierror:
+        return "dns does not resolve"
     except Exception:  # noqa: BLE001
-        return True
+        return "dns lookup failed"
     for info in infos:
         try:
             if not ipaddress.ip_address(info[4][0]).is_global:
-                return True
+                return "non-public address"
         except ValueError:
-            return True
-    return False
+            return "unparseable address"
+    return None
 
 
 class _Text(HTMLParser):
@@ -131,6 +139,22 @@ def _github_readme(url: str) -> tuple[str, str | None] | None:
             body = json.loads(r.read().decode())
         return base64.b64decode(body.get("content", "")).decode("utf-8", "replace"), None
     except urllib.error.HTTPError as exc:
+        if exc.code != 404:
+            return "", f"github api {exc.code}"
+    except Exception as exc:  # noqa: BLE001
+        return "", f"github api {type(exc).__name__}"
+
+    # A README 404 has two very different causes. Ask whether the repository
+    # itself is still there: gone is real decay, present-without-a-README just
+    # means read the HTML page like any other site.
+    repo_api = f"https://api.github.com/repos/{m.group(1)}/{m.group(2)}"
+    try:
+        with urllib.request.urlopen(
+                urllib.request.Request(repo_api, headers=headers), timeout=TIMEOUT):
+            return None            # repo lives; fall through to the HTML fetch
+    except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            return "", "github repo deleted"
         return "", f"github api {exc.code}"
     except Exception as exc:  # noqa: BLE001
         return "", f"github api {type(exc).__name__}"
@@ -140,15 +164,19 @@ def fetch(url: str) -> tuple[str, str | None]:
     parsed = urlparse(url)
     if parsed.scheme not in ("http", "https"):
         return "", "non-http scheme"
-    if _host_is_non_public(parsed.hostname or ""):
-        return "", "non-public host"
+    bad = _host_check(parsed.hostname or "")
+    if bad:
+        return "", bad
     gh = _github_readme(url)
     if gh is not None:
         return gh
     try:
         with urllib.request.urlopen(
-                urllib.request.Request(url, headers={"User-Agent": UA}),
-                timeout=TIMEOUT) as r:
+                urllib.request.Request(url, headers={
+                    "User-Agent": UA,
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "Accept-Language": "en-US,en;q=0.9",
+                }), timeout=TIMEOUT) as r:
             raw = r.read(MAX_BYTES)
     except urllib.error.HTTPError as exc:
         return "", f"HTTP {exc.code}"

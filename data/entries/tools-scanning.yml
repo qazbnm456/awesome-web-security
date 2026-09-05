@@ -45,10 +45,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-24"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20210124/https://github.com/m4ll0k/WAScan"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Is an open source web application security scanner that uses \"black-box\" method, created by [@m4ll0k](https://github.com/m4ll0k)."
   - id: tools-scanning-nuclei
     url: "https://github.com/projectdiscovery/nuclei"
@@ -144,7 +144,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Open-source WAF bypass and security-testing toolkit with 6,300+ payloads across OWASP categories, AI-assisted evasion engine, 27-check reconnaissance pipeline, and OWASP hardening audit, by [@dalisecurity](https://github.com/dalisecurity)."
   - id: tools-scanning-securitool
     url: "https://securitool.js.org/"

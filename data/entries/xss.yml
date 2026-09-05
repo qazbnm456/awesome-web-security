@@ -157,10 +157,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-30"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20251215/https://github.com/payloadbox/xss-payload-list"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."
   - id: xss-laravel-content-security-policy-implementation-guide
     url: "https://blog.shakiltech.com/laravel-content-security-policy-guide/"

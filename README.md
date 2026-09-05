@@ -174,7 +174,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Written by [@s0md3v](https://github.com/s0md3v).
 - [XSS.png](https://github.com/LucaBongiorni/XSS.png) - Written by @jackmasa.
 - [PayloadsAllTheThings - XSS Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
-- [payloadbox/xss-payload-list](https://github.com/payloadbox/xss-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 - [Laravel Content Security Policy: Complete Implementation Guide](https://blog.shakiltech.com/laravel-content-security-policy-guide/) - Hands-on guide to implementing Content Security Policy in Laravel — nonce lifecycle, Vite and Livewire integration, violation reporting, and a pre-enforcement checklist, by [@itxshakil](https://github.com/itxshakil).
 
 <a name="prototype-pollution"></a>
@@ -198,14 +197,12 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [SQL Injection Pocket Reference](https://websec.ca/kb/sql_injection) - Written by [@LightOS](https://twitter.com/LightOS).
 - [SQL Injection Wiki](https://sqlwiki.netspi.com/) - Written by [NETSPI](https://www.netspi.com/).
 - [PayloadsAllTheThings - SQL Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
-- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 
 <a name="command-injection"></a>
 ### Command Injection
 
 - [Potential command injection in resolv.rb](https://github.com/ruby/ruby/pull/1777) - Written by [@drigg3r](https://github.com/drigg3r).
 - [PayloadsAllTheThings - Command Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
-- [payloadbox/command-injection-payload-list](https://github.com/payloadbox/command-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 
 <a name="orm-injection"></a>
 ### ORM Injection
@@ -228,13 +225,12 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [PayloadsAllTheThings - XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by various contributors.
 - [XML external entity (XXE) injection](https://portswigger.net/web-security/xxe) - Written by [portswigger](https://portswigger.net/).
 - [XML Schema, DTD, and Entity Attacks](https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.
-- [payloadbox/xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 
 <a name="csrf"></a>
 ### CSRF - Cross-Site Request Forgery
 
 - [Wiping Out CSRF](https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f) - Written by [@jrozner](https://medium.com/@jrozner).
-- [PayloadsAllTheThings - CSRF Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+- [PayloadsAllTheThings - CSRF Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Cross-Site%20Request%20Forgery) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
 
 <a name="clickjacking"></a>
 ### Clickjacking
@@ -265,7 +261,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Open Redirect Vulnerability](https://s0cket7.com/open-redirect-vulnerability/) - Written by [s0cket7](https://s0cket7.com/).
 - [PayloadsAllTheThings - Open Redirect](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
-- [payloadbox/open-redirect-payload-list](https://github.com/payloadbox/open-redirect-payload-list) - Written by [@payloadbox](https://github.com/payloadbox).
 
 <a name="saml"></a>
 ### Security Assertion Markup Language (SAML)
@@ -683,11 +678,9 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [JoomlaScan](https://github.com/drego85/JoomlaScan) - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by [@drego85](https://github.com/drego85).
 - [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a black box WordPress vulnerability scanner by [@wpscanteam](https://github.com/wpscanteam).
-- [WAScan](https://github.com/m4ll0k/WAScan) - Is an open source web application security scanner that uses "black-box" method, created by [@m4ll0k](https://github.com/m4ll0k).
 - [Nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use by [@projectdiscovery](https://github.com/projectdiscovery).
 - [Vigolium](https://github.com/vigolium/vigolium) - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision, maintained by [@j3ssie](https://github.com/j3ssie).
 - [ZAP by Checkmarx](https://zaproxy.org) - Open-source web application security scanner maintained by the ZAP Core Team.
-- [Fray](https://github.com/dalisecurity/fray) - Open-source WAF bypass and security-testing toolkit with 6,300+ payloads across OWASP categories, AI-assisted evasion engine, 27-check reconnaissance pipeline, and OWASP hardening audit, by [@dalisecurity](https://github.com/dalisecurity).
 - [Trust Scan](https://github.com/undeadlist/trust-scan) - URL security scanner combining threat intelligence (URLhaus, PhishTank, Spamhaus) with 40+ scam and phishing pattern detection by [@undeadlist](https://github.com/undeadlist).
 - [ZeroTrust](https://github.com/sattyamjjain/zerotrust) - Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain).
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).

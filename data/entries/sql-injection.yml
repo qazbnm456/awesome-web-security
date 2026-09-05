@@ -205,10 +205,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-30"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20251215/https://github.com/payloadbox/sql-injection-payload-list"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@payloadbox](https://github.com/payloadbox)."
   - id: sql-injection-sql-injection-and-postgres-an-adventure-to-eventua
     url: "https://pulsesecurity.co.nz/articles/postgres-sqli"

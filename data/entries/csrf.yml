@@ -35,7 +35,7 @@ entries:
     status: active
     raw_rest: "Written by [TechBridge](https://blog.techbridge.cc/)."
   - id: csrf-payloadsallthethings-csrf-injection
-    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection"
+    url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Cross-Site%20Request%20Forgery"
     title: PayloadsAllTheThings - CSRF Injection
     author:
       name: "@swisskyrepo"
