@@ -44,6 +44,7 @@ from urllib.parse import urlparse
 _BLOCKED_SCHEMES_MSG = "non-http scheme"
 MAX_BYTES = 256_000          # cap on what we download
 MAX_TEXT_CHARS = 10_000      # cap on what reaches the model
+MIN_TEXT_CHARS = 500         # below this the page did not render to text; do not guess
 
 # What the model is allowed to say. Every field is a fact about the page that a
 # reader could check, never a judgement — "is this original research" is the
@@ -232,27 +233,60 @@ class Server:
             except subprocess.TimeoutExpired:
                 self.proc.kill()
 
-    def complete(self, system: str, user: str) -> tuple[dict, dict]:
-        payload = {
-            "messages": [{"role": "system", "content": system},
-                         {"role": "user", "content": user}],
-            "temperature": 0, "seed": 1234, "n_predict": 200,
-            "response_format": {"type": "json_schema",
-                                "json_schema": {"name": "features", "schema": FEATURE_SCHEMA}},
-            "timings_per_token": False,
-        }
+    def _post(self, payload: dict) -> tuple[dict, float]:
         req = urllib.request.Request(
             "http://127.0.0.1:8081/v1/chat/completions",
             data=json.dumps(payload).encode(),
             headers={"Content-Type": "application/json"}, method="POST")
         t0 = time.time()
         with urllib.request.urlopen(req, timeout=1800) as r:
-            body = json.loads(r.read().decode())
-        elapsed = time.time() - t0
-        content = body["choices"][0]["message"]["content"]
+            return json.loads(r.read().decode()), time.time() - t0
+
+    def complete(self, system: str, user: str) -> tuple[dict, dict]:
+        """One extraction. Returns (features, timings); raises with the raw text
+        attached when nothing JSON-shaped comes back, because "empty content"
+        on its own is not a diagnosis."""
+        payload = {
+            "messages": [{"role": "system", "content": system},
+                         {"role": "user", "content": user}],
+            "temperature": 0, "seed": 1234,
+            # The first run capped this at 200 and most cases came back with an
+            # empty `content`: these are reasoning models, and the budget was
+            # being spent on thinking tokens before any JSON was emitted.
+            "n_predict": 2048,
+            "response_format": {"type": "json_schema",
+                                "json_schema": {"name": "features", "schema": FEATURE_SCHEMA}},
+            # Honoured by llama.cpp for templates that support it; harmless
+            # elsewhere, and we retry without it if a server rejects it.
+            "chat_template_kwargs": {"enable_thinking": False},
+        }
+        try:
+            body, elapsed = self._post(payload)
+        except urllib.error.HTTPError:
+            payload.pop("chat_template_kwargs", None)
+            body, elapsed = self._post(payload)
+
+        msg = (body.get("choices") or [{}])[0].get("message", {}) or {}
         timings = body.get("timings", {}) or {}
         timings["wall_seconds"] = round(elapsed, 1)
-        return json.loads(content), timings
+        timings["finish_reason"] = (body.get("choices") or [{}])[0].get("finish_reason")
+
+        for key in ("content", "reasoning_content"):
+            raw = (msg.get(key) or "").strip()
+            if not raw:
+                continue
+            try:
+                return json.loads(raw), timings
+            except json.JSONDecodeError:
+                m = re.search(r"\{[^{}]*\}", raw, re.S)
+                if m:
+                    try:
+                        return json.loads(m.group(0)), timings
+                    except json.JSONDecodeError:
+                        pass
+        snippet = ((msg.get("content") or "") + " | reasoning: "
+                   + (msg.get("reasoning_content") or ""))[:300]
+        raise ValueError(f"no JSON in response (finish={timings['finish_reason']}): {snippet!r}")
 
 
 # ---------------------------------------------------------------------------
@@ -301,6 +335,14 @@ def main() -> int:
         for c in fetched:
             if c["fetch_error"]:
                 results["cases"].append({"id": c["id"], "skipped": c["fetch_error"]})
+                continue
+            # A JS-rendered page yields almost nothing to a plain HTML parser.
+            # Production must not score those either — "I could not read it" is
+            # a different answer from "it is shallow".
+            if c["text_chars"] < MIN_TEXT_CHARS:
+                results["cases"].append({"id": c["id"],
+                                         "skipped": f"only {c['text_chars']} chars extracted"})
+                print(f"  {c['id']:22} SKIP (only {c['text_chars']} chars)", flush=True)
                 continue
             user = USER_TEMPLATE.format(title=c["title"], url=c["url"], text=c["text"])
             try:
