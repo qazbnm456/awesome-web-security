@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20221110031410/https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20221217162823/https://blog.techbridge.cc/2017/02/25/csrf-introduction/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260416100712/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Cross-Site%20Request%20Forgery"
     last_checked: null
     fingerprint: null
     status: active

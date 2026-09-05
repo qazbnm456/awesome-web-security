@@ -13,7 +13,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-02-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260428142801/https://mohemiv.com/all/evil-xml/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240413161308/https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210209000019/https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240918153012/https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20201101012614/https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180703045833/https://seclists.org/fulldisclosure/2018/Jul/3"
     last_checked: null
     fingerprint: null
     status: active

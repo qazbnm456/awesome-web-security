@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-12-31"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240909233344/https://github.com/0xInfection/XSRFProbe"
     last_checked: null
     fingerprint: null
     status: active

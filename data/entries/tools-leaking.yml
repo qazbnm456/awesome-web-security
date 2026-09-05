@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241117182915/https://github.com/maxchehab/CSS-Keylogging"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://github.com/evilpacket/DVCS-Pillage"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241123033029/https://github.com/UnkL4b/GitMiner"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241122175925/https://github.com/cure53/HTTPLeaks"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241209181510/https://github.com/kost/dvcs-ripper"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220306131442/https://github.com/zricethezav/gitleaks"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-21"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/allyshka/pwngitmanager"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240827103912/https://github.com/hannob/snallygaster"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-08-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241117163148/https://github.com/GerbenJavado/LinkFinder"
     last_checked: null
     fingerprint: null
     status: active

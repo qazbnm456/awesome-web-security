@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241210131737/https://github.com/michenriksen/aquatone"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240926143741/https://github.com/google/certificate-transparency"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241125034844/https://github.com/ChrisTruncer/EyeWitness"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240829144722/https://github.com/We5ter/GSDF"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20141014192142/https://www.virustotal.com/en/documentation/searching/#getting-domain-information"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/eldraco/domain_analyzer"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200522053509/https://github.com/lijiejie/subDomainsBrute"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-19"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240827050247/https://github.com/aboul3la/Sublist3r"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260812114324/https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260821081550/https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-06-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180926003335/https://www.tarlogic.com/en/blog/red-team-tales-0x01/"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210420230616/https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250427060425/https://pulsesecurity.co.nz/articles/postgres-sqli"
     last_checked: null
     fingerprint: null
     status: active

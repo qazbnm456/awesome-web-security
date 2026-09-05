@@ -13,7 +13,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-09-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241127022402/https://github.com/brannondorsey/dns-rebind-toolkit"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-09-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241129082000/https://github.com/nccgroup/singularity"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-09-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241205014356/https://github.com/brannondorsey/whonow"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-09-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180829133419/https://github.com/mwrlabs/dref"
     last_checked: null
     fingerprint: null
     status: active

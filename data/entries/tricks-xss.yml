@@ -13,7 +13,7 @@ entries:
     languages: [jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20231211233454/https://speakerdeck.com/masatokinugawa/shibuya-dot-xss-techtalk-number-10"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240515152312/https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230501223536/https://www.slideshare.net/x00mario/es6-en"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260826042705/https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220328124939/https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/http://xss-quiz.int21h.jp/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260406032950/https://xss-game.appspot.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-19"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240928085419/https://opnsec.com/2018/03/stored-xss-on-facebook/"
     last_checked: null
     fingerprint: null
     status: active
@@ -253,7 +253,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200724150913/https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b"
     last_checked: null
     fingerprint: null
     status: active
@@ -269,7 +269,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-06-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190721175143/https://portswigger.net/blog/xss-without-parentheses-and-semi-colons"
     last_checked: null
     fingerprint: null
     status: active

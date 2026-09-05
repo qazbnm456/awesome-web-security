@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240927131750/https://github.com/LewisArdern/bXSS"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/HynekPetrak/malware-jail"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241118235141/https://github.com/auth0/repo-supervisor"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241128001130/https://github.com/RetireJS/retire.js"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://sqlchop.chaitin.cn/"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250119133337/https://xsschop.chaitin.cn/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-05-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241111081647/https://github.com/baidu/openrasp"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-12-29"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260223204744/https://github.com/apps/guardrails"
     last_checked: null
     fingerprint: null
     status: active

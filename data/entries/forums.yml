@@ -45,7 +45,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20120315113925/https://www.freebuf.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230314192725/http://en.hackdig.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210706091421/http://paper.seebug.org/"
     last_checked: null
     fingerprint: null
     status: active
@@ -91,7 +91,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250802191933/https://www.phrack.org/"
     last_checked: null
     fingerprint: null
     status: active
@@ -107,7 +107,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210414203856/https://securityweekly.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -123,7 +123,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210804202937/https://www.t00ls.net/"
     last_checked: null
     fingerprint: null
     status: active
@@ -139,7 +139,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20110627053902/https://thehackernews.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -155,7 +155,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20040830195133/https://www.theregister.co.uk/"
     last_checked: null
     fingerprint: null
     status: active
@@ -171,7 +171,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210116113858/https://www.anquanke.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -187,7 +187,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20171001051222/https://www.secpulse.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -203,7 +203,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210516173809/https://www.secfree.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -219,7 +219,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180203171340/https://pockr.org/"
     last_checked: null
     fingerprint: null
     status: active
@@ -235,7 +235,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-12-17"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20181130153308/https://zhuanlan.zhihu.com/chaitin-tech"
     last_checked: null
     fingerprint: null
     status: active

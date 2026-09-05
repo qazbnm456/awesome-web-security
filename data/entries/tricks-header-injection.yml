@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240509084634/http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html"
     last_checked: null
     fingerprint: null
     status: active

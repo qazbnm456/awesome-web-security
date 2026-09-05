@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-28"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20150812135418/http://danlec.com/blog/xss-via-a-spoofed-react-element"
     last_checked: null
     fingerprint: null
     status: active

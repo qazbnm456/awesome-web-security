@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241208104832/https://github.com/evilcos/xssor2"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-11"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241124011731/https://github.com/s0md3v/XSStrike"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241124011745/https://github.com/s0md3v/JShell"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241204191000/https://github.com/beefproject/beef"
     last_checked: null
     fingerprint: null
     status: active

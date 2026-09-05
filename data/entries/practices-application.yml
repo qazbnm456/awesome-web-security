@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230826094446/https://selinuxgame.org/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-04"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/SecureSkyTechnology/BadLibrary"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-04"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260818160732/https://hackxor.net/"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-04"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240701192222/https://github.com/juice-shop/juice-shop"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-04"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220610215400/https://portswigger.net/web-security"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200714035717/https://medium.com/@s3yfullah/hacking-cryptocurrency-miners-with-osint-techniques-677bbb3e0157"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230523091651/https://www.slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-28"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20181027124758/https://www.youtube.com/watch?v=fzd3zkAI_o4"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-12"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20201231080927/https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200807143415/http://flaws.cloud/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-12"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260511143454/https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-12"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-10-29"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241126234658/https://github.com/RhinoSecurityLabs/cloudgoat"
     last_checked: null
     fingerprint: null
     status: active

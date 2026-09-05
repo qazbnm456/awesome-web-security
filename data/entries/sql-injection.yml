@@ -13,7 +13,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260812114324/https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20211204013558/https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260106214439/https://websec.ca/kb/sql_injection"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241227225140/https://sqlwiki.netspi.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20191017210940/https://www.freebuf.com/articles/web/36683.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-10-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260821081550/https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-06-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180926003335/https://www.tarlogic.com/en/blog/red-team-tales-0x01/"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210420230616/https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -189,7 +189,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240918150702/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection"
     last_checked: null
     fingerprint: null
     status: active
@@ -221,7 +221,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250427060425/https://pulsesecurity.co.nz/articles/postgres-sqli"
     last_checked: null
     fingerprint: null
     status: active

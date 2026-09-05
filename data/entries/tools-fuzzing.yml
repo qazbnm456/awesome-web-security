@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/OsandaMalith/IPObfuscator"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/hack-all-the-things/charsetinspect"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241124184523/https://github.com/xmendez/wfuzz"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180911084755/https://github.com/google/domato"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-01"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241122220442/https://github.com/fuzzdb-project/fuzzdb"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241122130707/https://github.com/Nekmo/dirhunt"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-08-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241126181301/https://github.com/Bo0oM/fuzz.txt"
     last_checked: null
     fingerprint: null
     status: active

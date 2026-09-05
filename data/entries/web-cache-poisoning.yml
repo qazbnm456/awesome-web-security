@@ -13,7 +13,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190826072143/https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250119133342/https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190922190329/https://portswigger.net/blog/practical-web-cache-poisoning"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260401120618/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Web%20Cache%20Deception"
     last_checked: null
     fingerprint: null
     status: active

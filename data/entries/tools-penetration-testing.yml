@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200224081022/https://portswigger.net/burp/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/flipkart-incubator/astra"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240917195449/https://github.com/dagrz/aws_pwn"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-19"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180627180553/https://github.com/theInfectedDrake/TIDoS-Framework"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-19"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220903041849/https://buckets.grayhatwarfare.com/"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-29"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180724174319/https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241127045500/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files"
     last_checked: null
     fingerprint: null
     status: active

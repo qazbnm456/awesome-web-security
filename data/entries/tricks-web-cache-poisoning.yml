@@ -13,7 +13,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190826072143/https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250119133342/https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [jp]
     difficulty: intermediate
     date_added: "2018-06-08"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240302042952/https://speakerdeck.com/yagihashoo/a-talk-about-xss-thousand-knocks-shibuya-dot-xss-techtalk-number-10"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-08"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260301014025/https://excess-xss.com/"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-08"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/cure53/H5SC"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-08"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250409141857/https://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241122130707/https://github.com/s0md3v/AwesomeXSS"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/LucaBongiorni/XSS.png"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240824130004/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection"
     last_checked: null
     fingerprint: null
     status: active

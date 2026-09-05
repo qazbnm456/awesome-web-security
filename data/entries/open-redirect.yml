@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-09-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210103022455/https://s0cket7.com/open-redirect-vulnerability/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240926125323/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect"
     last_checked: null
     fingerprint: null
     status: active

@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220524124954/https://portswigger.net/research/json-hijacking-for-the-modern-web"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180711185445/https://bo0om.ru/safari-client-side"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230928054328/https://speakerdeck.com/nishimunea/burauzafalsecui-ruo-xing-tosofalseinpakuto"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20201127122251/https://zhuanlan.zhihu.com/p/28719766"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241116143318/https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/"
     last_checked: null
     fingerprint: null
     status: active
@@ -189,7 +189,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-06-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20160817082432/https://www.blackhat.com/docs/asia-16/materials/asia-16-Baloch-Bypassing-Browser-Security-Policies-For-Fun-And-Profit-wp.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -205,7 +205,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240223174511/https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers"
     last_checked: null
     fingerprint: null
     status: active
@@ -221,7 +221,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20231208131047/https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer"
     last_checked: null
     fingerprint: null
     status: active

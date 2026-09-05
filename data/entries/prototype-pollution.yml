@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240915214648/https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260419052746/https://www.leavesongs.com/PENETRATION/javascript-prototype-pollution-attack.html"
     last_checked: null
     fingerprint: null
     status: active

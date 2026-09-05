@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241209043005/https://github.com/drego85/JoomlaScan"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260530010912/https://github.com/wpscanteam/wpscan"
     last_checked: null
     fingerprint: null
     status: active

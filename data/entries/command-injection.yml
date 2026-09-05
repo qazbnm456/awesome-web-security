@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250119133337/https://github.com/ruby/ruby/pull/1777"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-08-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241208104832/https://github.com/commixproject/commix"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260311141120/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection"
     last_checked: null
     fingerprint: null
     status: active

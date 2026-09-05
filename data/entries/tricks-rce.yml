@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230523091946/https://www.ambionics.io/blog/drupal-services-module-rce"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180808190339/https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260517205931/https://bounty.github.com/researchers/iblue.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260622111238/https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on/"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20201104182159/https://capacitorset.github.io/mathjs/"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20180315112406/https://www.freebuf.com/vuls/122938.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-05-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220818223756/https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-05-31"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250426121823/https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-08-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260413093242/https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, jp]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230523091943/https://paper.seebug.org/910/"
     last_checked: null
     fingerprint: null
     status: active
@@ -189,7 +189,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220802035057/https://paper.seebug.org/909/"
     last_checked: null
     fingerprint: null
     status: active
@@ -205,7 +205,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220922143720/https://paper.seebug.org/584/"
     last_checked: null
     fingerprint: null
     status: active
@@ -221,7 +221,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20170718203909/https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/"
     last_checked: null
     fingerprint: null
     status: active
@@ -237,7 +237,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20251023001123/https://www.thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index"
     last_checked: null
     fingerprint: null
     status: active
@@ -253,7 +253,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250321135340/https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241126222706/https://github.com/leizongmin/js-xss"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240901140959/https://github.com/cossacklabs/acra"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241107061553/https://github.com/cure53/DOMPurify"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20191030015833/https://csper.io"
     last_checked: null
     fingerprint: null
     status: active

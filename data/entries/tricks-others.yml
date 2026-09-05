@@ -13,7 +13,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240324113543/https://github.com/gchq/CyberChef"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260511105049/https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20191022141326/https://evi1cg.me/archives/Domain_Fronting.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-03-12"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210516122921/https://www.jianshu.com/p/735e8f1746f0"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-16"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-10-15"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210719173742/http://zeroyu.xyz/2018/10/13/php-audit-tips/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://github.com/taviso/cefdebug"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241117013827/https://github.com/taviso/ctftool"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210511170430/https://github.com/b17zr/ntlm_challenger"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190822050852/https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5"
     last_checked: null
     fingerprint: null
     status: active
@@ -189,7 +189,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250416121121/https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065"
     last_checked: null
     fingerprint: null
     status: active

@@ -29,7 +29,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20251228162741/https://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260802053627/https://guides.rubyonrails.org/security.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20251127221858/https://rails-sqli.org"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-10-24"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://github.com/brunofacca/zen-rails-security-checklist"
     last_checked: null
     fingerprint: null
     status: active

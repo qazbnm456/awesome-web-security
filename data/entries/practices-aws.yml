@@ -13,7 +13,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200807143415/http://flaws.cloud/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2018-10-29"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241126234658/https://github.com/RhinoSecurityLabs/cloudgoat"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190916050244/https://censys.io/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241125083644/https://github.com/ElevenPaths/FOCA"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [en, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20211027055720/https://fofa.so/?locale=en"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210922001313/https://fofa.so/"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240917095851/https://github.com/FeeiCN/GSIL"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20160928134313/https://www.shodan.io/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241211194513/https://github.com/smicallef/spiderfoot"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20131206185023/https://www.zoomeye.org/"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/michenriksen/Gitrob"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/0x09AL/raven"
     last_checked: null
     fingerprint: null
     status: active
@@ -189,7 +189,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20210226223719/https://urlscan.io/"
     last_checked: null
     fingerprint: null
     status: active
@@ -205,7 +205,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241209181510/https://github.com/evilsocket/xray"
     last_checked: null
     fingerprint: null
     status: active
@@ -237,7 +237,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-28"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220523151401/https://start.me/p/QRENnO/databases"
     last_checked: null
     fingerprint: null
     status: active
@@ -253,7 +253,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-02"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260410194431/https://peoplefindthor.dk/"
     last_checked: null
     fingerprint: null
     status: active
@@ -269,7 +269,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/vaguileradiaz/tinfoleak"
     last_checked: null
     fingerprint: null
     status: active
@@ -285,7 +285,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241126021211/https://github.com/s0md3v/Photon"
     last_checked: null
     fingerprint: null
     status: active
@@ -301,7 +301,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240922122533/https://github.com/s0md3v/ReconDog"
     last_checked: null
     fingerprint: null
     status: active
@@ -317,7 +317,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241125001515/https://github.com/evyatarmeged/Raccoon"
     last_checked: null
     fingerprint: null
     status: active
@@ -333,7 +333,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20241204172951/https://github.com/Greenwolf/social_mapper"
     last_checked: null
     fingerprint: null
     status: active
@@ -349,7 +349,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090310/https://github.com/espi0n/Dockerfiles"
     last_checked: null
     fingerprint: null
     status: active

@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090316/https://www.aptive.co.uk/blog/tls-ssl-security-testing/"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240822222053/https://github.com/Hakky54/mutual-tls-ssl"
     last_checked: null
     fingerprint: null
     status: active

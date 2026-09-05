@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20221219025053/https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf"
     last_checked: null
     fingerprint: null
     status: active
@@ -61,7 +61,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20191214064545/https://www.freebuf.com/articles/web/135342.html"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-02"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20231103220017/https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-09-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230523002703/https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-29"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20200808043610/https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a"
     last_checked: null
     fingerprint: null
     status: active
@@ -141,7 +141,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230204010250/https://www.tttang.com/archive/1293/"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230523092149/https://10degres.net/aws-takeover-through-ssrf-in-javascript/"
     last_checked: null
     fingerprint: null
     status: active
@@ -173,7 +173,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-22"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20191119060224/https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html"
     last_checked: null
     fingerprint: null
     status: active

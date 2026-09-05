@@ -45,7 +45,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20170921230142/https://blogs.securiteam.com/index.php/archives/3379"
     last_checked: null
     fingerprint: null
     status: active
@@ -77,7 +77,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-07-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090314/https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit"
     last_checked: null
     fingerprint: null
     status: active
@@ -93,7 +93,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-08-01"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20250114103534/https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/"
     last_checked: null
     fingerprint: null
     status: active
@@ -109,7 +109,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20240930090311/https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/"
     last_checked: null
     fingerprint: null
     status: active
@@ -125,7 +125,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-05-26"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230327124500/https://habr.com/en/company/drweb/blog/452076/"
     last_checked: null
     fingerprint: null
     status: active
@@ -157,7 +157,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220628122716/https://www.freebuf.com/vuls/203721.html"
     last_checked: null
     fingerprint: null
     status: active

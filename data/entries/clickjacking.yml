@@ -13,7 +13,7 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-08-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20230922120535/https://speakerdeck.com/p8361/bug-bounty-jiang-jin-lie-ren-gan-ku-tan-na-xie-nian-wo-hui-bao-guo-de-lou-dong"
     last_checked: null
     fingerprint: null
     status: active
@@ -29,7 +29,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-08-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20251204005849/https://www.imperva.com/learn/application-security/clickjacking/"
     last_checked: null
     fingerprint: null
     status: active
@@ -45,7 +45,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-08-25"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260801141408/https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a"
     last_checked: null
     fingerprint: null
     status: active

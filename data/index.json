@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T14:39:29Z",
+  "generated_at": "2026-09-05T17:33:41Z",
   "categories": [
     {
       "key": "digests",
@@ -742,7 +742,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220507091920/https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs",
       "last_checked": null,
       "status": "active"
     },
@@ -762,7 +762,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200807143415/http://flaws.cloud/",
       "last_checked": null,
       "status": "active"
     },
@@ -804,7 +804,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260511143454/https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/",
       "last_checked": null,
       "status": "active"
     },
@@ -825,7 +825,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/",
       "last_checked": null,
       "status": "active"
     },
@@ -845,7 +845,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126234658/https://github.com/RhinoSecurityLabs/cloudgoat",
       "last_checked": null,
       "status": "active"
     },
@@ -887,7 +887,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250914211800/https://rhinosecuritylabs.com/azure/cloud-security-risks-part-1-azure-csv-injection-vulnerability/",
       "last_checked": null,
       "status": "active"
     },
@@ -908,7 +908,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250907090231/https://rhinosecuritylabs.com/cloud-security/common-azure-security-vulnerabilities/",
       "last_checked": null,
       "status": "active"
     },
@@ -929,7 +929,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200614173647/https://buer.haus/",
       "last_checked": null,
       "status": "active"
     },
@@ -950,7 +950,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251114103248/https://www.brokenbrowser.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -971,7 +971,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170929083941/http://albinowax.skeletonscribe.net/",
       "last_checked": null,
       "status": "active"
     },
@@ -990,7 +990,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231123053619/https://lorexxar.cn/",
       "last_checked": null,
       "status": "active"
     },
@@ -1011,7 +1011,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260827005332/https://opnsec.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -1032,7 +1032,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240816012407/https://blog.orange.tw/",
       "last_checked": null,
       "status": "active"
     },
@@ -1074,7 +1074,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20161107130753/https://www.leavesongs.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -1095,7 +1095,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240511004951/https://www.n0tr00t.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -1158,7 +1158,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170731075916/https://osandamalith.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -1177,7 +1177,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-02-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250327175906/https://kingx.me/",
       "last_checked": null,
       "status": "active"
     },
@@ -1259,7 +1259,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170921230142/https://blogs.securiteam.com/index.php/archives/3379",
       "last_checked": null,
       "status": "active"
     },
@@ -1301,7 +1301,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090314/https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit",
       "last_checked": null,
       "status": "active"
     },
@@ -1322,7 +1322,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-01",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250114103534/https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/",
       "last_checked": null,
       "status": "active"
     },
@@ -1343,7 +1343,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/",
       "last_checked": null,
       "status": "active"
     },
@@ -1364,7 +1364,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230327124500/https://habr.com/en/company/drweb/blog/452076/",
       "last_checked": null,
       "status": "active"
     },
@@ -1404,7 +1404,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220628122716/https://www.freebuf.com/vuls/203721.html",
       "last_checked": null,
       "status": "active"
     },
@@ -1506,7 +1506,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220524124954/https://portswigger.net/research/json-hijacking-for-the-modern-web",
       "last_checked": null,
       "status": "active"
     },
@@ -1548,7 +1548,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180711185445/https://bo0om.ru/safari-client-side",
       "last_checked": null,
       "status": "active"
     },
@@ -1567,7 +1567,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230928054328/https://speakerdeck.com/nishimunea/burauzafalsecui-ruo-xing-tosofalseinpakuto",
       "last_checked": null,
       "status": "active"
     },
@@ -1586,7 +1586,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20201127122251/https://zhuanlan.zhihu.com/p/28719766",
       "last_checked": null,
       "status": "active"
     },
@@ -1670,7 +1670,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241116143318/https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/",
       "last_checked": null,
       "status": "active"
     },
@@ -1691,7 +1691,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20160817082432/https://www.blackhat.com/docs/asia-16/materials/asia-16-Baloch-Bypassing-Browser-Security-Policies-For-Fun-And-Profit-wp.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -1712,7 +1712,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240223174511/https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers",
       "last_checked": null,
       "status": "active"
     },
@@ -1733,7 +1733,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231208131047/https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer",
       "last_checked": null,
       "status": "active"
     },
@@ -1796,7 +1796,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260103045516/https://github.com/uppusaikiran/awesome-ctf-cheatsheet",
       "last_checked": null,
       "status": "active"
     },
@@ -1950,7 +1950,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230922120535/https://speakerdeck.com/p8361/bug-bounty-jiang-jin-lie-ren-gan-ku-tan-na-xie-nian-wo-hui-bao-guo-de-lou-dong",
       "last_checked": null,
       "status": "active"
     },
@@ -1971,7 +1971,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251204005849/https://www.imperva.com/learn/application-security/clickjacking/",
       "last_checked": null,
       "status": "active"
     },
@@ -1991,7 +1991,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801141408/https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a",
       "last_checked": null,
       "status": "active"
     },
@@ -2052,7 +2052,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133337/https://github.com/ruby/ruby/pull/1777",
       "last_checked": null,
       "status": "active"
     },
@@ -2091,7 +2091,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241208104832/https://github.com/commixproject/commix",
       "last_checked": null,
       "status": "active"
     },
@@ -2112,7 +2112,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260311141120/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -2151,7 +2151,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221017111308/https://www.reddit.com/r/websecurity/",
       "last_checked": null,
       "status": "active"
     },
@@ -2169,7 +2169,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20121017145642/https://stackoverflow.com/questions/tagged/security",
       "last_checked": null,
       "status": "active"
     },
@@ -2190,7 +2190,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221222170139/https://bettercrypto.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -2232,7 +2232,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221110031410/https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f",
       "last_checked": null,
       "status": "active"
     },
@@ -2251,7 +2251,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221217162823/https://blog.techbridge.cc/2017/02/25/csrf-introduction/",
       "last_checked": null,
       "status": "active"
     },
@@ -2272,7 +2272,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260416100712/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Cross-Site%20Request%20Forgery",
       "last_checked": null,
       "status": "active"
     },
@@ -2293,7 +2293,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200108095542/https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -2314,7 +2314,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260128161301/https://georgemauer.net/2017/10/07/csv-injection.html",
       "last_checked": null,
       "status": "active"
     },
@@ -2335,7 +2335,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241129193844/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -2376,7 +2376,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170718203909/https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/",
       "last_checked": null,
       "status": "active"
     },
@@ -2519,7 +2519,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241201050050/https://trailofbits.github.io/ctf/",
       "last_checked": null,
       "status": "active"
     },
@@ -2580,7 +2580,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170911205322/https://www.sneakymonkey.net/2017/04/23/infosec-newbie/",
       "last_checked": null,
       "status": "active"
     },
@@ -2601,7 +2601,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220307024654/https://github.com/swisskyrepo/PayloadsAllTheThings/",
       "last_checked": null,
       "status": "active"
     },
@@ -2643,7 +2643,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://bitvijays.github.io/",
       "last_checked": null,
       "status": "active"
     },
@@ -2664,7 +2664,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200309035248/https://www.netsparker.com/blog/web-security/",
       "last_checked": null,
       "status": "active"
     },
@@ -2683,7 +2683,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240905193110/https://github.com/phith0n/Mind-Map",
       "last_checked": null,
       "status": "active"
     },
@@ -2763,7 +2763,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801132738/https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325",
       "last_checked": null,
       "status": "active"
     },
@@ -2783,7 +2783,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127022402/https://github.com/brannondorsey/dns-rebind-toolkit",
       "last_checked": null,
       "status": "active"
     },
@@ -2804,7 +2804,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091657/https://medium.com/@radekk/hackers-can-get-access-to-your-home-router-1ddadd12a7a7",
       "last_checked": null,
       "status": "active"
     },
@@ -2824,7 +2824,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241129082000/https://github.com/nccgroup/singularity",
       "last_checked": null,
       "status": "active"
     },
@@ -2844,7 +2844,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241205014356/https://github.com/brannondorsey/whonow",
       "last_checked": null,
       "status": "active"
     },
@@ -2864,7 +2864,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180829133419/https://github.com/mwrlabs/dref",
       "last_checked": null,
       "status": "active"
     },
@@ -2885,7 +2885,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251028110615/https://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html",
       "last_checked": null,
       "status": "active"
     },
@@ -2906,7 +2906,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170115091948/https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/",
       "last_checked": null,
       "status": "active"
     },
@@ -2927,7 +2927,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250324143901/https://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html",
       "last_checked": null,
       "status": "active"
     },
@@ -2948,7 +2948,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-13",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251212193246/https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa",
       "last_checked": null,
       "status": "active"
     },
@@ -2969,7 +2969,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190904194351/https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup",
       "last_checked": null,
       "status": "active"
     },
@@ -2990,7 +2990,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-01",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240522041731/https://github.blog/2016-04-12-githubs-csp-journey/",
       "last_checked": null,
       "status": "active"
     },
@@ -3011,7 +3011,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-01",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230526141732/https://github.blog/2017-01-19-githubs-post-csp-journey/",
       "last_checked": null,
       "status": "active"
     },
@@ -3051,7 +3051,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133336/https://github.com/w3c/webappsec-csp/issues/243",
       "last_checked": null,
       "status": "active"
     },
@@ -3072,7 +3072,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231211105849/https://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks",
       "last_checked": null,
       "status": "active"
     },
@@ -3093,7 +3093,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090315/https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/",
       "last_checked": null,
       "status": "active"
     },
@@ -3114,7 +3114,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200810195452/https://medium.com/@d0znpp/how-to-bypass-libinjection-in-many-waf-ngwaf-1e2513453c0f",
       "last_checked": null,
       "status": "active"
     },
@@ -3135,7 +3135,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200915202938/https://medium.com/secjuice/waf-evasion-techniques-718026d693d8",
       "last_checked": null,
       "status": "active"
     },
@@ -3156,7 +3156,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231103210516/https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0",
       "last_checked": null,
       "status": "active"
     },
@@ -3195,7 +3195,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260428142801/https://mohemiv.com/all/evil-xml/",
       "last_checked": null,
       "status": "active"
     },
@@ -3215,7 +3215,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240413161308/https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
       "last_checked": null,
       "status": "active"
     },
@@ -3236,7 +3236,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230327180814/https://twitter.com/SpiderSec/status/1191375472690528256",
       "last_checked": null,
       "status": "active"
     },
@@ -3276,7 +3276,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210209000019/https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/",
       "last_checked": null,
       "status": "active"
     },
@@ -3336,7 +3336,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918153012/https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -3376,7 +3376,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20201101012614/https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/",
       "last_checked": null,
       "status": "active"
     },
@@ -3396,7 +3396,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180703045833/https://seclists.org/fulldisclosure/2018/Jul/3",
       "last_checked": null,
       "status": "active"
     },
@@ -3415,7 +3415,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190819130953/https://www.freebuf.com/articles/web/127266.html",
       "last_checked": null,
       "status": "active"
     },
@@ -3474,7 +3474,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20120315113925/https://www.freebuf.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3495,7 +3495,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230314192725/http://en.hackdig.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3514,7 +3514,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210706091421/http://paper.seebug.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -3532,7 +3532,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250802191933/https://www.phrack.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -3553,7 +3553,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210414203856/https://securityweekly.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3572,7 +3572,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210804202937/https://www.t00ls.net/",
       "last_checked": null,
       "status": "active"
     },
@@ -3593,7 +3593,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20110627053902/https://thehackernews.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3614,7 +3614,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20040830195133/https://www.theregister.co.uk/",
       "last_checked": null,
       "status": "active"
     },
@@ -3633,7 +3633,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210116113858/https://www.anquanke.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3652,7 +3652,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20171001051222/https://www.secpulse.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3671,7 +3671,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210516173809/https://www.secfree.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -3690,7 +3690,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180203171340/https://pockr.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -3709,7 +3709,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-12-17",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20181130153308/https://zhuanlan.zhihu.com/chaitin-tech",
       "last_checked": null,
       "status": "active"
     },
@@ -3730,7 +3730,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240509084634/http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html",
       "last_checked": null,
       "status": "active"
     },
@@ -3751,7 +3751,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091332/https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/",
       "last_checked": null,
       "status": "active"
     },
@@ -3771,7 +3771,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918153012/https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -3831,7 +3831,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240905193407/https://github.com/Xyntax/1000php",
       "last_checked": null,
       "status": "active"
     },
@@ -3852,7 +3852,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240421175502/https://github.blog/2017-02-22-githubs-bug-bounty-workflow/",
       "last_checked": null,
       "status": "active"
     },
@@ -3873,7 +3873,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170315010759/https://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html",
       "last_checked": null,
       "status": "active"
     },
@@ -3894,7 +3894,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230307010846/https://www.belfercenter.org/publication/cybersecurity-campaign-playbook",
       "last_checked": null,
       "status": "active"
     },
@@ -3915,7 +3915,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240917162846/https://github.com/x0rz/EQGRP",
       "last_checked": null,
       "status": "active"
     },
@@ -3936,7 +3936,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133336/https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns",
       "last_checked": null,
       "status": "active"
     },
@@ -3957,7 +3957,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241116211149/https://github.com/rmusser01/Infosec_Reference",
       "last_checked": null,
       "status": "active"
     },
@@ -3999,7 +3999,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170215131748/https://i.imgur.com/Mr9pvq9.jpg",
       "last_checked": null,
       "status": "active"
     },
@@ -4020,7 +4020,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241208155331/https://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/",
       "last_checked": null,
       "status": "active"
     },
@@ -4041,7 +4041,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241116020903/https://github.com/djadmin/awesome-bug-bounty",
       "last_checked": null,
       "status": "active"
     },
@@ -4062,7 +4062,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127030425/https://github.com/ngalongc/bug-bounty-reference",
       "last_checked": null,
       "status": "active"
     },
@@ -4083,7 +4083,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/ChALkeR/notes",
       "last_checked": null,
       "status": "active"
     },
@@ -4102,7 +4102,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251217222434/https://devco.re/blog/2014/06/19/client-ip-detection/",
       "last_checked": null,
       "status": "active"
     },
@@ -4142,7 +4142,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180217003004/https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up",
       "last_checked": null,
       "status": "active"
     },
@@ -4163,7 +4163,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251220083605/https://docs.google.com/presentation/d/1VpRT8dFyTaFpQa9jhehtmGaC7TqQniMSYbUdlHN6VrY/edit?usp=sharing",
       "last_checked": null,
       "status": "active"
     },
@@ -4184,7 +4184,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230325044009/https://labs.detectify.com/2018/01/12/how-i-exploited-acme-tls-sni-01-issuing-lets-encrypt-ssl-certs-for-any-domain-using-shared-hosting/",
       "last_checked": null,
       "status": "active"
     },
@@ -4205,7 +4205,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251116112058/https://voidsec.com/vpn-leak/",
       "last_checked": null,
       "status": "active"
     },
@@ -4226,7 +4226,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801131944/https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66",
       "last_checked": null,
       "status": "active"
     },
@@ -4247,7 +4247,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200309070522/https://www.optiv.com/blog/escape-and-evasion-egressing-restricted-networks",
       "last_checked": null,
       "status": "active"
     },
@@ -4310,7 +4310,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-13",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250828071334/https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018",
       "last_checked": null,
       "status": "active"
     },
@@ -4331,7 +4331,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801134722/https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/",
       "last_checked": null,
       "status": "active"
     },
@@ -4373,7 +4373,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260216021852/https://0day.work/an-example-why-nat-is-not-security/",
       "last_checked": null,
       "status": "active"
     },
@@ -4436,7 +4436,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220407160122/https://techvomit.net/web-application-penetration-testing-notes/",
       "last_checked": null,
       "status": "active"
     },
@@ -4457,7 +4457,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221005185814/https://pentester.land/list-of-bug-bounty-writeups.html",
       "last_checked": null,
       "status": "active"
     },
@@ -4499,7 +4499,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-03-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200918181340/https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob",
       "last_checked": null,
       "status": "active"
     },
@@ -4665,7 +4665,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240928085612/https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&cn=ZmxleGlibGVfcmVjc18y&refsrc=email&iid=b34422ce15164e99a193fea0ccc7a02f&uid=1959680352&nid=244+289476616",
       "last_checked": null,
       "status": "active"
     },
@@ -4725,7 +4725,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220527162551/https://medium.com/@justinlee_78563/%E9%97%9C%E6%96%BCoauth-2-0-%E4%BB%A5facebook%E7%82%BA%E4%BE%8B-6f78a4a55f52",
       "last_checked": null,
       "status": "active"
     },
@@ -4767,7 +4767,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-09-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210103022455/https://s0cket7.com/open-redirect-vulnerability/",
       "last_checked": null,
       "status": "active"
     },
@@ -4788,7 +4788,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240926125323/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Open%20Redirect",
       "last_checked": null,
       "status": "active"
     },
@@ -4851,7 +4851,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801131037/https://blog.h3xstream.com/2014/02/hql-for-pentesters.html",
       "last_checked": null,
       "status": "active"
     },
@@ -4872,7 +4872,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091326/https://www.slideshare.net/simone.onofri/orm-injection",
       "last_checked": null,
       "status": "active"
     },
@@ -4893,7 +4893,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240124074224/https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm",
       "last_checked": null,
       "status": "active"
     },
@@ -4914,7 +4914,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200714035717/https://medium.com/@s3yfullah/hacking-cryptocurrency-miners-with-osint-techniques-677bbb3e0157",
       "last_checked": null,
       "status": "active"
     },
@@ -4935,7 +4935,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091651/https://www.slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence",
       "last_checked": null,
       "status": "active"
     },
@@ -4956,7 +4956,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-28",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20181027124758/https://www.youtube.com/watch?v=fzd3zkAI_o4",
       "last_checked": null,
       "status": "active"
     },
@@ -4977,7 +4977,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20201231080927/https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email",
       "last_checked": null,
       "status": "active"
     },
@@ -4998,7 +4998,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/coffeehb/Some-PoC-oR-ExP",
       "last_checked": null,
       "status": "active"
     },
@@ -5019,7 +5019,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260222063625/https://github.com/qazbnm456/awesome-cve-poc",
       "last_checked": null,
       "status": "active"
     },
@@ -5040,7 +5040,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127230434/https://github.com/tunz/js-vuln-db",
       "last_checked": null,
       "status": "active"
     },
@@ -5061,7 +5061,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-05-02",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/Metnew/uxss-db",
       "last_checked": null,
       "status": "active"
     },
@@ -5082,7 +5082,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-09-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260813022945/https://sploitus.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -5103,7 +5103,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20120503192051/https://www.exploit-db.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -5124,7 +5124,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230826094446/https://selinuxgame.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -5145,7 +5145,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-04",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/SecureSkyTechnology/BadLibrary",
       "last_checked": null,
       "status": "active"
     },
@@ -5166,7 +5166,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-04",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260818160732/https://hackxor.net/",
       "last_checked": null,
       "status": "active"
     },
@@ -5187,7 +5187,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-04",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240701192222/https://github.com/juice-shop/juice-shop",
       "last_checked": null,
       "status": "active"
     },
@@ -5208,7 +5208,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-04",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220610215400/https://portswigger.net/web-security",
       "last_checked": null,
       "status": "active"
     },
@@ -5306,7 +5306,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200807143415/http://flaws.cloud/",
       "last_checked": null,
       "status": "active"
     },
@@ -5325,7 +5325,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126234658/https://github.com/RhinoSecurityLabs/cloudgoat",
       "last_checked": null,
       "status": "active"
     },
@@ -5346,7 +5346,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260607161216/https://www.netnea.com/cms/apache-tutorials/",
       "last_checked": null,
       "status": "active"
     },
@@ -5365,7 +5365,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/http://xss-quiz.int21h.jp/",
       "last_checked": null,
       "status": "active"
     },
@@ -5384,7 +5384,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260406032950/https://xss-game.appspot.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -5443,7 +5443,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240915214648/https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -5462,7 +5462,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260419052746/https://www.leavesongs.com/PENETRATION/javascript-prototype-pollution-attack.html",
       "last_checked": null,
       "status": "active"
     },
@@ -5544,7 +5544,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251228162741/https://devco.re/blog/2015/07/24/the-vulnerability-of-dynamic-render-paths-in-rails/",
       "last_checked": null,
       "status": "active"
     },
@@ -5565,7 +5565,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260802053627/https://guides.rubyonrails.org/security.html",
       "last_checked": null,
       "status": "active"
     },
@@ -5586,7 +5586,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251127221858/https://rails-sqli.org",
       "last_checked": null,
       "status": "active"
     },
@@ -5607,7 +5607,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-10-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://github.com/brunofacca/zen-rails-security-checklist",
       "last_checked": null,
       "status": "active"
     },
@@ -5628,7 +5628,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-28",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20150812135418/http://danlec.com/blog/xss-via-a-spoofed-react-element",
       "last_checked": null,
       "status": "active"
     },
@@ -5649,7 +5649,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260502030552/https://blog.acolyer.org/2018/05/28/large-scale-analysis-of-style-injection-by-relative-path-overwrite/",
       "last_checked": null,
       "status": "active"
     },
@@ -5689,7 +5689,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20211026001904/https://www.freebuf.com/articles/web/166731.html",
       "last_checked": null,
       "status": "active"
     },
@@ -5710,7 +5710,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250308094827/https://epi052.gitlab.io/notes-to-self/blog/2019-03-07-how-to-test-saml-a-methodology/",
       "last_checked": null,
       "status": "active"
     },
@@ -5731,7 +5731,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260228012122/https://epi052.gitlab.io/notes-to-self/blog/2019-03-13-how-to-test-saml-a-methodology-part-two/",
       "last_checked": null,
       "status": "active"
     },
@@ -5752,7 +5752,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250428113009/https://epi052.gitlab.io/notes-to-self/blog/2019-03-16-how-to-test-saml-a-methodology-part-three/",
       "last_checked": null,
       "status": "active"
     },
@@ -5773,7 +5773,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260317203245/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SAML%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -5835,7 +5835,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260812114324/https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/",
       "last_checked": null,
       "status": "active"
     },
@@ -5856,7 +5856,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20211204013558/https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
       "last_checked": null,
       "status": "active"
     },
@@ -5877,7 +5877,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260106214439/https://websec.ca/kb/sql_injection",
       "last_checked": null,
       "status": "active"
     },
@@ -5898,7 +5898,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241227225140/https://sqlwiki.netspi.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -5956,7 +5956,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191017210940/https://www.freebuf.com/articles/web/36683.html",
       "last_checked": null,
       "status": "active"
     },
@@ -5995,7 +5995,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821081550/https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8",
       "last_checked": null,
       "status": "active"
     },
@@ -6015,7 +6015,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180926003335/https://www.tarlogic.com/en/blog/red-team-tales-0x01/",
       "last_checked": null,
       "status": "active"
     },
@@ -6035,7 +6035,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210420230616/https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -6056,7 +6056,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918150702/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -6097,7 +6097,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250427060425/https://pulsesecurity.co.nz/articles/postgres-sqli",
       "last_checked": null,
       "status": "active"
     },
@@ -6118,7 +6118,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090316/https://www.aptive.co.uk/blog/tls-ssl-security-testing/",
       "last_checked": null,
       "status": "active"
     },
@@ -6139,7 +6139,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240822222053/https://github.com/Hakky54/mutual-tls-ssl",
       "last_checked": null,
       "status": "active"
     },
@@ -6179,7 +6179,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-13",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260414180854/https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit",
       "last_checked": null,
       "status": "active"
     },
@@ -6200,7 +6200,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918150702/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery",
       "last_checked": null,
       "status": "active"
     },
@@ -6263,7 +6263,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240901121046/https://github.com/hahwul/a2sv",
       "last_checked": null,
       "status": "active"
     },
@@ -6284,7 +6284,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20171113213659/https://github.com/Alfresco/prowler",
       "last_checked": null,
       "status": "active"
     },
@@ -6305,7 +6305,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hehnope/slurp",
       "last_checked": null,
       "status": "active"
     },
@@ -6326,7 +6326,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/qazbnm456/VWGen",
       "last_checked": null,
       "status": "active"
     },
@@ -6345,7 +6345,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241208104832/https://github.com/commixproject/commix",
       "last_checked": null,
       "status": "active"
     },
@@ -6366,7 +6366,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-12-31",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240909233344/https://github.com/0xInfection/XSRFProbe",
       "last_checked": null,
       "status": "active"
     },
@@ -6387,7 +6387,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260221132605/https://www.benf.org/other/cfr/",
       "last_checked": null,
       "status": "active"
     },
@@ -6408,7 +6408,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240927131750/https://github.com/LewisArdern/bXSS",
       "last_checked": null,
       "status": "active"
     },
@@ -6429,7 +6429,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/HynekPetrak/malware-jail",
       "last_checked": null,
       "status": "active"
     },
@@ -6450,7 +6450,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241118235141/https://github.com/auth0/repo-supervisor",
       "last_checked": null,
       "status": "active"
     },
@@ -6471,7 +6471,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241128001130/https://github.com/RetireJS/retire.js",
       "last_checked": null,
       "status": "active"
     },
@@ -6492,7 +6492,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://sqlchop.chaitin.cn/",
       "last_checked": null,
       "status": "active"
     },
@@ -6513,7 +6513,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133337/https://xsschop.chaitin.cn/",
       "last_checked": null,
       "status": "active"
     },
@@ -6551,7 +6551,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-05-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241111081647/https://github.com/baidu/openrasp",
       "last_checked": null,
       "status": "active"
     },
@@ -6572,7 +6572,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-12-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260223204744/https://github.com/apps/guardrails",
       "last_checked": null,
       "status": "active"
     },
@@ -6593,7 +6593,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240917101038/https://github.com/hteso/iaito",
       "last_checked": null,
       "status": "active"
     },
@@ -6614,7 +6614,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241209181510/https://github.com/plasma-disassembler/plasma",
       "last_checked": null,
       "status": "active"
     },
@@ -6635,7 +6635,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20181230190855/https://github.com/radare/radare2",
       "last_checked": null,
       "status": "active"
     },
@@ -6654,7 +6654,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127022402/https://github.com/brannondorsey/dns-rebind-toolkit",
       "last_checked": null,
       "status": "active"
     },
@@ -6673,7 +6673,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241129082000/https://github.com/nccgroup/singularity",
       "last_checked": null,
       "status": "active"
     },
@@ -6692,7 +6692,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241205014356/https://github.com/brannondorsey/whonow",
       "last_checked": null,
       "status": "active"
     },
@@ -6711,7 +6711,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180829133419/https://github.com/mwrlabs/dref",
       "last_checked": null,
       "status": "active"
     },
@@ -6732,7 +6732,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/OsandaMalith/IPObfuscator",
       "last_checked": null,
       "status": "active"
     },
@@ -6753,7 +6753,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hack-all-the-things/charsetinspect",
       "last_checked": null,
       "status": "active"
     },
@@ -6774,7 +6774,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241124184523/https://github.com/xmendez/wfuzz",
       "last_checked": null,
       "status": "active"
     },
@@ -6795,7 +6795,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180911084755/https://github.com/google/domato",
       "last_checked": null,
       "status": "active"
     },
@@ -6816,7 +6816,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-01",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241122220442/https://github.com/fuzzdb-project/fuzzdb",
       "last_checked": null,
       "status": "active"
     },
@@ -6837,7 +6837,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241122130707/https://github.com/Nekmo/dirhunt",
       "last_checked": null,
       "status": "active"
     },
@@ -6879,7 +6879,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126181301/https://github.com/Bo0oM/fuzz.txt",
       "last_checked": null,
       "status": "active"
     },
@@ -6940,7 +6940,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241117182915/https://github.com/maxchehab/CSS-Keylogging",
       "last_checked": null,
       "status": "active"
     },
@@ -6961,7 +6961,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://github.com/evilpacket/DVCS-Pillage",
       "last_checked": null,
       "status": "active"
     },
@@ -6982,7 +6982,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241123033029/https://github.com/UnkL4b/GitMiner",
       "last_checked": null,
       "status": "active"
     },
@@ -7003,7 +7003,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241122175925/https://github.com/cure53/HTTPLeaks",
       "last_checked": null,
       "status": "active"
     },
@@ -7024,7 +7024,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241209181510/https://github.com/kost/dvcs-ripper",
       "last_checked": null,
       "status": "active"
     },
@@ -7045,7 +7045,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220306131442/https://github.com/zricethezav/gitleaks",
       "last_checked": null,
       "status": "active"
     },
@@ -7066,7 +7066,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-21",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/allyshka/pwngitmanager",
       "last_checked": null,
       "status": "active"
     },
@@ -7087,7 +7087,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240827103912/https://github.com/hannob/snallygaster",
       "last_checked": null,
       "status": "active"
     },
@@ -7108,7 +7108,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241117163148/https://github.com/GerbenJavado/LinkFinder",
       "last_checked": null,
       "status": "active"
     },
@@ -7150,7 +7150,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190916050244/https://censys.io/",
       "last_checked": null,
       "status": "active"
     },
@@ -7171,7 +7171,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241125083644/https://github.com/ElevenPaths/FOCA",
       "last_checked": null,
       "status": "active"
     },
@@ -7191,7 +7191,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20211027055720/https://fofa.so/?locale=en",
       "last_checked": null,
       "status": "active"
     },
@@ -7210,7 +7210,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210922001313/https://fofa.so/",
       "last_checked": null,
       "status": "active"
     },
@@ -7231,7 +7231,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240917095851/https://github.com/FeeiCN/GSIL",
       "last_checked": null,
       "status": "active"
     },
@@ -7273,7 +7273,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20160928134313/https://www.shodan.io/",
       "last_checked": null,
       "status": "active"
     },
@@ -7294,7 +7294,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241211194513/https://github.com/smicallef/spiderfoot",
       "last_checked": null,
       "status": "active"
     },
@@ -7315,7 +7315,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20131206185023/https://www.zoomeye.org/",
       "last_checked": null,
       "status": "active"
     },
@@ -7336,7 +7336,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/michenriksen/Gitrob",
       "last_checked": null,
       "status": "active"
     },
@@ -7357,7 +7357,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/0x09AL/raven",
       "last_checked": null,
       "status": "active"
     },
@@ -7378,7 +7378,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210226223719/https://urlscan.io/",
       "last_checked": null,
       "status": "active"
     },
@@ -7399,7 +7399,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241209181510/https://github.com/evilsocket/xray",
       "last_checked": null,
       "status": "active"
     },
@@ -7439,7 +7439,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-28",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220523151401/https://start.me/p/QRENnO/databases",
       "last_checked": null,
       "status": "active"
     },
@@ -7460,7 +7460,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-02",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260410194431/https://peoplefindthor.dk/",
       "last_checked": null,
       "status": "active"
     },
@@ -7481,7 +7481,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/vaguileradiaz/tinfoleak",
       "last_checked": null,
       "status": "active"
     },
@@ -7502,7 +7502,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126021211/https://github.com/s0md3v/Photon",
       "last_checked": null,
       "status": "active"
     },
@@ -7523,7 +7523,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240922122533/https://github.com/s0md3v/ReconDog",
       "last_checked": null,
       "status": "active"
     },
@@ -7544,7 +7544,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241125001515/https://github.com/evyatarmeged/Raccoon",
       "last_checked": null,
       "status": "active"
     },
@@ -7565,7 +7565,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241204172951/https://github.com/Greenwolf/social_mapper",
       "last_checked": null,
       "status": "active"
     },
@@ -7586,7 +7586,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/espi0n/Dockerfiles",
       "last_checked": null,
       "status": "active"
     },
@@ -7663,7 +7663,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240324113543/https://github.com/gchq/CyberChef",
       "last_checked": null,
       "status": "active"
     },
@@ -7701,7 +7701,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://github.com/taviso/cefdebug",
       "last_checked": null,
       "status": "active"
     },
@@ -7720,7 +7720,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241117013827/https://github.com/taviso/ctftool",
       "last_checked": null,
       "status": "active"
     },
@@ -7739,7 +7739,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210511170430/https://github.com/b17zr/ntlm_challenger",
       "last_checked": null,
       "status": "active"
     },
@@ -7760,7 +7760,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200224081022/https://portswigger.net/burp/",
       "last_checked": null,
       "status": "active"
     },
@@ -7781,7 +7781,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/flipkart-incubator/astra",
       "last_checked": null,
       "status": "active"
     },
@@ -7802,7 +7802,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240917195449/https://github.com/dagrz/aws_pwn",
       "last_checked": null,
       "status": "active"
     },
@@ -7823,7 +7823,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180627180553/https://github.com/theInfectedDrake/TIDoS-Framework",
       "last_checked": null,
       "status": "active"
     },
@@ -7844,7 +7844,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220903041849/https://buckets.grayhatwarfare.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -7924,7 +7924,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126222706/https://github.com/leizongmin/js-xss",
       "last_checked": null,
       "status": "active"
     },
@@ -7945,7 +7945,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240901140959/https://github.com/cossacklabs/acra",
       "last_checked": null,
       "status": "active"
     },
@@ -7966,7 +7966,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241107061553/https://github.com/cure53/DOMPurify",
       "last_checked": null,
       "status": "active"
     },
@@ -7987,7 +7987,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191030015833/https://csper.io",
       "last_checked": null,
       "status": "active"
     },
@@ -8175,7 +8175,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220111063925/https://www.charlesproxy.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -8196,7 +8196,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230511165652/https://github.com/mitmproxy/mitmproxy",
       "last_checked": null,
       "status": "active"
     },
@@ -8236,7 +8236,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241209043005/https://github.com/drego85/JoomlaScan",
       "last_checked": null,
       "status": "active"
     },
@@ -8257,7 +8257,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260530010912/https://github.com/wpscanteam/wpscan",
       "last_checked": null,
       "status": "active"
     },
@@ -8425,7 +8425,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241207050558/https://github.com/sqlmapproject/sqlmap",
       "last_checked": null,
       "status": "active"
     },
@@ -8467,7 +8467,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241210131737/https://github.com/michenriksen/aquatone",
       "last_checked": null,
       "status": "active"
     },
@@ -8509,7 +8509,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240926143741/https://github.com/google/certificate-transparency",
       "last_checked": null,
       "status": "active"
     },
@@ -8530,7 +8530,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241125034844/https://github.com/ChrisTruncer/EyeWitness",
       "last_checked": null,
       "status": "active"
     },
@@ -8551,7 +8551,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240829144722/https://github.com/We5ter/GSDF",
       "last_checked": null,
       "status": "active"
     },
@@ -8572,7 +8572,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20141014192142/https://www.virustotal.com/en/documentation/searching/#getting-domain-information",
       "last_checked": null,
       "status": "active"
     },
@@ -8593,7 +8593,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/eldraco/domain_analyzer",
       "last_checked": null,
       "status": "active"
     },
@@ -8614,7 +8614,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200522053509/https://github.com/lijiejie/subDomainsBrute",
       "last_checked": null,
       "status": "active"
     },
@@ -8635,7 +8635,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240827050247/https://github.com/aboul3la/Sublist3r",
       "last_checked": null,
       "status": "active"
     },
@@ -8656,7 +8656,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241125125759/https://github.com/epinna/tplmap",
       "last_checked": null,
       "status": "active"
     },
@@ -8675,7 +8675,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260514101237/https://www.secpulse.com/archives/59674.html",
       "last_checked": null,
       "status": "active"
     },
@@ -8696,7 +8696,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/WangYihang/Reverse-Shell-Manager",
       "last_checked": null,
       "status": "active"
     },
@@ -8717,7 +8717,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/WangYihang/Webshell-Sniper",
       "last_checked": null,
       "status": "active"
     },
@@ -8738,7 +8738,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241202104353/https://github.com/epinna/weevely3",
       "last_checked": null,
       "status": "active"
     },
@@ -8759,7 +8759,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/lukechilds/reverse-shell",
       "last_checked": null,
       "status": "active"
     },
@@ -8780,7 +8780,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241126022316/https://github.com/tennc/webshell",
       "last_checked": null,
       "status": "active"
     },
@@ -8801,7 +8801,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/s0md3v/nano",
       "last_checked": null,
       "status": "active"
     },
@@ -8843,7 +8843,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241208104832/https://github.com/evilcos/xssor2",
       "last_checked": null,
       "status": "active"
     },
@@ -8864,7 +8864,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-07-11",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241124011731/https://github.com/s0md3v/XSStrike",
       "last_checked": null,
       "status": "active"
     },
@@ -8885,7 +8885,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241124011745/https://github.com/s0md3v/JShell",
       "last_checked": null,
       "status": "active"
     },
@@ -8906,7 +8906,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241204191000/https://github.com/beefproject/beef",
       "last_checked": null,
       "status": "active"
     },
@@ -8948,7 +8948,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241119181739/https://github.com/GoSecure/dtd-finder",
       "last_checked": null,
       "status": "active"
     },
@@ -8967,7 +8967,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260801141408/https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a",
       "last_checked": null,
       "status": "active"
     },
@@ -9030,7 +9030,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/dxa4481/cssInjection",
       "last_checked": null,
       "status": "active"
     },
@@ -9072,7 +9072,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091923/https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443",
       "last_checked": null,
       "status": "active"
     },
@@ -9110,7 +9110,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918153012/https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -9150,7 +9150,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240509084634/http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9171,7 +9171,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230326173742/https://www.petecorey.com/blog/2017/06/12/graphql-nosql-injection-through-json-types/",
       "last_checked": null,
       "status": "active"
     },
@@ -9210,7 +9210,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240324113543/https://github.com/gchq/CyberChef",
       "last_checked": null,
       "status": "active"
     },
@@ -9251,7 +9251,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260511105049/https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md",
       "last_checked": null,
       "status": "active"
     },
@@ -9270,7 +9270,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191022141326/https://evi1cg.me/archives/Domain_Fronting.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9289,7 +9289,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210516122921/https://www.jianshu.com/p/735e8f1746f0",
       "last_checked": null,
       "status": "active"
     },
@@ -9310,7 +9310,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-16",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9329,7 +9329,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210719173742/http://zeroyu.xyz/2018/10/13/php-audit-tips/",
       "last_checked": null,
       "status": "active"
     },
@@ -9349,7 +9349,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/https://github.com/taviso/cefdebug",
       "last_checked": null,
       "status": "active"
     },
@@ -9369,7 +9369,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241117013827/https://github.com/taviso/ctftool",
       "last_checked": null,
       "status": "active"
     },
@@ -9389,7 +9389,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210511170430/https://github.com/b17zr/ntlm_challenger",
       "last_checked": null,
       "status": "active"
     },
@@ -9410,7 +9410,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190822050852/https://medium.com/free-code-camp/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5",
       "last_checked": null,
       "status": "active"
     },
@@ -9429,7 +9429,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250416121121/https://docs.google.com/presentation/d/1Cx0vI2Mzy0zwdTrgic3S3TwGMCpH-QhMUdHU1r3AYfI/edit#slide=id.g35f391192_065",
       "last_checked": null,
       "status": "active"
     },
@@ -9471,7 +9471,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091946/https://www.ambionics.io/blog/drupal-services-module-rce",
       "last_checked": null,
       "status": "active"
     },
@@ -9492,7 +9492,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180808190339/https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/",
       "last_checked": null,
       "status": "active"
     },
@@ -9513,7 +9513,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260517205931/https://bounty.github.com/researchers/iblue.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9534,7 +9534,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260622111238/https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on/",
       "last_checked": null,
       "status": "active"
     },
@@ -9555,7 +9555,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20201104182159/https://capacitorset.github.io/mathjs/",
       "last_checked": null,
       "status": "active"
     },
@@ -9574,7 +9574,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180315112406/https://www.freebuf.com/vuls/122938.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9595,7 +9595,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-05-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220818223756/https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce",
       "last_checked": null,
       "status": "active"
     },
@@ -9616,7 +9616,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-05-31",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250426121823/https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9637,7 +9637,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260413093242/https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/",
       "last_checked": null,
       "status": "active"
     },
@@ -9678,7 +9678,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091943/https://paper.seebug.org/910/",
       "last_checked": null,
       "status": "active"
     },
@@ -9697,7 +9697,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220802035057/https://paper.seebug.org/909/",
       "last_checked": null,
       "status": "active"
     },
@@ -9716,7 +9716,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220922143720/https://paper.seebug.org/584/",
       "last_checked": null,
       "status": "active"
     },
@@ -9737,7 +9737,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20170718203909/https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/",
       "last_checked": null,
       "status": "active"
     },
@@ -9758,7 +9758,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20251023001123/https://www.thezdi.com/blog/2019/10/23/cve-2019-1306-are-you-my-index",
       "last_checked": null,
       "status": "active"
     },
@@ -9777,7 +9777,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250321135340/https://www.leavesongs.com/PHP/bypass-eval-length-restrict.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9796,7 +9796,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260812114324/https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/",
       "last_checked": null,
       "status": "active"
     },
@@ -9834,7 +9834,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260821081550/https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8",
       "last_checked": null,
       "status": "active"
     },
@@ -9853,7 +9853,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180926003335/https://www.tarlogic.com/en/blog/red-team-tales-0x01/",
       "last_checked": null,
       "status": "active"
     },
@@ -9872,7 +9872,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210420230616/https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -9891,7 +9891,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250427060425/https://pulsesecurity.co.nz/articles/postgres-sqli",
       "last_checked": null,
       "status": "active"
     },
@@ -9912,7 +9912,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20221219025053/https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -9973,7 +9973,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191214064545/https://www.freebuf.com/articles/web/135342.html",
       "last_checked": null,
       "status": "active"
     },
@@ -9994,7 +9994,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-02",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231103220017/https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51",
       "last_checked": null,
       "status": "active"
     },
@@ -10036,7 +10036,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-09-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523002703/https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/",
       "last_checked": null,
       "status": "active"
     },
@@ -10057,7 +10057,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200808043610/https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a",
       "last_checked": null,
       "status": "active"
     },
@@ -10076,7 +10076,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230204010250/https://www.tttang.com/archive/1293/",
       "last_checked": null,
       "status": "active"
     },
@@ -10097,7 +10097,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523092149/https://10degres.net/aws-takeover-through-ssrf-in-javascript/",
       "last_checked": null,
       "status": "active"
     },
@@ -10118,7 +10118,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191119060224/https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html",
       "last_checked": null,
       "status": "active"
     },
@@ -10139,7 +10139,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260430145808/https://www.xudongz.com/blog/2017/idn-phishing/",
       "last_checked": null,
       "status": "active"
     },
@@ -10160,7 +10160,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210228202321/https://noncombatant.org/2017/11/07/problems-of-urls/",
       "last_checked": null,
       "status": "active"
     },
@@ -10200,7 +10200,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523092218/https://www.vgrsec.com/post20170219.html",
       "last_checked": null,
       "status": "active"
     },
@@ -10221,7 +10221,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918174506/https://blog.blackfan.ru/2017/09/devtwittercom-xss.html",
       "last_checked": null,
       "status": "active"
     },
@@ -10240,7 +10240,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190826072143/https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures",
       "last_checked": null,
       "status": "active"
     },
@@ -10259,7 +10259,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133342/https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f",
       "last_checked": null,
       "status": "active"
     },
@@ -10278,7 +10278,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20231211233454/https://speakerdeck.com/masatokinugawa/shibuya-dot-xss-techtalk-number-10",
       "last_checked": null,
       "status": "active"
     },
@@ -10299,7 +10299,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240515152312/https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -10320,7 +10320,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230501223536/https://www.slideshare.net/x00mario/es6-en",
       "last_checked": null,
       "status": "active"
     },
@@ -10341,7 +10341,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260826042705/https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas",
       "last_checked": null,
       "status": "active"
     },
@@ -10383,7 +10383,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220328124939/https://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/",
       "last_checked": null,
       "status": "active"
     },
@@ -10403,7 +10403,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090311/http://xss-quiz.int21h.jp/",
       "last_checked": null,
       "status": "active"
     },
@@ -10423,7 +10423,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260406032950/https://xss-game.appspot.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -10484,7 +10484,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240928085419/https://opnsec.com/2018/03/stored-xss-on-facebook/",
       "last_checked": null,
       "status": "active"
     },
@@ -10589,7 +10589,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-05-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200724150913/https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b",
       "last_checked": null,
       "status": "active"
     },
@@ -10610,7 +10610,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-25",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190721175143/https://portswigger.net/blog/xss-without-parentheses-and-semi-colons",
       "last_checked": null,
       "status": "active"
     },
@@ -10692,7 +10692,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-26",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260428142801/https://mohemiv.com/all/evil-xml/",
       "last_checked": null,
       "status": "active"
     },
@@ -10711,7 +10711,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240413161308/https://gosecure.ai/blog/2019/07/16/automating-local-dtd-discovery-for-xxe-exploitation",
       "last_checked": null,
       "status": "active"
     },
@@ -10749,7 +10749,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210209000019/https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/",
       "last_checked": null,
       "status": "active"
     },
@@ -10806,7 +10806,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240918153012/https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -10844,7 +10844,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20201101012614/https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/",
       "last_checked": null,
       "status": "active"
     },
@@ -10863,7 +10863,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180703045833/https://seclists.org/fulldisclosure/2018/Jul/3",
       "last_checked": null,
       "status": "active"
     },
@@ -10884,7 +10884,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191221013944/https://twitter.com/HackwithGithub",
       "last_checked": null,
       "status": "active"
     },
@@ -10905,7 +10905,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20191216001919/https://twitter.com/XssPayloads",
       "last_checked": null,
       "status": "active"
     },
@@ -10926,7 +10926,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20211124131859/https://twitter.com/cure53berlin",
       "last_checked": null,
       "status": "active"
     },
@@ -10947,7 +10947,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210910205000/https://twitter.com/filedescriptor",
       "last_checked": null,
       "status": "active"
     },
@@ -10968,7 +10968,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210905095135/https://twitter.com/garethheyes",
       "last_checked": null,
       "status": "active"
     },
@@ -10989,7 +10989,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220529082222/https://twitter.com/h3xstream/",
       "last_checked": null,
       "status": "active"
     },
@@ -11010,7 +11010,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20130304070229/https://twitter.com/hasegawayosuke",
       "last_checked": null,
       "status": "active"
     },
@@ -11031,7 +11031,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20130116212737/https://twitter.com/kinugawamasato",
       "last_checked": null,
       "status": "active"
     },
@@ -11052,7 +11052,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20210408203646/https://twitter.com/shhnjk",
       "last_checked": null,
       "status": "active"
     },
@@ -11073,7 +11073,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180724174319/https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf",
       "last_checked": null,
       "status": "active"
     },
@@ -11094,7 +11094,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127045500/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Upload%20Insecure%20Files",
       "last_checked": null,
       "status": "active"
     },
@@ -11114,7 +11114,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190826072143/https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures",
       "last_checked": null,
       "status": "active"
     },
@@ -11134,7 +11134,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250119133342/https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f",
       "last_checked": null,
       "status": "active"
     },
@@ -11155,7 +11155,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190922190329/https://portswigger.net/blog/practical-web-cache-poisoning",
       "last_checked": null,
       "status": "active"
     },
@@ -11176,7 +11176,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260401120618/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Web%20Cache%20Deception",
       "last_checked": null,
       "status": "active"
     },
@@ -11197,7 +11197,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200709003858/https://blog.netspi.com/hacking-with-jsp-shells/",
       "last_checked": null,
       "status": "active"
     },
@@ -11218,7 +11218,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20200920012834/https://www.tenable.com/blog/hunting-for-web-shells",
       "last_checked": null,
       "status": "active"
     },
@@ -11277,7 +11277,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-08",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240302042952/https://speakerdeck.com/yagihashoo/a-talk-about-xss-thousand-knocks-shibuya-dot-xss-techtalk-number-10",
       "last_checked": null,
       "status": "active"
     },
@@ -11298,7 +11298,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-08",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260301014025/https://excess-xss.com/",
       "last_checked": null,
       "status": "active"
     },
@@ -11340,7 +11340,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-08",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/cure53/H5SC",
       "last_checked": null,
       "status": "active"
     },
@@ -11361,7 +11361,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-08",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20250409141857/https://www.paulosyibelo.com/2018/06/the-big-bad-wolf-xss-and-maintaining.html",
       "last_checked": null,
       "status": "active"
     },
@@ -11401,7 +11401,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241122130707/https://github.com/s0md3v/AwesomeXSS",
       "last_checked": null,
       "status": "active"
     },
@@ -11422,7 +11422,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/LucaBongiorni/XSS.png",
       "last_checked": null,
       "status": "active"
     },
@@ -11443,7 +11443,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240824130004/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -11504,7 +11504,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20180107150934/https://www.freebuf.com/video/49961.html",
       "last_checked": null,
       "status": "active"
     },
@@ -11525,7 +11525,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20230523091350/https://phonexicum.github.io/infosec/xxe.html",
       "last_checked": null,
       "status": "active"
     },
@@ -11562,7 +11562,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20240917155437/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection",
       "last_checked": null,
       "status": "active"
     },
@@ -11604,7 +11604,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220610211934/https://portswigger.net/web-security/xxe",
       "last_checked": null,
       "status": "active"
     },
