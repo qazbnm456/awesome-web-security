@@ -1,14 +1,14 @@
 ### 🤖 自動レビュー
 
-**スコア：{score}/15**（`{label}`）— 自動評価であり、メンテナーの最終レビューを置き換えるものではありません。
+**スコア：{score}/{max_score}**（`{label}`）— 自動評価であり、メンテナーの最終レビューを置き換えるものではありません。
 
 | 評価項目 | スコア | 備考 |
 |---|---|---|
-| Reachability（到達性） | {reachability}/3 | {reachability_reason} |
-| Format（形式）         | {format}/3 | {format_reason} |
-| Depth（深度）           | {depth}/3 | {depth_reason} |
-| Fit（カテゴリ適合性）     | {fit}/3 | {fit_reason} |
-| Dedup（重複検査）        | {dedup_risk}/3 | {dedup_reason} |
+| Reachability（到達性） | {reachability} | {reachability_reason} |
+| Format（形式）         | {format} | {format_reason} |
+| Depth（深度）           | {depth} | {depth_reason} |
+| Fit（カテゴリ適合性）     | {fit} | {fit_reason} |
+| Dedup（重複検査）        | {dedup_risk} | {dedup_reason} |
 
 {similar_block}
 
@@ -16,3 +16,4 @@
 
 **評価基準**：[RUBRIC.md](RUBRIC.md)（英語）を参照してください。
 **異議申立て**：この PR にコメントし、`@qazbnm456` をメンションしてください。
+{mode_note}

@@ -484,11 +484,28 @@ def sanitize_reason(text) -> str:
     return s
 
 
-def label_for(score: int, dims: dict) -> str:
+# Dimensions the deterministic path can actually measure. Depth, Fit and Dedup
+# all needed the LLM (Dedup needed the embedding endpoint), so with GitHub
+# Models gone they are not scored at all rather than reported as a 1/3 that
+# looks like a judgement.
+MEASURED_DIMS = ("reachability", "format")
+DEGRADED_MAX = 3 * len(MEASURED_DIMS)
+FULL_MAX = 15
+
+
+def label_for(score: int, dims: dict, *, degraded: bool = False) -> str:
     if dims.get("reachability", 0) == 0:
         return "auto/link-broken"
     if dims.get("dedup_risk", 0) == 0:
         return "auto/dedup-candidate"
+    if degraded:
+        # Only Reachability and Format were measured, so a merit label would be
+        # a guess dressed as a verdict. Report the defect if there is one and
+        # otherwise say the thing that IS true: the format checks passed.
+        # Without this, the 15-point thresholds label a flawless entry
+        # `auto/needs-format-fix`, because the unscored dimensions cap the
+        # total at 6 and nothing can reach 11. That happened to #231.
+        return "auto/needs-format-fix" if dims.get("format", 0) < 3 else "auto/format-ok"
     if score >= 11:
         return "auto/format-ok"
     if score >= 7:
@@ -521,6 +538,21 @@ def render_similar(similar: list[dict]) -> str:
 SAFE_LANG_ROUTING = {"en", "zh", "jp", "tr", "universal"}
 
 
+_DEGRADED_NOTE = {
+    "en": ("\n_⚠️ Depth, Fit and Dedup were not scored: the reviewer's model backend "
+           "(GitHub Models) was retired, so only the deterministic checks ran. The score "
+           "above covers those two dimensions alone and is **not** a judgement on the "
+           "resource — the maintainer weighs Depth and Fit by hand._"),
+    "zh": ("\n_⚠️ Depth、Fit、Dedup 未評分：審查機器人的模型後端（GitHub Models）已終止服務，"
+           "因此只跑了確定性檢查。上面的分數僅涵蓋那兩個維度，**不代表**對資源本身的判斷"
+           "——Depth 與 Fit 由維護者人工衡量。_"),
+    "jp": ("\n_⚠️ Depth・Fit・Dedup は未採点です：レビューアのモデルバックエンド（GitHub Models）"
+           "が提供終了となったため、決定的チェックのみが実行されました。上のスコアはその 2 項目"
+           "のみを対象としており、リソース自体への**評価ではありません**——Depth と Fit は"
+           "メンテナーが手作業で判断します。_"),
+}
+
+
 def render_comment(scored: dict, target_lang: str, deterministic_fallback: bool) -> tuple[str, str]:
     # Clamp every dim into 0..3. LLM-supplied scores are not trusted; prompt
     # injection from the PR body could otherwise emit `"format": 999` and
@@ -532,8 +564,15 @@ def render_comment(scored: dict, target_lang: str, deterministic_fallback: bool)
         "fit": clamp_dim(scored.get("fit")),
         "dedup_risk": clamp_dim(scored.get("dedup_risk")),
     }
-    total = sum(dims.values())
-    label = label_for(total, dims)
+    if deterministic_fallback:
+        # Score only what was measured. Summing the placeholder 1/3s into a
+        # /15 total invents a number that reads as a verdict on the entry.
+        total = sum(dims[k] for k in MEASURED_DIMS)
+        max_score = DEGRADED_MAX
+    else:
+        total = sum(dims.values())
+        max_score = FULL_MAX
+    label = label_for(total, dims, degraded=deterministic_fallback)
 
     routing = scored.get("language_routing_suggestion", "en")
     if routing not in SAFE_LANG_ROUTING:
@@ -549,25 +588,32 @@ def render_comment(scored: dict, target_lang: str, deterministic_fallback: bool)
         raw = scored.get(key)
         return sanitize_reason(harmonize_reason(raw, template_lang))
 
+    def score_cell(key: str) -> str:
+        """`2/3`, or an em dash for a dimension this run could not judge."""
+        if deterministic_fallback and key not in MEASURED_DIMS:
+            return "—"
+        return f"{dims[key]}/3"
+
     body = tmpl.format(
         score=total,
+        max_score=max_score,
         label=label,
-        reachability=dims["reachability"],
+        reachability=score_cell("reachability"),
         reachability_reason=cell("reachability_reason"),
-        format=dims["format"],
+        format=score_cell("format"),
         format_reason=cell("format_reason"),
-        depth=dims["depth"],
+        depth=score_cell("depth"),
         depth_reason=cell("depth_reason"),
-        fit=dims["fit"],
+        fit=score_cell("fit"),
         fit_reason=cell("fit_reason"),
-        dedup_risk=dims["dedup_risk"],
+        dedup_risk=score_cell("dedup_risk"),
         dedup_reason=cell("dedup_reason"),
         similar_block=render_similar(scored.get("similar_entries") or []),
         language_routing_suggestion=routing,
+        mode_note=(_DEGRADED_NOTE.get(template_lang, _DEGRADED_NOTE["en"])
+                   if deterministic_fallback else ""),
     )
-    if deterministic_fallback:
-        body += "\n\n_⚠️ LLM grading unavailable; only deterministic checks ran._"
-    return body, label
+    return re.sub(r"\n{3,}", "\n\n", body).rstrip() + "\n", label
 
 
 # ---------------------------------------------------------------------------
@@ -724,7 +770,13 @@ def main() -> int:
                 "format": fmt_score, "format_reason": fmt_reason,
                 "depth": 1, "depth_reason": "skipped (LLM unavailable)",
                 "fit": 1, "fit_reason": "skipped (LLM unavailable)",
-                "dedup_risk": 2, "dedup_reason": f"top neighbor cosine ~{neighbors[0]['cosine'] if neighbors else 0}",
+                # neighbors_for is a local title-token overlap, not the multilingual
+                # embedding RUBRIC.md's bands were calibrated against, so the number
+                # is worth showing but not worth scoring against those thresholds.
+                "dedup_risk": 2,
+                "dedup_reason": (f"not scored; nearest title-overlap neighbour "
+                                 f"~{neighbors[0]['cosine'] if neighbors else 0} "
+                                 f"(heuristic, not the embedding metric)"),
                 "similar_entries": neighbors,
                 "language_routing_suggestion": (entry.get("languages") or ["en"])[0],
             }

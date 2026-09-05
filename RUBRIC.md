@@ -80,6 +80,37 @@ blocking label:
 - Reachability 0 → `auto/link-broken`
 - Dedup 0 → `auto/dedup-candidate`
 
+## Degraded mode (current)
+
+Depth, Fit and Dedup are graded by a language model. That model reached
+GitHub Models, which GitHub retired on 2026-07-30, so **those three
+dimensions are not being scored at all right now**. The bot runs its
+deterministic half only:
+
+| Dimension | Status |
+|---|---|
+| Reachability | scored, 0–3 |
+| Format | scored, 0–3 |
+| Depth | not scored |
+| Fit | not scored |
+| Dedup | not scored — a local title-overlap neighbour is still reported for context, but it is a different metric from the embedding cosine the bands above describe, so it is not scored against them |
+
+While that holds, the score is out of **6**, not 15, and it covers only what
+was measured. It is not a verdict on the resource. The thresholds table above
+applies to full runs; in degraded mode the bot emits:
+
+- `auto/link-broken` — Reachability 0
+- `auto/needs-format-fix` — Format below 3
+- `auto/format-ok` — both measured dimensions clean
+
+The maintainer judges Depth and Fit by hand, which is what has actually
+decided every submission this year regardless of the bot's state.
+
+> Why this is spelled out: before it was, the 15-point thresholds were applied
+> to runs that could only reach 6, so a flawless entry came out as
+> `auto/needs-format-fix` with a clean 3/3 Format. A contributor who did
+> everything right was told their format needed fixing.
+
 ## Appeals
 
 The score is advisory. If you disagree:
