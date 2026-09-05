@@ -1,0 +1,148 @@
+name: LLM runner benchmark (throwaway)
+
+# Measures whether a small model running ON THE RUNNER can supply RUBRIC's
+# Depth dimension, which has been unscored since GitHub retired GitHub Models.
+#
+# Why in-runner rather than a hosted API: GitHub gives a fork PR's workflow no
+# secrets, and nearly every submission here comes from a fork. A key-based
+# backend would silently do nothing on exactly the PRs that need reviewing.
+#
+# This workflow is deliberately temporary — it exists to produce numbers for a
+# decision, and the branch goes away once it has. It touches nothing the review
+# pipeline uses.
+
+on:
+  push:
+    branches: ['bench/llm-runner']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  LLAMA_BUILD: b10816          # pinned; "latest" would make results unrepeatable
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest      # public repo: 4 vCPU / 16 GB / 14 GB SSD
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false          # one unsupported architecture must not hide the others
+      matrix:
+        include:
+          - name: lfm2.5-2.6b
+            repo: LiquidAI/LFM2.5-2.6B-GGUF
+            file: LFM2.5-2.6B-Q4_K_M.gguf
+            max_cases: 0        # 0 = the whole fixture set
+          - name: ling-3.0-tiny
+            repo: inclusionAI/Ling-3.0-tiny-GGUF
+            file: Ling-3.0-tiny-Q4_K_M.gguf
+            max_cases: 0
+          - name: ornith-1.5-9b
+            repo: ornith-ai/Ornith-1.5-9B-GGUF
+            file: Ornith-1.5-9B-Q4_K_M.gguf
+            max_cases: 4        # dense ~10B on 4 CPU cores: timing probe only,
+                                # one case per Depth band, so the exclusion (if
+                                # it comes) rests on a measurement
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache llama.cpp + model weights
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            llama/
+            models/
+          key: bench-${{ env.LLAMA_BUILD }}-${{ matrix.file }}
+
+      - name: Fetch llama.cpp
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p llama && cd llama
+          curl -sSL -o llama.tar.gz \
+            "https://github.com/ggml-org/llama.cpp/releases/download/${LLAMA_BUILD}/llama-${LLAMA_BUILD}-bin-ubuntu-x64.tar.gz"
+          tar xzf llama.tar.gz && rm llama.tar.gz
+
+      - name: Fetch model
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p models
+          time curl -sSL -o "models/${{ matrix.file }}" \
+            "https://huggingface.co/${{ matrix.repo }}/resolve/main/${{ matrix.file }}"
+
+      - name: Record what we are running
+        run: |
+          set -euo pipefail
+          SERVER=$(find llama -name llama-server -type f | head -1)
+          echo "SERVER=$SERVER" >> "$GITHUB_ENV"
+          chmod +x "$SERVER"
+          echo "### ${{ matrix.name }}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          nproc; free -g | head -2
+          ls -l "models/${{ matrix.file }}"
+          sha256sum "models/${{ matrix.file }}" | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Benchmark
+        continue-on-error: true      # a failure here is a result, not an abort
+        run: |
+          python3 scripts/bench/bench_llm.py \
+            --model-path "models/${{ matrix.file }}" \
+            --model-name "${{ matrix.name }}" \
+            --server "$SERVER" \
+            --max-cases ${{ matrix.max_cases }} \
+            --out "bench-${{ matrix.name }}.json" 2>&1 | tee run.log
+
+      - name: Summarise
+        if: always()
+        run: |
+          set -euo pipefail
+          {
+            echo '<details><summary>run log</summary>'
+            echo
+            echo '```'
+            tail -60 run.log 2>/dev/null || echo "(no log)"
+            echo '```'
+            echo '</details>'
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "bench-${{ matrix.name }}.json" ]; then
+            python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os, glob
+          f = glob.glob("bench-*.json")[0]
+          d = json.load(open(f))
+          s = d.get("summary")
+          print(f"\n**load**: {d.get('model_load_seconds')}s")
+          if d.get("determinism"):
+              det = d["determinism"]
+              print(f"**determinism**: {'identical' if det['identical'] else str(det['distinct_outputs']) + ' distinct'} over {det['runs']} runs")
+          if s:
+              print(f"**exact** {s['exact']}/{s['scored']} · **within 1** {s['within_1']}/{s['scored']} "
+                    f"· **thin-vs-substantive** {s['thin_vs_substantive_agreement']}/{s['scored']} "
+                    f"· **mean** {s['mean_wall_seconds']}s/case\n")
+          print("| case | expected | got | s | prefill t/s |")
+          print("|---|---|---|---|---|")
+          for c in d["cases"]:
+              if "got" in c:
+                  mark = "" if c["delta"] == 0 else " ⚠️"
+                  print(f"| {c['id']} | {c['expected']} | {c['got']}{mark} | {c['wall_seconds']} | {c['prompt_tps']} |")
+              else:
+                  print(f"| {c['id']} | — | {c.get('skipped') or c.get('error')} | | |")
+          PY
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bench-${{ matrix.name }}
+          path: |
+            bench-*.json
+            run.log
+          if-no-files-found: warn
