@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:38:00Z",
+  "generated_at": "2026-09-05T10:41:40Z",
   "categories": [
     {
       "key": "digests",
@@ -4562,7 +4562,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-11",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905103447/https://www.enablesecurity.com/blog/slack-webrtc-turn-compromise-and-bug-bounty/",
       "last_checked": null,
       "status": "active"
     },
