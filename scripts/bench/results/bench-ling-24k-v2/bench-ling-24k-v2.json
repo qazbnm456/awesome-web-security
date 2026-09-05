@@ -1,0 +1,484 @@
+{
+  "model": "ling-24k-v2",
+  "model_path": "models/Ling-3.0-tiny-Q4_K_M.gguf",
+  "max_text_chars": 24000,
+  "cases": [
+    {
+      "id": "aivist-200",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 22128,
+      "wall_seconds": 110.2,
+      "prompt_tps": 53.7,
+      "gen_tps": 14.0
+    },
+    {
+      "id": "onus-llm-stops",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 24000,
+      "wall_seconds": 117.2,
+      "prompt_tps": 52.3,
+      "gen_tps": 13.6
+    },
+    {
+      "id": "state-of-tls",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 6400,
+      "wall_seconds": 32.7,
+      "prompt_tps": 62.3,
+      "gen_tps": 17.9
+    },
+    {
+      "id": "portswigger-cache-poisoning",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 7578,
+      "wall_seconds": 33.9,
+      "prompt_tps": 62.1,
+      "gen_tps": 17.7
+    },
+    {
+      "id": "foxglove-deserialization",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 24000,
+      "wall_seconds": 130.5,
+      "prompt_tps": 51.5,
+      "gen_tps": 13.6
+    },
+    {
+      "id": "payloads-ssrf",
+      "expected": 3,
+      "got": 1,
+      "delta": -2,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 20247,
+      "wall_seconds": 174.2,
+      "prompt_tps": 47.9,
+      "gen_tps": 12.3
+    },
+    {
+      "id": "excess-xss",
+      "expected": 2,
+      "got": 1,
+      "delta": -1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 24000,
+      "wall_seconds": 102.5,
+      "prompt_tps": 53.7,
+      "gen_tps": 14.5
+    },
+    {
+      "id": "aptive-tls",
+      "expected": 2,
+      "got": 1,
+      "delta": -1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 24000,
+      "wall_seconds": 165.6,
+      "prompt_tps": 48.7,
+      "gen_tps": 12.6
+    },
+    {
+      "id": "laravel-csp",
+      "skipped": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "id": "mutual-tls-ssl",
+      "expected": 2,
+      "got": 0,
+      "delta": -2,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": true,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 24000,
+      "wall_seconds": 129.9,
+      "prompt_tps": 51.5,
+      "gen_tps": 13.3
+    },
+    {
+      "id": "qapractices-xss",
+      "expected": 1,
+      "got": 1,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 14015,
+      "wall_seconds": 66.5,
+      "prompt_tps": 59.0,
+      "gen_tps": 16.3
+    },
+    {
+      "id": "qapractices-pentest",
+      "expected": 1,
+      "got": 1,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 14287,
+      "wall_seconds": 59.4,
+      "prompt_tps": 60.4,
+      "gen_tps": 16.7
+    },
+    {
+      "id": "qapractices-hub",
+      "expected": 1,
+      "got": 1,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 24000,
+      "wall_seconds": 95.2,
+      "prompt_tps": 56.3,
+      "gen_tps": 14.6
+    },
+    {
+      "id": "techbridge-csrf",
+      "expected": 1,
+      "got": 2,
+      "delta": 1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 10570,
+      "wall_seconds": 130.2,
+      "prompt_tps": 52.4,
+      "gen_tps": 13.4
+    },
+    {
+      "id": "nextjs-headers",
+      "expected": 1,
+      "got": 0,
+      "delta": -1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": true,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 3741,
+      "wall_seconds": 16.5,
+      "prompt_tps": 64.4,
+      "gen_tps": 19.4
+    },
+    {
+      "id": "deploypass",
+      "expected": 0,
+      "got": 0,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": true,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 11415,
+      "wall_seconds": 38.3,
+      "prompt_tps": 61.3,
+      "gen_tps": 17.5
+    },
+    {
+      "id": "domscan",
+      "expected": 0,
+      "got": 0,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": true,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 538,
+      "wall_seconds": 6.9,
+      "prompt_tps": 67.6,
+      "gen_tps": 19.9
+    },
+    {
+      "id": "nutilz-csp",
+      "expected": 0,
+      "got": 1,
+      "delta": 1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 14912,
+      "wall_seconds": 74.6,
+      "prompt_tps": 57.3,
+      "gen_tps": 15.7
+    },
+    {
+      "id": "mohemiv-xxe-dtd",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 4981,
+      "wall_seconds": 32.4,
+      "prompt_tps": 62.7,
+      "gen_tps": 17.7
+    },
+    {
+      "id": "ret2-pwn2own",
+      "expected": 3,
+      "got": 1,
+      "delta": -2,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 8930,
+      "wall_seconds": 35.3,
+      "prompt_tps": 62.4,
+      "gen_tps": 18.1
+    },
+    {
+      "id": "synacktiv-liferay",
+      "expected": 3,
+      "got": 2,
+      "delta": -1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 16808,
+      "wall_seconds": 138.9,
+      "prompt_tps": 50.4,
+      "gen_tps": 13.3
+    },
+    {
+      "id": "detectify-csp-formaction",
+      "expected": 3,
+      "got": 1,
+      "delta": -2,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 4625,
+      "wall_seconds": 26.2,
+      "prompt_tps": 63.8,
+      "gen_tps": 18.6
+    },
+    {
+      "id": "portswigger-dangling-markup",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 5952,
+      "wall_seconds": 26.8,
+      "prompt_tps": 63.4,
+      "gen_tps": 18.7
+    },
+    {
+      "id": "orange-chained-4",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 11763,
+      "wall_seconds": 79.1,
+      "prompt_tps": 57.8,
+      "gen_tps": 16.0
+    },
+    {
+      "id": "orange-ghe-sqli",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 12570,
+      "wall_seconds": 92.0,
+      "prompt_tps": 56.3,
+      "gen_tps": 15.4
+    },
+    {
+      "id": "portswigger-practical-cache",
+      "expected": 3,
+      "got": 3,
+      "delta": 0,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": false,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 24000,
+      "wall_seconds": 118.8,
+      "prompt_tps": 53.5,
+      "gen_tps": 14.1
+    },
+    {
+      "id": "zdi-webkit-pwn2own",
+      "expected": 2,
+      "got": 3,
+      "delta": 1,
+      "features": {
+        "presents_original_findings": true,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": false
+      },
+      "text_chars": 4313,
+      "wall_seconds": 20.6,
+      "prompt_tps": 65.6,
+      "gen_tps": 19.8
+    },
+    {
+      "id": "wallarm-neatly-bypassing-csp",
+      "expected": 2,
+      "got": 1,
+      "delta": -1,
+      "features": {
+        "presents_original_findings": false,
+        "has_runnable_code_or_config": true,
+        "is_comprehensive_payload_list": false,
+        "is_primarily_promotional": false,
+        "is_general_overview_of_known_material": true
+      },
+      "text_chars": 9792,
+      "wall_seconds": 46.1,
+      "prompt_tps": 62.5,
+      "gen_tps": 17.9
+    }
+  ],
+  "determinism": {
+    "case": "aivist-200",
+    "runs": 3,
+    "identical": true,
+    "distinct_outputs": 1
+  },
+  "model_load_seconds": 4.0,
+  "summary": {
+    "scored": 27,
+    "exact": 15,
+    "within_1": 23,
+    "thin_vs_substantive_agreement": 19,
+    "mean_wall_seconds": 77.8
+  }
+}

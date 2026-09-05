@@ -53,7 +53,7 @@ Two mapping bugs surfaced along the way, both mine, both caught by fixtures:
 2. Fixing that by sending code+overview to 1 then made Depth 2 unreachable, and
    every one of the four Depth-2 cases underscored.
 
-## What does work: one binary flag
+## What looked like it worked: one binary flag
 
 `presents_original_findings`, over the 15 cases the fetch actually rendered:
 
@@ -77,3 +77,50 @@ Three of eighteen fixtures never rendered: `payloads-ssrf` (661 chars),
 whose README is loaded by JavaScript, so a plain HTML parser sees chrome. Any
 production use must read github.com URLs through the API instead — and note
 that the 500-character floor did not catch two of the three.
+
+
+---
+
+# Run 4: the flag does not survive a bigger fixture set
+
+28 fixtures, 14 positives, Ling at 24k. The 5/5-with-0-false-alarms result came
+from five positives; on fourteen it is **10 caught of 14, 1 false alarm of 12**.
+
+One of those "misses" is my own labelling error, and worth stating: I used
+`expected_depth == 3` as the flag's ground truth, but RUBRIC reaches 3 by two
+different routes — original research *or* a comprehensive payload list.
+`payloads-ssrf` is the second kind, so it should never have been a positive for
+a flag called `presents_original_findings`. Corrected, the numbers are 10 of 13
+caught and 1 of 13 false — no material difference.
+
+## The failures are on exactly the cases the flag would be used for
+
+Two fixtures were built to attack the obvious confusion from opposite sides.
+Both fired:
+
+| case | shape | result |
+|---|---|---|
+| `detectify-csp-formaction` | real research under prominent trial CTAs | **missed** |
+| `zdi-webkit-pwn2own` | expert analysis of someone else's disclosed bug | **false alarm** |
+
+`portswigger-practical-cache` carries just as much product promotion and *was*
+caught, so this is not even a consistent bias one could correct for — the
+judgement tracks surface cues unreliably rather than tracking authorship.
+
+That matters more than the aggregate. A vendor blog wrapping research in CTAs is
+the exact shape of the submissions this list holds and asks to be rewritten as
+articles; a careful explainer of a known CVE is the exact shape of what gets
+mistaken for research. A flag that is wrong on both, in opposite directions, is
+not advisory — it is noise pointed at the two questions a reviewer actually has.
+
+## Verdict
+
+Do not ship it. Depth stays unscored, which RUBRIC.md already documents
+honestly, and the maintainer keeps making the call — which is what has decided
+every submission this year regardless of the bot's state.
+
+The measurement was worth its cost. Three runs and a labelled set turned "a
+small local model can probably grade Depth" into two specific, demonstrated
+facts: the five-boolean schema cannot separate Depth 1 from Depth 2 at all, and
+the one signal that looked clean at n=5 degrades to 77% recall at n=13 while
+failing on the discriminations that motivated it.
