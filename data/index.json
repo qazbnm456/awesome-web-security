@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T13:24:39Z",
+  "generated_at": "2026-09-05T14:06:40Z",
   "categories": [
     {
       "key": "digests",
@@ -1116,9 +1116,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-18",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20190819105352/https://blog.ripstech.com/tags/security/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "blogs-0day-labs",
@@ -2355,7 +2355,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": "http://web.archive.org/web/20191115191703/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
+      "archive_url": "https://web.archive.org/web/20180903005001/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
       "last_checked": null,
       "status": "archived-only"
     },
@@ -5504,7 +5504,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-08-09",
-      "archive_url": "https://web.archive.org/web/20260905073845/https://securitum.com/pentest-chronicles.html",
+      "archive_url": "https://web.archive.org/web/20191124063029/https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/",
       "last_checked": null,
       "status": "archived-only"
     },
@@ -9091,7 +9091,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": "http://web.archive.org/web/20191115191703/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
+      "archive_url": "https://web.archive.org/web/20180903005001/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
       "last_checked": null,
       "status": "archived-only"
     },
@@ -10568,9 +10568,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-11-05",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20220121192223/https://twitter.com/strukt93/status/931586377665331200",
       "last_checked": null,
-      "status": "dead"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xss-xss-auditor-the-protector-of-unprotected-and-the-d",

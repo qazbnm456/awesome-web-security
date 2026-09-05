@@ -157,10 +157,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-18"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20190819105352/https://blog.ripstech.com/tags/security/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: Write-ups for PHP vulnerabilities.
   - id: blogs-0day-labs
     url: "https://blog.0daylabs.com/"

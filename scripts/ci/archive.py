@@ -20,6 +20,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from urllib.parse import urlparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -110,6 +111,27 @@ def write_archive_url(path: Path, entry: dict, archive_url: str) -> None:
 # Wayback
 # ---------------------------------------------------------------------------
 
+def _same_resource(snapshot_url: str, target_url: str) -> bool:
+    """Does this snapshot actually archive the URL we asked for?
+
+    Save Page Now follows redirects and archives where it lands, then hands
+    back that snapshot. For a page whose publisher has folded it into a generic
+    index — securitum.com's Kibana research became pentest-chronicles.html —
+    the result is an archive_url that recovers nothing, and an entry marked
+    `archived-only` on the strength of it being non-null. Compare host and path
+    before trusting it; scheme, `www.` and a trailing slash are noise.
+    """
+    m = re.search(r"/web/\d+(?:\w+)?/(?P<orig>https?://.+)$", snapshot_url)
+    if not m:
+        return False
+
+    def key(u: str) -> tuple[str, str]:
+        p = urlparse(u)
+        return (p.netloc.lower().removeprefix("www."), p.path.rstrip("/") or "/")
+
+    return key(m.group("orig")) == key(target_url)
+
+
 def archive_url_for(target_url: str) -> str | None:
     """Submit to Wayback's Save Page Now and return the resulting archive URL.
 
@@ -126,15 +148,23 @@ def archive_url_for(target_url: str) -> str | None:
             # Wayback returns the snapshot URL via the Content-Location header
             # when the archive is fresh, or via the final URL after redirects.
             cl = resp.headers.get("Content-Location") or ""
+            snapshot = None
             if cl.startswith("/web/"):
-                return WAYBACK_WEB + cl
-            final = resp.url
-            if "/web/" in final:
-                # extract the canonical snapshot URL
-                m = re.search(r"(/web/\d+/.+)$", final)
-                if m:
-                    return WAYBACK_WEB + m.group(1)
-            return None
+                snapshot = WAYBACK_WEB + cl
+            else:
+                final = resp.url
+                if "/web/" in final:
+                    m = re.search(r"(/web/\d+/.+)$", final)
+                    if m:
+                        snapshot = WAYBACK_WEB + m.group(1)
+            if snapshot and not _same_resource(snapshot, target_url):
+                # Archived the redirect target, not the resource. Recording it
+                # would be worse than recording nothing: a non-null archive_url
+                # reads as "recoverable" to every later decision.
+                sys.stderr.write(
+                    f"[archive] snapshot is for a different URL, discarding: {snapshot}\n")
+                return None
+            return snapshot
     except urllib.error.HTTPError as exc:
         sys.stderr.write(f"[archive] HTTP {exc.code} for {target_url}\n")
         return None

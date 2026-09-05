@@ -116,7 +116,7 @@ entries:
     raw_rest: "Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow."
   - id: practices-application-where-the-llm-stops
     url: "https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline"
-    title: Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipeline
+    title: "Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipeline"
     author:
       name: Aayush Yadav
       url: "https://github.com/maverickaayush"

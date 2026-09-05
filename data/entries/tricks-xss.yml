@@ -237,10 +237,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20220121192223/https://twitter.com/strukt93/status/931586377665331200"
     last_checked: null
     fingerprint: null
-    status: dead
+    status: archived-only
     raw_rest: "Written by [@strukt93](https://twitter.com/strukt93)."
   - id: tricks-xss-xss-auditor-the-protector-of-unprotected-and-the-d
     url: "https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b"
