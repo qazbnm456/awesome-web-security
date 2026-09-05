@@ -52,6 +52,9 @@ MAX_BYTES = 300_000
 TIMEOUT = 25
 UA = "Mozilla/5.0 awesome-web-security-health"
 
+# Statuses that mean "the host is up and refused automation", not "gone".
+BLOCKED_STATUSES = frozenset({401, 403, 405, 407, 429, 503, 521, 522, 523, 526})
+
 # Vocabulary that does not appear on a web-security page by accident. Kept
 # short and specific: broad words like "free" or "download" would fire on half
 # the list. Each term is one an expired-domain grab actually uses.
@@ -187,7 +190,12 @@ def fetch(url: str) -> tuple[str, str | None]:
                 }), timeout=TIMEOUT) as r:
             raw = r.read(MAX_BYTES)
     except urllib.error.HTTPError as exc:
-        return "", f"HTTP {exc.code}"
+        # A refusal is not a death. 403/429/521 and friends mean a server
+        # answered and declined to serve automation — paper.seebug.org sits
+        # behind a JS browser challenge and returns 521 to everything without
+        # one. Reporting these as failures implies decay that is not there.
+        kind = "blocked" if exc.code in BLOCKED_STATUSES else "HTTP"
+        return "", f"{kind} {exc.code}"
     except Exception as exc:  # noqa: BLE001
         return "", f"{type(exc).__name__}"
     p = _Text()
@@ -260,13 +268,15 @@ def main() -> int:
     hits = [r for r in rows if r.get("takeover_hits")]
     takeover = [r for r in hits if (r.get("overlap") or 0) < 0.5]
     spammed = [r for r in hits if (r.get("overlap") or 0) >= 0.5]
-    errors = [r for r in rows if r.get("error")]
+    blocked = [r for r in rows if (r.get("error") or "").startswith("blocked")]
+    errors = [r for r in rows if r.get("error") and r not in blocked]
     thin = [r for r in rows if not r.get("error") and r["chars"] < args.min_chars]
     drift = [r for r in rows
              if not r.get("error") and r["chars"] >= args.min_chars
              and r.get("overlap") is not None and r["overlap"] <= args.drift_below
              and not r.get("takeover_hits")]
-    flagged = len(takeover) + len(spammed) + len(drift) + len(thin) + len(errors)
+    flagged = (len(takeover) + len(spammed) + len(drift) + len(thin)
+               + len(errors) + len(blocked))
 
     def show(title, items, fmt):
         print(f"\n## {title} ({len(items)})")
@@ -281,11 +291,13 @@ def main() -> int:
          lambda r: f"{r['overlap']:.2f}  {r['id']}\n         {r['url']}")
     show("TOO LITTLE TEXT — fetch returned almost nothing, cannot judge", thin,
          lambda r: f"{r['chars']:>5}  {r['id']}")
+    show("BLOCKED — host answered and refused automation; says nothing about the page",
+         blocked, lambda r: f"{r['error']:<14} {r['id']}")
     show("FETCH FAILED", errors, lambda r: f"{r['error']:<24} {r['id']}")
 
     print(f"\n---\n{len(rows) - flagged}/{len(rows)} entries look like themselves.")
     print(f"takeover {len(takeover)} · spammed {len(spammed)} · drift {len(drift)} "
-          f"· thin {len(thin)} · failed {len(errors)}")
+          f"· thin {len(thin)} · blocked {len(blocked)} · failed {len(errors)}")
 
     if args.json:
         Path(args.json).write_text(json.dumps(rows, indent=2))

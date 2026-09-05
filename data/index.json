@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:33:55Z",
+  "generated_at": "2026-09-05T10:34:22Z",
   "categories": [
     {
       "key": "digests",
@@ -10507,7 +10507,7 @@
       "date_added": "2018-10-12",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "tricks-xss-another-xss-in-google-colaboratory",

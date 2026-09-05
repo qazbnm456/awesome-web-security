@@ -192,7 +192,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [StamOne_](https://stamone-bug-bounty.blogspot.tw/)."
   - id: tricks-xss-another-xss-in-google-colaboratory
     url: "https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html"
