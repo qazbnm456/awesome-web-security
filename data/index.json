@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T17:38:51Z",
+  "generated_at": "2026-09-05T17:50:48Z",
   "categories": [
     {
       "key": "digests",
@@ -2559,7 +2559,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905173641/https://www.hacker101.com/",
       "last_checked": null,
       "status": "active"
     },
