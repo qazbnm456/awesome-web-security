@@ -1,0 +1,62 @@
+name: Content drift check
+
+# health-link-check.yml asks whether a URL answers. This asks whether the page
+# is still the resource we listed, which is a different question and the one
+# that caught `halbecaf.com` — a V8 exploitation writeup whose domain lapsed and
+# now serves an Indonesian gambling site, answering 200 the whole time.
+#
+# Report only. It never edits data/; the disposition is a human call.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max entries to check (0 = all)'
+        required: false
+        default: '0'
+  schedule:
+    - cron: '17 4 1 * *'      # monthly; content drift is slow, unlike a 404
+
+permissions:
+  contents: read
+
+jobs:
+  drift:
+    # Forks inherit the cron, and a scheduled failure is attributed to the
+    # upstream workflow author. Same guard as health-link-check.yml.
+    if: github.repository == 'qazbnm456/awesome-web-security'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check
+        continue-on-error: true      # a takeover hit exits non-zero; still publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # raises the github.com API rate limit
+        run: |
+          python3 scripts/ci/check_content_drift.py \
+            --limit "${{ github.event.inputs.limit || 0 }}" \
+            --workers 8 \
+            --json drift.json 2>&1 | tee drift.log
+
+      - name: Summarise
+        if: always()
+        run: |
+          {
+            echo '```'
+            tail -80 drift.log 2>/dev/null || echo '(no log)'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: content-drift
+          path: |
+            drift.json
+            drift.log
+          if-no-files-found: warn
