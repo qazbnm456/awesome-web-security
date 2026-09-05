@@ -612,6 +612,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="tools-auditing"></a>
 ### Auditing
 
+- [reconpp](https://github.com/bryanrafaelbueno/reconpp) - Passive web security configuration audit CLI (HTTP headers, TLS, cookies, CORS, exposed files) by [@bryanrafaelbueno](https://github.com/bryanrafaelbueno).
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
