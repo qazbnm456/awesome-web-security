@@ -16,7 +16,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar)."
   - id: tricks-csrf-neat-tricks-to-bypass-csrf-protection
     url: "https://zhuanlan.zhihu.com/p/32716181"

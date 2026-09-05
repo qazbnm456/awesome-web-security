@@ -93,8 +93,8 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20210918072551/https://labs.f-secure.com/blog/misadventures-in-aws"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: Written by Christian Demko

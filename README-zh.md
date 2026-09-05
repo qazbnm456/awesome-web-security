@@ -191,7 +191,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Prototype pollution attack in NodeJS application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - Written by [@HoLyVieR](https://github.com/HoLyVieR).
 - [深入理解 JavaScript Prototype 污染攻击](https://www.leavesongs.com/PENETRATION/javascript-prototype-pollution-attack.html) - Written by [phithon](https://www.leavesongs.com/).
-- [Exploiting prototype pollution – RCE in Kibana (CVE-2019-7609)](https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/) - Written by [@securitymb](https://twitter.com/securitymb).
 
 <a name="csv-injection"></a>
 ### CSV Injection
@@ -332,7 +331,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Webmail
 
 - [Webmail-Hacking](https://github.com/mottoin/SecPaper/blob/master/Webmail-Hacking.pdf) - Written by [千域千寻](https://blog.csdn.net/f1n4lly/).
-- [Why mail() is dangerous in PHP](https://blog.ripstech.com/2017/why-mail-is-dangerous-in-php/) - Written by [Robin Peraglie](https://www.ripstech.com/).
 
 <a name="nfs"></a>
 ### NFS
@@ -347,7 +345,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [AWS PENETRATION TESTING PART 1. S3 BUCKETS](https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/) - Written by [VirtueSecurity](https://www.virtuesecurity.com/).
 - [AWS PENETRATION TESTING PART 2. S3, IAM, EC2](https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/) - Written by [VirtueSecurity](https://www.virtuesecurity.com/).
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs).
-- [Misadventures in AWS](https://labs.f-secure.com/blog/misadventures-in-aws) - Written by Christian Demko.
 
 <a name="azure"></a>
 ### Azure
@@ -362,8 +359,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 <a name="sub-domain-enumeration"></a>
 ### Sub Domain Enumeration
-
-- [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
 
 <a name="crypto"></a>
 ### Crypto
@@ -415,8 +410,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="jwt"></a>
 ### JWT
 
-- [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
-
 ## Evasions
 
 <a name="evasions-xxe"></a>
@@ -466,7 +459,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="tricks-csrf"></a>
 ### CSRF
 
-- [Exploiting CSRF on JSON endpoints with Flash and redirects](https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b) - Written by [@riyazwalikar](https://blog.appsecco.com/@riyazwalikar).
 - [Neat tricks to bypass CSRF-protection](https://zhuanlan.zhihu.com/p/32716181) - Written by [Twosecurity](https://twosecurity.io/).
 - [Stealing CSRF tokens with CSS injection (without iFrames)](https://github.com/dxa4481/cssInjection) - Written by [@dxa4481](https://github.com/dxa4481).
 - [If HttpOnly You Could Still CSRF… Of CORS you can!](https://medium.com/@_graphx/if-httponly-you-could-still-csrf-of-cors-you-can-5d7ee2c7443) - Written by [@GraphX](https://twitter.com/GraphX).
@@ -486,7 +478,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [$36k Google App Engine RCE](https://sites.google.com/site/testsitehacking/-36k-google-app-engine-rce) - Written by [Ezequiel Pereira](https://sites.google.com/site/testsitehacking/).
 - [Poor RichFaces](https://codewhitesec.blogspot.com/2018/05/poor-richfaces.html) - Written by [CODE WHITE](https://www.code-white.com/).
 - [Remote Code Execution on a Facebook server](https://blog.scrt.ch/2018/08/24/remote-code-execution-on-a-facebook-server/) - Written by [@blaklis_](https://twitter.com/blaklis_).
-- [Evil Teacher: Code Injection in Moodle](https://blog.ripstech.com/2018/moodle-remote-code-execution/) - Written by [RIPS Technologies](https://www.ripstech.com/).
 - [WebLogic RCE(CVE-2019-2725)漏洞之旅](https://paper.seebug.org/909/) - Written by Badcode@知道创宇404实验室.
 - [Weblogic 反序列化漏洞(CVE-2018-2628)漫谈](https://paper.seebug.org/584/) - Written by Badcode@知道创宇404实验室.
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/@breenmachine).
@@ -653,7 +644,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [NSFOCUS](https://nti.nsfocus.com/) - THREAT INTELLIGENCE PORTAL by NSFOCUS GLOBAL.
 - [raven](https://github.com/0x09AL/raven) - raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin by [@0x09AL](https://github.com/0x09AL).
 - [Shodan](https://www.shodan.io/) - Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq).
-- [SpiderFoot](https://www.spiderfoot.net/) - Open source footprinting and intelligence-gathering tool by [@binarypool](https://twitter.com/binarypool).
+- [SpiderFoot](https://github.com/smicallef/spiderfoot) - Open source footprinting and intelligence-gathering tool by [@binarypool](https://twitter.com/binarypool).
 - [urlscan.io](https://urlscan.io/) - Service which analyses websites and the resources they request by [@heipei](https://twitter.com/heipei).
 - [xray](https://github.com/evilsocket/xray) - XRay is a tool for recon, mapping and OSINT gathering from public networks by [@evilsocket](https://github.com/evilsocket).
 - [ZoomEye](https://www.zoomeye.org/) - Cyberspace Search Engine by [@zoomeye_team](https://twitter.com/zoomeye_team).
@@ -929,7 +920,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [List of bug bounty writeups](https://pentester.land/list-of-bug-bounty-writeups.html) - Written by [Mariem](https://pentester.land/).
 - [The bug bounty program that changed my life](https://10degres.net/the-bug-bounty-program-that-changed-my-life/) - Written by [Gwen](https://10degres.net/).
 - [Why Facebook's api starts with a for loop](https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob) - Written by [@AntoGarand](https://twitter.com/AntoGarand).
-- [Implications of Loading .NET Assemblies](https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html) - Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html).
 - [WCTF2019: Gyotaku The Flag](https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf) - Written by [@t0nk42](https://twitter.com/t0nk42).
 - [How we abused Slack's TURN servers to gain access to internal services](https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/) - Written by [@sandrogauci](https://twitter.com/sandrogauci).
 - [DOS File Path Magic Tricks](https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa) - Written by [@clr2of8](https://medium.com/@clr2of8).

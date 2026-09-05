@@ -115,7 +115,7 @@ entries:
     status: active
     raw_rest: "Shodan is the world's first search engine for Internet-connected devices by [@shodanhq](https://twitter.com/shodanhq)."
   - id: tools-osint-spiderfoot
-    url: "https://www.spiderfoot.net/"
+    url: "https://github.com/smicallef/spiderfoot"
     title: SpiderFoot
     author:
       name: "@binarypool"

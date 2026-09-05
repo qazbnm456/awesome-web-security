@@ -541,10 +541,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20200728082541/https://threatvector.cylance.com/en_us/home/implications-of-loading-net-assemblies.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Brian Wallace](https://threatvector.cylance.com/en_us/contributors/brian-wallace.html)."
   - id: miscellaneous-wctf2019-gyotaku-the-flag
     url: "https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf"

@@ -13,10 +13,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20171113071308/https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Bharath](https://blog.appsecco.com/@yamakira_)."
   - id: sub-domain-enumeration-the-art-of-subdomain-enumeration
     url: "https://blog.sweepatic.com/art-of-subdomain-enumeration/"

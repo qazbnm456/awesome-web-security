@@ -64,5 +64,5 @@ entries:
     archive_url: "https://web.archive.org/web/20260905073845/https://securitum.com/pentest-chronicles.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@securitymb](https://twitter.com/securitymb)."

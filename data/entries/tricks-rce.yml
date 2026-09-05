@@ -157,10 +157,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-22"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20201109032319/https://blog.ripstech.com/2018/moodle-remote-code-execution/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [RIPS Technologies](https://www.ripstech.com/)."
   - id: tricks-rce-weblogic-rce-cve-2019-2725-debug-diary
     url: "https://paper.seebug.org/910/"
