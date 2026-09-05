@@ -107,12 +107,17 @@ def depth_from_features(f: dict) -> int:
     list are the two things RUBRIC reserves 3 for. Runnable code without either
     is the "tutorial with concrete examples" band. Everything else is an
     overview."""
-    if f.get("is_primarily_promotional"):
+    # A vendor page that also contains real research is not a 0 — promotional
+    # framing only decides the score when there is no substance under it.
+    if f.get("is_primarily_promotional") and not (
+            f.get("presents_original_findings") or f.get("is_comprehensive_payload_list")):
         return 0
     if f.get("presents_original_findings") or f.get("is_comprehensive_payload_list"):
         return 3
-    if f.get("has_runnable_code_or_config") and not f.get("is_general_overview_of_known_material"):
-        return 2
+    # Code inside an introductory explainer is RUBRIC's "intro-level overview
+    # with minimal examples", not its "tutorial with concrete examples".
+    if f.get("has_runnable_code_or_config") and f.get("is_general_overview_of_known_material"):
+        return 1
     if f.get("has_runnable_code_or_config"):
         return 2
     return 1
