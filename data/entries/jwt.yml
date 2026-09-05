@@ -13,7 +13,7 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-07-28"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20260905143011/https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/"
     last_checked: null
     fingerprint: null
     status: active
