@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T12:54:34Z",
+  "generated_at": "2026-09-05T12:58:26Z",
   "categories": [
     {
       "key": "digests",
@@ -4706,7 +4706,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905125446/https://medium.com/securing/what-is-going-on-with-oauth-2-0-and-why-you-should-not-use-it-for-authentication-5f47597b2611",
       "last_checked": null,
       "status": "active"
     },
