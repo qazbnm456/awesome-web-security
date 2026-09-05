@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-08-22T12:10:19Z",
+  "generated_at": "2026-09-05T07:35:03Z",
   "categories": [
     {
       "key": "digests",
@@ -5267,6 +5267,26 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-08-22",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-the-200-that-proved-nothing",
+      "url": "https://aivist.dev/the-200-that-proved-nothing",
+      "title": "The 200 That Proved Nothing",
+      "author": {
+        "name": "Lang Li",
+        "url": "https://github.com/Aivist"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "difficulty": "advanced",
+      "date_added": "2026-08-24",
       "archive_url": null,
       "last_checked": null,
       "status": "active"

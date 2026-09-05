@@ -879,6 +879,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [OopsSec Store](https://github.com/kOaDT/oss-oopssec-store) - Intentionally vulnerable e-commerce application built with Next.js - Written by [@kOaDT](https://github.com/kOaDT).
 - [The Next.js security-headers pitfall](https://poszo.com/security/nextjs-headers-pitfall) - Shows how a correct-looking Next.js headers() block can overwrite route-specific rules or differ from final CDN responses, with an inventory, merge, preview, deployed-route verification, and rollback workflow.
 - [Where the LLM Stops: Deterministic Scoring in an AI-Assisted VAPT Pipeline](https://aayushyadav.hashnode.dev/where-the-llm-stops-deterministic-scoring-in-an-ai-assisted-vapt-pipeline) - Technical write-up on designing an AI-assisted VAPT pipeline with deterministic CVSS scoring, passive confidence verification, and LLM-generated vulnerability explanations and remediation.
+- [The 200 That Proved Nothing](https://aivist.dev/the-200-that-proved-nothing) - Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse.
 
 <a name="practices-aws"></a>
 ### AWS

@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Technical write-up on designing an AI-assisted VAPT pipeline with deterministic CVSS scoring, passive confidence verification, and LLM-generated vulnerability explanations and remediation."
+  - id: practices-application-the-200-that-proved-nothing
+    url: "https://aivist.dev/the-200-that-proved-nothing"
+    title: The 200 That Proved Nothing
+    author:
+      name: Lang Li
+      url: "https://github.com/Aivist"
+    category: practices-application
+    type: article
+    languages: [en, zh]
+    difficulty: advanced
+    date_added: "2026-08-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse."
