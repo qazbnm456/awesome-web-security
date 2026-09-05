@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T17:33:41Z",
+  "generated_at": "2026-09-05T17:38:51Z",
   "categories": [
     {
       "key": "digests",
@@ -4568,7 +4568,7 @@
     },
     {
       "id": "miscellaneous-dos-file-path-magic-tricks",
-      "url": "https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa",
+      "url": "https://medium.com/walmartglobaltech/dos-file-path-magic-tricks-5eda7a7a85fa",
       "title": "DOS File Path Magic Tricks",
       "author": {
         "name": "@clr2of8",

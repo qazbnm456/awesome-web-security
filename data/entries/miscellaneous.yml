@@ -579,7 +579,7 @@ entries:
     status: active
     raw_rest: "Written by [@sandrogauci](https://twitter.com/sandrogauci)."
   - id: miscellaneous-dos-file-path-magic-tricks
-    url: "https://medium.com/walmartlabs/dos-file-path-magic-tricks-5eda7a7a85fa"
+    url: "https://medium.com/walmartglobaltech/dos-file-path-magic-tricks-5eda7a7a85fa"
     title: DOS File Path Magic Tricks
     author:
       name: "@clr2of8"
