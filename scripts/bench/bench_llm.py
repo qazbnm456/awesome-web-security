@@ -26,8 +26,10 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import base64
 import ipaddress
 import json
+import os
 import re
 import socket
 import subprocess
@@ -37,7 +39,7 @@ import urllib.error
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote, unquote, urlparse
 
 # Same shape as the reviewer's own fetch guard: a submitted URL is attacker
 # chosen, so it must not be usable to reach the runner's own network.
@@ -174,11 +176,54 @@ class _TextExtractor(HTMLParser):
             self.parts.append(data.strip())
 
 
+# github.com renders a README with JavaScript, so a plain HTML parse of a repo
+# or tree page returns navigation chrome and nothing else. The benchmark hit
+# this on two fixtures — 661 and 1,312 characters against READMEs of several
+# thousand words — and the 500-character floor caught neither. Read the markdown
+# through the API instead.
+_GH_URL_RE = re.compile(
+    r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+?)(?:\.git)?"
+    r"(?:/tree/[^/]+/(.+?))?/?(?:[#?].*)?$", re.IGNORECASE)
+
+
+def _github_readme(url: str) -> tuple[str, str, str | None] | None:
+    """(title, markdown, error) for a github.com URL, or None if not one."""
+    m = _GH_URL_RE.match(url)
+    if not m:
+        return None
+    owner, repo, path = m.group(1), m.group(2), m.group(3)
+    api = f"https://api.github.com/repos/{owner}/{repo}/readme"
+    if path:
+        api += "/" + quote(unquote(path))
+    headers = {"Accept": "application/vnd.github+json",
+               "User-Agent": "awesome-web-security-bench"}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    try:
+        with urllib.request.urlopen(
+                urllib.request.Request(api, headers=headers), timeout=30) as r:
+            body = json.loads(r.read().decode())
+    except urllib.error.HTTPError as exc:
+        return "", "", f"github api {exc.code}"
+    except Exception as exc:  # noqa: BLE001
+        return "", "", f"github api {type(exc).__name__}"
+    try:
+        text = base64.b64decode(body.get("content", "")).decode("utf-8", "replace")
+    except Exception as exc:  # noqa: BLE001
+        return "", "", f"github api decode {type(exc).__name__}"
+    return f"{owner}/{repo}", text, None
+
+
 def fetch_text(url: str, max_chars: int = MAX_TEXT_CHARS) -> tuple[str, str, str | None]:
     """(title, text, error). Never raises."""
     parsed = urlparse(url)
     if parsed.scheme not in ("http", "https"):
         return "", "", _BLOCKED_SCHEMES_MSG
+    gh = _github_readme(url)
+    if gh is not None:
+        title, text, err = gh
+        return title, text[:max_chars], err
     if _host_is_non_public(parsed.hostname or ""):
         return "", "", "host resolves to a non-public address"
     req = urllib.request.Request(
