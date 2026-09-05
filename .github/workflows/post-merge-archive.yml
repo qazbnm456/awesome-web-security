@@ -65,25 +65,32 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/entries/ data/index.json README.md README-zh.md README-jp.md
-          git commit -m "chore(archive): backfill archive_url from Wayback [skip ci]"
-          # Master may have moved if a maintainer merged during this run
-          # (archive.py + generate.py can take several minutes for a batch
-          # of 5 entries). Retry up to 3 times, rebasing onto the new tip
-          # between attempts. Bail out on rebase conflict — the next
-          # archive run will pick up any still-unarchived entries.
+
+          # Keep the entry edits as a patch and rebuild everything else from
+          # whatever master currently is. The generated files are whole-file
+          # renderings: if a maintainer merges anything touching data/entries
+          # while this run is in flight, a rebase hits a conflict in
+          # data/index.json every single time and has no sensible resolution.
+          # Re-applying just the archive_url lines and regenerating on top
+          # sidesteps that; only a genuine conflict inside an entry can fail.
+          patch="${RUNNER_TEMP:-/tmp}/archive-urls.patch"
+          git diff -- data/entries/ > "$patch"
+
           for attempt in 1 2 3; do
+            git fetch origin master
+            git reset --hard origin/master
+            if ! git apply --3way "$patch"; then
+              echo "archive_url edits no longer apply cleanly; next archive run will redo them"
+              exit 1
+            fi
+            python3 scripts/generate.py
+            git add data/entries/ data/index.json README.md README-zh.md README-jp.md
+            git commit -m "chore(archive): backfill archive_url from Wayback [skip ci]"
             if git push origin master; then
               echo "push succeeded on attempt ${attempt}"
               exit 0
             fi
-            echo "push rejected on attempt ${attempt}/3 — rebasing onto origin/master"
-            git fetch origin master
-            if ! git rebase origin/master; then
-              git rebase --abort || true
-              echo "rebase conflict; next archive run will handle these entries"
-              exit 1
-            fi
+            echo "push rejected on attempt ${attempt}/3 — rebuilding onto the new tip"
           done
           echo "push failed after 3 attempts; giving up"
           exit 1
