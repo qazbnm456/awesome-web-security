@@ -371,6 +371,8 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="jwt"></a>
 ### JWT
 
+- [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
+
 ## Evasions
 
 <a name="evasions-xxe"></a>

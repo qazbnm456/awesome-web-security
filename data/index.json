@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T14:11:04Z",
+  "generated_at": "2026-09-05T14:27:54Z",
   "categories": [
     {
       "key": "digests",
@@ -3797,7 +3797,7 @@
     },
     {
       "id": "jwt-hardcoded-secrets-unverified-tokens-and-other-comm",
-      "url": "https://r2c.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/",
+      "url": "https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/",
       "title": "Hardcoded secrets, unverified tokens, and other common JWT mistakes",
       "author": {
         "name": "@ermil0v",
@@ -3812,9 +3812,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-07-28",
-      "archive_url": "https://web.archive.org/web/20260508020522/https://semgrep.dev/",
+      "archive_url": null,
       "last_checked": null,
-      "status": "archived-only"
+      "status": "active"
     },
     {
       "id": "miscellaneous-1000php",
