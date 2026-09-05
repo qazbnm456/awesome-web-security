@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T14:06:40Z",
+  "generated_at": "2026-09-05T14:11:04Z",
   "categories": [
     {
       "key": "digests",
@@ -1931,7 +1931,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905141039/https://leanpub.com/xss",
       "last_checked": null,
       "status": "active"
     },
