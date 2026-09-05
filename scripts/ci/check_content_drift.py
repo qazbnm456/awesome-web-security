@@ -49,6 +49,8 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 INDEX = ROOT / "data" / "index.json"
 
 MAX_BYTES = 300_000
+# Below this a page told us nothing; used to tell "short" from "JS-rendered".
+MIN_TEXT_CHARS = 400
 TIMEOUT = 25
 UA = "Mozilla/5.0 awesome-web-security-health"
 
@@ -67,6 +69,13 @@ TAKEOVER_TERMS = (
 _TAKEOVER_RE = {t: re.compile(r"\b" + re.escape(t) + r"\b") for t in TAKEOVER_TERMS}
 
 # Words too common to identify anything.
+# Entries that point at a site root or a person's blog. The title is the
+# author or the publication ("l1nk3r's blog", "Orange"), which a homepage has
+# no reason to print, so a low overlap there says nothing. Nine of the first
+# run's drift hits were this.
+HOMEPAGE_CATEGORIES = frozenset({"blogs", "forums", "digests", "twitter-users",
+                                 "community", "social-engineering-database"})
+
 STOP = {
     "the", "a", "an", "and", "or", "of", "to", "in", "for", "on", "with", "at",
     "by", "from", "is", "it", "its", "as", "how", "i", "you", "your", "we",
@@ -198,12 +207,26 @@ def fetch(url: str) -> tuple[str, str | None]:
         return "", f"{kind} {exc.code}"
     except Exception as exc:  # noqa: BLE001
         return "", f"{type(exc).__name__}"
+    # A PDF fed through an HTML parser yields tens of thousands of characters
+    # of decoded binary and a title overlap of 0.00 — fourteen entries in the
+    # first full run, every one of them a conference slide deck or a paper, and
+    # every one a false positive. There is nothing to judge without a PDF
+    # reader, and guessing from noise is worse than saying so.
+    if raw[:5] == b"%PDF-":
+        return "", "pdf (not extracted)"
+
     p = _Text()
     try:
-        p.feed(raw.decode("utf-8", "replace"))
+        html = raw.decode("utf-8", "replace")
+        p.feed(html)
     except Exception:  # noqa: BLE001
         return "", "parse error"
-    return " ".join(p.parts), None
+    text = " ".join(p.parts)
+    # Distinguish "this page is short" from "this page is built by JavaScript".
+    # Both leave the parser with nothing; only one is evidence about the entry.
+    if len(text) < MIN_TEXT_CHARS and len(raw) > 20_000 and html.count("<script") >= 5:
+        return text, "js-rendered (no text in the HTML)"
+    return text, None
 
 
 def terms(text: str) -> set[str]:
@@ -218,6 +241,9 @@ def assess(entry: dict) -> dict:
     if err:
         return out
 
+    path = urlparse(url).path.strip("/")
+    out["homepage"] = (not path) or entry.get("category") in HOMEPAGE_CATEGORIES
+
     low = text.lower()
     # Word boundaries are load-bearing. A bare substring test reported "cialis"
     # on nine healthy pages, because it sits inside "specialist".
@@ -225,6 +251,10 @@ def assess(entry: dict) -> dict:
 
     # Does the page still mention what the entry claims it is? The author's
     # name counts: a repo README often states the author but never the title.
+    if out["homepage"]:
+        out["overlap"] = None          # not a meaningful question for this shape
+        return out
+
     wanted = terms(entry.get("title") or "")
     author = ((entry.get("author") or {}).get("name") or "").lstrip("@")
     wanted |= terms(author)
@@ -269,14 +299,16 @@ def main() -> int:
     takeover = [r for r in hits if (r.get("overlap") or 0) < 0.5]
     spammed = [r for r in hits if (r.get("overlap") or 0) >= 0.5]
     blocked = [r for r in rows if (r.get("error") or "").startswith("blocked")]
-    errors = [r for r in rows if r.get("error") and r not in blocked]
+    unreadable = [r for r in rows if (r.get("error") or "").startswith(("pdf ", "js-rendered"))]
+    errors = [r for r in rows if r.get("error") and r not in blocked and r not in unreadable]
+    homepages = [r for r in rows if r.get("homepage") and not r.get("error")]
     thin = [r for r in rows if not r.get("error") and r["chars"] < args.min_chars]
     drift = [r for r in rows
              if not r.get("error") and r["chars"] >= args.min_chars
              and r.get("overlap") is not None and r["overlap"] <= args.drift_below
              and not r.get("takeover_hits")]
     flagged = (len(takeover) + len(spammed) + len(drift) + len(thin)
-               + len(errors) + len(blocked))
+               + len(errors) + len(blocked) + len(unreadable))
 
     def show(title, items, fmt):
         print(f"\n## {title} ({len(items)})")
@@ -291,13 +323,17 @@ def main() -> int:
          lambda r: f"{r['overlap']:.2f}  {r['id']}\n         {r['url']}")
     show("TOO LITTLE TEXT — fetch returned almost nothing, cannot judge", thin,
          lambda r: f"{r['chars']:>5}  {r['id']}")
+    show("NOT READABLE — a PDF, or a page whose text is built by JavaScript",
+         unreadable, lambda r: f"{r['error']:<32} {r['id']}")
     show("BLOCKED — host answered and refused automation; says nothing about the page",
          blocked, lambda r: f"{r['error']:<14} {r['id']}")
     show("FETCH FAILED", errors, lambda r: f"{r['error']:<24} {r['id']}")
 
     print(f"\n---\n{len(rows) - flagged}/{len(rows)} entries look like themselves.")
     print(f"takeover {len(takeover)} · spammed {len(spammed)} · drift {len(drift)} "
-          f"· thin {len(thin)} · blocked {len(blocked)} · failed {len(errors)}")
+          f"· thin {len(thin)} · unreadable {len(unreadable)} · blocked {len(blocked)} "
+          f"· failed {len(errors)}")
+    print(f"({len(homepages)} homepage-shaped entries were fetched but not drift-checked)")
 
     if args.json:
         Path(args.json).write_text(json.dumps(rows, indent=2))
