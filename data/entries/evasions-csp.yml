@@ -67,7 +67,7 @@ entries:
     status: active
     raw_rest: "Written by [portswigger](https://portswigger.net/)."
   - id: evasions-csp-githubs-csp-journey
-    url: "https://githubengineering.com/githubs-csp-journey/"
+    url: "https://github.blog/2016-04-12-githubs-csp-journey/"
     title: "GitHub's CSP journey"
     author:
       name: "@ptoomey3"
@@ -83,7 +83,7 @@ entries:
     status: active
     raw_rest: "Written by [@ptoomey3](https://github.com/ptoomey3)."
   - id: evasions-csp-githubs-post-csp-journey
-    url: "https://githubengineering.com/githubs-post-csp-journey/"
+    url: "https://github.blog/2017-01-19-githubs-post-csp-journey/"
     title: "GitHub's post-CSP journey"
     author:
       name: "@ptoomey3"

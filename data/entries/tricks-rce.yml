@@ -51,7 +51,7 @@ entries:
     status: active
     raw_rest: "Written by [@iblue](https://github.com/iblue)."
   - id: tricks-rce-how-i-chained-4-vulnerabilities-on-github-enterpri
-    url: "https://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html"
+    url: "https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on/"
     title: "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!"
     author:
       name: Orange

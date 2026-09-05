@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:37:18Z",
+  "generated_at": "2026-09-05T10:38:00Z",
   "categories": [
     {
       "key": "digests",
@@ -2975,7 +2975,7 @@
     },
     {
       "id": "evasions-csp-githubs-csp-journey",
-      "url": "https://githubengineering.com/githubs-csp-journey/",
+      "url": "https://github.blog/2016-04-12-githubs-csp-journey/",
       "title": "GitHub's CSP journey",
       "author": {
         "name": "@ptoomey3",
@@ -2996,7 +2996,7 @@
     },
     {
       "id": "evasions-csp-githubs-post-csp-journey",
-      "url": "https://githubengineering.com/githubs-post-csp-journey/",
+      "url": "https://github.blog/2017-01-19-githubs-post-csp-journey/",
       "title": "GitHub's post-CSP journey",
       "author": {
         "name": "@ptoomey3",
@@ -5821,7 +5821,7 @@
     },
     {
       "id": "sql-injection-github-enterprise-sql-injection",
-      "url": "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "url": "https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/",
       "title": "GitHub Enterprise SQL Injection",
       "author": {
         "name": "Orange",
@@ -9519,7 +9519,7 @@
     },
     {
       "id": "tricks-rce-how-i-chained-4-vulnerabilities-on-github-enterpri",
-      "url": "https://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
+      "url": "https://blog.orange.tw/posts/2017-07-how-i-chained-4-vulnerabilities-on/",
       "title": "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!",
       "author": {
         "name": "Orange",
@@ -9783,7 +9783,7 @@
     },
     {
       "id": "tricks-sql-injection-github-enterprise-sql-injection",
-      "url": "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
+      "url": "https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/",
       "title": "GitHub Enterprise SQL Injection",
       "author": {
         "name": "Orange",

@@ -3,7 +3,7 @@
 
 entries:
   - id: tricks-sql-injection-github-enterprise-sql-injection
-    url: "https://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
+    url: "https://blog.orange.tw/posts/2017-01-bug-bounty-github-enterprise-sql-injection/"
     title: GitHub Enterprise SQL Injection
     author:
       name: Orange
