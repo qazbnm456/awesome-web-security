@@ -397,5 +397,5 @@ entries:
     archive_url: "https://web.archive.org/web/20260717015821/https://osintprojects.com/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Free web toolkit for WHOIS/RDAP, DNS, IP geolocation, SSL certificate inspection and Certificate Transparency subdomain discovery."

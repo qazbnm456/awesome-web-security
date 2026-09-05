@@ -13,8 +13,8 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-06-26"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20240712052529/https://tools.intigriti.io/redirector/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/)."

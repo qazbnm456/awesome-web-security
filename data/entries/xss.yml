@@ -93,10 +93,10 @@ entries:
     languages: [jp]
     difficulty: intermediate
     date_added: "2018-06-12"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20180622043353/https://blogs.mcafee.jp/cross-site-scripting-overview"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [McAfee Blog](https://blogs.mcafee.jp/)."
   - id: xss-awesomexss
     url: "https://github.com/s0md3v/AwesomeXSS"

@@ -13,8 +13,8 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20191115191703/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@irsdl](https://twitter.com/irsdl)."

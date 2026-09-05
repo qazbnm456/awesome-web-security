@@ -75,10 +75,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20211117082811/https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim."
   - id: xxe-xml-external-entity-xxe-injection
     url: "https://portswigger.net/web-security/xxe"

@@ -29,8 +29,8 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20230528094617/https://blog.sweepatic.com/art-of-subdomain-enumeration/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/)."

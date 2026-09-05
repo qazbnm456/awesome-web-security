@@ -93,10 +93,10 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20260227013601/https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Timothy D. Morgan](https://twitter.com/ecbftw)."
   - id: tricks-xxe-xml-out-of-band-data-retrieval
     url: "https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf"

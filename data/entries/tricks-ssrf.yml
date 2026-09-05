@@ -29,10 +29,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20220701141621/https://blog.safebuff.com/2016/07/03/SSRF-Tips/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [xl7dev](http://blog.safebuff.com/)."
   - id: tricks-ssrf-ssrf-in-https-imgur-com-vidgif-url
     url: "https://hackerone.com/reports/115748"

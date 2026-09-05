@@ -32,7 +32,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: Drops was known as a famous knowledge base for hacking technology.
   - id: forums-freebuf
     url: "https://www.freebuf.com/"

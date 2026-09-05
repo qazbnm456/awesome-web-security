@@ -144,7 +144,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ## Digests
 
 - [CTF Field Guide](https://trailofbits.github.io/ctf/) - Written by [Trail of Bits](https://www.trailofbits.com/).
-- [Got Your PW](https://gotyour.pw/) - Written by [@s3131212](https://github.com/s3131212).
 - [Hacker101](https://www.hacker101.com/) - Written by [hackerone](http://web.archive.org/web/20200630164946/https://www.hackerone.com/start-hacking).
 - [Infosec Newbie](https://www.sneakymonkey.net/2017/04/23/infosec-newbie/) - Written by [Mark Robinson](https://www.sneakymonkey.net/).
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
@@ -152,14 +151,12 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [The Daily Swig - Web security digest](https://portswigger.net/daily-swig) - Written by [PortSwigger](https://portswigger.net/).
 - [The Magic of Learning](https://bitvijays.github.io/) - Written by [@bitvijays](http://web.archive.org/web/20230519134723/https://bitvijays.github.io/aboutme.html).
 - [Web Application Security Zone by Netsparker](https://www.netsparker.com/blog/web-security/) - Written by [Netsparker](https://www.netsparker.com/).
-- [梧桐百科 - 碎片化知识学习](https://tricking.io/) - Written by [@phith0n](https://github.com/phith0n).
 - [腾讯玄武实验室安全动态推送](https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html) - Written by [腾讯玄武实验室](https://xlab.tencent.com/cn/).
 - [tl;dr sec](https://tldrsec.com/) - Weekly summary of top security tools, blog posts, and security research.
 
 ## Forums
 
 - [Dark Reading](https://www.darkreading.com/Default.asp) - Connecting The Information Security Community.
-- [Drops (backup)](https://drops.secquan.org/) - Drops was known as a famous knowledge base for hacking technology.
 - [Freebuf](https://www.freebuf.com/) - Freebuf is the most popular forum in China for exchanging and sharing hacking technology.
 - [HackDig](http://en.hackdig.com/) - Dig high-quality web security articles for hacker.
 - [Paper - 安全技术精粹](http://paper.seebug.org/) - Knowledge base for hacking technology built by 404 Team from [knownsec](https://www.knownsec.com/).
@@ -251,7 +248,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [XXE漏洞的简单理解和测试](https://b1ngz.github.io/XXE-learning-note/) - Written by [@b1ngz](https://b1ngz.github.io/).
 - [PayloadsAllTheThings - XXE Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - Written by various contributors.
 - [XML external entity (XXE) injection](https://portswigger.net/web-security/xxe) - Written by [portswigger](https://portswigger.net/).
-- [XML Schema, DTD, and Entity Attacks](https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw) and Omar Al Ibrahim.
 
 <a name="csrf"></a>
 ### CSRF - Cross-Site Request Forgery
@@ -267,7 +263,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Clickjacking](https://www.imperva.com/learn/application-security/clickjacking/) - Written by [Imperva](https://www.imperva.com/).
 - [Clickjackings in Google worth 14981.7$](https://medium.com/@raushanraj_65039/google-clickjacking-6a04132b918a) - Written by [@raushanraj_65039](https://medium.com/@raushanraj_65039).
 - [X-Frame-Options: All about Clickjacking?](https://github.com/cure53/Publications/blob/master/xfo-clickjacking.pdf?raw=true) - Written by [Mario Heiderich](https://www.slideshare.net/x00mario).
-- [新增幾項設定來防範 Clickjacking Frame Attack](https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/) - Written by [M157q](https://blog.m157q.tw/).
 
 <a name="ssrf"></a>
 ### SSRF - Server-Side Request Forgery
@@ -372,7 +367,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Sub Domain Enumeration
 
 - [A penetration tester’s guide to sub-domain enumeration](https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) - Written by [Bharath](https://blog.appsecco.com/@yamakira_).
-- [The Art of Subdomain Enumeration](https://blog.sweepatic.com/art-of-subdomain-enumeration/) - Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/).
 
 <a name="crypto"></a>
 ### Crypto
@@ -407,7 +401,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="deserialization"></a>
 ### Deserialization
 
-- [ASP.NET resource files (.RESX) and deserialisation issues](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/) - Written by [@irsdl](https://twitter.com/irsdl).
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) - Written by [@breenmachine](https://twitter.com/breenmachine).
 - [.NET Roulette: Exploiting Insecure Deserialization in Telerik UI](https://www.youtube.com/watch?v=--6PiuvBGAU) - Written by [@noperator](https://twitter.com/noperator).
 - [Attacking .NET deserialization](https://www.youtube.com/watch?v=eDfGpu3iE4Q) - Written by [@pwntester](https://twitter.com/pwntester).
@@ -438,7 +431,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Exploiting XXE with local DTD files](https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/) - Written by [Arseniy Sharoglazov](https://twitter.com/_mohemiv).
 - [Forcing XXE Reflection through Server Error Messages](https://blog.netspi.com/forcing-xxe-reflection-server-error-messages/) - Written by [Antti Rantasaari](https://blog.netspi.com/author/antti-rantasaari/).
 - [Pre-authentication XXE vulnerability in the Services Drupal module](https://www.synacktiv.com/ressources/synacktiv_drupal_xxe_services.pdf) - Written by [Renaud Dubourguais](https://twitter.com/_m0bius).
-- [What You Didn't Know About XML External Entities Attacks](https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf) - Written by [Timothy D. Morgan](https://twitter.com/ecbftw).
 - [XML Out-Of-Band Data Retrieval](https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf) - Written by Timur Yunusov and Alexey Osipov.
 - [XXE in WeChat Pay Sdk ( WeChat leave a backdoor on merchant websites)](https://seclists.org/fulldisclosure/2018/Jul/3) - Written by [Rose Jackcode](https://twitter.com/codeshtool).
 - [XXE OOB extracting via HTTP+FTP using single opened port](https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/) - Written by [skavans](https://skavans.ru/).
@@ -452,7 +444,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Evading CSP with DOM-based dangling markup](https://portswigger.net/blog/evading-csp-with-dom-based-dangling-markup) - Written by [portswigger](https://portswigger.net/).
 - [GitHub's CSP journey](https://githubengineering.com/githubs-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
 - [GitHub's post-CSP journey](https://githubengineering.com/githubs-post-csp-journey/) - Written by [@ptoomey3](https://github.com/ptoomey3).
-- [那些年我们绕过的CSP](http://heartsky.info/2017/03/03/那些年我们绕过的CSP) - Written by [HeartSky](http://heartsky.info/).
 - [Any protection against dynamic module import?](https://github.com/w3c/webappsec-csp/issues/243) - Written by [@shhnjk](https://twitter.com/@shhnjk).
 
 <a name="evasions-waf"></a>
@@ -528,7 +519,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [XSS without parentheses and semi-colons](https://portswigger.net/blog/xss-without-parentheses-and-semi-colons) - Written by [@garethheyes](https://twitter.com/garethheyes).
 - [Upgrade self XSS to Exploitable XSS an 3 Ways Technic](https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html) - Written by [HAHWUL](https://www.hahwul.com/).
 - [Exploiting XSS with 20 characters limitation](https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html) - Written by [Jorge Lajara](https://jlajara.gitlab.io/).
-- [$20000 Facebook DOM XSS](https://vinothkumar.me/20000-facebook-dom-xss/) - Written by [@vinodsparrow](https://twitter.com/vinodsparrow).
 
 <a name="tricks-sql-injection"></a>
 ### SQL Injection
@@ -549,7 +539,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) - Written by [Orange](https://blog.orange.tw/).
 - [SSRF in https://imgur.com/vidgif/url](https://hackerone.com/reports/115748) - Written by [aesteral](https://hackerone.com/aesteral).
-- [SSRF Tips](http://blog.safebuff.com/2016/07/03/SSRF-Tips/) - Written by [xl7dev](http://blog.safebuff.com/).
 - [SSRF漏洞中绕过IP限制的几种方法总结](https://www.freebuf.com/articles/web/135342.html) - Written by [arkteam](https://www.freebuf.com/author/arkteam).
 - [PHP SSRF Techniques](https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51) - Written by [@themiddleblue](https://medium.com/@themiddleblue).
 - [SSRF in Exchange leads to ROOT access in all instances](https://hackerone.com/reports/341876) - Written by [@0xacb](https://twitter.com/0xacb).
@@ -617,18 +606,15 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [The Cookie Monster in Your Browsers](https://speakerdeck.com/filedescriptor/the-cookie-monster-in-your-browsers) - Written by [@filedescriptor](https://twitter.com/filedescriptor).
 - [The world of Site Isolation and compromised renderer](https://speakerdeck.com/shhnjk/the-world-of-site-isolation-and-compromised-renderer) - Written by [@shhnjk](https://twitter.com/shhnjk).
 - [Sending arbitrary IPC messages via overriding Function.prototype.apply](https://hackerone.com/reports/188086) - Written by [@kinugawamasato](https://twitter.com/kinugawamasato).
-- [Take Advantage of Out-of-Scope Domains in Bug Bounty Programs](https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/) - Written by [@Abdulahhusam](https://twitter.com/Abdulahhusam).
 
 ### Backend (core of Browser implementation, and often refers to C or C++ part)
 
 - [Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622](https://www.phrack.org/papers/attacking_javascript_engines.html) - Written by [phrack@saelo.net](mailto:phrack@saelo.net).
 - [SSD Advisory – Chrome Turbofan Remote Code Execution](https://blogs.securiteam.com/index.php/archives/3379) - Written by [SecuriTeam Secure Disclosure (SSD)](https://blogs.securiteam.com/).
-- [Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11](https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf) - Written by [@moritzj](https://twitter.com/moritzj).
 - [PUSHING WEBKIT'S BUTTONS WITH A MOBILE PWN2OWN EXPLOIT](https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit) - Written by [@wanderingglitch](https://twitter.com/wanderingglitch).
 - [A Methodical Approach to Browser Exploitation](https://blog.ret2.io/2018/06/05/pwn2own-2018-exploit-development/) - Written by [RET2 SYSTEMS, INC](https://blog.ret2.io/).
 - [CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.](https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/) - Written by [Diary of a reverse-engineer](https://doar-e.github.io/).
 - [Breaking UC Browser](https://habr.com/en/company/drweb/blog/452076/) - Written by [Доктор Веб](https://www.drweb.ru/).
-- [Three roads lead to Rome](http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/) - Written by [@holynop](https://twitter.com/holynop).
 - [从一道CTF题零基础学V8漏洞利用](https://www.freebuf.com/vuls/203721.html) - Written by [walkerfuz](https://www.freebuf.com/author/walkerfuz).
 - [CLEANLY ESCAPING THE CHROME SANDBOX](https://theori.io/research/escaping-chrome-sandbox) - Written by [@tjbecker_](https://twitter.com/tjbecker_).
 - [How I got my first big bounty payout with Tesla](https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d) - Written by [@cj.fairhead](https://medium.com/@cj.fairhead).
@@ -785,8 +771,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 <a name="tools-ssrf"></a>
 #### Server-Side Request Forgery
-
-- [Open redirect/SSRF payload generator](https://tools.intigriti.io/redirector/) - Open redirect/SSRF payload generator by [intigriti](https://www.intigriti.com/).
 
 <a name="tools-leaking"></a>
 ### Leaking

@@ -117,8 +117,16 @@ class _Text(HTMLParser):
             self.parts.append(data.strip())
 
 
+# github.com/<owner>/<repo>, but the first path segment is not always an owner.
+# `github.com/apps/guardrails` is a GitHub App listing; treating "apps" as an
+# owner made the repo endpoint 404 and the entry was reported as a deleted
+# repository. These are the reserved first segments that are not accounts.
+_GH_RESERVED = ("apps", "marketplace", "orgs", "features", "topics", "sponsors",
+                "collections", "explore", "settings", "enterprise", "security",
+                "about", "pricing", "readme", "search", "login", "signup")
 _GH_URL_RE = re.compile(
-    r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+?)(?:\.git)?"
+    r"^https?://(?:www\.)?github\.com/(?!(?:" + "|".join(_GH_RESERVED) + r")/)"
+    r"([^/]+)/([^/#?]+?)(?:\.git)?"
     r"(?:/tree/[^/]+/(.+?))?/?(?:[#?].*)?$", re.IGNORECASE)
 
 

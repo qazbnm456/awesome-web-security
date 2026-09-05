@@ -29,10 +29,10 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20221222010827/https://gotyour.pw/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@s3131212](https://github.com/s3131212)."
   - id: digests-hacker101
     url: "https://www.hacker101.com/"
@@ -157,10 +157,10 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20260113115331/https://tricking.io/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@phith0n](https://github.com/phith0n)."
   - id: digests-entry-2
     url: "https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html"

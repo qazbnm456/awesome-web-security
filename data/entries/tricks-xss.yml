@@ -317,8 +317,8 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-11"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20260610120023/https://vinothkumar.me/20000-facebook-dom-xss/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@vinodsparrow](https://twitter.com/vinodsparrow)."

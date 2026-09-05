@@ -253,8 +253,8 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-10"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20230523092325/https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@Abdulahhusam](https://twitter.com/Abdulahhusam)."

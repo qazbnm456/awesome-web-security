@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:09:32Z",
+  "generated_at": "2026-09-05T10:18:34Z",
   "categories": [
     {
       "key": "digests",
@@ -1280,9 +1280,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-03-20",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251005073254/https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-backend-pushing-webkits-buttons-with-a-mobile-pwn2own-expl",
@@ -1385,9 +1385,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20180413184550/http://blogs.360.cn:80/360safe/2016/11/29/three-roads-lead-to-rome-2/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-backend-ctf-v8",
@@ -1775,9 +1775,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20230523092325/https://ahussam.me/Take-Advantage-of-Out-of-Scope-Domains-in-Bug-Bounty/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-capture-the-flag-cheatsheet",
@@ -2031,9 +2031,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-25",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20190922172458/https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "command-injection-potential-command-injection-in-resolv-rb",
@@ -2355,9 +2355,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20191115191703/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "deserialization-what-do-weblogic-websphere-jboss-jenkins-opennms-a",
@@ -2538,9 +2538,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20221222010827/https://gotyour.pw/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "digests-hacker101",
@@ -2702,9 +2702,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260113115331/https://tricking.io/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "digests-entry-2",
@@ -3032,7 +3032,7 @@
       "date_added": "2018-08-01",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "evasions-csp-any-protection-against-dynamic-module-import",
@@ -3316,9 +3316,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260227013601/https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "evasions-xxe-xml-out-of-band-data-retrieval",
@@ -3457,7 +3457,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "forums-freebuf",
@@ -6242,9 +6242,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20230528094617/https://blog.sweepatic.com/art-of-subdomain-enumeration/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tools-auditing-a2sv",
@@ -7646,7 +7646,7 @@
       "date_added": "2026-07-09",
       "archive_url": "https://web.archive.org/web/20260717015821/https://osintprojects.com/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tools-others-cyberchef",
@@ -8446,9 +8446,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-06-26",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20240712052529/https://tools.intigriti.io/redirector/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tools-sub-domain-enumeration-aquatone",
@@ -9091,9 +9091,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20191115191703/https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2018/august/aspnet-resource-files-resx-and-deserialisation-issues/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-ftp-injection-xml-out-of-band-data-retrieval",
@@ -9933,9 +9933,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20220701141621/https://blog.safebuff.com/2016/07/03/SSRF-Tips/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-ssrf-ssrf-in-https-imgur-com-vidgif-url",
@@ -10673,9 +10673,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-11",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260610120023/https://vinothkumar.me/20000-facebook-dom-xss/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xxe-evil-xml-with-two-encodings",
@@ -10787,9 +10787,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260227013601/https://2013.appsecusa.org/2013/wp-content/uploads/2013/12/WhatYouDidntKnowAboutXXEAttacks.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xxe-xml-out-of-band-data-retrieval",
@@ -11380,9 +11380,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-12",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20180622043353/https://blogs.mcafee.jp/cross-site-scripting-overview",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "xss-awesomexss",
@@ -11583,9 +11583,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20211117082811/https://www.vsecurity.com/download/publications/XMLDTDEntityAttacks.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "xxe-xml-external-entity-xxe-injection",

@@ -77,8 +77,8 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2019-08-25"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20190922172458/https://blog.m157q.tw/posts/2018/07/23/clickjacking-frame-attack-defense/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [M157q](https://blog.m157q.tw/)."

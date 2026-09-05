@@ -61,10 +61,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-03-20"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20251005073254/https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@moritzj](https://twitter.com/moritzj)."
   - id: browser-backend-pushing-webkits-buttons-with-a-mobile-pwn2own-expl
     url: "https://www.zerodayinitiative.com/blog/2018/2/12/pushing-webkits-buttons-with-a-mobile-pwn2own-exploit"
@@ -141,10 +141,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-22"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20180413184550/http://blogs.360.cn:80/360safe/2016/11/29/three-roads-lead-to-rome-2/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@holynop](https://twitter.com/holynop)."
   - id: browser-backend-ctf-v8
     url: "https://www.freebuf.com/vuls/203721.html"

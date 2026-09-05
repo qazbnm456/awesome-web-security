@@ -112,7 +112,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [HeartSky](http://heartsky.info/)."
   - id: evasions-csp-any-protection-against-dynamic-module-import
     url: "https://github.com/w3c/webappsec-csp/issues/243"
