@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T12:58:26Z",
+  "generated_at": "2026-09-05T13:03:54Z",
   "categories": [
     {
       "key": "digests",
@@ -1649,9 +1649,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20240606214123/https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-frontend-the-inception-bar-a-new-phishing-method",
@@ -2071,9 +2071,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20220702210256/https://www.lanches.co.jp/blog/5996",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "command-injection-commix",
@@ -4352,9 +4352,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-12-17",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20200225074152/https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "miscellaneous-an-example-why-nat-is-not-security",
@@ -4415,9 +4415,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20250810124831/https://segment.com/blog/hacking-with-a-heads-up-display/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "miscellaneous-web-application-penetration-testing-notes",

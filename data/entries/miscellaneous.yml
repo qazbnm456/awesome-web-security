@@ -413,10 +413,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-12-17"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20200225074152/https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@gergoturcsanyi](https://twitter.com/gergoturcsanyi)."
   - id: miscellaneous-an-example-why-nat-is-not-security
     url: "https://0day.work/an-example-why-nat-is-not-security/"
@@ -461,10 +461,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-08-24"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20250810124831/https://segment.com/blog/hacking-with-a-heads-up-display/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [David Scrobonia](https://segment.com/blog/authors/david-scrobonia/)."
   - id: miscellaneous-web-application-penetration-testing-notes
     url: "https://techvomit.net/web-application-penetration-testing-notes/"

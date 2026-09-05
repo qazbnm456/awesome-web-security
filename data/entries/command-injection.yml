@@ -29,10 +29,10 @@ entries:
     languages: [jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20220702210256/https://www.lanches.co.jp/blog/5996"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [金子 将範](https://www.lanches.co.jp/author/rubyist)."
   - id: command-injection-commix
     url: "https://github.com/commixproject/commix"

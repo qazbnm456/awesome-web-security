@@ -157,10 +157,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-10-29"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20240606214123/https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [David Gilbertson](https://hackernoon.com/@david.gilbertson)."
   - id: browser-frontend-the-inception-bar-a-new-phishing-method
     url: "https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/"
