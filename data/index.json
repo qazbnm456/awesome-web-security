@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:34:22Z",
+  "generated_at": "2026-09-05T10:37:18Z",
   "categories": [
     {
       "key": "digests",
@@ -1754,7 +1754,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905103644/https://hackerone.com/reports/188086",
       "last_checked": null,
       "status": "active"
     },
@@ -2418,7 +2418,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905102152/https://www.youtube.com/watch?v=eDfGpu3iE4Q",
       "last_checked": null,
       "status": "active"
     },
@@ -4541,7 +4541,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260511133828/https://westerns.tokyo/wctf2019-gtf/wctf2019-gtf-slides.pdf",
       "last_checked": null,
       "status": "active"
     },
