@@ -48,7 +48,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [0x_Jin](https://xssec.lofter.com/)."
   - id: tricks-url-unicode-domains-are-bad-and-you-should-feel-bad-fo
     url: "https://www.vgrsec.com/post20170219.html"

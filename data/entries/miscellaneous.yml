@@ -240,7 +240,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [鹰小编](http://www.mottoin.com/user/ying/)."
   - id: miscellaneous-7-5k-google-services-mix-up
     url: "https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up"
@@ -365,10 +365,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-06-02"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20260614004524/https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Ruslan Habalov](https://www.evonide.com/)."
   - id: miscellaneous-introduction-to-web-application-security
     url: "https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018"
@@ -445,10 +445,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-08-24"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20240930090311/https://slashcrypto.org/data/itsecx2018.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@slashcrypto](https://twitter.com/slashcrypto)."
   - id: miscellaneous-hacking-with-a-heads-up-display
     url: "https://segment.com/blog/hacking-with-a-heads-up-display/"

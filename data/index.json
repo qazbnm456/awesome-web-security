@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T13:03:54Z",
+  "generated_at": "2026-09-05T13:24:39Z",
   "categories": [
     {
       "key": "digests",
@@ -1815,9 +1815,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20190721023109/http://bobao.360.cn/download/book/security-geek-2016-A.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-security-geek-2016-part-b",
@@ -1834,9 +1834,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20180211053620/http://bobao.360.cn/download/book/security-geek-2016-B.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-security-geek-2017-q1",
@@ -1853,9 +1853,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20231219100756/http://bobao.360.cn/download/book/security-geek-2017-q1.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-security-geek-2017-q2",
@@ -1872,9 +1872,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20230602092515/http://bobao.360.cn/download/book/security-geek-2017-q2.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-security-geek-2017-q3",
@@ -1891,9 +1891,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20180211053633/http://bobao.360.cn/download/book/security-geek-2017-q3.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-security-geek-2017-q4",
@@ -4123,7 +4123,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "miscellaneous-7-5k-google-services-mix-up",
@@ -4289,9 +4289,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-06-02",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260614004524/https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "miscellaneous-introduction-to-web-application-security",
@@ -4394,9 +4394,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20240930090311/https://slashcrypto.org/data/itsecx2018.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "miscellaneous-hacking-with-a-heads-up-display",
@@ -5424,7 +5424,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "prototype-pollution-prototype-pollution-attack-in-nodejs-application",
@@ -5937,9 +5937,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20220328060946/http://www.jinglingshu.org/?p=2220",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "sql-injection-waf-sql",
@@ -10181,7 +10181,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "tricks-url-unicode-domains-are-bad-and-you-should-feel-bad-fo",
@@ -10465,7 +10465,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "tricks-xss-stored-xss-on-facebook",

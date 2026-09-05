@@ -160,7 +160,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53)."
   - id: tricks-xss-stored-xss-on-facebook
     url: "https://opnsec.com/2018/03/stored-xss-on-facebook/"
