@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T09:51:57Z",
+  "generated_at": "2026-09-05T10:01:41Z",
   "categories": [
     {
       "key": "digests",
@@ -3356,9 +3356,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "evasions-xxe-xxe-oob-extracting-via-http-ftp-using-single-opene",
@@ -3791,9 +3791,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "jwt-hardcoded-secrets-unverified-tokens-and-other-comm",
@@ -9150,9 +9150,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-header-injection-java-python-ftp-injections-allow-for-firewall-bypa",
@@ -9211,9 +9211,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20241119/https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-others-cyberchef",
@@ -10846,9 +10846,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xxe-xxe-oob-extracting-via-http-ftp-using-single-opene",

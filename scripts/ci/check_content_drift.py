@@ -61,6 +61,8 @@ TAKEOVER_TERMS = (
     "escort", "viagra", "cialis", "canadian pharmacy", "payday loan",
 )
 
+_TAKEOVER_RE = {t: re.compile(r"\b" + re.escape(t) + r"\b") for t in TAKEOVER_TERMS}
+
 # Words too common to identify anything.
 STOP = {
     "the", "a", "an", "and", "or", "of", "to", "in", "for", "on", "with", "at",
@@ -173,7 +175,9 @@ def assess(entry: dict) -> dict:
         return out
 
     low = text.lower()
-    out["takeover_hits"] = sorted({t for t in TAKEOVER_TERMS if t in low})
+    # Word boundaries are load-bearing. A bare substring test reported "cialis"
+    # on nine healthy pages, because it sits inside "specialist".
+    out["takeover_hits"] = sorted({t for t in TAKEOVER_TERMS if _TAKEOVER_RE[t].search(low)})
 
     # Does the page still mention what the entry claims it is? The author's
     # name counts: a repo README often states the author but never the title.
@@ -214,30 +218,38 @@ def main() -> int:
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         rows = list(pool.map(assess, entries))
 
-    takeover = [r for r in rows if r.get("takeover_hits")]
+    # Spam vocabulary on a page whose title still matches is comment spam, not a
+    # takeover — pwndizzle's Blogspot post is intact under a pile of Polish
+    # casino links. Only a low overlap means the entry's content is gone.
+    hits = [r for r in rows if r.get("takeover_hits")]
+    takeover = [r for r in hits if (r.get("overlap") or 0) < 0.5]
+    spammed = [r for r in hits if (r.get("overlap") or 0) >= 0.5]
     errors = [r for r in rows if r.get("error")]
     thin = [r for r in rows if not r.get("error") and r["chars"] < args.min_chars]
     drift = [r for r in rows
              if not r.get("error") and r["chars"] >= args.min_chars
              and r.get("overlap") is not None and r["overlap"] <= args.drift_below
              and not r.get("takeover_hits")]
+    flagged = len(takeover) + len(spammed) + len(drift) + len(thin) + len(errors)
 
     def show(title, items, fmt):
         print(f"\n## {title} ({len(items)})")
         for r in items:
             print("  " + fmt(r))
 
-    show("TAKEOVER — page carries expired-domain-grab vocabulary", takeover,
+    show("TAKEOVER — grab vocabulary AND the entry's own words are gone", takeover,
          lambda r: f"{r['id']}\n    {r['url']}\n    hits: {', '.join(r['takeover_hits'])}")
+    show("SPAM ON A LIVE PAGE — grab vocabulary but the article is still there", spammed,
+         lambda r: f"overlap {r['overlap']:.2f}  {r['id']}\n    hits: {', '.join(r['takeover_hits'])}")
     show(f"DRIFT — {int(args.drift_below*100)}% or less of the title's words survive", drift,
          lambda r: f"{r['overlap']:.2f}  {r['id']}\n         {r['url']}")
     show("TOO LITTLE TEXT — fetch returned almost nothing, cannot judge", thin,
          lambda r: f"{r['chars']:>5}  {r['id']}")
     show("FETCH FAILED", errors, lambda r: f"{r['error']:<24} {r['id']}")
 
-    ok = len(rows) - len(takeover) - len(drift) - len(thin) - len(errors)
-    print(f"\n---\n{ok}/{len(rows)} entries look like themselves.")
-    print(f"takeover {len(takeover)} · drift {len(drift)} · thin {len(thin)} · failed {len(errors)}")
+    print(f"\n---\n{len(rows) - flagged}/{len(rows)} entries look like themselves.")
+    print(f"takeover {len(takeover)} · spammed {len(spammed)} · drift {len(drift)} "
+          f"· thin {len(thin)} · failed {len(errors)}")
 
     if args.json:
         Path(args.json).write_text(json.dumps(rows, indent=2))

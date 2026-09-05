@@ -61,8 +61,8 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Ivan Novikov](http://lab.onsec.ru/)."

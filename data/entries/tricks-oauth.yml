@@ -13,8 +13,8 @@ entries:
     languages: [en]
     difficulty: intermediate
     date_added: "2020-05-10"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20241119/https://www.amolbaikar.com/facebook-oauth-framework-vulnerability/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@AmolBaikar](https://twitter.com/AmolBaikar)."

@@ -141,10 +141,10 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20150306053522/http://lab.onsec.ru:80/2014/06/xxe-oob-exploitation-at-java-17.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Exfiltration using FTP protocol - Written by [Ivan Novikov](https://twitter.com/d0znpp/)."
   - id: evasions-xxe-xxe-oob-extracting-via-http-ftp-using-single-opene
     url: "https://skavans.ru/en/2017/12/02/xxe-oob-extracting-via-httpftp-using-single-opened-port/"
