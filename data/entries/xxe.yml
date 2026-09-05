@@ -48,7 +48,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [@b1ngz](https://b1ngz.github.io/)."
   - id: xxe-payloadsallthethings-xxe-injection
     url: "https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection"

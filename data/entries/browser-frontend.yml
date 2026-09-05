@@ -13,10 +13,10 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20171215020357/http://xlab.tencent.com:80/cn/wp-content/uploads/2017/10/browser-ui-security-whitepaper.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [腾讯玄武实验室](https://xlab.tencent.com/)."
   - id: browser-frontend-ie11-information-disclosure-local-file-detection
     url: "https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&theater"
@@ -61,10 +61,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20251216045321/http://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Manuel](https://twitter.com/magicmac2000)."
   - id: browser-frontend-safari-client-side
     url: "https://bo0om.ru/safari-client-side"

@@ -349,10 +349,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-04-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20201109035030/https://sigpwn.io/blog/2018/4/14/domato-fuzzers-generation-engine-internals"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [sigpwn](https://www.sigpwn.io/)."
   - id: miscellaneous-css-is-so-overpowered-it-can-deanonymize-facebook
     url: "https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/"

@@ -109,10 +109,10 @@ entries:
     languages: [zh]
     difficulty: intermediate
     date_added: "2020-05-09"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20230602223453/https://static.anquanke.com/download/b/security-geek-2017-q4.pdf"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [360网络攻防实验室](https://weibo.com/360adlab)."
   - id: cheetsheets-xss-cheat-sheet-2018-edition
     url: "https://leanpub.com/xss"

@@ -240,7 +240,7 @@ entries:
     archive_url: null
     last_checked: null
     fingerprint: null
-    status: active
+    status: dead
     raw_rest: "Written by [@strukt93](https://twitter.com/strukt93)."
   - id: tricks-xss-xss-auditor-the-protector-of-unprotected-and-the-d
     url: "https://medium.com/bugbountywriteup/xss-auditor-the-protector-of-unprotected-f900a5e15b7b"
@@ -285,10 +285,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20250119133336/https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [HAHWUL](https://www.hahwul.com/)."
   - id: tricks-xss-exploiting-xss-with-20-characters-limitation
     url: "https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html"
@@ -301,10 +301,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2019-12-30"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20200515041750/https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [Jorge Lajara](https://jlajara.gitlab.io/)."
   - id: tricks-xss-20000-facebook-dom-xss
     url: "https://vinothkumar.me/20000-facebook-dom-xss/"

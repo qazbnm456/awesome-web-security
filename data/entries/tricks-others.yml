@@ -29,10 +29,10 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20231113015440/https://wiki.skullsecurity.org/index.php?title=Dnslogger"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "DNS Logger by [@iagox86](https://github.com/iagox86)."
   - id: tricks-others-inducing-dns-leaks-in-onion-web-services
     url: "https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md"

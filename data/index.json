@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:23:30Z",
+  "generated_at": "2026-09-05T10:27:41Z",
   "categories": [
     {
       "key": "digests",
@@ -1217,9 +1217,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20260802114221/https://phrack.org/papers/attacking_javascript_engines.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-backend-exploiting-a-v8-oob-write",
@@ -1425,9 +1425,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-10",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20210310193058/https://theori.io/research/escaping-chrome-sandbox/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-backend-how-i-got-my-first-big-bounty-payout-with-tesla",
@@ -1464,9 +1464,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20171215020357/http://xlab.tencent.com:80/cn/wp-content/uploads/2017/10/browser-ui-security-whitepaper.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-frontend-ie11-information-disclosure-local-file-detection",
@@ -1527,9 +1527,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20251216045321/http://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "browser-frontend-safari-client-side",
@@ -1910,9 +1910,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20230602223453/https://static.anquanke.com/download/b/security-geek-2017-q4.pdf",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "cheetsheets-xss-cheat-sheet-2018-edition",
@@ -3177,7 +3177,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "evasions-xxe-evil-xml-with-two-encodings",
@@ -4268,9 +4268,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-04-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20201109035030/https://sigpwn.io/blog/2018/4/14/domato-fuzzers-generation-engine-internals",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "miscellaneous-css-is-so-overpowered-it-can-deanonymize-facebook",
@@ -5918,9 +5918,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20170305133642/http://zombiehelp54.blogspot.jp:80/2017/02/sql-injection-in-update-query-bug.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "sql-injection-mysql",
@@ -7682,9 +7682,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20231113015440/https://wiki.skullsecurity.org/index.php?title=Dnslogger",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tools-others-cefdebug",
@@ -9230,9 +9230,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20231113015440/https://wiki.skullsecurity.org/index.php?title=Dnslogger",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-others-inducing-dns-leaks-in-onion-web-services",
@@ -9815,9 +9815,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20170305133642/http://zombiehelp54.blogspot.jp:80/2017/02/sql-injection-in-update-query-bug.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-sql-injection-making-a-blind-sql-injection-a-little-less-blind",
@@ -10570,7 +10570,7 @@
       "date_added": "2018-11-05",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "tricks-xss-xss-auditor-the-protector-of-unprotected-and-the-d",
@@ -10631,9 +10631,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20250119133336/https://www.hahwul.com/2019/11/upgrade-self-xss-to-exploitable-xss.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xss-exploiting-xss-with-20-characters-limitation",
@@ -10652,9 +10652,9 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2019-12-30",
-      "archive_url": null,
+      "archive_url": "http://web.archive.org/web/20200515041750/https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html",
       "last_checked": null,
-      "status": "active"
+      "status": "archived-only"
     },
     {
       "id": "tricks-xss-20000-facebook-dom-xss",
@@ -11546,7 +11546,7 @@
       "date_added": "2018-02-23",
       "archive_url": null,
       "last_checked": null,
-      "status": "active"
+      "status": "dead"
     },
     {
       "id": "xxe-payloadsallthethings-xxe-injection",

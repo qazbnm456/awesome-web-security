@@ -13,10 +13,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2018-02-23"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20260802114221/https://phrack.org/papers/attacking_javascript_engines.html"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [phrack@saelo.net](mailto:phrack@saelo.net)."
   - id: browser-backend-exploiting-a-v8-oob-write
     url: "https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/"
@@ -173,10 +173,10 @@ entries:
     languages: [en, zh, jp]
     difficulty: intermediate
     date_added: "2020-05-10"
-    archive_url: null
+    archive_url: "http://web.archive.org/web/20210310193058/https://theori.io/research/escaping-chrome-sandbox/"
     last_checked: null
     fingerprint: null
-    status: active
+    status: archived-only
     raw_rest: "Written by [@tjbecker_](https://twitter.com/tjbecker_)."
   - id: browser-backend-how-i-got-my-first-big-bounty-payout-with-tesla
     url: "https://medium.com/heck-the-packet/how-i-got-my-first-big-bounty-payout-with-tesla-8d28b520162d"
