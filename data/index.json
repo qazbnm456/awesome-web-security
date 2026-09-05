@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T10:27:41Z",
+  "generated_at": "2026-09-05T10:33:55Z",
   "categories": [
     {
       "key": "digests",
@@ -2437,7 +2437,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-22",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905103110/https://github.com/Ivan1ee/NET-Deserialize",
       "last_checked": null,
       "status": "active"
     },
@@ -4583,7 +4583,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-06-19",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260102081130/https://medium.com/walmartglobaltech/dos-file-path-magic-tricks-5eda7a7a85fa",
       "last_checked": null,
       "status": "active"
     },
@@ -4746,7 +4746,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-12",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905103228/https://pragmaticwebsecurity.com/courses/introduction-oauth-oidc.html",
       "last_checked": null,
       "status": "active"
     },
