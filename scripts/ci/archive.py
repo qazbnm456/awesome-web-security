@@ -17,8 +17,10 @@ from __future__ import annotations
 import os
 import re
 import sys
+import json
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from urllib.parse import urlparse
 from pathlib import Path
@@ -28,6 +30,14 @@ ENTRIES_DIR = ROOT / "data" / "entries"
 
 WAYBACK_SAVE = "https://web.archive.org/save/"
 WAYBACK_WEB = "https://web.archive.org"
+WAYBACK_CDX = ("http://web.archive.org/cdx/search/cdx?url={u}&output=json"
+               "&filter=statuscode:200&fl=timestamp,length,original"
+               "&collapse=digest&limit=300")
+# A capture smaller than this is usually a redirect stub or an empty JS shell
+# rather than the article, so we let Save Page Now try for a real one instead.
+CDX_MIN_BYTES = int(os.environ.get("ARCHIVE_CDX_MIN_BYTES", "10000"))
+# CDX answers 503 often enough that one try under-reports what exists.
+CDX_ATTEMPTS = int(os.environ.get("ARCHIVE_CDX_ATTEMPTS", "2"))
 MAX_PER_RUN = int(os.environ.get("ARCHIVE_MAX_PER_RUN", "5"))
 PER_URL_TIMEOUT = int(os.environ.get("ARCHIVE_TIMEOUT", "90"))
 USER_AGENT = "awesome-web-security-bot (+https://github.com/qazbnm456/awesome-web-security)"
@@ -132,6 +142,60 @@ def _same_resource(snapshot_url: str, target_url: str) -> bool:
     return key(m.group("orig")) == key(target_url)
 
 
+def existing_archive_url(target_url: str) -> str | None:
+    """Return a capture Wayback already holds, or None to fall through to SPN.
+
+    Save Page Now is the half of Wayback that fails: it rate-limits, answers
+    520, and refuses connections, and a run that archives 0 of 5 is ordinary.
+    CDX is a cheap read of what has already been captured, and a sample of this
+    list's backlog found a 200 capture for every single entry checked -- so
+    most of what SPN was being asked to create already existed.
+
+    Three things this must not do, each of which has cost us a healthy entry:
+
+      * trust the availability API's `closest`. It returns the NEWEST capture,
+        which for a JS-heavy page is an empty shell while an older capture
+        holds the real content. Hence CDX, sorted by size.
+      * accept a capture of some other resource. CDX answers for the URL we
+        asked about, but a redirect can still put a different `original` in the
+        row, so every candidate goes through `_same_resource`.
+      * report "no capture" when it simply could not ask. Every failure path
+        here returns None, which means "fall through to Save Page Now" — never
+        "this entry is unarchivable".
+    """
+    query = WAYBACK_CDX.format(u=urllib.parse.quote(target_url, safe=""))
+    req = urllib.request.Request(query, headers={"User-Agent": USER_AGENT})
+    rows = None
+    for attempt in range(CDX_ATTEMPTS):
+        try:
+            with urllib.request.urlopen(req, timeout=PER_URL_TIMEOUT) as resp:
+                rows = json.loads(resp.read().decode("utf-8", "replace") or "[]")
+            break
+        except Exception as exc:  # noqa: BLE001 - reported, then we fall through
+            sys.stderr.write(
+                f"[archive] CDX lookup failed for {target_url}: {exc}\n")
+            if attempt + 1 < CDX_ATTEMPTS:
+                time.sleep(3 + attempt * 4)
+    if rows is None:
+        return None
+
+    best: tuple[str, int] | None = None
+    for row in rows[1:]:
+        try:
+            timestamp, length, original = row[0], int(row[1]), row[2]
+        except (IndexError, TypeError, ValueError):
+            continue
+        candidate = f"{WAYBACK_WEB}/web/{timestamp}/{original}"
+        if not _same_resource(candidate, target_url):
+            continue
+        if best is None or length > best[1]:
+            best = (timestamp, length)
+
+    if best is None or best[1] < CDX_MIN_BYTES:
+        return None
+    return f"{WAYBACK_WEB}/web/{best[0]}/{target_url}"
+
+
 def archive_url_for(target_url: str) -> str | None:
     """Submit to Wayback's Save Page Now and return the resulting archive URL.
 
@@ -213,7 +277,11 @@ def main() -> int:
         url = entry["fields"]["url"]
         eid = entry["fields"]["id"]
         print(f"  {eid}: archiving {url} ...", end=" ", flush=True)
-        result = archive_url_for(url)
+        result = existing_archive_url(url)
+        via = "cdx"
+        if result is None:
+            result = archive_url_for(url)
+            via = "spn"
         if result:
             # re-parse to get fresh line list (previous archives may have shifted lines)
             fresh = parse_entries(yml_path)
@@ -222,7 +290,7 @@ def main() -> int:
                 print("FAILED (entry vanished?)")
                 continue
             write_archive_url(yml_path, target, result)
-            print("ok")
+            print(f"ok ({via})")
             archived += 1
         else:
             print("failed (will retry next run)")
