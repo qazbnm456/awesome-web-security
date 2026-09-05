@@ -45,6 +45,16 @@ def validate_entry(entry: dict, file_label: str, category_keys: set[str]) -> lis
         if field not in entry or entry.get(field) is None:
             errs.append(f"{file_label}:{eid} missing required field `{field}`")
 
+    # ENTRY_OPTIONAL existed but was never enforced, so a misspelled field was
+    # simply ignored: `statuss: active` alongside no `status` passes every other
+    # check here, and `archived_url` silently drops an archive. The generator
+    # reads what it knows and discards the rest, so nothing downstream complains
+    # either — the entry just quietly loses a field.
+    for field in entry:
+        if field not in ENTRY_REQUIRED and field not in ENTRY_OPTIONAL:
+            errs.append(f"{file_label}:{eid} unknown field `{field}` "
+                        f"(allowed: {sorted(ENTRY_REQUIRED + ENTRY_OPTIONAL)})")
+
     if "id" in entry and isinstance(entry["id"], str) and not ID_RE.match(entry["id"]):
         errs.append(f"{file_label}:{eid} id is not kebab-case")
 
