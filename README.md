@@ -840,6 +840,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [FLAWS](http://flaws.cloud/) - Amazon AWS CTF challenge - Written by [@0xdabbad00](https://twitter.com/0xdabbad00).
 - [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Rhino Security Labs' "Vulnerable by Design" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs).
+- [RansomLeak Cloud Security](https://ransomleak.com/catalogue/cloud-security/) - Browser-based AWS misconfiguration labs (public buckets, IAM escalation, metadata abuse) - Written by [RansomLeak](https://ransomleak.com/).
 
 <a name="practices-xss"></a>
 ### XSS
