@@ -34,3 +34,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Rhino Security Labs' \"Vulnerable by Design\" AWS infrastructure setup tool  - Written by [@RhinoSecurityLabs](https://github.com/RhinoSecurityLabs)."
+  - id: practices-aws-ransomleak-cloud-security
+    url: "https://ransomleak.com/catalogue/cloud-security/"
+    title: RansomLeak Cloud Security
+    author:
+      name: RansomLeak
+      url: "https://ransomleak.com/"
+    category: practices-aws
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-09-06"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Browser-based AWS misconfiguration labs (public buckets, IAM escalation, metadata abuse) - Written by [RansomLeak](https://ransomleak.com/)."

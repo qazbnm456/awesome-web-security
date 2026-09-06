@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T17:50:48Z",
+  "generated_at": "2026-09-06T16:26:06Z",
   "categories": [
     {
       "key": "digests",
@@ -5326,6 +5326,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-10-29",
       "archive_url": "https://web.archive.org/web/20241126234658/https://github.com/RhinoSecurityLabs/cloudgoat",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-aws-ransomleak-cloud-security",
+      "url": "https://ransomleak.com/catalogue/cloud-security/",
+      "title": "RansomLeak Cloud Security",
+      "author": {
+        "name": "RansomLeak",
+        "url": "https://ransomleak.com/"
+      },
+      "category": "practices-aws",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-09-06",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
