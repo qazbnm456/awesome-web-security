@@ -577,6 +577,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
 
+- [vamp-http-audit](https://github.com/Vampsecure-Labs/vamp-http-audit) - HTTP security headers and CORS auditor: checks CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, and CORS misconfiguration by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 <a name="tools-command-injection"></a>
 ### Command Injection
 
@@ -655,6 +656,8 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [ZeroTrust](https://github.com/sattyamjjain/zerotrust) - Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain).
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).
 
+- [vamp-jwt-audit](https://github.com/Vampsecure-Labs/vamp-jwt-audit) - JWT security auditor: token decoder, algorithm-confusion attack (alg=none, RS256→HS256), and HMAC secret brute force — async, CLI-first by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
+- [vamp-ssl-audit](https://github.com/Vampsecure-Labs/vamp-ssl-audit) - TLS/SSL security auditor: protocol version, cipher suite evaluation, certificate validity, and HSTS preload verification by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
 
