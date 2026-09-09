@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+- id: tools-scanning-optisec-recon-pro
+    url: "https://optisec-recon-pro.onrender.com"
+    title: Optisec Recon Pro
+    author:
+      name: "@OptisecDev"
+      url: "https://github.com/OptisecDev"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Arabic-native web vulnerability scanner (XSS/SQLi/SSRF/LFI/Open Redirect) with AI-assisted triage via Groq/LLaMA."
