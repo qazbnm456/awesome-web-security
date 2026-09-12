@@ -298,6 +298,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [SSL & TLS Penetration Testing](https://www.aptive.co.uk/blog/tls-ssl-security-testing/) - Written by [APTIVE](https://www.aptive.co.uk/).
 - [Practical introduction to SSL/TLS](https://github.com/Hakky54/mutual-tls-ssl) - Written by [@Hakky54](https://github.com/Hakky54).
 - [State of TLS on the public web](https://securemonk.io/insights/state-of-tls) - Live-data research across thousands of scanned hosts: protocol adoption, the TLS-versus-headers maturity gap, ECDSA drawing even with RSA, certificate lifetimes against the CA/B Forum 47-day schedule, and the end of OCSP stapling. Figures recompute from the scan corpus on each load.
+- [vamp-ssl-audit](https://github.com/Vampsecure-Labs/vamp-ssl-audit) - TLS/SSL security auditor: protocol version, cipher suite evaluation, certificate validity, and HSTS preload verification by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 
 <a name="webmail"></a>
 ### Webmail
@@ -372,6 +373,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### JWT
 
 - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
+- [vamp-jwt-audit](https://github.com/Vampsecure-Labs/vamp-jwt-audit) - JWT security auditor: token decoder, algorithm-confusion attack (alg=none, RS256→HS256), and HMAC secret brute force — async, CLI-first by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 
 ## Evasions
 
@@ -576,8 +578,9 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
-
+- [vamp-graphql-audit](https://github.com/Vampsecure-Labs/vamp-graphql-audit) - GraphQL endpoint security auditor: introspection exposure, injection, IDOR, and DoS via query complexity by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 - [vamp-http-audit](https://github.com/Vampsecure-Labs/vamp-http-audit) - HTTP security headers and CORS auditor: checks CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, and CORS misconfiguration by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
+
 <a name="tools-command-injection"></a>
 ### Command Injection
 
@@ -656,8 +659,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [ZeroTrust](https://github.com/sattyamjjain/zerotrust) - Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain).
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).
 
-- [vamp-jwt-audit](https://github.com/Vampsecure-Labs/vamp-jwt-audit) - JWT security auditor: token decoder, algorithm-confusion attack (alg=none, RS256→HS256), and HMAC secret brute force — async, CLI-first by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
-- [vamp-ssl-audit](https://github.com/Vampsecure-Labs/vamp-ssl-audit) - TLS/SSL security auditor: protocol version, cipher suite evaluation, certificate validity, and HSTS preload verification by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
 
@@ -764,6 +765,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Weevely](https://github.com/epinna/weevely3) - Weaponized web shell by [@epinna](https://github.com/epinna).
 - [nano](https://github.com/s0md3v/nano) - Family of code golfed PHP shells by [@s0md3v](https://github.com/s0md3v).
 - [PhpSploit](https://github.com/nil0x42/phpsploit) - Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42).
+- [vamp-wp2shell-audit](https://github.com/Vampsecure-Labs/vamp-wp2shell-audit) - WordPress upload-vector and webshell auditor: checks plugin vulnerabilities, upload endpoints, and user enumeration by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs).
 
 <a name="tools-disassembler"></a>
 ### Disassembler

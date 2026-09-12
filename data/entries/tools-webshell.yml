@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner by [@nil0x42](https://github.com/nil0x42)."
+  - id: tools-webshell-vamp-wp2shell-audit
+    url: "https://github.com/Vampsecure-Labs/vamp-wp2shell-audit"
+    title: vamp-wp2shell-audit
+    author:
+      name: "@Vampsecure-Labs"
+      url: "https://github.com/Vampsecure-Labs"
+    category: tools-webshell
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "WordPress upload-vector and webshell auditor: checks plugin vulnerabilities, upload endpoints, and user enumeration by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs)."

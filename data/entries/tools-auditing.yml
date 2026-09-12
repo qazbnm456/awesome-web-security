@@ -50,3 +50,35 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope)."
+  - id: tools-auditing-vamp-http-audit
+    url: "https://github.com/Vampsecure-Labs/vamp-http-audit"
+    title: vamp-http-audit
+    author:
+      name: "@Vampsecure-Labs"
+      url: "https://github.com/Vampsecure-Labs"
+    category: tools-auditing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "HTTP security headers and CORS auditor: checks CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, and CORS misconfiguration by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs)."
+  - id: tools-auditing-vamp-graphql-audit
+    url: "https://github.com/Vampsecure-Labs/vamp-graphql-audit"
+    title: vamp-graphql-audit
+    author:
+      name: "@Vampsecure-Labs"
+      url: "https://github.com/Vampsecure-Labs"
+    category: tools-auditing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "GraphQL endpoint security auditor: introspection exposure, injection, IDOR, and DoS via query complexity by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs)."

@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-05T17:50:48Z",
+  "generated_at": "2026-09-12T08:17:35Z",
   "categories": [
     {
       "key": "digests",
@@ -3817,6 +3817,25 @@
       "status": "active"
     },
     {
+      "id": "jwt-vamp-jwt-audit",
+      "url": "https://github.com/Vampsecure-Labs/vamp-jwt-audit",
+      "title": "vamp-jwt-audit",
+      "author": {
+        "name": "@Vampsecure-Labs",
+        "url": "https://github.com/Vampsecure-Labs"
+      },
+      "category": "jwt",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "advanced",
+      "date_added": "2026-09-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "miscellaneous-1000php",
       "url": "https://github.com/Xyntax/1000php",
       "title": "1000php",
@@ -6163,6 +6182,25 @@
       "status": "active"
     },
     {
+      "id": "ssl-tls-vamp-ssl-audit",
+      "url": "https://github.com/Vampsecure-Labs/vamp-ssl-audit",
+      "title": "vamp-ssl-audit",
+      "author": {
+        "name": "@Vampsecure-Labs",
+        "url": "https://github.com/Vampsecure-Labs"
+      },
+      "category": "ssl-tls",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "ssrf-ssrf-bible-cheatsheet",
       "url": "https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit",
       "title": "SSRF bible. Cheatsheet",
@@ -6306,6 +6344,44 @@
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
       "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hehnope/slurp",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-vamp-http-audit",
+      "url": "https://github.com/Vampsecure-Labs/vamp-http-audit",
+      "title": "vamp-http-audit",
+      "author": {
+        "name": "@Vampsecure-Labs",
+        "url": "https://github.com/Vampsecure-Labs"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-12",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-vamp-graphql-audit",
+      "url": "https://github.com/Vampsecure-Labs/vamp-graphql-audit",
+      "title": "vamp-graphql-audit",
+      "author": {
+        "name": "@Vampsecure-Labs",
+        "url": "https://github.com/Vampsecure-Labs"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
@@ -8823,6 +8899,25 @@
       "difficulty": "intermediate",
       "date_added": "2020-08-26",
       "archive_url": "https://web.archive.org/web/20260511151914/https://github.com/nil0x42/phpsploit",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-webshell-vamp-wp2shell-audit",
+      "url": "https://github.com/Vampsecure-Labs/vamp-wp2shell-audit",
+      "title": "vamp-wp2shell-audit",
+      "author": {
+        "name": "@Vampsecure-Labs",
+        "url": "https://github.com/Vampsecure-Labs"
+      },
+      "category": "tools-webshell",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

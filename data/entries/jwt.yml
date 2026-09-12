@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@ermil0v](https://twitter.com/ermil0v)."
+  - id: jwt-vamp-jwt-audit
+    url: "https://github.com/Vampsecure-Labs/vamp-jwt-audit"
+    title: vamp-jwt-audit
+    author:
+      name: "@Vampsecure-Labs"
+      url: "https://github.com/Vampsecure-Labs"
+    category: jwt
+    type: tool
+    languages: [en]
+    difficulty: advanced
+    date_added: "2026-09-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "JWT security auditor: token decoder, algorithm-confusion attack (alg=none, RS256→HS256), and HMAC secret brute force — async, CLI-first by [@Vampsecure-Labs](https://github.com/Vampsecure-Labs)."
