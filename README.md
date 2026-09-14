@@ -331,6 +331,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 
 - [Applied Crypto Hardening](https://bettercrypto.org/) - Written by [The bettercrypto.org Team](https://bettercrypto.org/).
 - [What is a Side-Channel Attack ?](https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html) - Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/).
+- [Weak Randomness](https://ransomleak.com/exercises/weak-randomness/) - Shows how reset tokens minted with Math.random() can be predicted by recovering the generator's state from a handful of observed outputs, why hashing weak output changes nothing, and why security-sensitive values need a CSPRNG such as crypto.randomBytes, by [RansomLeak](https://ransomleak.com/).
 
 <a name="web-shell"></a>
 ### Web Shell
