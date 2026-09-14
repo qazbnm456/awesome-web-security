@@ -326,6 +326,8 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="sub-domain-enumeration"></a>
 ### Sub Domain Enumeration
 
+- [Subdomain Takeover](https://ransomleak.com/exercises/subdomain-takeover/) - Shows how a DNS record left pointing at a retired cloud resource lets anyone claim the target and serve content from the organization's real subdomain with a valid certificate, and why the fix belongs in the decommissioning process plus a scan for dangling records, by [RansomLeak](https://ransomleak.com/).
+
 <a name="crypto"></a>
 ### Crypto
 

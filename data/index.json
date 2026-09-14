@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-14T15:36:31Z",
   "categories": [
     {
       "key": "digests",
@@ -6264,6 +6264,25 @@
       "archive_url": "http://web.archive.org/web/20230528094617/https://blog.sweepatic.com/art-of-subdomain-enumeration/",
       "last_checked": null,
       "status": "archived-only"
+    },
+    {
+      "id": "sub-domain-enumeration-subdomain-takeover",
+      "url": "https://ransomleak.com/exercises/subdomain-takeover/",
+      "title": "Subdomain Takeover",
+      "author": {
+        "name": "RansomLeak",
+        "url": "https://ransomleak.com/"
+      },
+      "category": "sub-domain-enumeration",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-14",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
     },
     {
       "id": "tools-auditing-a2sv",
