@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-14T15:36:26Z",
   "categories": [
     {
       "key": "digests",
@@ -2212,6 +2212,25 @@
       "difficulty": "intermediate",
       "date_added": "2020-10-05",
       "archive_url": "https://web.archive.org/web/20260511151533/https://www.csoonline.com/article/567149/what-is-a-side-channel-attack-how-these-end-runs-around-encryption-put-everyone-at-risk.html",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "crypto-weak-randomness",
+      "url": "https://ransomleak.com/exercises/weak-randomness/",
+      "title": "Weak Randomness",
+      "author": {
+        "name": "RansomLeak",
+        "url": "https://ransomleak.com/"
+      },
+      "category": "crypto",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-14",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

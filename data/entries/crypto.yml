@@ -34,3 +34,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [J.M Porup](https://www.csoonline.com/author/J.M.-Porup/)."
+  - id: crypto-weak-randomness
+    url: "https://ransomleak.com/exercises/weak-randomness/"
+    title: Weak Randomness
+    author:
+      name: RansomLeak
+      url: "https://ransomleak.com/"
+    category: crypto
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shows how reset tokens minted with Math.random() can be predicted by recovering the generator's state from a handful of observed outputs, why hashing weak output changes nothing, and why security-sensitive values need a CSPRNG such as crypto.randomBytes, by [RansomLeak](https://ransomleak.com/)."
