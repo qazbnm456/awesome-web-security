@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [Timothy Morgan](https://plus.google.com/105917618099766831589)."
+  - id: tricks-header-injection-host-header-injection
+    url: "https://ransomleak.com/exercises/host-header-injection/"
+    title: Host Header Injection
+    author:
+      name: RansomLeak
+      url: "https://ransomleak.com/"
+    category: tricks-header-injection
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shows how a password-reset link built from the Host or X-Forwarded-Host header lets an attacker receive a real reset token on a domain they control, and why the fix is to build URLs from a configured base URL backed by a Host allow-list at the proxy, by [RansomLeak](https://ransomleak.com/)."

@@ -505,6 +505,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Header Injection
 
 - [Java/Python FTP Injections Allow for Firewall Bypass](http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html) - Written by [Timothy Morgan](https://plus.google.com/105917618099766831589).
+- [Host Header Injection](https://ransomleak.com/exercises/host-header-injection/) - Shows how a password-reset link built from the Host or X-Forwarded-Host header lets an attacker receive a real reset token on a domain they control, and why the fix is to build URLs from a configured base URL backed by a Host allow-list at the proxy, by [RansomLeak](https://ransomleak.com/).
 
 <a name="tricks-url"></a>
 ### URL
