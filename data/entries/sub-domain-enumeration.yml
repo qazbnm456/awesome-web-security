@@ -34,3 +34,19 @@ entries:
     fingerprint: null
     status: archived-only
     raw_rest: "Written by [Patrik Hudak](https://blog.sweepatic.com/author/patrik/)."
+  - id: sub-domain-enumeration-subdomain-takeover
+    url: "https://ransomleak.com/exercises/subdomain-takeover/"
+    title: Subdomain Takeover
+    author:
+      name: RansomLeak
+      url: "https://ransomleak.com/"
+    category: sub-domain-enumeration
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shows how a DNS record left pointing at a retired cloud resource lets anyone claim the target and serve content from the organization's real subdomain with a valid certificate, and why the fix belongs in the decommissioning process plus a scan for dangling records, by [RansomLeak](https://ransomleak.com/)."
