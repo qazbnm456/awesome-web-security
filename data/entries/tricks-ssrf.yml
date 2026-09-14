@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@Auxy233](https://twitter.com/Auxy233)."
+  - id: tricks-ssrf-instance-metadata-abuse
+    url: "https://ransomleak.com/exercises/instance-metadata-abuse/"
+    title: Instance Metadata Abuse
+    author:
+      name: RansomLeak
+      url: "https://ransomleak.com/"
+    category: tricks-ssrf
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Shows how a server-side request forgery bug becomes cloud credential theft through the instance metadata service, and why requiring IMDSv2 session tokens with a response hop limit in the instance configuration closes the whole class of forging bugs rather than one code path, by [RansomLeak](https://ransomleak.com/)."

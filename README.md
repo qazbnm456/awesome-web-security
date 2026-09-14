@@ -494,6 +494,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Piercing the Veil: Server Side Request Forgery to NIPRNet access](https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a) - Written by [Alyssa Herrera](https://medium.com/@alyssa.o.herrera).
 - [All you need to know about SSRF and how may we write tools to do auto-detect](https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html) - Written by [@Auxy233](https://twitter.com/Auxy233).
 - [AWS takeover through SSRF in JavaScript](https://10degres.net/aws-takeover-through-ssrf-in-javascript/) - Written by [Gwen](https://10degres.net/).
+- [Instance Metadata Abuse](https://ransomleak.com/exercises/instance-metadata-abuse/) - Shows how a server-side request forgery bug becomes cloud credential theft through the instance metadata service, and why requiring IMDSv2 session tokens with a response hop limit in the instance configuration closes the whole class of forging bugs rather than one code path, by [RansomLeak](https://ransomleak.com/).
 
 <a name="tricks-web-cache-poisoning"></a>
 ### Web Cache Poisoning

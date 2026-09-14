@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-14T15:22:37Z",
   "categories": [
     {
       "key": "digests",
@@ -10138,6 +10138,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
       "archive_url": "https://web.archive.org/web/20191119060224/https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tricks-ssrf-instance-metadata-abuse",
+      "url": "https://ransomleak.com/exercises/instance-metadata-abuse/",
+      "title": "Instance Metadata Abuse",
+      "author": {
+        "name": "RansomLeak",
+        "url": "https://ransomleak.com/"
+      },
+      "category": "tricks-ssrf",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-14",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
