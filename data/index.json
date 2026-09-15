@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-15T17:20:57Z",
   "categories": [
     {
       "key": "digests",
@@ -8424,6 +8424,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-onus",
+      "url": "https://github.com/maverickaayush/ONUS",
+      "title": "ONUS",
+      "author": {
+        "name": "@maverickaayush",
+        "url": "https://github.com/maverickaayush"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-15",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
