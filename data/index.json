@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-16T10:41:55Z",
   "categories": [
     {
       "key": "digests",
@@ -7666,6 +7666,25 @@
       "archive_url": "https://web.archive.org/web/20260717015821/https://osintprojects.com/",
       "last_checked": null,
       "status": "archived-only"
+    },
+    {
+      "id": "tools-osint-scanmalware",
+      "url": "https://scanmalware.com/",
+      "title": "ScanMalware",
+      "author": {
+        "name": "@jonaslejon",
+        "url": "https://github.com/jonaslejon"
+      },
+      "category": "tools-osint",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-16",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
     },
     {
       "id": "tools-others-cyberchef",

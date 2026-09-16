@@ -610,6 +610,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Social Mapper](https://github.com/Greenwolf/social_mapper) - Social Media Enumeration & Correlation Tool by [Jacob Wilkin (Greenwolf)](https://github.com/Greenwolf).
 - [Marshall Extensions](https://github.com/bad-antics/marshall-extensions) - OSINT and security extensions for the Marshall privacy browser, providing reconnaissance and security-testing plugins by [@bad-antics](https://github.com/bad-antics).
 - [OpenBuckets](https://openbuckets.io/) - Search engine for misconfigured public cloud storage buckets across any provider.
+- [ScanMalware](https://scanmalware.com/) - Free sandboxed URL scanner whose public scan archive can be pivoted across domain, IP, ASN, JARM, favicon mmh3, TLSH/ssdeep and screenshot hashes, with no account or API key required, by [@jonaslejon](https://github.com/jonaslejon).
 
 <a name="tools-sub-domain-enumeration"></a>
 #### Sub Domain Enumeration
