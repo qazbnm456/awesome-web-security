@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-26T12:08:41Z",
   "categories": [
     {
       "key": "digests",
@@ -8424,6 +8424,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-headerproof",
+      "url": "https://github.com/TayfurYldz/headerproof",
+      "title": "HeaderProof",
+      "author": {
+        "name": "@TayfurYldz",
+        "url": "https://github.com/TayfurYldz"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-26",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

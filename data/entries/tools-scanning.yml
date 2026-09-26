@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+  - id: tools-scanning-headerproof
+    url: "https://github.com/TayfurYldz/headerproof"
+    title: HeaderProof
+    author:
+      name: "@TayfurYldz"
+      url: "https://github.com/TayfurYldz"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Evidence-gated active scanner for CORS, CSRF, header injection, cache poisoning, and content spoofing."
