@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-27T15:41:33Z",
   "categories": [
     {
       "key": "digests",
@@ -8174,6 +8174,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260603160905/https://www.crowdsec.net/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-inline-json-for-html",
+      "url": "https://github.com/edilec/inline-json-for-html",
+      "title": "inline-json-for-html",
+      "author": {
+        "name": "Edilec",
+        "url": "https://github.com/edilec"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-27",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
