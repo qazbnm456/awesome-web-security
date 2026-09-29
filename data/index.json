@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-29T09:27:32Z",
   "categories": [
     {
       "key": "digests",
@@ -6407,6 +6407,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
       "archive_url": "https://web.archive.org/web/20260221132605/https://www.benf.org/other/cfr/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-decompiler-wakaru",
+      "url": "https://github.com/pionxzh/wakaru",
+      "title": "Wakaru",
+      "author": {
+        "name": "@pionxzh",
+        "url": "https://github.com/pionxzh"
+      },
+      "category": "tools-decompiler",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-29",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
