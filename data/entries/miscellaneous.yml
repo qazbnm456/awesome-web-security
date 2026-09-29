@@ -658,3 +658,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "How DNSSEC, DANE, SPF/DKIM/DMARC and SMTP transport evidence becomes a finding, with the decision logic for each, the `dig` invocations to reproduce it independently, and the false positives to expect."
+  - id: miscellaneous-state-of-web-security-yc-startups-2026
+    url: "https://ismycodesafe.com/reports/yc-security-audit-2026"
+    title: "State of Web Security in YC Startups 2026"
+    author:
+      name: ismycodesafe.com
+      url: "https://ismycodesafe.com/"
+    category: miscellaneous
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Security-header measurement across 100 Y Combinator startups (W24, S24, W25): of the 91 that responded, 91% send no Content-Security-Policy and 96% no Permissions-Policy, with a W26 follow-up, per-header fix snippets and an anonymized per-site CSV."

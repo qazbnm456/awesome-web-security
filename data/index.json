@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-09-29T18:28:29Z",
   "categories": [
     {
       "key": "digests",
@@ -4663,6 +4663,25 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-14",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "miscellaneous-state-of-web-security-yc-startups-2026",
+      "url": "https://ismycodesafe.com/reports/yc-security-audit-2026",
+      "title": "State of Web Security in YC Startups 2026",
+      "author": {
+        "name": "ismycodesafe.com",
+        "url": "https://ismycodesafe.com/"
+      },
+      "category": "miscellaneous",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-29",
       "archive_url": null,
       "last_checked": null,
       "status": "active"
