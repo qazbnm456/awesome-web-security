@@ -891,6 +891,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Grokking Web Application Security](https://www.manning.com/books/grokking-web-application-security) - Hands-on introduction to web application security fundamentals by Malcolm McDonald (Manning).
 - [htb-writeups](https://github.com/momenbasel/htb-writeups) - Comprehensive Hack The Box writeup collection covering 75+ web challenges including XSS, SQLi, SSTI, SSRF, and deserialization, by [@momenbasel](https://github.com/momenbasel).
 - [From DNS Evidence to a Finding: DNS and Mail Security Methodology](https://admintoolkit.io/guides/dns-mail-security-methodology/) - How DNSSEC, DANE, SPF/DKIM/DMARC and SMTP transport evidence becomes a finding, with the decision logic for each, the `dig` invocations to reproduce it independently, and the false positives to expect.
+- [State of Web Security in YC Startups 2026](https://ismycodesafe.com/reports/yc-security-audit-2026) - Security-header measurement across 100 Y Combinator startups (W24, S24, W25): of the 91 that responded, 91% send no Content-Security-Policy and 96% no Permissions-Policy, with a W26 follow-up, per-header fix snippets and an anonymized per-site CSV.
 
 ## Code of Conduct
 
