@@ -773,6 +773,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Decompiler
 
 - [CFR](https://www.benf.org/other/cfr/) - Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf).
+- [Wakaru](https://github.com/pionxzh/wakaru) - JavaScript decompiler that splits production bundles from webpack, esbuild, Browserify, and Metro into modules and turns minified and transpiled code back into readable JavaScript, without executing it, by [@pionxzh](https://github.com/pionxzh).
 
 <a name="tools-dns-rebinding"></a>
 ### DNS Rebinding
