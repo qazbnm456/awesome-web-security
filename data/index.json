@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-02T13:05:28Z",
   "categories": [
     {
       "key": "digests",
@@ -3813,6 +3813,25 @@
       "difficulty": "intermediate",
       "date_added": "2020-07-28",
       "archive_url": "https://web.archive.org/web/20260905143011/https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "jwt-how-to-revoke-a-jwt-from-a-system-that-does-it",
+      "url": "https://easinvy.com/notes/revoke-a-jwt",
+      "title": "How to revoke a JWT, from a system that does it",
+      "author": {
+        "name": "Ridam Agrawal",
+        "url": "https://ridamagrawal.com"
+      },
+      "category": "jwt",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-02",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
