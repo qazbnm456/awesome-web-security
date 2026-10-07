@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-07T04:56:27Z",
   "categories": [
     {
       "key": "digests",
@@ -6178,6 +6178,25 @@
       "difficulty": "intro",
       "date_added": "2026-07-21",
       "archive_url": "https://web.archive.org/web/20260726072233/https://securemonk.io/insights/state-of-tls",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "ssl-tls-ssl-certificate-statistics-2026",
+      "url": "https://www.stackscan.com/blog/ssl-statistics",
+      "title": "SSL Certificate Statistics 2026",
+      "author": {
+        "name": "StackScan",
+        "url": "https://www.stackscan.com"
+      },
+      "category": "ssl-tls",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-10-07",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
