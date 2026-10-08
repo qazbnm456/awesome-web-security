@@ -187,6 +187,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [CSV Injection -> Meterpreter on Pornhub](https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf) - Written by [Andy](https://blog.zsec.uk/).
 - [The Absurdly Underestimated Dangers of CSV Injection](https://georgemauer.net/2017/10/07/csv-injection.html) - Written by [George Mauer](https://georgemauer.net/).
 - [PayloadsAllTheThings - CSV Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection) - Written by [@swisskyrepo](https://github.com/swisskyrepo).
+- [JoySky Local CSV Formula Risk Checker](https://joysky77.github.io/csv-cleanup-services/csv-formula-risk-checker.html) - Free browser-local checker that parses small UTF-8 or GB18030 CSV files and reports formula-like cells without uploading, executing formulas, or changing the source.
 
 <a name="sql-injection"></a>
 ### SQL Injection

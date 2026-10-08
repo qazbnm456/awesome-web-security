@@ -50,3 +50,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@swisskyrepo](https://github.com/swisskyrepo)."
+  - id: csv-injection-joysky-formula-risk-checker
+    url: "https://joysky77.github.io/csv-cleanup-services/csv-formula-risk-checker.html"
+    title: JoySky Local CSV Formula Risk Checker
+    author:
+      name: JoySky Tools
+      url: "https://joysky77.github.io/"
+    category: csv-injection
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-10-09"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free browser-local checker that parses small UTF-8 or GB18030 CSV files and reports formula-like cells without uploading, executing formulas, or changing the source."

@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-08T18:52:39Z",
   "categories": [
     {
       "key": "digests",
@@ -2336,6 +2336,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-11-05",
       "archive_url": "https://web.archive.org/web/20241129193844/https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "csv-injection-joysky-formula-risk-checker",
+      "url": "https://joysky77.github.io/csv-cleanup-services/csv-formula-risk-checker.html",
+      "title": "JoySky Local CSV Formula Risk Checker",
+      "author": {
+        "name": "JoySky Tools",
+        "url": "https://joysky77.github.io/"
+      },
+      "category": "csv-injection",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-10-09",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
