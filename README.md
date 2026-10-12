@@ -576,6 +576,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
+- [Website Vulnerability Scanner](https://github.com/RanaKhan77/Website-Vulnerability-Scanner) - Self-hosted web security scanning suite with 203 deterministic modules (SQLi, XSS, SSRF, SSTI, subdomain takeover, CMS, headers, TLS) producing CVSS-scored, evidence-backed reports by [@RanaKhan77](https://github.com/RanaKhan77).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
