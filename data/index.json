@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-12T15:41:26Z",
   "categories": [
     {
       "key": "digests",
@@ -8424,6 +8424,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-headers-baseline",
+      "url": "https://github.com/dimonch-byte/headers-baseline",
+      "title": "headers-baseline",
+      "author": {
+        "name": "@dimonch-byte",
+        "url": "https://github.com/dimonch-byte"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-10-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
