@@ -146,3 +146,20 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+
+  - id: tools-scanning-headers-baseline
+    url: "https://github.com/dimonch-byte/headers-baseline"
+    title: headers-baseline
+    author:
+      name: "@dimonch-byte"
+      url: "https://github.com/dimonch-byte"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "stdlib Python one-GET check of baseline security headers (HSTS, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, frame protection, CSP / CSP-Report-Only) on a URL you own. MIT, no dependencies. By [@dimonch-byte](https://github.com/dimonch-byte)."
