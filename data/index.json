@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-12T02:34:31Z",
   "categories": [
     {
       "key": "digests",
@@ -6325,6 +6325,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
       "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hehnope/slurp",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-website-vulnerability-scanner",
+      "url": "https://github.com/RanaKhan77/Website-Vulnerability-Scanner",
+      "title": "Website Vulnerability Scanner",
+      "author": {
+        "name": "@RanaKhan77",
+        "url": "https://github.com/RanaKhan77"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

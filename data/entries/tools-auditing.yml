@@ -50,3 +50,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope)."
+  - id: tools-auditing-website-vulnerability-scanner
+    url: "https://github.com/RanaKhan77/Website-Vulnerability-Scanner"
+    title: Website Vulnerability Scanner
+    author:
+      name: "@RanaKhan77"
+      url: "https://github.com/RanaKhan77"
+    category: tools-auditing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-10-12"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Self-hosted web security scanning suite with 200 deterministic modules (SQLi, XSS, SSRF, SSTI, subdomain takeover, CMS, headers, TLS) producing CVSS-scored, evidence-backed reports by [@RanaKhan77](https://github.com/RanaKhan77)."
