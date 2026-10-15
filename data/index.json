@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-15T11:56:22Z",
   "categories": [
     {
       "key": "digests",
@@ -5444,6 +5444,25 @@
       "archive_url": null,
       "last_checked": null,
       "status": "dead"
+    },
+    {
+      "id": "practices-xss-vulnerable-javascript",
+      "url": "https://eyalsec.github.io/vulnerable-javascript/",
+      "title": "vulnerable-javascript",
+      "author": {
+        "name": "EyalSec",
+        "url": "https://github.com/EyalSec"
+      },
+      "category": "practices-xss",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-15",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
     },
     {
       "id": "prototype-pollution-prototype-pollution-attack-in-nodejs-application",
