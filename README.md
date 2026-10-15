@@ -847,6 +847,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [alert(1) to win](https://alf.nu/alert1) - Series of XSS challenges - Written by [@steike](https://twitter.com/steike).
 - [XSS Challenges](http://xss-quiz.int21h.jp/) - Series of XSS challenges - Written by yamagata21.
 - [XSS game](https://xss-game.appspot.com/) - Google XSS Challenge - Written by Google.
+- [vulnerable-javascript](https://eyalsec.github.io/vulnerable-javascript/) - Deliberately vulnerable single page retail dashboard with 21 DOM-XSS flows across 8 sources (location.hash, location.search, postMessage, localStorage, sessionStorage, document.cookie, window.name, document.referrer) and 18 sinks, hosted live, with a catalogue of one-click trigger URLs and a correctly written twin beside most flaws - Written by [EyalSec](https://github.com/EyalSec).
 
 <a name="practices-modsecurity"></a>
 ### ModSecurity / OWASP ModSecurity Core Rule Set

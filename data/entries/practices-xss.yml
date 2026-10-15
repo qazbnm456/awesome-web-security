@@ -66,3 +66,19 @@ entries:
     fingerprint: null
     status: dead
     raw_rest: "Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by [@cure53](https://github.com/cure53)."
+  - id: practices-xss-vulnerable-javascript
+    url: "https://eyalsec.github.io/vulnerable-javascript/"
+    title: vulnerable-javascript
+    author:
+      name: EyalSec
+      url: "https://github.com/EyalSec"
+    category: practices-xss
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-10-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Deliberately vulnerable single page retail dashboard with 21 DOM-XSS flows across 8 sources (location.hash, location.search, postMessage, localStorage, sessionStorage, document.cookie, window.name, document.referrer) and 18 sinks, hosted live, with a catalogue of one-click trigger URLs and a correctly written twin beside most flaws - Written by [EyalSec](https://github.com/EyalSec)."
