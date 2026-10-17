@@ -727,6 +727,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [xsschop](https://xsschop.chaitin.cn/) - XSS detection engine by [chaitin](https://chaitin.com).
 - [OpenRASP](https://github.com/baidu/openrasp) - An open source RASP solution actively maintained by Baidu Inc. With context-aware detection algorithm the project achieved nearly no false positives. And less than 3% performance reduction is observed under heavy server load.
 - [GuardRails](https://github.com/apps/guardrails) - A GitHub App that provides security feedback in Pull Requests.
+- [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) - Local static scanner for Next.js + Supabase + Stripe apps that flags service-role or secret keys reaching client code, tables without row level security, missing Supabase Data API grants, and Stripe webhooks without signature verification, run as a CLI or GitHub Action, by [@edtrackai](https://github.com/edtrackai).
 
 <a name="tools-preventing"></a>
 ### Preventing
