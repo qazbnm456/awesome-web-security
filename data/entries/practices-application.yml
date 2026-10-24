@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse."
+  - id: practices-application-breachloom-idor-orders
+    url: "https://breachloom.com/learn/idor-orders/"
+    title: "An order number identifies a record, not its reader"
+    author:
+      name: Breachloom
+      url: "https://breachloom.com"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-10-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A worked example of broken object-level authorization (IDOR) in an order API, linked to a free hands-on challenge that needs no account (the full challenge set is a paid product) - Written by [Breachloom](https://breachloom.com)."
