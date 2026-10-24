@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-24T06:09:19Z",
   "categories": [
     {
       "key": "digests",
@@ -5307,6 +5307,25 @@
       "difficulty": "advanced",
       "date_added": "2026-08-24",
       "archive_url": "https://web.archive.org/web/20260905074141/https://aivist.dev/the-200-that-proved-nothing",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-breachloom-idor-orders",
+      "url": "https://breachloom.com/learn/idor-orders/",
+      "title": "An order number identifies a record, not its reader",
+      "author": {
+        "name": "Breachloom",
+        "url": "https://breachloom.com"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-10-24",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
