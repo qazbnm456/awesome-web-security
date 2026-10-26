@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T12:46:15Z",
+  "generated_at": "2026-10-26T00:51:01Z",
   "categories": [
     {
       "key": "digests",
@@ -8174,6 +8174,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260603160905/https://www.crowdsec.net/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-agentdecoy",
+      "url": "https://github.com/KyleClouthier/agentdecoy",
+      "title": "AgentDecoy",
+      "author": {
+        "name": "@KyleClouthier",
+        "url": "https://github.com/KyleClouthier"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-26",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
