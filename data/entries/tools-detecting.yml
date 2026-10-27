@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: A GitHub App that provides security feedback in Pull Requests.
+  - id: tools-detecting-iframecheck-clickjacking-test
+    url: "https://iframecheck.com/clickjacking-test"
+    title: iframecheck Clickjacking Test
+    author:
+      name: iframecheck
+      url: "https://iframecheck.com/"
+    category: tools-detecting
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-10-27"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Checks if a URL can be framed by another site, following the HTML spec rules for X-Frame-Options and CSP frame-ancestors, with a decoy demo and the server fix by [iframecheck](https://iframecheck.com/)."
