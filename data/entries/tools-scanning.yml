@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK)."
+  - id: tools-scanning-crossfyre-toolchain
+    url: "https://github.com/clickswave/crossfyre-toolchain"
+    title: Crossfyre Toolchain
+    author:
+      name: "@clickswave"
+      url: "https://github.com/clickswave"
+    category: tools-scanning
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-10-27"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
