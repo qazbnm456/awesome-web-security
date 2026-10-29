@@ -114,6 +114,16 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Self-hosted CAPTCHA with behavioral analysis, vision-AI agent detection, headless-browser fingerprinting, and SHA-256 proof-of-work, maintained by [WebDecoy](https://github.com/WebDecoy)."
+  - id: tools-preventing-next-gen-captchas
+    url: "https://arxiv.org/abs/2602.09012"
+    title: "Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense"
+    category: tools-preventing
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-10-30"
+    status: active
+    raw_rest: "A CAPTCHA generation framework that creates interactive challenges to distinguish humans from web GUI agents."
   - id: tools-preventing-webdecoy
     url: "https://github.com/WebDecoy/wordpress-plugin"
     title: WebDecoy
