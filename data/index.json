@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T10:57:33Z",
+  "generated_at": "2026-11-02T12:40:56Z",
   "categories": [
     {
       "key": "digests",
@@ -3416,6 +3416,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
       "archive_url": "https://web.archive.org/web/20190819130953/https://www.freebuf.com/articles/web/127266.html",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "fingerprint-passive-os-tcp",
+      "url": "https://packet.guru/blog/passive-os-fingerprinting",
+      "title": "Passive OS Fingerprinting: TCP Fingerprint, p0f and JA4T",
+      "author": {
+        "name": "packet.guru",
+        "url": "https://packet.guru/"
+      },
+      "category": "fingerprint",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-02",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [arkteam](https://www.freebuf.com/author/arkteam)."
+  - id: fingerprint-passive-os-tcp
+    url: "https://packet.guru/blog/passive-os-fingerprinting"
+    title: "Passive OS Fingerprinting: TCP Fingerprint, p0f and JA4T"
+    author:
+      name: packet.guru
+      url: "https://packet.guru/"
+    category: fingerprint
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "How the first TCP SYN gives away the operating system family, why a proxy shows up as a mismatch with the OS the browser reports, and how p0f and JA4T record the same packet. Written by [packet.guru](https://packet.guru/)."

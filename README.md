@@ -323,6 +323,8 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 <a name="fingerprint"></a>
 ### Fingerprint
 
+- [Passive OS Fingerprinting: TCP Fingerprint, p0f and JA4T](https://packet.guru/blog/passive-os-fingerprinting) - How the first TCP SYN gives away the operating system family, why a proxy shows up as a mismatch with the OS the browser reports, and how p0f and JA4T record the same packet. Written by [packet.guru](https://packet.guru/).
+
 <a name="sub-domain-enumeration"></a>
 ### Sub Domain Enumeration
 
