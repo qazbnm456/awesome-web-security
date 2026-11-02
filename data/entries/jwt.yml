@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Written by [@ermil0v](https://twitter.com/ermil0v)."
+  - id: jwt-how-to-revoke-a-jwt-from-a-system-that-does-it
+    url: "https://easinvy.com/notes/revoke-a-jwt"
+    title: "How to revoke a JWT, from a system that does it"
+    author:
+      name: "Ridam Agrawal"
+      url: "https://ridamagrawal.com"
+    category: jwt
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-10-02"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "A per-user revocation cut-off from a production multi-tenant app: why it compares against `auth_time` rather than `iat`, the whole-seconds rounding bug it shipped with, and the routes that trusted the token. Written by [Ridam Agrawal](https://ridamagrawal.com)."

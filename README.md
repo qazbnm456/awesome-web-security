@@ -372,6 +372,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### JWT
 
 - [Hardcoded secrets, unverified tokens, and other common JWT mistakes](https://semgrep.dev/blog/2020/hardcoded-secrets-unverified-tokens-and-other-common-jwt-mistakes/) - Written by [@ermil0v](https://twitter.com/ermil0v).
+- [How to revoke a JWT, from a system that does it](https://easinvy.com/notes/revoke-a-jwt) - A per-user revocation cut-off from a production multi-tenant app: why it compares against `auth_time` rather than `iat`, the whole-seconds rounding bug it shipped with, and the routes that trusted the token. Written by [Ridam Agrawal](https://ridamagrawal.com).
 
 ## Evasions
 
