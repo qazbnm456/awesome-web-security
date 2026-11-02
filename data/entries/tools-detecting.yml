@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: A GitHub App that provides security feedback in Pull Requests.
+  - id: tools-detecting-nextjs-supabase-stripe-security-checker
+    url: "https://github.com/edtrackai/nextjs-supabase-stripe-security-checker"
+    title: nextjs-supabase-stripe-security-checker
+    author:
+      name: "@edtrackai"
+      url: "https://github.com/edtrackai"
+    category: tools-detecting
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-10-17"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Local static scanner for Next.js + Supabase + Stripe apps that flags service-role or secret keys reaching client code, tables without row level security, missing Supabase Data API grants, and Stripe webhooks without signature verification, run as a CLI or GitHub Action, by [@edtrackai](https://github.com/edtrackai)."

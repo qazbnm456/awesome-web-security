@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T10:04:40Z",
+  "generated_at": "2026-11-02T10:30:06Z",
   "categories": [
     {
       "key": "digests",
@@ -6611,6 +6611,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-12-29",
       "archive_url": "https://web.archive.org/web/20260223204744/https://github.com/apps/guardrails",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-detecting-nextjs-supabase-stripe-security-checker",
+      "url": "https://github.com/edtrackai/nextjs-supabase-stripe-security-checker",
+      "title": "nextjs-supabase-stripe-security-checker",
+      "author": {
+        "name": "@edtrackai",
+        "url": "https://github.com/edtrackai"
+      },
+      "category": "tools-detecting",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-10-17",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
