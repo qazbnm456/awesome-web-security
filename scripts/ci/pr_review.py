@@ -47,7 +47,7 @@ DATA_DIR = WORKDIR / "data"
 INDEX_FILE = DATA_DIR / "index.json"
 
 sys.path.insert(0, str(SCRIPT_ROOT / "scripts"))
-from generate import parse_yaml  # noqa: E402
+from generate import YamlError, parse_yaml  # noqa: E402
 
 GH_API = "https://api.github.com"
 GH_MODELS = "https://models.github.ai/inference"
@@ -120,7 +120,10 @@ def added_entries_in_pr() -> list[dict]:
     for fp in changed_yaml_files():
         if not fp.exists():
             continue
-        cur = parse_yaml(fp.read_text(encoding="utf-8")).get("entries", [])
+        try:
+            cur = parse_yaml(fp.read_text(encoding="utf-8")).get("entries", [])
+        except YamlError as exc:
+            raise YamlError(f"{fp.relative_to(WORKDIR)}: {exc}") from exc
         cur_by_id = {e.get("id"): e for e in cur if e.get("id")}
         try:
             base_text = subprocess.run(
@@ -740,7 +743,13 @@ def main() -> int:
         return 1
 
     cats = categories_set()
-    entries = added_entries_in_pr()
+    try:
+        entries = added_entries_in_pr()
+    except YamlError as exc:
+        # A malformed entry used to parse as "no new entries" and pass quietly.
+        # Fail the job instead, with the file and line in the annotation.
+        print(f"::error::{exc}")
+        return 1
     # A PR that only touched the generated READMEs still gets graded — that is
     # the legacy submission shape, and silence on it is what let README-only
     # PRs sit unreviewed.

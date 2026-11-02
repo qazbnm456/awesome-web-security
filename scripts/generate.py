@@ -84,6 +84,10 @@ def parse_yaml(text: str):
     """Parse a constrained YAML subset: top-level key with list of dicts.
 
     Supports nested 'author' sub-block. Handles indent of 2 spaces.
+
+    Any line outside that subset raises YamlError. It used to be skipped,
+    so a mis-indented entry vanished from the output while verify_schema.py
+    still reported ok.
     """
     lines = text.split("\n")
     # state machine: top-level key -> list of records
@@ -94,7 +98,7 @@ def parse_yaml(text: str):
     sub_block_name: str | None = None
     sub_block: dict | None = None
 
-    for raw in lines:
+    for lineno, raw in enumerate(lines, start=1):
         if not raw.strip() or raw.lstrip().startswith("#"):
             continue
         # detect indent
@@ -154,9 +158,14 @@ def parse_yaml(text: str):
                     else:
                         cur_record[key] = yaml_decode_scalar(val)
                         sub_block_name = None
-                elif ind == 6 and sub_block is not None and sub_block_name and cur_record.get(sub_block_name) is sub_block:
+                    continue
+                if ind == 6 and sub_block is not None and sub_block_name and cur_record.get(sub_block_name) is sub_block:
                     sub_block[key] = yaml_decode_scalar(val)
-                # other indents ignored (unsupported)
+                    continue
+
+        # Every supported shape continues above; anything that reaches here
+        # would otherwise be dropped without a trace.
+        raise YamlError(f"line {lineno}: unsupported or mis-indented line: {stripped!r}")
     return top
 
 
