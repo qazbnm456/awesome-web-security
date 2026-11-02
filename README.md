@@ -494,6 +494,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Piercing the Veil: Server Side Request Forgery to NIPRNet access](https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a) - Written by [Alyssa Herrera](https://medium.com/@alyssa.o.herrera).
 - [All you need to know about SSRF and how may we write tools to do auto-detect](https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html) - Written by [@Auxy233](https://twitter.com/Auxy233).
 - [AWS takeover through SSRF in JavaScript](https://10degres.net/aws-takeover-through-ssrf-in-javascript/) - Written by [Gwen](https://10degres.net/).
+- [Instance Metadata Abuse](https://ransomleak.com/exercises/instance-metadata-abuse/) - Shows how a server-side request forgery bug becomes cloud credential theft through the instance metadata service, and why requiring IMDSv2 session tokens with a response hop limit in the instance configuration closes the whole class of forging bugs rather than one code path, by [RansomLeak](https://ransomleak.com/).
 
 <a name="tricks-web-cache-poisoning"></a>
 ### Web Cache Poisoning
@@ -654,6 +655,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Trust Scan](https://github.com/undeadlist/trust-scan) - URL security scanner combining threat intelligence (URLhaus, PhishTank, Spamhaus) with 40+ scam and phishing pattern detection by [@undeadlist](https://github.com/undeadlist).
 - [ZeroTrust](https://github.com/sattyamjjain/zerotrust) - Privacy-first Chrome extension that analyzes website security locally with on-device AI (WebGPU), producing trust scores from HTTPS, phishing, malicious-script, and cookie-compliance signals, by [@sattyamjjain](https://github.com/sattyamjjain).
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).
+- [ONUS](https://github.com/maverickaayush/ONUS) - Web vulnerability assessment platform that orchestrates multiple scanners, applies deterministic CVSS v3.1 scoring, and provides AI-assisted vulnerability analysis and remediation guidance.
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
