@@ -28,6 +28,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 ENTRIES_DIR = ROOT / "data" / "entries"
 
+# generate.py owns the YAML grammar; parse_entries checks every file against
+# it before locating lines, so the two cannot disagree about what an entry is.
+# generate.py is import-safe (main() is guarded).
+sys.path.insert(0, str(ROOT / "scripts"))
+from generate import YamlError, parse_yaml  # noqa: E402
+
 WAYBACK_SAVE = "https://web.archive.org/save/"
 WAYBACK_WEB = "https://web.archive.org"
 WAYBACK_CDX = ("http://web.archive.org/cdx/search/cdx?url={u}&output=json"
@@ -75,8 +81,20 @@ def yaml_quote(s: str) -> str:
 
 
 def parse_entries(path: Path) -> list[dict]:
-    """Return list of dicts: each has line ranges for in-place edit."""
+    """Return list of dicts: each has line ranges for in-place edit.
+
+    The textual scan below only recognises `  - id:` and four-space fields,
+    and used to skip anything else. A mis-indented entry then went missing,
+    or its fields were attributed to the entry above it, and a later write
+    could land on the wrong lines. The file is now validated with
+    generate.py's parser first, and the ids found here must match the ids
+    it returns, in order. Either failure raises YamlError naming the file.
+    """
     text = path.read_text(encoding="utf-8")
+    try:
+        parsed = parse_yaml(text)
+    except YamlError as exc:
+        raise YamlError(f"{path}: {exc}") from None
     lines = text.split("\n")
     entries: list[dict] = []
     current: dict | None = None
@@ -100,6 +118,14 @@ def parse_entries(path: Path) -> list[dict]:
     if current is not None:
         current["end_line"] = len(lines) - 1
         entries.append(current)
+
+    expected = [r.get("id") for r in parsed.get("entries") or [] if isinstance(r, dict)]
+    found = [e["fields"]["id"] for e in entries]
+    if [str(i) for i in expected] != [yaml_decode(i) for i in found]:
+        raise YamlError(
+            f"{path}: entry ids located in the text {found!r} do not match "
+            f"the parsed entries {expected!r}"
+        )
     return entries
 
 
@@ -247,8 +273,13 @@ def main() -> int:
         return 0
 
     candidates: list[tuple[Path, dict]] = []
-    for yml in sorted(ENTRIES_DIR.glob("*.yml")):
-        for entry in parse_entries(yml):
+    try:
+        parsed_files = [(yml, parse_entries(yml)) for yml in sorted(ENTRIES_DIR.glob("*.yml"))]
+    except YamlError as exc:
+        print(f"::error::{exc}")
+        return 1
+    for yml, file_entries in parsed_files:
+        for entry in file_entries:
             f = entry["fields"]
             if (f.get("status") in (None, "active")
                     and f.get("archive_url") is None
