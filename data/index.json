@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-14T15:22:37Z",
+  "generated_at": "2026-11-02T09:49:13Z",
   "categories": [
     {
       "key": "digests",
@@ -4663,7 +4663,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-14",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260914124718/https://admintoolkit.io/guides/dns-mail-security-methodology/",
       "last_checked": null,
       "status": "active"
     },
@@ -8424,6 +8424,25 @@
       "difficulty": "intro",
       "date_added": "2026-05-28",
       "archive_url": "https://web.archive.org/web/20260531111954/https://securitool.js.org/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-onus",
+      "url": "https://github.com/maverickaayush/ONUS",
+      "title": "ONUS",
+      "author": {
+        "name": "@maverickaayush",
+        "url": "https://github.com/maverickaayush"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-15",
+      "archive_url": "https://web.archive.org/web/20260722235600/https://github.com/maverickaayush/ONUS",
       "last_checked": null,
       "status": "active"
     },
