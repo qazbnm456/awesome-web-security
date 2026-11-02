@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-10-02T13:05:28Z",
+  "generated_at": "2026-11-02T10:49:51Z",
   "categories": [
     {
       "key": "digests",
@@ -2721,7 +2721,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260914124952/https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html",
       "last_checked": null,
       "status": "active"
     },
@@ -4682,7 +4682,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-14",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260914124718/https://admintoolkit.io/guides/dns-mail-security-methodology/",
       "last_checked": null,
       "status": "active"
     },
@@ -6426,6 +6426,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-03-12",
       "archive_url": "https://web.archive.org/web/20260221132605/https://www.benf.org/other/cfr/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-decompiler-wakaru",
+      "url": "https://github.com/pionxzh/wakaru",
+      "title": "Wakaru",
+      "author": {
+        "name": "@pionxzh",
+        "url": "https://github.com/pionxzh"
+      },
+      "category": "tools-decompiler",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-29",
+      "archive_url": "https://web.archive.org/web/20241127032551/https://github.com/pionxzh/wakaru",
       "last_checked": null,
       "status": "active"
     },
@@ -8447,6 +8466,44 @@
       "status": "active"
     },
     {
+      "id": "tools-scanning-onus",
+      "url": "https://github.com/maverickaayush/ONUS",
+      "title": "ONUS",
+      "author": {
+        "name": "@maverickaayush",
+        "url": "https://github.com/maverickaayush"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-15",
+      "archive_url": "https://web.archive.org/web/20260722235600/https://github.com/maverickaayush/ONUS",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-crossfyre-toolchain",
+      "url": "https://github.com/clickswave/crossfyre-toolchain",
+      "title": "Crossfyre Toolchain",
+      "author": {
+        "name": "@clickswave",
+        "url": "https://github.com/clickswave"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-27",
+      "archive_url": "https://web.archive.org/web/20261102103904/https://github.com/clickswave/crossfyre-toolchain",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
       "id": "tools-sql-injection-sqlmap",
       "url": "https://github.com/sqlmapproject/sqlmap",
       "title": "sqlmap",
@@ -8965,7 +9022,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905174302/https://csper.io/evaluator",
       "last_checked": null,
       "status": "active"
     },
@@ -10157,6 +10214,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-11-22",
       "archive_url": "https://web.archive.org/web/20191119060224/https://www.auxy.xyz/web%20security/2017/07/06/all-ssrf-knowledge.html",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tricks-ssrf-instance-metadata-abuse",
+      "url": "https://ransomleak.com/exercises/instance-metadata-abuse/",
+      "title": "Instance Metadata Abuse",
+      "author": {
+        "name": "RansomLeak",
+        "url": "https://ransomleak.com/"
+      },
+      "category": "tricks-ssrf",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-09-14",
+      "archive_url": "https://web.archive.org/web/20261102095046/https://ransomleak.com/exercises/instance-metadata-abuse/",
       "last_checked": null,
       "status": "active"
     },
