@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-15T17:20:57Z",
+  "generated_at": "2026-11-02T08:44:30Z",
   "categories": [
     {
       "key": "digests",
@@ -4663,7 +4663,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-14",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260914124718/https://admintoolkit.io/guides/dns-mail-security-methodology/",
       "last_checked": null,
       "status": "active"
     },
@@ -8442,7 +8442,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-15",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260722235600/https://github.com/maverickaayush/ONUS",
       "last_checked": null,
       "status": "active"
     },
