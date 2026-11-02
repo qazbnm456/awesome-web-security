@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T10:04:40Z",
+  "generated_at": "2026-11-02T10:38:00Z",
   "categories": [
     {
       "key": "digests",
@@ -8462,6 +8462,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-09-15",
       "archive_url": "https://web.archive.org/web/20260722235600/https://github.com/maverickaayush/ONUS",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-crossfyre-toolchain",
+      "url": "https://github.com/clickswave/crossfyre-toolchain",
+      "title": "Crossfyre Toolchain",
+      "author": {
+        "name": "@clickswave",
+        "url": "https://github.com/clickswave"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-10-27",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
