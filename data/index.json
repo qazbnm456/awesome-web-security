@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T10:00:36Z",
+  "generated_at": "2026-11-02T10:04:40Z",
   "categories": [
     {
       "key": "digests",
@@ -2721,7 +2721,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260914124952/https://xuanwulab.github.io/cn/secnews/2018/01/01/index.html",
       "last_checked": null,
       "status": "active"
     },
@@ -6425,7 +6425,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-29",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20241127032551/https://github.com/pionxzh/wakaru",
       "last_checked": null,
       "status": "active"
     },
