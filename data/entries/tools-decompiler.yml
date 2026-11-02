@@ -18,3 +18,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Another java decompiler by [@LeeAtBenf](https://twitter.com/LeeAtBenf)."
+  - id: tools-decompiler-wakaru
+    url: "https://github.com/pionxzh/wakaru"
+    title: Wakaru
+    author:
+      name: "@pionxzh"
+      url: "https://github.com/pionxzh"
+    category: tools-decompiler
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-09-29"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "JavaScript decompiler that splits production bundles from webpack, esbuild, Browserify, and Metro into modules and turns minified and transpiled code back into readable JavaScript, without executing it, by [@pionxzh](https://github.com/pionxzh)"
