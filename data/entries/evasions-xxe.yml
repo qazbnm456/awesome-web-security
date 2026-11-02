@@ -61,7 +61,7 @@ entries:
     languages: [zh, jp]
     difficulty: intermediate
     date_added: "2019-11-05"
-    archive_url: null
+    archive_url: "https://web.archive.org/web/20261102105545/https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/"
     last_checked: null
     fingerprint: null
     status: active
