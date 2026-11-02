@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T09:49:13Z",
+  "generated_at": "2026-11-02T09:55:15Z",
   "categories": [
     {
       "key": "digests",
@@ -8965,7 +8965,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2020-05-09",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20260905174302/https://csper.io/evaluator",
       "last_checked": null,
       "status": "active"
     },
@@ -10175,7 +10175,7 @@
       ],
       "difficulty": "intermediate",
       "date_added": "2026-09-14",
-      "archive_url": null,
+      "archive_url": "https://web.archive.org/web/20261102095046/https://ransomleak.com/exercises/instance-metadata-abuse/",
       "last_checked": null,
       "status": "active"
     },
