@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-php2shell-check
+    url: "https://github.com/spcaeo/php2shell-check"
+    title: php2shell-check
+    author:
+      name: "@spcaeo"
+      url: "https://github.com/spcaeo"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-11-04"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "One-file, zero-dependency Python CLI and GitHub Action that reads what a site publicly reveals to check exposure to the October 2026 php2shell PHP RCE flaws (CVE-2026-109618, CVE-2026-109619), with evidence and a curl command for every finding by [@spcaeo](https://github.com/spcaeo)."
