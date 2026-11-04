@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-04T19:09:52Z",
   "categories": [
     {
       "key": "digests",
@@ -8519,6 +8519,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-10-27",
       "archive_url": "https://web.archive.org/web/20261102103904/https://github.com/clickswave/crossfyre-toolchain",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-scanning-php2shell-check",
+      "url": "https://github.com/spcaeo/php2shell-check",
+      "title": "php2shell-check",
+      "author": {
+        "name": "@spcaeo",
+        "url": "https://github.com/spcaeo"
+      },
+      "category": "tools-scanning",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-11-04",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

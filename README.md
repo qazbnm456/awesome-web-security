@@ -660,6 +660,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).
 - [ONUS](https://github.com/maverickaayush/ONUS) - Web vulnerability assessment platform that orchestrates multiple scanners, applies deterministic CVSS v3.1 scoring, and provides AI-assisted vulnerability analysis and remediation guidance.
 - [Crossfyre Toolchain](https://github.com/clickswave/crossfyre-toolchain) - Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave).
+- [php2shell-check](https://github.com/spcaeo/php2shell-check) - One-file, zero-dependency Python CLI and GitHub Action that reads what a site publicly reveals to check exposure to the October 2026 php2shell PHP RCE flaws (CVE-2026-109618, CVE-2026-109619), with evidence and a curl command for every finding by [@spcaeo](https://github.com/spcaeo).
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing
