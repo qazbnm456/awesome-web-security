@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-06T14:29:01Z",
   "categories": [
     {
       "key": "digests",
@@ -5345,6 +5345,25 @@
       "difficulty": "advanced",
       "date_added": "2026-08-24",
       "archive_url": "https://web.archive.org/web/20260905074141/https://aivist.dev/the-200-that-proved-nothing",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-supabase-security-misconfigs-nextjs-stripe",
+      "url": "https://edtrackai.github.io/blog/supabase-security-best-practices-nextjs-stripe-misconfigs",
+      "title": "Supabase Security Best Practices: 8 Misconfigs and Fixes",
+      "author": {
+        "name": "Stack & Ship",
+        "url": "https://edtrackai.github.io/"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-06",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
