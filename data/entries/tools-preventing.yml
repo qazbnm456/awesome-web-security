@@ -194,3 +194,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity)."
+  - id: tools-preventing-openfingerprint
+    url: "https://github.com/Mokto/openfingerprint"
+    title: OpenFingerprint
+    author:
+      name: Mokto
+      url: "https://github.com/Mokto"
+    category: tools-preventing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intro
+    date_added: "2026-11-10"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "MIT browser-signal SDK and self-hostable Rust API for signup-abuse checks: disposable email domains, Tor exits and cloud IP ranges, replayed tokens, maintained by [Mokto](https://github.com/Mokto)."
