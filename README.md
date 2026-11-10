@@ -749,6 +749,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [CrowdSec](https://www.crowdsec.net/) - Open-source collaborative IPS written in Go that analyzes visitor behavior and shares threat signals across a community of operators, maintained by [CrowdSec](https://github.com/crowdsecurity).
 - [Laravel CSP Generator](https://csp-generator.shakiltech.com) - Interactive Content Security Policy builder for Laravel that outputs ready-to-use PHP middleware with nonce support and violation reporting, by [@itxshakil](https://github.com/itxshakil).
 - [verifyfetch](https://github.com/hamzaydia/verifyfetch) - Browser-side integrity verification and resumable downloads for large files using SRI hashes, defending against CDN compromise and supply-chain attacks, by [@hamzaydia](https://github.com/hamzaydia).
+- [OpenFingerprint](https://github.com/Mokto/openfingerprint) - MIT browser-signal SDK and self-hostable Rust API for signup-abuse checks: disposable email domains, Tor exits and cloud IP ranges, replayed tokens, maintained by [Mokto](https://github.com/Mokto).
 
 <a name="tools-proxy"></a>
 ### Proxy

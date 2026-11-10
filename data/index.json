@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-10T04:52:53Z",
   "categories": [
     {
       "key": "digests",
@@ -8231,6 +8231,27 @@
       "difficulty": "intro",
       "date_added": "2026-05-14",
       "archive_url": "https://web.archive.org/web/20260603160905/https://www.crowdsec.net/",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-preventing-openfingerprint",
+      "url": "https://github.com/Mokto/openfingerprint",
+      "title": "OpenFingerprint",
+      "author": {
+        "name": "Mokto",
+        "url": "https://github.com/Mokto"
+      },
+      "category": "tools-preventing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-11-10",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
