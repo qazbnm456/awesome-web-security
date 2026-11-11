@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse."
+  - id: practices-application-web-security-fixtures
+    url: "https://github.com/Excession-Labs/web-security-fixtures"
+    title: web-security-fixtures
+    author:
+      name: Excession Labs
+      url: "https://excessionlabs.ai"
+    category: practices-application
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-11"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Small local fixtures for 21 common web and API flaws (IDOR, SQL injection, SSRF, CSRF, race conditions and more). Each has a vulnerable mode, a fixed mode, a verifier that reruns the requests, and a recorded run. Written by [Excession Labs](https://excessionlabs.ai)."
