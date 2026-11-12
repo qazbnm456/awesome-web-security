@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-12T13:05:04Z",
   "categories": [
     {
       "key": "digests",
@@ -5345,6 +5345,25 @@
       "difficulty": "advanced",
       "date_added": "2026-08-24",
       "archive_url": "https://web.archive.org/web/20260905074141/https://aivist.dev/the-200-that-proved-nothing",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "practices-application-how-to-test-supabase-rls",
+      "url": "https://madsalt.tech/blog/how-to-test-supabase-rls/",
+      "title": "How to test Supabase RLS: 30 of 87 permissions did nothing",
+      "author": {
+        "name": "@nesaminua",
+        "url": "https://github.com/nesaminua"
+      },
+      "category": "practices-application",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-12",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
