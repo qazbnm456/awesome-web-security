@@ -146,3 +146,18 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse."
+  - id: practices-application-how-to-test-supabase-rls
+    url: "https://madsalt.tech/blog/how-to-test-supabase-rls/"
+    title: "How to test Supabase RLS: 30 of 87 permissions did nothing"
+    author:
+      name: "@nesaminua"
+      url: "https://github.com/nesaminua"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-12"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Why testing Supabase row-level security policy by policy misses what users can actually do: a role-by-role proof run against a copy of production found 30 of 87 permission boxes doing nothing, with the method to repeat it."
