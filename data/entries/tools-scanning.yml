@@ -178,3 +178,18 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-madsalt-supabase-checker
+    url: "https://madsalt.tech/tools/supabase-security-check/"
+    title: Madsalt Supabase Checker
+    author:
+      name: "@nesaminua"
+      url: "https://github.com/nesaminua"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-11-12"
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free read-only scanner for Supabase projects: 46 checks on RLS, policies, grants, SECURITY DEFINER functions, auth and storage settings, mapped to OWASP Top 10:2025 with fix SQL for each finding. Never reads table rows, by [@nesaminua](https://github.com/nesaminua)."
