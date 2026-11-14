@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-guard
+    url: "https://guard.report/"
+    title: Guard
+    author:
+      name: "OffSeq"
+      url: "https://offseq.com/"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-11-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Free passive scan of a domain's TLS, security headers, SPF/DKIM/DMARC, DNS, third-party trackers and security.txt, with findings cited to OWASP ASVS and NIS2 Art. 21(2); no account needed, by [OffSeq](https://offseq.com/)."
