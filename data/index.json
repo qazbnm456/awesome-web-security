@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-14T16:33:58Z",
   "categories": [
     {
       "key": "digests",
@@ -6363,6 +6363,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
       "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hehnope/slurp",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-npm-install-audit",
+      "url": "https://github.com/cryptostrapon/npm-install-audit",
+      "title": "npm-install-audit",
+      "author": {
+        "name": "@cryptostrapon",
+        "url": "https://github.com/cryptostrapon"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-14",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

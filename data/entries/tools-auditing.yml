@@ -50,3 +50,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope)."
+  - id: tools-auditing-npm-install-audit
+    url: "https://github.com/cryptostrapon/npm-install-audit"
+    title: npm-install-audit
+    author:
+      name: "@cryptostrapon"
+      url: "https://github.com/cryptostrapon"
+    category: tools-auditing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-14"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Read-only static checks for install scripts, project package-manager configuration, Git hooks and suspicious code in unfamiliar JavaScript repositories before installing dependencies, by [@cryptostrapon](https://github.com/cryptostrapon)."
