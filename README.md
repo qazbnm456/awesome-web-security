@@ -580,6 +580,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
+- [npm-install-audit](https://github.com/cryptostrapon/npm-install-audit) - Read-only static checks for install scripts, project package-manager configuration, Git hooks and suspicious code in unfamiliar JavaScript repositories before installing dependencies, by [@cryptostrapon](https://github.com/cryptostrapon).
 
 <a name="tools-command-injection"></a>
 ### Command Injection
