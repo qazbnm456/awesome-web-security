@@ -160,6 +160,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [Security Weekly](https://securityweekly.com/) - The security podcast network.
 - [The Hacker News](https://thehackernews.com/) - Security in a serious way.
 - [The Register](https://www.theregister.co.uk/) - Biting the hand that feeds IT.
+- [No Stairs Please](https://nostairsplease.com/) - Live-music venue directory and MCP server (`https://nostairsplease.com/mcp`) for touring musicians.
 
 <a name="intro"></a>
 ## Introduction
