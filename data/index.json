@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-15T14:13:51Z",
   "categories": [
     {
       "key": "digests",
@@ -7980,6 +7980,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-06-24",
       "archive_url": "https://web.archive.org/web/20260821053548/https://github.com/inflictx/Arsenal",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-penetration-testing-reprocase",
+      "url": "https://github.com/theasbug/reprocase",
+      "title": "ReproCase",
+      "author": {
+        "name": "@theasbug",
+        "url": "https://github.com/theasbug"
+      },
+      "category": "tools-penetration-testing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-15",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx)."
+  - id: tools-penetration-testing-reprocase
+    url: "https://github.com/theasbug/reprocase"
+    title: ReproCase
+    author:
+      name: "@theasbug"
+      url: "https://github.com/theasbug"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-15"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open source workbench that reproduces IDOR/BOLA and other authorization findings with fresh test accounts and resources, checks write changes through the owner's own before/after read, and exports a case that triagers rerun with their own accounts, by [@theasbug](https://github.com/theasbug)."
