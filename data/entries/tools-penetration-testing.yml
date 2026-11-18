@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx)."
+  - id: tools-penetration-testing-scanfuse
+    url: "https://github.com/gencay-e/scanfuse"
+    title: scanfuse
+    author:
+      name: "@gencay-e"
+      url: "https://github.com/gencay-e"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-18"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Offline CLI that normalizes and deduplicates findings across 11 scanner formats (Nmap, Nuclei, OWASP ZAP, Burp Suite, Nessus, Trivy, SARIF, Semgrep, Grype, Nikto, testssl.sh) into Markdown/HTML, JSON, CSV, SARIF, or PDF reports with baseline retest tracking by [@gencay-e](https://github.com/gencay-e)."
