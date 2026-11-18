@@ -130,3 +130,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx)."
+  - id: tools-penetration-testing-keybrum-attacks
+    url: "https://github.com/Keybrum/attacks"
+    title: Keybrum Attacks
+    author:
+      name: "@Keybrum"
+      url: "https://github.com/Keybrum"
+    category: tools-penetration-testing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-18"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open catalog (MIT) of 338 attacks against live web apps as structured YAML: Supabase RLS, storage and functions, Firebase rules, API routes, GraphQL, IDOR, exposed files and 81 kinds of leaked keys, by [@Keybrum](https://github.com/Keybrum)."
