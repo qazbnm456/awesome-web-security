@@ -660,6 +660,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [SecuriTool](https://securitool.js.org/) - Free online collection of 29 client-side web security tools: web auditor, JWT attacker/decoder, CVE search, CSP evaluator, email security checker (SPF/DKIM/DMARC), subdomain scanner, and more. 100% client-side, privacy-first, open source by [@ReplikanteK](https://github.com/ReplikanteK).
 - [ONUS](https://github.com/maverickaayush/ONUS) - Web vulnerability assessment platform that orchestrates multiple scanners, applies deterministic CVSS v3.1 scoring, and provides AI-assisted vulnerability analysis and remediation guidance.
 - [Crossfyre Toolchain](https://github.com/clickswave/crossfyre-toolchain) - Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave).
+- [siteprobe](https://github.com/saimulft/siteprobe) - Zero-dependency security headers checker and website scanner: about 100 passive security, SEO and speed checks with a fix hint for each finding, as a CLI and library for Node, Workers, Deno and Bun by [@saimulft](https://github.com/saimulft).
 
 <a name="tools-penetration-testing"></a>
 ### Penetration Testing

@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-siteprobe
+    url: "https://github.com/saimulft/siteprobe"
+    title: siteprobe
+    author:
+      name: "@saimulft"
+      url: "https://github.com/saimulft"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-11-21"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Zero-dependency security headers checker and website scanner: about 100 passive security, SEO and speed checks with a fix hint for each finding, as a CLI and library for Node, Workers, Deno and Bun by [@saimulft](https://github.com/saimulft)."
