@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Why a 200 OK is not proof of an access-control bug: a seeded BOLA benchmark where a model asked to confirm a secure endpoint 79 times and a downgrade-only code gate refused every one, plus the similarity thresholds, a deterministic check that failed the same way, and a plausible fix measured and rejected for making results worse."
+  - id: practices-application-vibe-coded-web-app-security-2026
+    url: "https://zcoldwater.github.io/launch-audit-reports/vibe-security-2026/"
+    title: "State of AI & Vibe-Coded Web App Security (2026)"
+    author:
+      name: OmniForge Research
+      url: "https://github.com/zColdWater"
+    category: practices-application
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Empirical passive read-only audit of 55 newly launched AI-built web apps (6,120+ checks across Vercel, custom domains, GitHub Pages, and Cloudflare Pages) measuring missing Mozilla Observatory security headers (74.5% missing 8-9/10), weak CSP directives, Supabase deployments (20%), anonymized client-delivered secret leaks (3.6%), and exposed /.DS_Store files, plus copy-paste vercel.json and Supabase RLS hardening snippets."
