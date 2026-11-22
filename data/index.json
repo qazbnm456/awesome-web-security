@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-22T04:08:08Z",
   "categories": [
     {
       "key": "digests",
@@ -8292,6 +8292,25 @@
       "difficulty": "intermediate",
       "date_added": "2026-07-30",
       "archive_url": "https://web.archive.org/web/20260821053518/https://github.com/emanuele-em/proxelar",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-proxy-proxyaudit",
+      "url": "https://github.com/evilboyajay/proxyaudit",
+      "title": "ProxyAudit",
+      "author": {
+        "name": "@evilboyajay",
+        "url": "https://github.com/evilboyajay"
+      },
+      "category": "tools-proxy",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-22",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
