@@ -50,3 +50,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Single-binary intercepting proxy for HTTP, HTTPS, and WebSocket traffic that pauses and edits requests in flight, replays them, rewrites traffic with Lua hooks, and exports captures as HAR, curl, or raw HTTP, available as a terminal UI, web GUI, or headless REST API, by [@emanuele-em](https://github.com/emanuele-em)."
+  - id: tools-proxy-proxyaudit
+    url: "https://github.com/evilboyajay/proxyaudit"
+    title: ProxyAudit
+    author:
+      name: "@evilboyajay"
+      url: "https://github.com/evilboyajay"
+    category: tools-proxy
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-22"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Open source intercepting proxy for macOS with Repeater, Intruder, Sequencer, an out-of-band callback listener and a built-in AI agent that audits captured endpoints and JavaScript files, by [@evilboyajay](https://github.com/evilboyajay)."
