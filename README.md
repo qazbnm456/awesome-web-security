@@ -672,6 +672,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [numasec](https://github.com/FrancescoStabile/numasec) - AI-driven penetration-testing platform that coordinates 10 agents and 38 vulnerability scanners covering OWASP Top 10, by [@FrancescoStabile](https://github.com/FrancescoStabile).
 - [ARS3NAL](https://github.com/inflictx/Arsenal) - Offline-first, self-hosted pentest & bug-bounty arsenal - searchable payloads, a click-to-build command generator, GTFOBins, wordlists, an embedded CyberChef, reverse shells and per-vulnerability checklists, with a live static demo - by [@inflictx](https://github.com/inflictx).
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks and MCP across web, cloud, Active Directory and Kubernetes, with an evidence trail per finding by [@ASCIT31](https://github.com/ASCIT31).
+- [SecurityInfinity](https://securityinfinity.com) - Agentic AI pentesting platform: autonomous agents probe web apps, APIs and cloud infrastructure like a real attacker, covering OWASP Top 10, SQLi, XSS, SSRF and IDOR, then verify exploitability before reporting. Free tier and several free standalone scanners, by [@athuljayaram](https://github.com/athuljayaram).
 
 <a name="tools-offensive"></a>
 ### Offensive
