@@ -578,7 +578,6 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Auditing
 
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
-- [OpsCheck](https://opscheck.dev) - Client-side browser auditor for CORS credential/wildcard misconfigurations, exposed frontend .env secrets, Docker port exposure, and constant-time HMAC webhook verification, by [@PrabashanaDev](https://github.com/PrabashanaDev).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
 
