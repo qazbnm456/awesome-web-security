@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-23T08:56:14Z",
   "categories": [
     {
       "key": "digests",
@@ -6321,6 +6321,27 @@
       "difficulty": "intermediate",
       "date_added": "2018-02-23",
       "archive_url": "https://web.archive.org/web/20240901121046/https://github.com/hahwul/a2sv",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-opscheck",
+      "url": "https://opscheck.dev",
+      "title": "OpsCheck",
+      "author": {
+        "name": "@PrabashanaDev",
+        "url": "https://github.com/PrabashanaDev"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en",
+        "zh",
+        "jp"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-23",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

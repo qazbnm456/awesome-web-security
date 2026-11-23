@@ -18,6 +18,22 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul)."
+  - id: tools-auditing-opscheck
+    url: "https://opscheck.dev"
+    title: OpsCheck
+    author:
+      name: "@PrabashanaDev"
+      url: "https://github.com/PrabashanaDev"
+    category: tools-auditing
+    type: tool
+    languages: [en, zh, jp]
+    difficulty: intermediate
+    date_added: "2026-11-23"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Client-side browser auditor for CORS credential/wildcard misconfigurations, exposed frontend .env secrets, Docker port exposure, and constant-time HMAC webhook verification, by [@PrabashanaDev](https://github.com/PrabashanaDev)."
   - id: tools-auditing-prowler
     url: "https://github.com/Alfresco/prowler"
     title: prowler
