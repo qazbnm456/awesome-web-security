@@ -178,3 +178,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-supabase-rls-audit-cli
+    url: "https://github.com/VirilePeak/supabase-rls-audit-cli"
+    title: supabase-rls-audit-cli
+    author:
+      name: "@VirilePeak"
+      url: "https://github.com/VirilePeak"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-24"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Zero-dependency Node.js CLI and GitHub Action for read-only auditing of Supabase PostgREST Row-Level Security exposure, SQL migrations (missing RLS, permissive USING true policies, unsafe SECURITY DEFINER functions), and leaked service_role keys or secrets in client JavaScript bundles by [@VirilePeak](https://github.com/VirilePeak)."
