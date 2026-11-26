@@ -178,3 +178,17 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Recon and vulnerability scanning engines in Rust for subdomains, ports, content discovery, fingerprinting, injection testing and nuclei-style templates, with one CLI and newline-delimited JSON output by [@clickswave](https://github.com/clickswave)."
+  - id: tools-scanning-vibeshield-cli
+    url: "https://github.com/zColdWater/vibeshield-cli"
+    title: VibeShield
+    author:
+      name: "@zColdWater"
+      url: "https://github.com/zColdWater"
+    category: tools-scanning
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: 2026-11-26
+    fingerprint: null
+    status: active
+    raw_rest: "MIT-licensed pre-launch web security CLI and live URL scanner (https://vibe-checker.appwrite.network/) that inspects client JS bundles against 52 leaked secret signatures, runs read-only Supabase PostgREST RLS and public bucket checks, audits 10 Mozilla Observatory security headers, and includes browser-side Supabase RLS SQL and Next.js Nonce CSP generators."
