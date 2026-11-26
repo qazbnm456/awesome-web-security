@@ -191,4 +191,4 @@ entries:
     date_added: 2026-11-26
     fingerprint: null
     status: active
-    raw_rest: "MIT-licensed pre-launch web security CLI and live URL scanner (https://vibe-checker.appwrite.network/) that inspects client JS bundles against 52 leaked secret signatures, runs read-only Supabase PostgREST RLS and public bucket checks, audits 10 Mozilla Observatory security headers, and includes browser-side Supabase RLS SQL and Next.js Nonce CSP generators."
+    raw_rest: "MIT-licensed pre-launch web security CLI and live URL scanner (https://shipbastion.com/) that inspects client JS bundles against 52 leaked secret signatures, runs read-only Supabase PostgREST RLS and public bucket checks, audits 10 Mozilla Observatory security headers, and includes browser-side Supabase RLS SQL and Next.js Nonce CSP generators."
