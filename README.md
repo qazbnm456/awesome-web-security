@@ -580,6 +580,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [A2SV](https://github.com/hahwul/a2sv) - Auto Scanning to SSL Vulnerability by [@hahwul](https://github.com/hahwul).
 - [prowler](https://github.com/Alfresco/prowler) - Tool for AWS security assessment, auditing and hardening by [@Alfresco](https://github.com/Alfresco).
 - [slurp](https://github.com/hehnope/slurp) - Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope).
+- [SpecDiff](https://github.com/Gong-shijie/specdiff) - MIT-licensed OpenAPI 2.0/3.0/3.1 breaking-change diff, OWASP API Top 10 auditor, and SARIF 2.1.0 CLI/GitHub Action with a zero-upload browser workbench by [@Gong-shijie](https://github.com/Gong-shijie).
 
 <a name="tools-command-injection"></a>
 ### Command Injection

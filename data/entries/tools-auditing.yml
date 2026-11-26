@@ -50,3 +50,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: "Evaluate the security of S3 buckets by [@hehnope](https://github.com/hehnope)."
+  - id: tools-auditing-specdiff
+    url: "https://github.com/Gong-shijie/specdiff"
+    title: SpecDiff
+    author:
+      name: "@Gong-shijie"
+      url: "https://github.com/Gong-shijie"
+    category: tools-auditing
+    type: tool
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-26"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "MIT-licensed OpenAPI 2.0/3.0/3.1 breaking-change diff, OWASP API Top 10 auditor, and SARIF 2.1.0 CLI/GitHub Action with a zero-upload browser workbench by [@Gong-shijie](https://github.com/Gong-shijie)."
