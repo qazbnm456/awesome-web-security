@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-26T09:57:38Z",
   "categories": [
     {
       "key": "digests",
@@ -6363,6 +6363,25 @@
       "difficulty": "intermediate",
       "date_added": "2019-08-24",
       "archive_url": "https://web.archive.org/web/20240930090310/https://github.com/hehnope/slurp",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-auditing-specdiff",
+      "url": "https://github.com/Gong-shijie/specdiff",
+      "title": "SpecDiff",
+      "author": {
+        "name": "@Gong-shijie",
+        "url": "https://github.com/Gong-shijie"
+      },
+      "category": "tools-auditing",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-26",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },
