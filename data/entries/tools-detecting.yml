@@ -146,3 +146,19 @@ entries:
     fingerprint: null
     status: active
     raw_rest: A GitHub App that provides security feedback in Pull Requests.
+  - id: tools-detecting-sentinel-lint
+    url: "https://github.com/draarivpatel-ui/sentinel-lint"
+    title: sentinel-lint
+    author:
+      name: "@draarivpatel-ui"
+      url: "https://github.com/draarivpatel-ui"
+    category: tools-detecting
+    type: tool
+    languages: [en]
+    difficulty: intro
+    date_added: "2026-11-27"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Zero-dependency security policy linter and SARIF 2.1.0 scanner for repositories, GitHub Actions workflows and MCP configurations."

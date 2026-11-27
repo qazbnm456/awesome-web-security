@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-27T20:52:02Z",
   "categories": [
     {
       "key": "digests",
@@ -6649,6 +6649,25 @@
       "difficulty": "intermediate",
       "date_added": "2018-12-29",
       "archive_url": "https://web.archive.org/web/20260223204744/https://github.com/apps/guardrails",
+      "last_checked": null,
+      "status": "active"
+    },
+    {
+      "id": "tools-detecting-sentinel-lint",
+      "url": "https://github.com/draarivpatel-ui/sentinel-lint",
+      "title": "sentinel-lint",
+      "author": {
+        "name": "@draarivpatel-ui",
+        "url": "https://github.com/draarivpatel-ui"
+      },
+      "category": "tools-detecting",
+      "type": "tool",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intro",
+      "date_added": "2026-11-27",
+      "archive_url": null,
       "last_checked": null,
       "status": "active"
     },

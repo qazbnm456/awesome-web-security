@@ -733,6 +733,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 - [xsschop](https://xsschop.chaitin.cn/) - XSS detection engine by [chaitin](https://chaitin.com).
 - [OpenRASP](https://github.com/baidu/openrasp) - An open source RASP solution actively maintained by Baidu Inc. With context-aware detection algorithm the project achieved nearly no false positives. And less than 3% performance reduction is observed under heavy server load.
 - [GuardRails](https://github.com/apps/guardrails) - A GitHub App that provides security feedback in Pull Requests.
+- [sentinel-lint](https://github.com/draarivpatel-ui/sentinel-lint) - Zero-dependency security policy linter and SARIF 2.1.0 scanner for repositories, GitHub Actions workflows and MCP configurations.
 
 <a name="tools-preventing"></a>
 ### Preventing
