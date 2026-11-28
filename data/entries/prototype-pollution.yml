@@ -66,3 +66,19 @@ entries:
     fingerprint: null
     status: archived-only
     raw_rest: "Written by [@securitymb](https://twitter.com/securitymb)."
+  - id: prototype-pollution-server-side-prototype-pollution-as-a-dast-finding
+    url: "https://dedsecops.com/blog/dast-server-side-prototype-pollution-confirmation/"
+    title: Server-side prototype pollution as a DAST finding
+    author:
+      name: DedSec Security Research
+      url: "https://dedsecops.com/"
+    category: prototype-pollution
+    type: article
+    languages: [en]
+    difficulty: intermediate
+    date_added: "2026-11-28"
+    archive_url: null
+    last_checked: null
+    fingerprint: null
+    status: active
+    raw_rest: "Lab measurements on Node.js 22 showing why an echoed `__proto__` key is not evidence of pollution, how a second client and harmless behaviour gadgets confirm it, and which defences held (deepmerge, `Object.freeze`, schemas) and which did not (`--disable-proto` against `constructor.prototype`). Written by [DedSec Security Research](https://dedsecops.com/)."
