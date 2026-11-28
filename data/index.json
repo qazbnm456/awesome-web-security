@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-02T12:52:31Z",
+  "generated_at": "2026-11-28T07:26:46Z",
   "categories": [
     {
       "key": "digests",
@@ -5564,6 +5564,25 @@
       "archive_url": "https://web.archive.org/web/20191124063029/https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/",
       "last_checked": null,
       "status": "archived-only"
+    },
+    {
+      "id": "prototype-pollution-server-side-prototype-pollution-as-a-dast-finding",
+      "url": "https://dedsecops.com/blog/dast-server-side-prototype-pollution-confirmation/",
+      "title": "Server-side prototype pollution as a DAST finding",
+      "author": {
+        "name": "DedSec Security Research",
+        "url": "https://dedsecops.com/"
+      },
+      "category": "prototype-pollution",
+      "type": "article",
+      "languages": [
+        "en"
+      ],
+      "difficulty": "intermediate",
+      "date_added": "2026-11-28",
+      "archive_url": null,
+      "last_checked": null,
+      "status": "active"
     },
     {
       "id": "rails-rails-security-first-part",

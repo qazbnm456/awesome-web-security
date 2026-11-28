@@ -180,6 +180,7 @@ Then ask any web-security question and the skill activates on topics like XSS, S
 ### Prototype Pollution
 
 - [Prototype pollution attack in NodeJS application](https://github.com/HoLyVieR/prototype-pollution-nsec18/blob/master/paper/JavaScript_prototype_pollution_attack_in_NodeJS.pdf) - Written by [@HoLyVieR](https://github.com/HoLyVieR).
+- [Server-side prototype pollution as a DAST finding](https://dedsecops.com/blog/dast-server-side-prototype-pollution-confirmation/) - Lab measurements on Node.js 22 showing why an echoed `__proto__` key is not evidence of pollution, how a second client and harmless behaviour gadgets confirm it, and which defences held (deepmerge, `Object.freeze`, schemas) and which did not (`--disable-proto` against `constructor.prototype`). Written by [DedSec Security Research](https://dedsecops.com/).
 
 <a name="csv-injection"></a>
 ### CSV Injection
